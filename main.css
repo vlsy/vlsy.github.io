@@ -183,7 +183,7 @@ input,
 textarea {
     -webkit-font-smoothing: antialiased
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     body {
         min-width: 320px;
         overflow-x: hidden
@@ -684,7 +684,7 @@ small {
 .margin-whole--huge {
     margin: 80px!important
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .tabletl-text-size--64 {
         font-size: 64px;
         line-height: 68px
@@ -1389,7 +1389,7 @@ small {
 .padding-whole--huge {
     padding: 80px!important
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .tabletl-trailer--none {
         margin-bottom: 0!important
     }
@@ -2022,7 +2022,7 @@ small {
 .padding-toright--huge {
     padding-right: 80px!important
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .tabletl-padding-trailer--none {
         padding-bottom: 0!important
     }
@@ -2460,7 +2460,7 @@ small {
 .border--light {
     border-color: #e8e8e8
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .padding-whole--content {
         padding: 20px
     }
@@ -2532,12 +2532,12 @@ small {
         display: none!important
     }
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .tablet-hidden {
         display: none!important
     }
 }
-@media only screen and (min-width: 1190px) {
+@media only screen and (min-width: 1024px) {
     .desktop-hidden {
         display: none!important
     }
@@ -2768,33 +2768,7 @@ small {
     margin-left: auto;
     margin-right: auto
 }
-@media only screen and (max-width: 768px) {
-    .box-shadow-gray:before {
-        display: none
-    }
-    .stretch-mobile {
-        width: 100%
-    }
-    .container--main {
-        padding-left: 20px;
-        padding-right: 20px
-    }
-    .container--wide {
-        margin-left: -20px;
-        margin-right: -20px
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .container--main {
-        padding-left: 17px;
-        padding-right: 17px
-    }
-    .container--wide {
-        margin-left: -17px;
-        margin-right: -17px
-    }
-}
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1219px) {
     .container {
         max-width: 1020px
     }
@@ -2805,6 +2779,32 @@ small {
     .container--wide {
         margin-left: -19px;
         margin-right: -19px
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .container--main {
+        padding-left: 17px;
+        padding-right: 17px
+    }
+    .container--wide {
+        margin-left: -17px;
+        margin-right: -17px
+    }
+}
+@media only screen and (max-width: 767px) {
+    .box-shadow-gray:before {
+        display: none
+    }
+    .stretch-mobile {
+        width: 100%
+    }
+    .container--main {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .container--wide {
+        margin-left: -20px;
+        margin-right: -20px
     }
 }
 .section--oncanvas {
@@ -3493,7 +3493,7 @@ small {
         margin-left: 91.66667%
     }
 }
-@media (min-width: 1190px) {
+@media (min-width: 1220px) {
     .col-hg,
     .col-hg-1 {
         -webkit-box-flex: 1
@@ -3791,7 +3791,7 @@ small {
         align-items: stretch
     }
 }
-@media (min-width: 1190px) {
+@media (min-width: 1220px) {
     .grid-row-hg--top {
         -webkit-box-align: start;
         -webkit-align-items: flex-start;
@@ -3950,7 +3950,7 @@ small {
         justify-content: space-around
     }
 }
-@media (min-width: 1190px) {
+@media (min-width: 1220px) {
     .grid-row-hg--left {
         -webkit-box-pack: start;
         -webkit-justify-content: flex-start;
@@ -4087,7 +4087,7 @@ small {
         align-self: stretch
     }
 }
-@media (min-width: 1190px) {
+@media (min-width: 1220px) {
     .col-hg--top {
         -webkit-align-self: flex-start;
         -ms-flex-item-align: start;
@@ -4192,7 +4192,7 @@ small {
         order: 0
     }
 }
-@media (min-width: 1190px) {
+@media (min-width: 1220px) {
     .col-hg--first {
         -webkit-box-ordinal-group: 0;
         -webkit-order: -1;
@@ -5209,7 +5209,7 @@ small {
     margin: auto;
     cursor: pointer
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .amchart-double {
         width: 400px;
         height: 250px
@@ -5312,7 +5312,7 @@ small {
     max-width: 100%;
     overflow: hidden
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .amchart-bars {
         height: 400px
     }
@@ -5926,7 +5926,7 @@ small {
 .collapse--closed {
     height: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dataTables_wrapper:after {
         content: "";
         display: table;
@@ -6084,7 +6084,7 @@ small {
 .table--adv tbody tr:hover td {
     background-color: #f5f5f5
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table--adv td+td:last-child,
     .table--adv td+th:last-child,
     .table--adv th+td:last-child,
@@ -6136,7 +6136,7 @@ small {
 .table--without-hover tr:hover td:first-child:before {
     display: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table--adv tbody tr.hover td:first-child:before,
     .table--adv tbody tr.row-selected td:first-child:before,
     .table--adv tbody tr:hover td:first-child:before {
@@ -6337,7 +6337,7 @@ small {
 .table--key-value--border-none tbody tr:first-child th {
     border-top: 0!important
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table--key-value tfoot {
         font-size: 16px;
         line-height: 23px
@@ -6360,7 +6360,7 @@ small {
 .table .drop-row .drop-item {
     padding: 0 20px 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table .drop-row .drop-item {
         padding: 0
     }
@@ -6396,7 +6396,7 @@ small {
     border-right: 8px solid transparent;
     border-bottom: 8px solid #f5f5f5
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table .drop-row .drop-item-holder {
         border-width: 1px 0
     }
@@ -6416,7 +6416,7 @@ small {
 .table .drop-row .drop-item-holder table thead th:last-child {
     border-right: 1px solid #d1d1d1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table .drop-row .drop-item-holder table thead th {
         white-space: normal
     }
@@ -6528,7 +6528,7 @@ small {
 .data-table--without-pagination>.dataTables_wrapper>.pager--wrap {
     display: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     td.child {
         padding-top: 0;
         padding-left: 62px
@@ -6587,7 +6587,7 @@ small {
 .bill--table th {
     padding: 30px 20px 5px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .bill--table th {
         padding-left: 10px;
         padding-right: 10px
@@ -6607,7 +6607,7 @@ small {
 .bill--table td.th_bill_product {
     padding: 10px 20px 10px 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .bill--table td.th_bill_product {
         padding-left: 10px;
         padding-right: 10px
@@ -6621,13 +6621,13 @@ small {
 .bill--table__column {
     padding: 10px 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .bill--table__column {
         padding-left: 10px;
         padding-right: 10px
     }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .bill--table__column {
         width: 20%
     }
@@ -6673,7 +6673,7 @@ small {
     border: 1px solid #d1d1d1;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .bill--table .drop-row .drop-row-holder {
         border: 0;
         background: inherit;
@@ -6893,7 +6893,7 @@ small {
     right: 20px!important;
     color: #474747
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .datepicker {
         display: block
     }
@@ -6994,7 +6994,7 @@ small {
 .datepicker__start {
     display: none!important
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .datepicker--range .datepicker__end,
     .datepicker--range .datepicker__start {
         display: block!important
@@ -7318,7 +7318,7 @@ small {
 .dropdown__label:focus {
     border-color: #0f3b52
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .section--hero .dropdown__label {
         background-color: #0073ba;
         border-color: #00619e
@@ -7328,7 +7328,7 @@ small {
         border-color: #005285
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--hero .dropdown__label {
         font-size: 13px;
         color: #fff;
@@ -7353,7 +7353,12 @@ small {
     box-shadow: 0 0 5px rgba(0, 0, 0, .25);
     z-index: 500
 }
-@media only screen and (min-width: 768px) {
+.is-open .dropdown__content {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .07);
+    opacity: 1;
+    visibility: visible
+}
+@media only screen and (min-width: 767px) {
     .dropdown__content {
         position: absolute;
         top: 42px;
@@ -7373,12 +7378,7 @@ small {
         transform: translateY(0)
     }
 }
-.is-open .dropdown__content {
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, .07);
-    opacity: 1;
-    visibility: visible
-}
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dropdown__content {
         max-width: none;
         min-width: none;
@@ -7423,7 +7423,7 @@ small {
     padding: 13px 0 11px;
     width: 100%
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .dropdown__filter input {
         font-size: 13px
     }
@@ -7559,7 +7559,7 @@ small {
 .dropdown--small .dropdown__label:after {
     line-height: 32px
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .dropdown--small .dropdown__content {
         top: 33px
     }
@@ -7592,7 +7592,7 @@ small {
     right: 0;
     left: 0
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .dropdown--subscriptions .dropdown__content {
         top: 44px
     }
@@ -7802,7 +7802,7 @@ small {
 .dropdown--download ul li:first-child {
     border: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dropdown--download .button {
         padding-left: 10px;
         padding-right: 10px
@@ -7830,7 +7830,7 @@ small {
         border-bottom-color: #f5f5f5
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .dropdown--customers .dropdown__content {
         right: 0;
         left: auto;
@@ -7861,7 +7861,7 @@ small {
         border-bottom-color: #f5f5f5
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dropdown--customers .dropdown__content {
         border-top: 0;
         position: fixed;
@@ -8198,7 +8198,7 @@ small {
     margin-left: 10px;
     margin-right: 6px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .form-item--inline {
         display: block;
         margin: 0 0 20px
@@ -8440,7 +8440,7 @@ label+.form-item--inline {
     background: #004773;
     padding: 40px 0 15px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .accordion-filter {
         width: auto
     }
@@ -8488,7 +8488,7 @@ label+.form-item--inline {
 .footer__social [class*=icon-]:before {
     font-size: 23px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .footer__social li {
         padding: 0 10px
     }
@@ -8508,7 +8508,7 @@ label+.form-item--inline {
     display: inline-block;
     vertical-align: middle
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .footer__service-list {
         padding-top: 30px
     }
@@ -8522,7 +8522,7 @@ label+.form-item--inline {
     vertical-align: middle;
     padding: 0 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .footer__service-txt {
         display: block
     }
@@ -8595,7 +8595,7 @@ label+.form-item--inline {
 .support-section__buttons-list li+li {
     margin-left: 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .support-section {
         padding: 15px 10px
     }
@@ -9279,7 +9279,7 @@ label+.form-item--inline {
     display: inline-block;
     white-space: normal
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box__content {
         margin: 0;
         width: 100%;
@@ -9308,7 +9308,7 @@ label+.form-item--inline {
     max-height: none;
     box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .5)
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box__content.pre-lightbox {
         padding: 20px!important;
         width: 100%;
@@ -9357,7 +9357,7 @@ label+.form-item--inline {
     cursor: pointer;
     z-index: 1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box__close-btn {
         right: 10px
     }
@@ -9429,7 +9429,7 @@ label+.form-item--inline {
     padding: 0 5px;
     max-width: 50%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box__action-buttons {
         display: block;
         margin-left: 0;
@@ -9463,7 +9463,7 @@ label+.form-item--inline {
 .modal-box--size-small {
     width: 420px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box--size-small {
         width: 100%
     }
@@ -9471,7 +9471,7 @@ label+.form-item--inline {
 .modal-box--size-xsmall {
     width: 340px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box--size-xsmall {
         width: 100%
     }
@@ -9479,7 +9479,7 @@ label+.form-item--inline {
 .modal-box--size-large {
     width: 640px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-box--size-large {
         width: 100%
     }
@@ -9579,7 +9579,7 @@ html.modal-box--is-open body {
     justify-content: center;
     border: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table--with-loadmore .pager {
         border: none;
         display: block
@@ -9731,7 +9731,7 @@ html.modal-box--is-open body {
 .pager__button.disabled:hover {
     background: inherit
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .pager>span>span.peripheral,
     .pager__button.peripheral,
     .peripheral.pager__elipsis {
@@ -9762,7 +9762,7 @@ html.modal-box--is-open body {
 .table--with-loadmore .pager .loadmore {
     display: inline
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table--with-loadmore .pager .loadmore {
         display: block;
         max-width: 100%;
@@ -10403,7 +10403,7 @@ html.modal-box--is-open body {
 .slide-selecters__collapse-wrap {
     width: 100%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .slide-selecters {
         margin: 0
     }
@@ -10608,7 +10608,7 @@ html.modal-box--is-open body {
     z-index: -1;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .speech-bubble__content {
         max-height: none
     }
@@ -10727,7 +10727,7 @@ html.modal-box--is-open body {
 .tabpanel__panel.is-active {
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .tabpanel__group {
         display: table;
         width: 100%
@@ -10739,7 +10739,7 @@ html.modal-box--is-open body {
 .tabpanel__group .tabpanel__tab:after {
     display: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .tabpanel__group .tabpanel__tab {
         display: table-cell;
         float: none
@@ -10817,7 +10817,7 @@ html.modal-box--is-open body {
     float: left;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .tabgroup {
         width: 100%;
         display: table;
@@ -11665,7 +11665,7 @@ html.modal-box--is-open body {
     display: table;
     clear: both
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .stores-map__banner-info {
         box-shadow: 0 3px 10px rgba(0, 0, 0, .3)
     }
@@ -11988,12 +11988,12 @@ html.modal-box--is-open body {
     width: 80px;
     float: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .login__logo {
         margin: 0 0 20px
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .login__content {
         width: 850px
     }
@@ -12054,14 +12054,14 @@ html.modal-box--is-open body {
     display: block;
     margin: 0 auto
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .login__close-btn {
         color: #fff;
         right: 40px;
         top: 40px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .login__close-btn {
         position: static;
         height: 40px;
@@ -12087,7 +12087,7 @@ html.modal-box--is-open body {
     top: 50px;
     width: 70%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--plan .banner-info .banner-title {
         top: 40px
     }
@@ -12220,7 +12220,7 @@ html.modal-box--is-open body {
     display: table-cell;
     float: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table--plan__price,
     .table--plan__qty {
         display: inline-block;
@@ -12274,7 +12274,7 @@ html.modal-box--is-open body {
 .section--plan-detail .table--plan__details.full-width {
     width: 100%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--plan-detail .table--plan__details,
     .section--plan-detail .table--plan__price {
         width: 100%
@@ -12352,7 +12352,7 @@ html.modal-box--is-open body {
 .section--dsl--plan .purchase__item:first-child.is-active {
     margin-left: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--dsl--plan .purchase__item.is-active,
     .section--dsl--plan .purchase__item:first-child.is-active {
         margin-left: 0
@@ -12401,7 +12401,7 @@ html.modal-box--is-open body {
     box-shadow: -7px 0 10px -7px rgba(0, 0, 0, .9);
     border: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--dsl--plan .purchase__item.is-active:after,
     .section--dsl--plan .purchase__item.is-active:before {
         box-shadow: none
@@ -12477,7 +12477,7 @@ html.modal-box--is-open body {
 .section--dsl--plan .purchase__item .options-list li.alt {
     background: #68bae6
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--dsl--plan .purchase__item.is-active .add-info {
         bottom: 0
     }
@@ -12529,7 +12529,7 @@ html.modal-box--is-open body {
     right: 0;
     box-shadow: 2px 0 10px 0 rgba(0, 0, 0, .25)
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--dsl--plan .purchase__item.second-type .holder {
         padding: 20px 10px
     }
@@ -12601,7 +12601,7 @@ html.modal-box--is-open body {
     border-bottom: 15px solid #038cd6;
     padding-top: 5px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dsl--tabs__list {
         border-bottom: none;
         padding-top: 0
@@ -12683,7 +12683,7 @@ html.modal-box--is-open body {
     left: 5px;
     position: absolute
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dsl--tabs__list a {
         padding: 20px;
         text-align: center
@@ -12768,7 +12768,7 @@ html.modal-box--is-open body {
 .dsl-note .button {
     float: right
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dsl-note .button {
         float: none
     }
@@ -12889,7 +12889,7 @@ html.modal-box--is-open body {
 .menu-wrapper {
     background: url(img/mesh.png) center top #038cd6
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .dsl-note--title {
         float: none
     }
@@ -12916,7 +12916,7 @@ html.modal-box--is-open body {
     background-size: 105px auto;
     width: 106px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section--menu {
         background: -webkit-linear-gradient(top, #00619e, #005c96);
         background: linear-gradient(180deg, #00619e, #005c96)
@@ -13373,7 +13373,7 @@ html.modal-box--is-open body {
     min-height: 100px;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .nav-mobile {
         min-height: 55px
     }
@@ -13395,7 +13395,7 @@ html.modal-box--is-open body {
     margin-top: 31.5px;
     width: 85px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .nav-mobile__container {
         min-height: 55px;
         padding: 0 10px
@@ -13445,7 +13445,7 @@ html.modal-box--is-open body {
 .nav-mobile__frame {
     height: 100%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .nav-mobile__frame .icon-basket:before {
         content: "";
         background: url(img/temp_basket_icon.png) no-repeat;
@@ -13527,7 +13527,7 @@ html.modal-box--is-open body {
     padding: 11px 10px 12px;
     width: 20%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .nav-mobile__search__button:before {
         font-size: 18px
     }
@@ -13807,7 +13807,7 @@ html.modal-box--is-open body {
     position: relative;
     z-index: 1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .global-search-field-desktop {
         display: none
     }
@@ -13983,7 +13983,7 @@ html.modal-box--is-open body {
     font-weight: 700;
     border-bottom: 1px solid #e8e8e8
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .global-search__loading-window .wrapper {
         top: 30px
     }
@@ -14083,7 +14083,7 @@ html.modal-box--is-open body {
 .global-search__list-item--prev-search {
     padding: 10px 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .global-search__list-item {
         border-bottom: 1px solid #e8e8e8;
         background-color: #fff
@@ -14113,7 +14113,7 @@ html.modal-box--is-open body {
         height: 111px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .global-search__list-item--search a {
         padding: 15px 10px
     }
@@ -14231,7 +14231,7 @@ html.modal-box--is-open body {
 .status-dot+.status-dot {
     margin-left: 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .status-dot+.status-dot {
         margin: 0
     }
@@ -14366,7 +14366,7 @@ html.modal-box--is-open body {
     z-index: 3;
     overflow: hidden
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .item__splash {
         left: -10px
     }
@@ -14403,7 +14403,7 @@ html.modal-box--is-open body {
     left: auto;
     right: -40px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .item__splash--top-right {
         right: -10px
     }
@@ -14419,7 +14419,7 @@ html.modal-box--is-open body {
     left: auto;
     right: -40px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .item__splash--center-right {
         right: -10px
     }
@@ -14433,7 +14433,7 @@ html.modal-box--is-open body {
     left: auto;
     right: -40px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .item__splash--bottom-right {
         right: -10px
     }
@@ -14778,7 +14778,7 @@ html.modal-box--is-open body {
 .subscription-plans--mobile .dsl-plans-drop .holder form button[type=submit] {
     width: 100%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-tabs {
         border-radius: 3px;
         border: 1px solid #d1d1d1
@@ -14838,7 +14838,7 @@ html.modal-box--is-open body {
     float: left;
     margin-right: 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .media__image {
         float: none;
         margin-left: 0;
@@ -14860,7 +14860,7 @@ html.modal-box--is-open body {
 .media--restricted-small .media__image {
     max-width: 80px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .media--restricted-small .media__image {
         display: block;
         margin: 0 auto 35px!important
@@ -14958,7 +14958,7 @@ html.modal-box--is-open body {
     width: 70px;
     height: 70px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .search-block__clear {
         right: 56px
     }
@@ -15007,7 +15007,7 @@ html.modal-box--is-open body {
     font-weight: 300;
     font-size: 36px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .search-block__results {
         padding-top: 20px
     }
@@ -15029,7 +15029,7 @@ html.modal-box--is-open body {
 .search-block .form-search .search-block__input:focus {
     border: 1px solid #d1d1d1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .search-block .form-search .search-block__input {
         height: 48px;
         padding-right: 80px
@@ -15149,7 +15149,7 @@ html.modal-box--is-open body {
     font-weight: 700;
     padding-top: 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__headers {
         display: none
     }
@@ -15162,7 +15162,7 @@ html.modal-box--is-open body {
     border-bottom: 1px solid #d1d1d1;
     padding: 20px 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__row {
         display: block;
         padding: 30px 15px 20px
@@ -15171,7 +15171,7 @@ html.modal-box--is-open body {
 .table-basket__headers .table-basket__row {
     padding: 6px 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__row--total {
         padding: 15px
     }
@@ -15186,7 +15186,7 @@ html.modal-box--is-open body {
     padding: 0 15px;
     vertical-align: top
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell {
         float: left;
         padding: 0 10px 10px
@@ -15200,7 +15200,7 @@ html.modal-box--is-open body {
     width: 14%;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--item {
         max-width: 120px;
         width: auto
@@ -15224,7 +15224,7 @@ html.modal-box--is-open body {
 .table-basket__cell--discount {
     width: 64%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--discount {
         width: 100%
     }
@@ -15235,7 +15235,7 @@ html.modal-box--is-open body {
 .table-basket__cell--details {
     width: 35%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--details {
         width: auto;
         float: none;
@@ -15246,7 +15246,7 @@ html.modal-box--is-open body {
 .table-basket__cell--details-alt {
     width: 50%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--details-alt {
         width: auto
     }
@@ -15279,7 +15279,7 @@ html.modal-box--is-open body {
     border: solid #d1d1d1;
     border-width: 0 0 0 1px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--qty .icon-remove span {
         display: none
     }
@@ -15306,7 +15306,7 @@ html.modal-box--is-open body {
 .table-basket__headers .table-basket__cell--due {
     text-align: right
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--due {
         padding-bottom: 0
     }
@@ -15342,7 +15342,7 @@ html.modal-box--is-open body {
     position: relative;
     overflow: hidden
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .table-basket__cell--total {
         padding: 0 5px 0 0;
         width: 50%
@@ -15439,7 +15439,7 @@ html.modal-box--is-open body {
     border-top: none;
     min-width: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .infografic .text-price {
         font-size: 30px;
         line-height: 39px
@@ -15482,7 +15482,7 @@ html.modal-box--is-open body {
 .infografic__list ul li:first-child {
     border-top: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .infografic__list ul {
         position: inherit;
         bottom: inherit
@@ -15494,7 +15494,7 @@ html.modal-box--is-open body {
     text-align: center;
     width: 100%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .infografic__list {
         padding-bottom: 10px
     }
@@ -15561,7 +15561,7 @@ html.modal-box--is-open body {
     padding-left: 45px;
     position: relative
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .infografic .list--shop-usp li {
         margin-bottom: 10px
     }
@@ -15725,7 +15725,7 @@ html.modal-box--is-open body {
 .product-item--wide .color-selector {
     text-align: left
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .color-selector {
         padding: 0
     }
@@ -15789,7 +15789,7 @@ html.modal-box--is-open body {
 .product-item--wide .product-item__image-holder:before {
     display: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item__image-holder {
         height: auto
     }
@@ -15832,7 +15832,7 @@ html.modal-box--is-open body {
         height: 220px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item__title-holder {
         height: auto;
         padding: 10px 0
@@ -15854,7 +15854,7 @@ html.modal-box--is-open body {
     margin: 0;
     width: auto
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--full .product-item__image-wrapper,
     .product-item--wide .product-item__image-wrapper {
         right: 10px
@@ -15906,7 +15906,7 @@ html.modal-box--is-open body {
 .product-item--full .product-item__title-holder {
     height: 230px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--full .product-item__name,
     .product-item--wide .product-item__name {
         white-space: nowrap;
@@ -15923,7 +15923,7 @@ html.modal-box--is-open body {
     width: 140px;
     height: 140px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--full .item__splash {
         width: 110px;
         height: 110px;
@@ -15933,7 +15933,7 @@ html.modal-box--is-open body {
 .product-item--accessory {
     height: 276px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--accessory {
         height: 176px
     }
@@ -15944,7 +15944,7 @@ html.modal-box--is-open body {
 .product-item--accessory--wide .product-item__title-holder {
     height: auto
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--accessory--wide {
         height: auto
     }
@@ -15957,7 +15957,7 @@ html.modal-box--is-open body {
     width: auto;
     float: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--accessory--wide .product-item__image-wrapper {
         height: auto;
         padding-top: 5px
@@ -15983,7 +15983,7 @@ html.modal-box--is-open body {
 .product-item--accessory--wide .product-item__image-holder:before {
     display: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-item--accessory--wide .product-item__info {
         width: auto;
         float: none;
@@ -16107,7 +16107,7 @@ html.modal-box--is-open body {
     width: 100%;
     margin: 0 auto 50px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .overflow-auto-wrapper {
         overflow-x: hidden
     }
@@ -16240,7 +16240,7 @@ html.modal-box--is-open body {
     border-bottom: 1px solid #e8e8e8;
     cursor: pointer
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-config__overlay.is-active:before {
         display: none
     }
@@ -16289,7 +16289,7 @@ html.modal-box--is-open body {
 .product-config__row.is-selected .product-config__text-wrap:before {
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-config__row.is-selected .product-config__text-wrap:before {
         display: none
     }
@@ -16390,7 +16390,7 @@ html.modal-box--is-open body {
     -webkit-transition-delay: 575ms;
     transition-delay: 575ms
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-config__row.is-selected .product-config__text-wrap:after {
         opacity: 1;
         bottom: 0
@@ -16415,7 +16415,7 @@ html.modal-box--is-open body {
     border-bottom: 1px solid #d1d1d1;
     cursor: pointer
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-options-list__holder {
         min-height: 0;
         line-height: inherit;
@@ -16474,7 +16474,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .product-options-list__holder--installment {
     padding-right: 220px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-options-list__holder:after {
         right: 20px
     }
@@ -16539,7 +16539,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     vertical-align: middle;
     max-width: 190px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-options-list__holder--installment:after {
         top: 50%;
         right: 20px
@@ -16559,7 +16559,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     bottom: 0;
     width: 150px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-options-list__installment-price {
         position: static;
         width: auto;
@@ -16575,7 +16575,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .product-options-list__installment-price-holder .price-currency {
     padding-left: 4px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-options-list__installment-price-holder {
         height: auto;
         display: block;
@@ -16594,7 +16594,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     display: table-cell;
     vertical-align: middle
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-options-list__memory-description {
         display: block;
         height: auto
@@ -16640,7 +16640,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     transition: all .3s ease-in-out;
     cursor: default
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-slide {
         position: static;
         width: auto;
@@ -16659,7 +16659,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .product-config__row.is-selected .product-slide {
     width: 500px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-config__row.is-selected .product-slide {
         width: auto;
         max-height: 3000px;
@@ -16689,7 +16689,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .product-config__row.is-selected .product-slide--wide {
     width: 700px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-slide:after {
         display: none
     }
@@ -16700,7 +16700,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .family-modal-box .product-config__row.is-selected .product-slide--wide {
     width: 660px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-modal-box .product-config__row.is-selected .product-slide--wide {
         width: auto
     }
@@ -16712,7 +16712,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     width: 150px;
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-config__row.is-selected .product-slide--addons:before {
         display: none
     }
@@ -16738,7 +16738,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .delivery-box.is-selected .product-slide--stores {
     width: 700px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .delivery-box.is-selected .product-slide--stores {
         width: auto;
         max-height: 3000px
@@ -16758,7 +16758,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     flex-direction: column;
     min-width: 500px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-modal-box .delivery-box.is-selected .product-slide--stores {
         width: auto
     }
@@ -16770,7 +16770,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .product-slide--wide .product-slide__holder {
     min-width: 700px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-slide--wide .product-slide__holder {
         min-width: 100%
     }
@@ -16796,7 +16796,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     display: -ms-flexbox;
     -webkit-box-flex: 1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-modal-box .product-slide--wide .product-slide__holder {
         min-width: 100%
     }
@@ -16810,7 +16810,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     border-bottom: 1px solid #d1d1d1;
     padding: 40px 30px 20px 40px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-slide__header {
         padding: 25px 0 10px
     }
@@ -16883,7 +16883,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     -webkit-transition-delay: 575ms;
     transition-delay: 575ms
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-slide__footer {
         padding: 20px 0
     }
@@ -16932,7 +16932,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
 .product-config .addons-list__item input[type=checkbox]:checked+label:after {
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-config .addons-list__item label {
         padding: 11px 10px 10px 25px
     }
@@ -16991,7 +16991,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     position: static;
     overflow: visible
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__list {
         overflow: visible;
         position: static;
@@ -17060,7 +17060,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     -webkit-transition-delay: 575ms;
     transition-delay: 575ms
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__item {
         display: block;
         -webkit-box-flex: 0;
@@ -17097,7 +17097,7 @@ input[type=radio]:checked+.product-options-list__holder:before {
     text-align: center;
     padding-bottom: 160px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__item--family {
         display: block
     }
@@ -17153,7 +17153,7 @@ input[type=radio]:checked~.subscription-details__holder:after {
 .subscription-details__no-plan .subscription-details__holder:hover {
     background: 0 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     input[type=radio]:checked~.subscription-details__holder:after {
         display: none
     }
@@ -17229,7 +17229,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     -ms-flex-pack: center;
     justify-content: center
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__select-indicator {
         margin-bottom: 0
     }
@@ -17270,7 +17270,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__h
     -ms-flex-align: center;
     align-items: center
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__holder:hover .subscription-details__heading,
     input[type=radio]:checked~.subscription-details__holder .subscription-details__heading {
         background: 0 0
@@ -17286,7 +17286,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__h
     letter-spacing: -2px;
     padding: 25px 5px 15px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__price {
         font-weight: 400;
         letter-spacing: -2px;
@@ -17309,7 +17309,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__h
     padding: 18px 5px 26px;
     background: #f5f5f5
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-details__sale-info {
         min-height: 0;
         padding: 0;
@@ -17337,7 +17337,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 input[type=radio]:checked~.subscription-details__holder .subscription-details__sale-info:before {
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     input[type=radio]:checked~.subscription-details__holder .subscription-details__sale-info:before {
         display: none
     }
@@ -17531,7 +17531,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     -ms-flex-direction: column;
     flex-direction: column
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .available-stores__wrap {
         min-width: 0;
         display: block
@@ -17540,7 +17540,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .family-modal-box .available-stores__wrap {
     min-width: 660px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-modal-box .available-stores__wrap {
         min-width: 0
     }
@@ -17703,7 +17703,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .family-plan .plan-box .plan-wrapper {
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-plan .plan-box .heading {
         text-align: left;
         padding: 0 15px
@@ -17723,7 +17723,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .family-plan .plan-box .phone-box {
     padding: 35px 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-plan .plan-box .phone-box {
         padding: 35px 0 65px
     }
@@ -17793,7 +17793,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     position: relative;
     padding: 60px 40px 40px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-plan .plan-box .plan-content {
         padding: 0 20px 40px;
         position: static
@@ -17822,7 +17822,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .family-plan .plan-box .plan-content .icon-holder:hover .icon:after {
     background: #f5f5f5
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-plan .plan-box .plan-content .member-name {
         position: absolute;
         left: 0;
@@ -17885,7 +17885,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     vertical-align: baseline;
     margin-left: 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-plan .plan-box .plan-content .member label {
         text-align: left;
         width: auto
@@ -18048,7 +18048,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     text-align: center;
     padding-top: 30px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-wizard__holder {
         padding-top: 0
     }
@@ -18177,7 +18177,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     -ms-flex: 1;
     flex: 1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-wizard .family-subscription-details .subscription-details__item {
         display: block
     }
@@ -18203,7 +18203,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     -ms-flex: 1 auto;
     flex: 1 auto
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .modal-wizard .family-subscription-details .subscription-details__heading {
         padding: 0;
         display: block;
@@ -18277,7 +18277,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     -webkit-transform: translateX(0);
     transform: translateX(0)
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance__info {
         padding: 0 0 20px
     }
@@ -18289,7 +18289,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .insurance__price-box {
     padding: 30px 20px 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance__price-box {
         padding-left: 30px;
         padding-right: 30px
@@ -18328,7 +18328,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .combo-switcher__item label {
     font-size: 16px
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .combo-switcher {
         border-radius: 3px;
         border: 1px solid #d1d1d1
@@ -18381,7 +18381,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     overflow: hidden;
     padding: 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .link-change {
         color: #038cd6;
         font-size: 16px;
@@ -18408,7 +18408,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     padding: 0 0 15px;
     border: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .confirm-table td {
         vertical-align: bottom;
         font-weight: 700
@@ -18454,7 +18454,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     display: -ms-flexbox;
     display: flex
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-recommendation .jumping-text {
         float: left;
         margin-right: 15px
@@ -18470,7 +18470,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     position: relative;
     text-align: center
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .addon-block__img-box {
         padding: 30px 20px;
         -webkit-box-flex: 1;
@@ -18490,7 +18490,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     bottom: 15px;
     color: #757575
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-block__img-box .deadline {
         position: relative;
         bottom: 0;
@@ -18517,7 +18517,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     padding: 0;
     width: 100%
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .addon-block__info-box {
         padding: 30px 20px 30px 0;
         -webkit-box-flex: 1;
@@ -18548,7 +18548,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     border-width: 0 0 0 1px;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-block__img-box {
         text-align: left
     }
@@ -18598,7 +18598,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     left: 20px;
     bottom: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-block__side .btn-bottom {
         left: 0;
         position: relative
@@ -18637,7 +18637,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     top: 0;
     left: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-block .recommended {
         width: auto;
         position: static;
@@ -18684,7 +18684,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     font-weight: 300;
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-block .recommended span {
         width: auto;
         -webkit-transform: rotate(0);
@@ -18752,7 +18752,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     display: none;
     cursor: pointer
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .addon-block .btns-holder {
         margin-right: -8px;
         float: none
@@ -18785,7 +18785,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .expandable-block input[type=checkbox]:checked+div+div+.hide-mobile {
     display: block!important
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .expandable-block .hide-mobile {
         display: none!important
     }
@@ -18812,7 +18812,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     margin: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .06) inset
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .flex-container .flex-item {
         margin: 2px 1px
     }
@@ -18850,7 +18850,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .form-checkbox .payment-inst__checkbox-label:before {
     top: 3px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .flex-container--mobile {
         display: block;
         padding: 0
@@ -18883,7 +18883,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .btns-holder {
     float: right
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .btns-holder {
         margin: 0 -5px;
         float: none;
@@ -18902,7 +18902,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     float: left;
     padding: 0 0 0 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .btns-holder li {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
@@ -18928,7 +18928,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     padding: 0 20px;
     vertical-align: middle!important
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .usage-overview-title [class*=col-] {
         padding: 0;
         display: block
@@ -18940,7 +18940,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .list-vertical-divided>li:last-child {
     border: 0!important
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .invoices__table__column {
         width: 16.5%
     }
@@ -18948,7 +18948,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .invoices__table__column--checkbox {
     width: 50px
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .invoices__table__column--description {
         width: 17.5%
     }
@@ -18983,7 +18983,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .form-radio .date-slide p {
     margin: 0 0 5px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .form-radio .date-slide {
         padding-right: 0
     }
@@ -19022,7 +19022,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     width: 100%;
     float: none
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .order-summary .table--head {
         display: block
     }
@@ -19039,7 +19039,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .order-summary__main-table td {
     text-align: right
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .order-summary__table {
         border-left: none;
         border-right: none
@@ -19058,7 +19058,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
     position: relative;
     padding: 20px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .order-summary .drop-row .drop-row-holder {
         border-width: 1px 0 0;
         padding: 15px 0
@@ -19087,7 +19087,7 @@ input[type=radio]:checked~.subscription-details__holder .subscription-details__s
 .order-summary .drop-row .drop-row-holder .table--key-value tfoot tr:first-child td {
     padding-top: 15px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .order-summary .drop-row .drop-row-holder .table--key-value td,
     .order-summary .drop-row .drop-row-holder .table--key-value th {
         padding: 13px 10px
@@ -19248,7 +19248,7 @@ input:checked~.tickets-list__label {
 .service-ticket-popup {
     max-width: 600px
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .service-ticket-popup .button-left,
     .service-ticket-popup .button-right {
         border-radius: 0;
@@ -19288,7 +19288,7 @@ input:checked~.tickets-list__label {
 .attachments__item:last-child {
     margin-right: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .attachments__item {
         float: none;
         overflow: hidden;
@@ -19333,7 +19333,7 @@ input:checked~.tickets-list__label {
     overflow: hidden;
     padding-right: 8px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .attachments__label {
         width: 70%
     }
@@ -19510,7 +19510,7 @@ input:checked~.tickets-list__label {
 .usage-info-row {
     overflow: hidden
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .traffic-box .boxes .box {
         border-width: 1px 0 0
     }
@@ -19537,7 +19537,7 @@ input:checked~.tickets-list__label {
     color: #666;
     text-align: center
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .flex--subscription-container .flex-item {
         -webkit-box-flex: inherit;
         -webkit-flex: inherit;
@@ -19561,7 +19561,7 @@ input:checked~.tickets-list__label {
 .flex--sim .flex-item:first-child {
     border-width: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .flex--sim .flex-item {
         border-width: 1px 0 0;
         width: 100%!important;
@@ -19605,7 +19605,7 @@ input:checked~.tickets-list__label {
     font-size: 50px;
     color: #038cd6
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .router__icon-holder {
         margin: 0 20px 0 0
     }
@@ -19618,7 +19618,7 @@ input:checked~.tickets-list__label {
     padding-right: 10px;
     display: inline-block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .router__connection .router__description,
     .router__connection .router__details {
         width: 100%
@@ -19635,7 +19635,7 @@ input:checked~.tickets-list__label {
     height: 122px;
     width: 100%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .speed-box .heading {
         height: auto
     }
@@ -19680,7 +19680,7 @@ input:checked~.tickets-list__label {
     width: 170px;
     line-height: 122px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .subscription-profile__icon__inner {
         height: 120px;
         font-size: 56px;
@@ -19843,7 +19843,7 @@ td .terms-list dd {
 .timeline__title .dropdown__content {
     min-width: 240px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__title .dropdown {
         position: relative;
         margin: 0;
@@ -19866,7 +19866,7 @@ td .terms-list dd {
     display: inline-block;
     vertical-align: top
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__filter {
         padding: 0
     }
@@ -19918,7 +19918,7 @@ td .terms-list dd {
     top: 7px;
     text-align: right
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__filter .add-options {
         top: 0;
         position: relative;
@@ -20087,7 +20087,7 @@ td .terms-list dd {
     background: -webkit-linear-gradient(top, #8cc63f, #00b9de, #038cd6);
     background: linear-gradient(180deg, #8cc63f, #00b9de, #038cd6)
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__container {
         text-align: left
     }
@@ -20111,7 +20111,7 @@ td .terms-list dd {
     border-width: 0 1px 1px;
     margin-top: 40px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item {
         float: none;
         width: auto;
@@ -20121,7 +20121,7 @@ td .terms-list dd {
 .timeline__item:first-child {
     margin-top: -60px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item:first-child {
         margin-top: 0
     }
@@ -20143,7 +20143,7 @@ td .terms-list dd {
     content: '';
     margin-top: -8px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item .title {
         border-width: 0
     }
@@ -20157,7 +20157,7 @@ td .terms-list dd {
     border: 8px solid transparent;
     border-left-color: #d1d1d1
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item .title:before {
         border-left-color: transparent;
         border-right-color: #d1d1d1
@@ -20169,7 +20169,7 @@ td .terms-list dd {
     right: -14px;
     margin-top: -7px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item .title:after {
         right: auto;
         left: -14px;
@@ -20202,7 +20202,7 @@ td .terms-list dd {
     border-radius: 50%;
     border: 5px solid #fff
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item .title .icon-holder {
         width: 35px;
         height: 35px;
@@ -20267,7 +20267,7 @@ td .terms-list dd {
 .timeline__item .holder .table .row [class*=col-]+[class*=col-] {
     padding-left: 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item.right-side .title .icon-holder {
         left: -43px
     }
@@ -20314,7 +20314,7 @@ td .terms-list dd {
     left: 62px;
     margin-left: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline__item input[type=checkbox]:checked+.title {
         border-width: 0 0 1px
     }
@@ -20332,7 +20332,7 @@ td .terms-list dd {
     opacity: 1;
     margin: 0 0 30px!important
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline--list .timeline__item {
         margin: 0 0 18px!important
     }
@@ -20365,7 +20365,7 @@ td .terms-list dd {
 .timeline--onecase .timeline__frame {
     padding: 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .timeline--list .timeline__item .title .icon-holder {
         left: -43px
     }
@@ -20439,7 +20439,7 @@ td .terms-list dd {
 .usage-info-row {
     margin-right: -120px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .push-communication .title .date {
         position: relative;
         display: block;
@@ -20497,7 +20497,7 @@ td .terms-list dd {
     color: #474747;
     margin: 0 0 8px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .usage-info-row .usage--info {
         width: 50%;
         padding-right: 20px
@@ -20517,7 +20517,7 @@ td .terms-list dd {
     display: table;
     word-wrap: break
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .usage__title {
         padding-right: 20px
     }
@@ -20536,7 +20536,7 @@ td .terms-list dd {
     border: 1px solid #d1d1d1;
     border-width: 0 1px 0 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .usage__title .usage__cell {
         display: block;
         padding: 0
@@ -20553,7 +20553,7 @@ td .terms-list dd {
     top: 50%;
     margin-top: -22px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .usage__title .button {
         top: 0;
         right: 0;
@@ -20627,7 +20627,7 @@ td .terms-list dd {
     cursor: pointer;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .07)
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .usage-details-filters {
         position: relative;
         background-color: #fff;
@@ -20685,7 +20685,7 @@ td .terms-list dd {
     padding-top: 110px;
     color: #474747
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .permission-set__item {
         height: auto;
         overflow-y: visible
@@ -20775,7 +20775,7 @@ td .terms-list dd {
 .block--jumbotron2__set-height-300 {
     height: 300px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section__about-telenor .text-two-columns {
         -webkit-column-count: inherit;
         -moz-column-count: inherit;
@@ -20843,7 +20843,7 @@ td .terms-list dd {
     font-size: inherit;
     line-height: 1.2em
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .block--jumbotron2 h1 {
         font-size: 54px;
         line-height: 60px;
@@ -20891,7 +20891,7 @@ td .terms-list dd {
     float: left;
     width: 62%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--jumbotron2 h1 {
         font-size: 30px;
         line-height: 38px
@@ -20958,7 +20958,7 @@ td .terms-list dd {
     width: 38%;
     position: relative
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--jumbotron2 .jumbotron-splash {
         display: none
     }
@@ -21053,13 +21053,13 @@ td .terms-list dd {
     font-size: 44px;
     line-height: 50px
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture .banner-text--large {
         font-size: 36px;
         line-height: 42px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture .banner-text--large {
         font-size: 30px;
         line-height: 38px
@@ -21084,13 +21084,13 @@ td .terms-list dd {
     font-size: 21px;
     line-height: 30px
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture .banner-text--large--link {
         font-size: 19px;
         line-height: 28px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture .banner-text--large--link {
         font-size: 16px;
         line-height: 25px
@@ -21115,13 +21115,13 @@ td .terms-list dd {
     font-size: 36px;
     line-height: 42px
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture .banner-text--medium {
         font-size: 30px;
         line-height: 38px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture .banner-text--medium {
         font-size: 21px;
         line-height: 30px
@@ -21143,7 +21143,7 @@ td .terms-list dd {
     font-size: 16px;
     line-height: 25px
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture .banner-text--medium--link {
         font-size: 15px;
         line-height: 24px
@@ -21159,13 +21159,13 @@ td .terms-list dd {
     font-size: 30px;
     line-height: 38px
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture .banner-text--small {
         font-size: 21px;
         line-height: 30px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture .banner-text--small {
         font-size: 13px;
         line-height: 24px
@@ -21435,7 +21435,7 @@ td .terms-list dd {
 .block--picture2--height-normal.block--picture2--wide .banner-text p {
     padding-bottom: 15px
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .block--picture2--height-normal.block--picture2--wide .banner-text .banner-padding {
         padding: 0 30px
     }
@@ -21443,7 +21443,7 @@ td .terms-list dd {
         padding: 30px
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture .banner-text--small--link {
         font-size: 15px;
         line-height: 24px
@@ -21455,7 +21455,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture2--height-normal.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21496,7 +21496,7 @@ td .terms-list dd {
 .block--picture2--height-small .banner-text--bottom {
     bottom: 20px
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .block--picture2--height-normal.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21504,7 +21504,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture2--height-normal.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21512,7 +21512,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture2--height-normal.block--picture2--small .banner-text--bottom {
         bottom: 20px
     }
@@ -21553,7 +21553,7 @@ td .terms-list dd {
 .block--picture2-alt {
     height: 100%
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .block--picture2--height-small.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21561,7 +21561,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture2--height-small.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21569,7 +21569,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture2--height-small.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21593,7 +21593,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .block--picture2--height-small.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21601,7 +21601,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture2--height-small.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21609,7 +21609,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture2--height-small.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21641,7 +21641,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .block--picture2--height-auto.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21649,7 +21649,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture2--height-auto.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21657,7 +21657,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture2--height-auto.block--picture2--wide .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21681,7 +21681,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .block--picture2--height-auto.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21689,7 +21689,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .block--picture2--height-auto.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21697,7 +21697,7 @@ td .terms-list dd {
         padding: 20px
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .block--picture2--height-auto.block--picture2--small .banner-text .banner-padding {
         padding: 0 20px
     }
@@ -21934,7 +21934,7 @@ td .terms-list dd {
     margin-left: -20px;
     margin-right: -20px
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .custom-banner .banner-box:last-child:before {
         content: "";
         position: absolute;
@@ -21955,7 +21955,7 @@ td .terms-list dd {
     margin: 0 auto;
     display: block
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .header-picture .holder-image.center img {
         max-width: 220px
     }
@@ -21964,7 +21964,7 @@ td .terms-list dd {
     position: relative;
     padding-left: 60px
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     .stepsline-list {
         margin-right: 50px
     }
@@ -22245,7 +22245,7 @@ td .terms-list dd {
 .product-grid__item__inner-wrapper {
     padding: 10px 20px 0
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-grid__item__inner-wrapper {
         padding: 10px 10px 0
     }
@@ -22322,7 +22322,7 @@ td .terms-list dd {
         max-width: 91%
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .product-grid__item--tall .product-grid__item__inner-wrapper {
         padding: 20px
     }
@@ -22508,7 +22508,7 @@ td .terms-list dd {
 .tab-navigation .tabs__tab a {
     font-weight: 400
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .content-edit-container .box-display.border.mobile-trailer.border--without-bottom {
         border-bottom: 1px solid #d1d1d1
     }
@@ -22553,7 +22553,7 @@ td .terms-list dd {
     margin: 0;
     overflow: hidden
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-page .section {
         margin: 0
     }
@@ -22582,7 +22582,7 @@ td .terms-list dd {
 .product-page .details-list .name {
     width: 36%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-page .details-list .details-bar {
         clear: both;
         top: 0
@@ -22663,7 +22663,7 @@ td .terms-list dd {
 .family-calculator .calculator-holder {
     max-width: 40%
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .family-calculator .calculator-holder {
         max-width: 100%
     }
@@ -22890,7 +22890,7 @@ td .terms-list dd {
 .minprice-popup dl.supporting-calculation {
     padding: 0 55px 0 35px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .minprice-popup dl.supporting-calculation {
         padding: 0 35px 0 25px
     }
@@ -22925,7 +22925,7 @@ td .terms-list dd {
     min-width: 730px;
     max-width: 780px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance-popup {
         min-width: 90%;
         padding: 10px 15px
@@ -22938,7 +22938,7 @@ td .terms-list dd {
 .insurance-popup .services-list li:first-child {
     padding-right: 80px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance-popup .services-list li:first-child {
         padding-right: 0
     }
@@ -22970,7 +22970,7 @@ td .terms-list dd {
 .insurance-popup .link-holder a {
     color: #038cd6
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance-popup .price-box-holder {
         float: none;
         width: 100%
@@ -23031,7 +23031,7 @@ td .terms-list dd {
     background: linear-gradient(160deg, #43c682 0, #29b0a0 100%);
     padding: 0 10px
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance-popup .splash {
         position: static;
         margin: 0 auto 15px
@@ -23065,7 +23065,7 @@ td .terms-list dd {
 .insurance-popup .partners .conditions {
     float: left
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance-popup .partners .conditions {
         float: left;
         margin-left: 0
@@ -23074,7 +23074,7 @@ td .terms-list dd {
 .insurance-popup .partners .courtesy {
     float: right
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .insurance-popup .partners .courtesy {
         float: left;
         margin-left: 0
@@ -26121,7 +26121,7 @@ print {
     -webkit-transform: scale(1.1) rotateY(-5deg);
     transform: scale(1.1) rotateY(-5deg)
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .col-md-10 .hset .hoverzoom__background-img,
     .col-md-10 .hset .hoverzoom__frontground-img,
     .col-md-11 .hset .hoverzoom__background-img,
@@ -26330,7 +26330,7 @@ print {
     position: relative;
     text-align: center
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .content-block .image-area {
         height: 235px;
         -webkit-align-self: flex-start;
@@ -26338,18 +26338,16 @@ print {
         align-self: flex-start;
         margin-bottom: 15px
     }
-}
-@media only screen and (max-width: 767px) {
-    .content-block .image-area {
-        height: 170px
-    }
-}
-@media only screen and (max-width: 1179px) {
     .content-block .mobile-order--first {
         -webkit-box-ordinal-group: 0;
         -webkit-order: -1;
         -ms-flex-order: -1;
         order: -1
+    }
+}
+@media only screen and (max-width: 767px) {
+    .content-block .image-area {
+        height: 170px
     }
 }
 .content-block .image-holder {
@@ -26379,7 +26377,7 @@ print {
     position: relative;
     padding-top: 16px
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .content-block .image-holder {
         height: 100%
     }
@@ -26446,7 +26444,7 @@ print {
 .content-block--medium {
     padding: 35px 20px 25px
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .content-block--medium {
         padding: 30px 20px 25px
     }
@@ -26454,7 +26452,7 @@ print {
 .content-block--large {
     padding: 35px 40px 25px
 }
-@media only screen and (max-width: 1189px) {
+@media only screen and (max-width: 1219px) {
     .content-block--large {
         padding: 30px 20px 25px
     }
@@ -26500,8 +26498,8 @@ print {
     }
     .grid-row--gutter-small>.content-block--wide {
         padding: 5px 0;
-        margin: 0 -20px;
-        width: calc(100% + 40px);
+        margin: 0 -15px;
+        width: calc(100% + 30px);
         max-width: none;
         display: block;
         -webkit-box-flex: 0;
