@@ -104,37 +104,37 @@ table {
 }
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-Regular.ttf) format("ttf");
+    src: url(fonts/Roboto-Regular.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-Bold.ttf) format("ttf");
+    src: url(fonts/Roboto-Bold.woff) format("woff");
     font-weight: 700;
     font-style: normal
 }
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-Light.ttf) format("ttf");
+    src: url(fonts/Roboto-Light.woff) format("woff");
     font-weight: 300;
     font-style: normal
 }
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-Italic.ttf) format("ttf");
+    src: url(fonts/Roboto-Italic.woff) format("woff");
     font-weight: 400;
     font-style: italic
 }
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-BoldItalic.ttf) format("ttf");
+    src: url(fonts/Roboto-BoldItalic.woff) format("woff");
     font-weight: 700;
     font-style: italic
 }
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-LightItalic.ttf) format("ttf");
+    src: url(fonts/Roboto-LightItalic.woff) format("woff");
     font-weight: 300;
     font-style: italic
 }
@@ -400,18 +400,22 @@ small {
     font-size: 38px;
     line-height: 42px
 }
+.text-size--28,
 .text-size--34 {
-    font-size: 34px;
-    line-height: 38px
+    line-height: 38px;
+    font-family: Roboto
+}
+.text-size--34 {
+    font-size: 34px
 }
 .text-size--28 {
-    font-size: 28px;
-    line-height: 38px
+    font-size: 28px
 }
 .attachments__icon,
 .text-size--24 {
     font-size: 24px;
-    line-height: 28px
+    line-height: 28px;
+    font-family: Roboto
 }
 .form-item label.text--large,
 .form-search label.text--large,
@@ -422,7 +426,8 @@ small {
 .traffic-box .price span,
 .usage__table tfoot td {
     font-size: 19px;
-    line-height: 25px
+    line-height: 25px;
+    font-family: Roboto
 }
 .amchart-small .amchart-doughnut-caption,
 .amchart-small-caption,
@@ -442,7 +447,8 @@ small {
 .tabpanel__group,
 .text-size--16 {
     font-size: 16px;
-    line-height: 23px
+    line-height: 23px;
+    font-family: Roboto
 }
 .accordion-filter,
 .amchart-bars-legend,
@@ -490,7 +496,8 @@ small {
 .top-up-buttons__label .validity,
 .usage__box-empty {
     font-size: 13px;
-    line-height: 18px
+    line-height: 18px;
+    font-family: Roboto
 }
 .bar-load,
 .chart-info-panel,
@@ -499,7 +506,8 @@ small {
 .product-grid__item__status,
 .text-size--11 {
     font-size: 11px;
-    line-height: 14px
+    line-height: 14px;
+    font-family: Roboto
 }
 .text-size--192 {
     font-size: 192px;
@@ -540,7 +548,8 @@ small {
 .subscription-banner .text-box #text-box-title,
 .text-size--36 {
     font-size: 36px;
-    line-height: 42px
+    line-height: 42px;
+    font-family: Roboto
 }
 .confirm-table,
 .form-search.form-item--large,
@@ -549,14 +558,16 @@ small {
 .top-up-buttons__label .amount,
 .usage__sum-value {
     font-size: 30px;
-    line-height: 38px
+    line-height: 38px;
+    font-family: Roboto
 }
 .table--order .total p,
 .table--order td.price,
 .text--content h3,
 .text-size--21 {
     font-size: 21px;
-    line-height: 30px
+    line-height: 30px;
+    font-family: Roboto
 }
 .text-regular {
     font-weight: 400
@@ -574,6 +585,387 @@ small {
 .table--adv tbody .row--pending,
 .text-italic {
     font-style: italic
+}
+@media only screen and (max-width: 1219px) {
+    .tabletl-text-size--64 {
+        font-size: 64px;
+        line-height: 68px
+    }
+    .tabletl-text-size--58 {
+        font-size: 58px;
+        line-height: 62px
+    }
+    .tabletl-text-size--54 {
+        font-size: 54px;
+        line-height: 58px
+    }
+    .tabletl-text-size--48 {
+        font-size: 48px;
+        line-height: 52px
+    }
+    .tabletl-text-size--44 {
+        font-size: 44px;
+        line-height: 48px
+    }
+    .tabletl-text-size--38 {
+        font-size: 38px;
+        line-height: 42px
+    }
+    .tabletl-text-size--34 {
+        font-size: 34px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--28 {
+        font-size: 28px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--24 {
+        font-size: 24px;
+        line-height: 28px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--19 {
+        font-size: 19px;
+        line-height: 25px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--16 {
+        font-size: 16px;
+        line-height: 23px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--13 {
+        font-size: 13px;
+        line-height: 18px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--11 {
+        font-size: 11px;
+        line-height: 14px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--192 {
+        font-size: 192px;
+        line-height: 198px
+    }
+    .tabletl-text-size--174 {
+        font-size: 174px;
+        line-height: 180px
+    }
+    .tabletl-text-size--114 {
+        font-size: 114px;
+        line-height: 120px
+    }
+    .tabletl-text-size--84 {
+        font-size: 84px;
+        line-height: 90px
+    }
+    .tabletl-text-size--72 {
+        font-size: 72px;
+        line-height: 76px
+    }
+    .tabletl-text-size--60 {
+        font-size: 60px;
+        line-height: 68px
+    }
+    .tabletl-text-size--52 {
+        font-size: 52px;
+        line-height: 58px
+    }
+    .tabletl-text-size--50 {
+        font-size: 50px;
+        line-height: 56px
+    }
+    .tabletl-text-size--40 {
+        font-size: 40px;
+        line-height: 39px
+    }
+    .tabletl-text-size--36 {
+        font-size: 36px;
+        line-height: 42px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--30 {
+        font-size: 30px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .tabletl-text-size--21 {
+        font-size: 21px;
+        line-height: 30px;
+        font-family: Roboto
+    }
+    .tabletl-text-regular {
+        font-weight: 400
+    }
+    .tabletl-text-light {
+        font-weight: 300
+    }
+    .tabletl-text-bold {
+        font-weight: 700
+    }
+    .tabletl-text-normal {
+        font-style: normal
+    }
+    .tabletl-text-italic {
+        font-style: italic
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .tabletp-text-size--64 {
+        font-size: 64px;
+        line-height: 68px
+    }
+    .tabletp-text-size--58 {
+        font-size: 58px;
+        line-height: 62px
+    }
+    .tabletp-text-size--54 {
+        font-size: 54px;
+        line-height: 58px
+    }
+    .tabletp-text-size--48 {
+        font-size: 48px;
+        line-height: 52px
+    }
+    .tabletp-text-size--44 {
+        font-size: 44px;
+        line-height: 48px
+    }
+    .tabletp-text-size--38 {
+        font-size: 38px;
+        line-height: 42px
+    }
+    .tabletp-text-size--34 {
+        font-size: 34px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--28 {
+        font-size: 28px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--24 {
+        font-size: 24px;
+        line-height: 28px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--19 {
+        font-size: 19px;
+        line-height: 25px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--16 {
+        font-size: 16px;
+        line-height: 23px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--13 {
+        font-size: 13px;
+        line-height: 18px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--11 {
+        font-size: 11px;
+        line-height: 14px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--192 {
+        font-size: 192px;
+        line-height: 198px
+    }
+    .tabletp-text-size--174 {
+        font-size: 174px;
+        line-height: 180px
+    }
+    .tabletp-text-size--114 {
+        font-size: 114px;
+        line-height: 120px
+    }
+    .tabletp-text-size--84 {
+        font-size: 84px;
+        line-height: 90px
+    }
+    .tabletp-text-size--72 {
+        font-size: 72px;
+        line-height: 76px
+    }
+    .tabletp-text-size--60 {
+        font-size: 60px;
+        line-height: 68px
+    }
+    .tabletp-text-size--52 {
+        font-size: 52px;
+        line-height: 58px
+    }
+    .tabletp-text-size--50 {
+        font-size: 50px;
+        line-height: 56px
+    }
+    .tabletp-text-size--40 {
+        font-size: 40px;
+        line-height: 39px
+    }
+    .tabletp-text-size--36 {
+        font-size: 36px;
+        line-height: 42px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--30 {
+        font-size: 30px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .tabletp-text-size--21 {
+        font-size: 21px;
+        line-height: 30px;
+        font-family: Roboto
+    }
+    .tabletp-text-regular {
+        font-weight: 400
+    }
+    .tabletp-text-light {
+        font-weight: 300
+    }
+    .tabletp-text-bold {
+        font-weight: 700
+    }
+    .tabletp-text-normal {
+        font-style: normal
+    }
+    .tabletp-text-italic {
+        font-style: italic
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mobile-text-size--64 {
+        font-size: 64px;
+        line-height: 68px
+    }
+    .mobile-text-size--58 {
+        font-size: 58px;
+        line-height: 62px
+    }
+    .mobile-text-size--54 {
+        font-size: 54px;
+        line-height: 58px
+    }
+    .mobile-text-size--48 {
+        font-size: 48px;
+        line-height: 52px
+    }
+    .mobile-text-size--44 {
+        font-size: 44px;
+        line-height: 48px
+    }
+    .mobile-text-size--38 {
+        font-size: 38px;
+        line-height: 42px
+    }
+    .mobile-text-size--34 {
+        font-size: 34px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .mobile-text-size--28 {
+        font-size: 28px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .mobile-text-size--24 {
+        font-size: 24px;
+        line-height: 28px;
+        font-family: Roboto
+    }
+    .mobile-text-size--19 {
+        font-size: 19px;
+        line-height: 25px;
+        font-family: Roboto
+    }
+    .mobile-text-size--16 {
+        font-size: 16px;
+        line-height: 23px;
+        font-family: Roboto
+    }
+    .mobile-text-size--13 {
+        font-size: 13px;
+        line-height: 18px;
+        font-family: Roboto
+    }
+    .mobile-text-size--11 {
+        font-size: 11px;
+        line-height: 14px;
+        font-family: Roboto
+    }
+    .mobile-text-size--192 {
+        font-size: 192px;
+        line-height: 198px
+    }
+    .mobile-text-size--174 {
+        font-size: 174px;
+        line-height: 180px
+    }
+    .mobile-text-size--114 {
+        font-size: 114px;
+        line-height: 120px
+    }
+    .mobile-text-size--84 {
+        font-size: 84px;
+        line-height: 90px
+    }
+    .mobile-text-size--72 {
+        font-size: 72px;
+        line-height: 76px
+    }
+    .mobile-text-size--60 {
+        font-size: 60px;
+        line-height: 68px
+    }
+    .mobile-text-size--52 {
+        font-size: 52px;
+        line-height: 58px
+    }
+    .mobile-text-size--50 {
+        font-size: 50px;
+        line-height: 56px
+    }
+    .mobile-text-size--40 {
+        font-size: 40px;
+        line-height: 39px
+    }
+    .mobile-text-size--36 {
+        font-size: 36px;
+        line-height: 42px;
+        font-family: Roboto
+    }
+    .mobile-text-size--30 {
+        font-size: 30px;
+        line-height: 38px;
+        font-family: Roboto
+    }
+    .mobile-text-size--21 {
+        font-size: 21px;
+        line-height: 30px;
+        font-family: Roboto
+    }
+    .mobile-text-regular {
+        font-weight: 400
+    }
+    .mobile-text-light {
+        font-weight: 300
+    }
+    .mobile-text-bold {
+        font-weight: 700
+    }
+    .mobile-text-normal {
+        font-style: normal
+    }
+    .mobile-text-italic {
+        font-style: italic
+    }
 }
 .font-roboto {
     font-family: Roboto
@@ -685,121 +1077,6 @@ small {
     margin: 80px!important
 }
 @media only screen and (max-width: 1219px) {
-    .tabletl-text-size--64 {
-        font-size: 64px;
-        line-height: 68px
-    }
-    .tabletl-text-size--58 {
-        font-size: 58px;
-        line-height: 62px
-    }
-    .tabletl-text-size--54 {
-        font-size: 54px;
-        line-height: 58px
-    }
-    .tabletl-text-size--48 {
-        font-size: 48px;
-        line-height: 52px
-    }
-    .tabletl-text-size--44 {
-        font-size: 44px;
-        line-height: 48px
-    }
-    .tabletl-text-size--38 {
-        font-size: 38px;
-        line-height: 42px
-    }
-    .tabletl-text-size--34 {
-        font-size: 34px;
-        line-height: 38px
-    }
-    .tabletl-text-size--28 {
-        font-size: 28px;
-        line-height: 38px
-    }
-    .tabletl-text-size--24 {
-        font-size: 24px;
-        line-height: 28px
-    }
-    .tabletl-text-size--19 {
-        font-size: 19px;
-        line-height: 25px
-    }
-    .tabletl-text-size--16 {
-        font-size: 16px;
-        line-height: 23px
-    }
-    .tabletl-text-size--13 {
-        font-size: 13px;
-        line-height: 18px
-    }
-    .tabletl-text-size--11 {
-        font-size: 11px;
-        line-height: 14px
-    }
-    .tabletl-text-size--192 {
-        font-size: 192px;
-        line-height: 198px
-    }
-    .tabletl-text-size--174 {
-        font-size: 174px;
-        line-height: 180px
-    }
-    .tabletl-text-size--114 {
-        font-size: 114px;
-        line-height: 120px
-    }
-    .tabletl-text-size--84 {
-        font-size: 84px;
-        line-height: 90px
-    }
-    .tabletl-text-size--72 {
-        font-size: 72px;
-        line-height: 76px
-    }
-    .tabletl-text-size--60 {
-        font-size: 60px;
-        line-height: 68px
-    }
-    .tabletl-text-size--52 {
-        font-size: 52px;
-        line-height: 58px
-    }
-    .tabletl-text-size--50 {
-        font-size: 50px;
-        line-height: 56px
-    }
-    .tabletl-text-size--40 {
-        font-size: 40px;
-        line-height: 39px
-    }
-    .tabletl-text-size--36 {
-        font-size: 36px;
-        line-height: 42px
-    }
-    .tabletl-text-size--30 {
-        font-size: 30px;
-        line-height: 38px
-    }
-    .tabletl-text-size--21 {
-        font-size: 21px;
-        line-height: 30px
-    }
-    .tabletl-text-regular {
-        font-weight: 400
-    }
-    .tabletl-text-light {
-        font-weight: 300
-    }
-    .tabletl-text-bold {
-        font-weight: 700
-    }
-    .tabletl-text-normal {
-        font-style: normal
-    }
-    .tabletl-text-italic {
-        font-style: italic
-    }
     .tabletl-text--left {
         text-align: left
     }
@@ -865,121 +1142,6 @@ small {
     }
 }
 @media only screen and (max-width: 1023px) {
-    .tabletp-text-size--64 {
-        font-size: 64px;
-        line-height: 68px
-    }
-    .tabletp-text-size--58 {
-        font-size: 58px;
-        line-height: 62px
-    }
-    .tabletp-text-size--54 {
-        font-size: 54px;
-        line-height: 58px
-    }
-    .tabletp-text-size--48 {
-        font-size: 48px;
-        line-height: 52px
-    }
-    .tabletp-text-size--44 {
-        font-size: 44px;
-        line-height: 48px
-    }
-    .tabletp-text-size--38 {
-        font-size: 38px;
-        line-height: 42px
-    }
-    .tabletp-text-size--34 {
-        font-size: 34px;
-        line-height: 38px
-    }
-    .tabletp-text-size--28 {
-        font-size: 28px;
-        line-height: 38px
-    }
-    .tabletp-text-size--24 {
-        font-size: 24px;
-        line-height: 28px
-    }
-    .tabletp-text-size--19 {
-        font-size: 19px;
-        line-height: 25px
-    }
-    .tabletp-text-size--16 {
-        font-size: 16px;
-        line-height: 23px
-    }
-    .tabletp-text-size--13 {
-        font-size: 13px;
-        line-height: 18px
-    }
-    .tabletp-text-size--11 {
-        font-size: 11px;
-        line-height: 14px
-    }
-    .tabletp-text-size--192 {
-        font-size: 192px;
-        line-height: 198px
-    }
-    .tabletp-text-size--174 {
-        font-size: 174px;
-        line-height: 180px
-    }
-    .tabletp-text-size--114 {
-        font-size: 114px;
-        line-height: 120px
-    }
-    .tabletp-text-size--84 {
-        font-size: 84px;
-        line-height: 90px
-    }
-    .tabletp-text-size--72 {
-        font-size: 72px;
-        line-height: 76px
-    }
-    .tabletp-text-size--60 {
-        font-size: 60px;
-        line-height: 68px
-    }
-    .tabletp-text-size--52 {
-        font-size: 52px;
-        line-height: 58px
-    }
-    .tabletp-text-size--50 {
-        font-size: 50px;
-        line-height: 56px
-    }
-    .tabletp-text-size--40 {
-        font-size: 40px;
-        line-height: 39px
-    }
-    .tabletp-text-size--36 {
-        font-size: 36px;
-        line-height: 42px
-    }
-    .tabletp-text-size--30 {
-        font-size: 30px;
-        line-height: 38px
-    }
-    .tabletp-text-size--21 {
-        font-size: 21px;
-        line-height: 30px
-    }
-    .tabletp-text-regular {
-        font-weight: 400
-    }
-    .tabletp-text-light {
-        font-weight: 300
-    }
-    .tabletp-text-bold {
-        font-weight: 700
-    }
-    .tabletp-text-normal {
-        font-style: normal
-    }
-    .tabletp-text-italic {
-        font-style: italic
-    }
     .tabletp-text--left {
         text-align: left
     }
@@ -1045,121 +1207,6 @@ small {
     }
 }
 @media only screen and (max-width: 767px) {
-    .mobile-text-size--64 {
-        font-size: 64px;
-        line-height: 68px
-    }
-    .mobile-text-size--58 {
-        font-size: 58px;
-        line-height: 62px
-    }
-    .mobile-text-size--54 {
-        font-size: 54px;
-        line-height: 58px
-    }
-    .mobile-text-size--48 {
-        font-size: 48px;
-        line-height: 52px
-    }
-    .mobile-text-size--44 {
-        font-size: 44px;
-        line-height: 48px
-    }
-    .mobile-text-size--38 {
-        font-size: 38px;
-        line-height: 42px
-    }
-    .mobile-text-size--34 {
-        font-size: 34px;
-        line-height: 38px
-    }
-    .mobile-text-size--28 {
-        font-size: 28px;
-        line-height: 38px
-    }
-    .mobile-text-size--24 {
-        font-size: 24px;
-        line-height: 28px
-    }
-    .mobile-text-size--19 {
-        font-size: 19px;
-        line-height: 25px
-    }
-    .mobile-text-size--16 {
-        font-size: 16px;
-        line-height: 23px
-    }
-    .mobile-text-size--13 {
-        font-size: 13px;
-        line-height: 18px
-    }
-    .mobile-text-size--11 {
-        font-size: 11px;
-        line-height: 14px
-    }
-    .mobile-text-size--192 {
-        font-size: 192px;
-        line-height: 198px
-    }
-    .mobile-text-size--174 {
-        font-size: 174px;
-        line-height: 180px
-    }
-    .mobile-text-size--114 {
-        font-size: 114px;
-        line-height: 120px
-    }
-    .mobile-text-size--84 {
-        font-size: 84px;
-        line-height: 90px
-    }
-    .mobile-text-size--72 {
-        font-size: 72px;
-        line-height: 76px
-    }
-    .mobile-text-size--60 {
-        font-size: 60px;
-        line-height: 68px
-    }
-    .mobile-text-size--52 {
-        font-size: 52px;
-        line-height: 58px
-    }
-    .mobile-text-size--50 {
-        font-size: 50px;
-        line-height: 56px
-    }
-    .mobile-text-size--40 {
-        font-size: 40px;
-        line-height: 39px
-    }
-    .mobile-text-size--36 {
-        font-size: 36px;
-        line-height: 42px
-    }
-    .mobile-text-size--30 {
-        font-size: 30px;
-        line-height: 38px
-    }
-    .mobile-text-size--21 {
-        font-size: 21px;
-        line-height: 30px
-    }
-    .mobile-text-regular {
-        font-weight: 400
-    }
-    .mobile-text-light {
-        font-weight: 300
-    }
-    .mobile-text-bold {
-        font-weight: 700
-    }
-    .mobile-text-normal {
-        font-style: normal
-    }
-    .mobile-text-italic {
-        font-style: italic
-    }
     .mobile-text--left {
         text-align: left
     }
@@ -26487,6 +26534,42 @@ print {
 @media only screen and (max-width: 1023px) {
     .content-block__banner--large {
         min-height: 450px
+    }
+}
+.content-block__video-banner {
+    overflow: hidden
+}
+.content-block__video-banner .video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    padding-top: 56.25%
+}
+.content-block__video-banner .video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    z-index: 0
+}
+.content-block__video-banner .video-background:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1
+}
+@media only screen and (max-width: 1024px) {
+    .content-block__video-banner .video-background {
+        display: none
     }
 }
 .grid-row--gutter-small>.content-block--wide {
