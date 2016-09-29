@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Document</title>
+	<!-- <link rel="stylesheet" type="text/css" href="https://www.telenor.dk/client/s/app/css/main.css"> -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<style type="text/css">
 		body {
@@ -13,6 +14,25 @@
 		.section--wrap {
 			background: none;
 		}
+		.bundle-image-area {
+			position: absolute;
+			bottom: 35px;
+			right: 25px;
+			text-align: right;
+		}
+		.border-width-2:after {
+			border-width: 2px;
+		}
+		.button--action {
+			background: -moz-linear-gradient(top,  #029df0 0%, #038cd6 100%); 
+			background: -webkit-linear-gradient(top,  #029df0 0%,#038cd6 100%);
+			background: linear-gradient(to bottom,  #029df0 0%,#038cd6 100%); 
+		}
+		.button--action:hover {
+			background: -moz-linear-gradient(top,  #028cd6 0%, #027bbd 100%); 
+			background: -webkit-linear-gradient(top,  #028cd6 0%,#027bbd 100%);
+			background: linear-gradient(to bottom,  #028cd6 0%,#027bbd 100%); 
+		}
 	</style>
 </head>
 <body>
@@ -20,10 +40,10 @@
 	<div class="hero-banner container--wide trailer--large">
 		<div class="container mobile-padding-toleft--small mobile-padding-toright--small">
 			<div class="grid-row--gutter-none">
-				<div class="col-lg-5 text--center image-block padding-toleft--large padding-toright--large">
+				<div class="col-lg-5 text--center image-block">
 					<img src="headphones.png" alt="">
 				</div>
-				<div class="col-lg-7 tabletp-text--center">
+				<div class="col-lg-7 tabletp-text--center padding-leader padding-trailer tabletp-padding-leader--none">
 					<div class="description">
 						<strong class="text-size--13">DISCOVER THE NEW</strong>
 						<h2 class="text-size--44 tabletp-text-size--34  mobile-text-size--19 text-light trailer--small mobile-trailer--none">Beats Solo2 Wireless <br/>On-Ear Headphones</h2>
@@ -46,10 +66,10 @@
 					<div class="col-hg-6 padding-toright tabletp-padding-toright--none image-area">
 						<div class="image-holder">
 							<img class="item-image" src="phone-01.jpg" alt="">
-							<img class="sticker" src="splash.png" alt="sticker">
+							<div class="sticker-holder"><img class="sticker" src="splash.png" alt="sticker"></div>
 						</div>
 					</div>
-					<div class="col-hg-6 tabletl-text--center">
+					<div class="col-hg-6 tabletl-text--center padding-trailer--large">
 						<div class="description">
 							<ul class="colors desktoplg-hidden">
 								<li class="gray"></li>
@@ -66,8 +86,8 @@
 						<div class="price-box">
 							<p class="price-before text-size--13 tablet-hidden text-regular">Only</p>
 							<p class="text-size--44 tabletl-text-size--19 text-light tabletl-text-regular color-blue trailer tabletl-trailer--xlarge">XXX<span class="text-size--19 tabletl-text-size--11 color-gray text-regular toleft--xsmall">KR./MD.</span></p>
-							<p class="text-size--11 text-legal"><span class="tablet-hidden display--block">Free delivery on all phones</span> Minimum price w. FRI+ XX GB: X.XXX kr.</span></p>
 						</div>
+						<p class="text-size--11 text-legal"><span class="tablet-hidden display--block">Free delivery on all phones</span> Minimum price w. FRI+ XX GB: X.XXX kr.</span></p>
 					</div>
 				</a>
 			</div>
@@ -170,14 +190,14 @@
 				</a>
 			</div>
 			<div class="col-xs-12 grid-row--gutter-none content-block--wide">
-				<a href="#" class="col-xs content-block content-block__banner--large content-block__video-banner grid-row--gutter-none grid-row-lg--middle grid-row-xs--bottom padding-whole--xxlarge mobile-padding-toleft mobile-padding-toright" style="background-image: url(banner-02.jpg)">
+				<a href="#" class="col-xs content-block content-block__banner--large content-block__video-banner grid-row--gutter-none grid-row-lg--middle grid-row-xs--bottom grid-row-xs--center padding-whole--xxlarge mobile-padding-toleft mobile-padding-toright" style="background-image: url(banner-02.jpg)">
 					<div class="video-background">
 						<video autoplay loop muted>
-							<source type="video/mp4" src="https://player.vimeo.com/external/184646104.hd.mp4?s=cd2a760df3abfc3a8426df1db736300a31ec29b3&profile_id=174">
+							<source type="video/mp4" src="https://player.vimeo.com/external/184848528.hd.mp4?s=1bdb5ad66c5eaa8c17d344115871ed4de14c110f&profile_id=174">
 						</video>
 					</div>
-					<div class="col-xs">
-						<span class="icon icon-heart circle-outline border-width-1 circle-outline text-size--50 trailer--small inline-block"></span>
+					<div class="col-hg-8 col-lg-10 banner-content">
+						<span class="icon icon-home-broadband circle-outline  circle-outline text-size--50 trailer--small inline-block border-width-2"></span>
 						<p class="text-size--13 leader text-bold">FAMILY SUBSCRIPTIONS</p>
 						<h2 class="text-size--44 tabletp-text-size--28 text-light trailer text-light">Get your family online by combining all your subscriptions</h2>
 						<span class="button button--action trailer--large">Broadband subscriptions</span>
@@ -187,7 +207,7 @@
 			</div>
 			<div class="col-hg-9 col-md-6 grid-row--gutter-none padding-trailer--xsmall padding-leader--xsmall">
 				<a href="#" class="content-block content-block--large grid-row--gutter-none">
-					<div class="col-hg-5 tabletl-text--center">
+					<div class="col-hg-6 bundle-content tabletl-text--center">
 						<div class="description">
 							<strong class="text-size--13 tablet-hidden">BUNDLE</strong>
 							<h2 class="text-size--38 tabletl-text-size--16 trailer--small tabletl-trailer--none text-light tabletl-text-regular">Sony Xperia X Compact <span class="tablet-hidden">with headset</span></h2>
@@ -196,12 +216,12 @@
 						<div class="price-box">
 							<p class="price-before text-size--13 tablet-hidden text-regular">Only</p>
 							<p class="text-size--44 tabletl-text-size--19 text-light tabletl-text-regular color-blue trailer tabletl-trailer--xlarge">XXX<span class="text-size--19 tabletp-text-size--11 color-gray text-regular toleft--xsmall">KR./MD.</span></p>
-							<p class="text-size--11 text-legal"><span class="tablet-hidden display--block">Free delivery on all phones</span> Minimum price w. FRI+ XX GB: X.XXX kr.</span></p>
 						</div>
+						<p class="text-size--11 text-legal"><span class="tablet-hidden display--block">Free delivery on all phones</span> Minimum price w. FRI+ XX GB: X.XXX kr.</span></p>
 					</div>
-					<div class="col-hg-7 image-area mobile-order--first">
+					<div class="col-hg-7 bundle-image-area mobile-order--first">
 						<div class="image-holder">
-							<img src="image-size.jpg" alt="">
+							<img src="Bundle-test.png" alt="">
 						</div>
 					</div>
 				</a>
