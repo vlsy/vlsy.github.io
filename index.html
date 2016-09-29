@@ -260,22 +260,16 @@
 	document.addEventListener("DOMContentLoaded", function(event) { 
 		var animatedBlock = document.querySelectorAll(".animated");
 
-		animatedBlock.forEach(function(elem){
-			if (isVisible(elem)) {
-				elem.classList.add("block-visible");
-			};
+		animatedBlock.forEach(addClassIfVisible);
+
+		window.addEventListener("scroll", function(){
+			animatedBlock.forEach(addClassIfVisible)
 		});
 
-		document.addEventListener("scroll", function(){
-			animatedBlock.forEach(function(elem){
-				if (isVisible(elem)) {
-					elem.classList.add("block-visible");
-				};
-			});
-		})
-
-		function isVisible(el){
-			return el.getBoundingClientRect().top - window.innerHeight <= 0;
+		function addClassIfVisible(el){
+			if(el.getBoundingClientRect().top - window.innerHeight <= 0) {
+				el.classList.add("block-visible");
+			}
 		}
 	});
  </script>
