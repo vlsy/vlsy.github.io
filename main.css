@@ -26525,11 +26525,12 @@ print {
 }
 .content-block .text-legal {
     color: #b8b8b8;
-    overflow: hidden;
     position: absolute;
     bottom: 25px;
     left: 0;
-    right: 0
+    right: 0;
+    padding: 0 25px;
+    text-align: center
 }
 .content-block .banner-legal {
     position: absolute;
@@ -26559,7 +26560,7 @@ print {
 }
 .content-block--small {
     text-align: center;
-    padding: 30px 20px 40px
+    padding: 30px 20px 55px
 }
 .content-block--small .image-area {
     height: 235px
@@ -26582,9 +26583,6 @@ print {
 .content-block--small .price-box {
     padding: 0
 }
-.content-block--small .description {
-    min-height: 88px
-}
 .content-block--small .sticker-holder {
     background: #fff
 }
@@ -26599,11 +26597,20 @@ print {
         left: -46px
     }
     .content-block--medium {
-        padding: 30px 20px 25px
+        padding: 30px 20px 55px
     }
 }
 .content-block--medium .text-legal {
-    bottom: 0
+    left: auto;
+    padding-left: 0;
+    text-align: left
+}
+@media only screen and (max-width: 1219px) {
+    .content-block--medium .text-legal {
+        text-align: center;
+        left: 0;
+        padding-left: 25px
+    }
 }
 .content-block--large {
     padding: 35px 24px 25px 40px
@@ -26628,7 +26635,7 @@ print {
 }
 @media only screen and (max-width: 1219px) {
     .content-block--large {
-        padding: 20px 20px 25px
+        padding: 20px 20px 55px
     }
     .content-block--large .image-area {
         margin-bottom: 33px;
@@ -26642,7 +26649,25 @@ print {
     }
 }
 .content-block--large .text-legal {
+    right: auto;
+    left: 20px;
+    text-align: left
+}
+.content-block__banner--large:before,
+.content-block__banner:before {
+    top: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    right: 0;
     bottom: 0
+}
+@media only screen and (max-width: 1219px) {
+    .content-block--large .text-legal {
+        text-align: center;
+        left: 0;
+        right: 0
+    }
 }
 .content-block__banner {
     min-height: 430px;
@@ -26664,12 +26689,6 @@ print {
     }
 }
 .content-block__banner:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background: #000;
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
@@ -26692,12 +26711,6 @@ print {
     }
 }
 .content-block__banner--large:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background: #000;
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
