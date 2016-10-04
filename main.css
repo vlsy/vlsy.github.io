@@ -5529,12 +5529,14 @@ small {
 }
 .button--action {
     border-color: #0095e6;
-    background: #0095e6;
+    background: -webkit-linear-gradient(top, #0296e5, #038cd6);
+    background: linear-gradient(180deg, #0296e5, #038cd6);
     color: #fff
 }
 .button--action:hover {
     border-color: #0084cd;
-    background: #0084cd
+    background: -webkit-linear-gradient(top, #028cd6, #027bbd);
+    background: linear-gradient(180deg, #028cd6, #027bbd)
 }
 .button--action:focus {
     border-color: #0f3b52
@@ -5562,12 +5564,14 @@ small {
 }
 .button--success {
     border-color: #43c682;
-    background: #43c682;
+    background: -webkit-linear-gradient(top, #4ce094, #43c682);
+    background: linear-gradient(180deg, #4ce094, #43c682);
     color: #fff
 }
 .button--success:hover {
     border-color: #38b875;
-    background: #38b875
+    background: -webkit-linear-gradient(top, #4ce094, #43c682);
+    background: linear-gradient(180deg, #4ce094, #43c682)
 }
 .button--accept {
     border-color: #e0a500;
@@ -5615,7 +5619,8 @@ small {
 .button[data-loaded=true]:focus,
 .button[data-loaded=true]:hover {
     border-color: #43c682;
-    background: #43c682;
+    background: -webkit-linear-gradient(top, #4ce094, #43c682);
+    background: linear-gradient(180deg, #4ce094, #43c682);
     color: #43c682
 }
 .button__label,
@@ -26458,6 +26463,11 @@ print {
         order: -1
     }
 }
+@media only screen and (max-width: 767px) {
+    .content-block .image-area {
+        height: 170px
+    }
+}
 .content-block .bundle-image-area {
     position: absolute;
     bottom: 35px;
@@ -26465,7 +26475,7 @@ print {
 }
 .content-block .image-holder {
     display: inline-block;
-    width: 160px;
+    height: 100%;
     position: relative;
     background: url(shadow.png) 50% 100% no-repeat;
     -webkit-transition: opacity .5s;
@@ -26475,33 +26485,20 @@ print {
     margin-bottom: 30px;
     max-height: 100%
 }
-@media only screen and (max-width: 1219px) {
-    .content-block .image-holder {
-        background: 0 0;
-        width: 115px
-    }
-    .content-block .image-holder img {
-        margin-bottom: 0
-    }
-}
 .content-block .sticker {
     position: absolute;
     top: 39px;
-    left: -46px;
+    left: 50%;
+    margin-left: -125px;
     -webkit-transition: opacity .5s;
     transition: opacity .5s
 }
 @media only screen and (max-width: 767px) {
-    .content-block .image-area {
-        height: 170px
-    }
-    .content-block .image-holder {
-        width: 84px
-    }
     .content-block .sticker {
         top: 23px;
         width: 73px;
-        height: 73px
+        height: 73px;
+        margin-left: -90px
     }
 }
 .content-block .description {
@@ -26512,6 +26509,12 @@ print {
     padding-top: 16px
 }
 @media only screen and (max-width: 1219px) {
+    .content-block .image-holder {
+        background: 0 0
+    }
+    .content-block .image-holder img {
+        margin-bottom: 0
+    }
     .content-block .description {
         min-height: 0
     }
@@ -26566,16 +26569,7 @@ print {
     height: 235px
 }
 .content-block--small .image-holder {
-    width: 115px;
     background: 0 0
-}
-@media only screen and (max-width: 767px) {
-    .content-block--small .image-area {
-        height: 170px
-    }
-    .content-block--small .image-holder {
-        width: 84px
-    }
 }
 .content-block--small .image-holder img {
     margin: 0
@@ -26583,19 +26577,10 @@ print {
 .content-block--small .price-box {
     padding: 0
 }
-.content-block--small .sticker-holder {
-    background: #fff
-}
-.content-block--small .sticker {
-    left: -67px
-}
 .content-block--medium {
     padding: 35px 20px 25px
 }
 @media only screen and (max-width: 1219px) {
-    .content-block--small .sticker {
-        left: -46px
-    }
     .content-block--medium {
         padding: 30px 20px 55px
     }
@@ -26605,11 +26590,25 @@ print {
     padding-left: 0;
     text-align: left
 }
+.content-block--medium .sticker {
+    margin-left: -140px
+}
 @media only screen and (max-width: 1219px) {
     .content-block--medium .text-legal {
         text-align: center;
         left: 0;
         padding-left: 25px
+    }
+    .content-block--medium .sticker {
+        margin-left: -125px
+    }
+}
+@media only screen and (max-width: 767px) {
+    .content-block--small .image-area {
+        height: 170px
+    }
+    .content-block--medium .sticker {
+        margin-left: -90px
     }
 }
 .content-block--large {
@@ -26625,12 +26624,10 @@ print {
     z-index: 2
 }
 .content-block--large .image-holder {
-    width: auto;
     height: 100%;
     background: 0 0
 }
 .content-block--large .image-holder img {
-    width: auto;
     margin-bottom: 0
 }
 @media only screen and (max-width: 1219px) {
@@ -26806,14 +26803,14 @@ print {
     width: 35px;
     margin: 0 auto
 }
-.animated {
+.content-block--animated {
     -webkit-transform: translateY(60px);
     transform: translateY(60px);
     opacity: 0;
     -webkit-transition: all 1s;
     transition: all 1s
 }
-.block-visible {
+.content-block--visible {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1
