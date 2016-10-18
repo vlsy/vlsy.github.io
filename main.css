@@ -5874,12 +5874,12 @@ name: Autocomplete
 type: ui
 desc: No modifiers and mixins need it for this component 
 examples:
-    Remote loading:
-        <div class="form-item form-item--required" >
-            <input type="text" data-component="autocomplete" data-autocomplete-url="/data/autocomplete.json" data-extensions="type-watch" />
-        </div>
-    Static loading:
-        include: static-autocomplete.html
+  Remote loading:
+    <div class="form-item form-item--required" >
+      <input type="text" data-component="autocomplete" data-autocomplete-url="/data/autocomplete.json" data-extensions="type-watch" />
+    </div>
+  Static loading:
+    include: static-autocomplete.html
 */
 /* line 13, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/autocomplete/_scss/_index.scss */
 .autocomplete {
@@ -5889,121 +5889,121 @@ examples:
 name: Button
 type: ui
 desc: >
-    # Structure
+  # Structure
 
-    1. Button needs required structure, each text description has to be wrapped with element with class name 'button\_\_text' for text vertical aligning
+  1. Button needs required structure, each text description has to be wrapped with element with class name 'button\_\_text' for text vertical aligning
 
-    2. __Don't use icon's classes in button's attribute class__
-
-
-    # Icons
-
-    1. You can add icon both to the 'button\_\_label' and 'button\_\_label--success' elements
-
-    2. All icons have property 'vertical-align' equal 'middle'
-
-    3. If you want an icon for the button, you have to wrap 'button\_\_text' element with 'button\_\_label' element and add additional classes:
-
-        1. Class name for icon's position:
-
-            1. 'icon\-\-left' - uses :before for icon (hides :after). Icon has margin-right: 8px by default
-
-            2. 'icon\-\-right' - uses :after for icon (hides :before). Icon has margin-left: 8px by default
-
-        2. Class name for icon symbol
+  2. __Don't use icon's classes in button's attribute class__
 
 
-    # Animations
+  # Icons
 
-    1. Loading button state needs:
+  1. You can add icon both to the 'button\_\_label' and 'button\_\_label--success' elements
 
-        1. Attribute 'data-loading="true"' for the button
+  2. All icons have property 'vertical-align' equal 'middle'
 
-        2. Element with class name 'button\_\_spinner' inside the button
+  3. If you want an icon for the button, you have to wrap 'button\_\_text' element with 'button\_\_label' element and add additional classes:
 
-    2. Loaded button state needs:
+    1. Class name for icon's position:
 
-        1. Attribute 'data-loaded="true"' for the button
+      1. 'icon\-\-left' - uses :before for icon (hides :after). Icon has margin-right: 8px by default
 
-        2. Element with class name 'button\_\_label--success' inside the button
+      2. 'icon\-\-right' - uses :after for icon (hides :before). Icon has margin-left: 8px by default
 
-        3. Icon for success state can be added based on the same rules as for the basic icon
+    2. Class name for icon symbol
+
+
+  # Animations
+
+  1. Loading button state needs:
+
+    1. Attribute 'data-loading="true"' for the button
+
+    2. Element with class name 'button\_\_spinner' inside the button
+
+  2. Loaded button state needs:
+
+    1. Attribute 'data-loaded="true"' for the button
+
+    2. Element with class name 'button\_\_label--success' inside the button
+
+    3. Icon for success state can be added based on the same rules as for the basic icon
 
 examples:
   - name: Default button
     tmpl: >
         <button class="button button--default">
-            <span class="button__label">Button default</span>
+          <span class="button__label">Button default</span>
         </button>
   - name: Default button small
     tmpl: >
         <button class="button button--default button--small">
-            <span class="button__label">Button default</span>
+          <span class="button__label">Button default</span>
         </button>
   - name: Default button with 'a' tag
     tmpl: >
         <a href="#" class="button button--default">
-            <span class="button__label">Button default</span>
+          <span class="button__label">Button default</span>
         </a>
   - name: Grey for modal (button is visually identical with default, but with no special styling inside section--negative to avoid unwanted inheritance for modals)
     tmpl: >
         <button class="button button--modal">
-            <span class="button__label">Button modal</span>
+          <span class="button__label">Button modal</span>
         </button>
   - name: No background, but with changed color styles
     tmpl: >
         <button class="button button--naked">
-            <span class="button__label">Button naked</span>
+          <span class="button__label">Button naked</span>
         </button>
   - name: Underlined
     tmpl: >
         <button class="button button--underlined">
-            <span class="button__label">Button underlined</span>
+          <span class="button__label">Button underlined</span>
         </button>
   - name: Green
     tmpl: >
         <button class="button button--success">
-            <span class="button__label">Button success</span>
+          <span class="button__label">Button success</span>
         </button>
   - name: Blue
     tmpl: >
         <button class="button button--action">
-            <span class="button__label">Button blue</span>
+          <span class="button__label">Button blue</span>
         </button>
   - name: Blue dark
     tmpl: >
         <button class="button button--action-dark">
-            <span class="button__label">Button blue dark</span>
+          <span class="button__label">Button blue dark</span>
         </button>
   - name: Yellow
     tmpl: >
         <button class="button button--accept">
-            <span class="button__label">Button yellow</span>
+          <span class="button__label">Button yellow</span>
         </button>
   - name: Medium
     tmpl: >
         <button class="button button--action button--large">
-            <span class="button__label">Button medium</span>
+          <span class="button__label">Button medium</span>
         </button>
   - name: Large
     tmpl: >
         <button class="button button--action button--xlarge">
-            <span class="button__label">Button large</span>
+          <span class="button__label">Button large</span>
         </button>
   - name: Yellow with next arrow
     tmpl: >
         <button class="button button--accept">
-            <span class="button__label icon--right icon-arrow-next">Next</span>
+          <span class="button__label icon--right icon-arrow-next">Next</span>
         </button>
   - name: Yellow small with next arrow
     tmpl: >
         <button class="button button--small button--accept">
-            <span class="button__label icon--right icon-arrow-next">Next</span>
+          <span class="button__label icon--right icon-arrow-next">Next</span>
         </button>
   - name: Yellow with previous arrow
     tmpl: >
         <button class="button button--accept">
-            <span class="button__label icon--left icon-arrow-prev">Prev</span>
+          <span class="button__label icon--left icon-arrow-prev">Prev</span>
         </button>
   - name: Link
     tmpl: >
@@ -6011,62 +6011,62 @@ examples:
   - name: Link with arrow
     tmpl: >
         <a class="button button--link" href="#">
-            <span class="button__label icon--left icon-bullet">Button link</span>
+          <span class="button__label icon--left icon-bullet">Button link</span>
         </a>
   - name: Inline button with arrow
     tmpl: >
         <button class="button button--link button--inline">
-            <span class="button__label icon--left icon-bullet">Button link</span>
+          <span class="button__label icon--left icon-bullet">Button link</span>
         </button>
   - name: Blue next button
     tmpl: >
         <button class="button button--action">
-            <span class="button__label icon-arrow-next"></span>
+          <span class="button__label icon-arrow-next"></span>
         </button>
   - name: Blue prev button
     tmpl: >
         <button class="button button--action">
-            <span class="button__label icon-arrow-prev"></span>
+          <span class="button__label icon-arrow-prev"></span>
         </button>
   - name: Grey with spinner
     tmpl:
-        include: grey-spinner.html
+      include: grey-spinner.html
   - name: Blue with spinner
     tmpl:
-        include: blue-spinner.html
+      include: blue-spinner.html
   - name: Yellow with spinner
     tmpl:
-        include: yellow-spinner.html
+      include: yellow-spinner.html
   - name: Button group
     tmpl: >
         <div class="button-group">
-            <button class="button button--default">
-                <span class="button__label">Button</span>
-            </button>
-            <button class="button button--default">
-                <span class="button__label">Button</span>
-            </button>
+          <button class="button button--default">
+            <span class="button__label">Button</span>
+          </button>
+          <button class="button button--default">
+            <span class="button__label">Button</span>
+          </button>
         </div>
   - name: Button with full width
     tmpl: >
         <button class="button button--default button--stretch">
-            <span class="button__label">Button</span>
+          <span class="button__label">Button</span>
         </button>
   - name: Button with vertical middle alignment
     tmpl: >
         <button class="button button--default align--middle">
-            <span class="button__label">Button</span>
+          <span class="button__label">Button</span>
         </button>
         <button class="button button--default button--small align--middle">
-            <span class="button__label">Button</span>
+          <span class="button__label">Button</span>
         </button>
   - name: Button with vertical bottom alignment
     tmpl: >
         <button class="button button--default align--bottom">
-            <span class="button__label">Button</span>
+          <span class="button__label">Button</span>
         </button>
         <button class="button button--default button--small align--bottom">
-            <span class="button__label">Button</span>
+          <span class="button__label">Button</span>
         </button>
   - name: Converter
     tmpl:
@@ -6397,68 +6397,68 @@ examples:
 name: Toggle filter
 type: ui
 desc: >
-    # Structure
+  # Structure
 
-    1. filter toggle needs required structure
+  1. filter toggle needs required structure
 
-    # Icons
+  # Icons
 
-    1. position of icons changed by changing class 'icon-left' to 'icon-right'
+  1. position of icons changed by changing class 'icon-left' to 'icon-right'
 
-    2. by default flter toggle has plus icon, and can be changed to minus icon by adding class 'is-expanded' to button with class 'filter-toggle'. in case of using toggle filter in collapse this class adding by js
+  2. by default flter toggle has plus icon, and can be changed to minus icon by adding class 'is-expanded' to button with class 'filter-toggle'. in case of using toggle filter in collapse this class adding by js
 
-    3. icons have to sizes: default and the large one. it can be changed by adding class 'filter-toggle--large' to button with class 'filter-toggle'
+  3. icons have to sizes: default and the large one. it can be changed by adding class 'filter-toggle--large' to button with class 'filter-toggle'
 
 examples:
-    -
-        name: Filter toggle plus (default closed state for using in collapse)
-        tmpl: >
-            <button class="filter-toggle">
-                <span class="filter-toggle__label icon-left">
-                    <span class="filter-toggle__text">default title</span>
-                </span>
-            </button>
-    -
-        name: Filter toggle minus (opened state for using in collapse)
-        tmpl: >
-            <button class="filter-toggle is-expanded">
-                <span class="filter-toggle__label icon-left">
-                    <span class="filter-toggle__text">default title</span>
-                </span>
-            </button>
-    -
-        name: Filter toggle with icon on the right
-        tmpl: >
-            <button class="filter-toggle">
-                <span class="filter-toggle__label icon-right">
-                    <span class="filter-toggle__text">default title</span>
-                </span>
-            </button>
-    -
-        name: Filter toggle large
-        tmpl: >
-            <button class="filter-toggle filter-toggle--large">
-                <span class="filter-toggle__label icon-left">
-                    <span class="filter-toggle__text">default title</span>
-                </span>
-            </button>
-    -
-        name: Filter toggle (how it using with collapse)
-        tmpl: >
-            <div class="clear padding-leader--xsmall padding-trailer--xsmall">
-                <button class="filter-toggle" data-component="collapse" data-alias="filterToggle">
-                    <span class="filter-toggle__label icon-left">
-                        <span class="filter-toggle__text">default title</span>
-                    </span>
-                </button>
-            </div>
-            <div class="collapse__target collapse--closed" data-element="filterToggle:collapseTarget">
-                <div class="padding-whole border" data-element="filterToggle:collapseContent">
-                    <p>lorem ipsum dolor sit amet</p>
-                    <p>lorem ipsum dolor sit amet</p>
-                    <p>lorem ipsum dolor sit amet</p>
-                </div>
-            </div>
+  -
+    name: Filter toggle plus (default closed state for using in collapse)
+    tmpl: >
+      <button class="filter-toggle">
+        <span class="filter-toggle__label icon-left">
+          <span class="filter-toggle__text">default title</span>
+        </span>
+      </button>
+  -
+    name: Filter toggle minus (opened state for using in collapse)
+    tmpl: >
+      <button class="filter-toggle is-expanded">
+        <span class="filter-toggle__label icon-left">
+          <span class="filter-toggle__text">default title</span>
+        </span>
+      </button>
+  -
+    name: Filter toggle with icon on the right
+    tmpl: >
+      <button class="filter-toggle">
+        <span class="filter-toggle__label icon-right">
+          <span class="filter-toggle__text">default title</span>
+        </span>
+      </button>
+  -
+    name: Filter toggle large
+    tmpl: >
+      <button class="filter-toggle filter-toggle--large">
+        <span class="filter-toggle__label icon-left">
+          <span class="filter-toggle__text">default title</span>
+        </span>
+      </button>
+  -
+    name: Filter toggle (how it using with collapse)
+    tmpl: >
+      <div class="clear padding-leader--xsmall padding-trailer--xsmall">
+        <button class="filter-toggle" data-component="collapse" data-alias="filterToggle">
+          <span class="filter-toggle__label icon-left">
+            <span class="filter-toggle__text">default title</span>
+          </span>
+        </button>
+      </div>
+      <div class="collapse__target collapse--closed" data-element="filterToggle:collapseTarget">
+        <div class="padding-whole border" data-element="filterToggle:collapseContent">
+          <p>lorem ipsum dolor sit amet</p>
+          <p>lorem ipsum dolor sit amet</p>
+          <p>lorem ipsum dolor sit amet</p>
+        </div>
+      </div>
 */
 /* line 69, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/filter-toggle/_scss/_index.scss */
 .filter-toggle {
@@ -6517,20 +6517,20 @@ examples:
 name: Carousel
 type: ui
 desc: >
-    # Structure
+  # Structure
 
-    1. Required structure for carousel needs wrapping holder with width and 'overflow: hidden' property.
+  1. Required structure for carousel needs wrapping holder with width and 'overflow: hidden' property.
 
-    2. List of items in the same line. You can use parent holder for them with 'width: 99999px'. Each item needs attribute 'data-alias="item"'.
+  2. List of items in the same line. You can use parent holder for them with 'width: 99999px'. Each item needs attribute 'data-alias="item"'.
 
-    3. Previous and next buttons are not necessary. Also they need attributes 'data-alias="prev"' and 'data-alias="next"'.
+  3. Previous and next buttons are not necessary. Also they need attributes 'data-alias="prev"' and 'data-alias="next"'.
 
-    4. For switcher functionality just add any structure with the same quantity as item's amount. Every switcher's item needs attribute 'data-alias="switcher"'.
+  4. For switcher functionality just add any structure with the same quantity as item's amount. Every switcher's item needs attribute 'data-alias="switcher"'.
 
 examples:
-    - name: Default carousel
-      tmpl:
-          include: carousel.html
+  - name: Default carousel
+    tmpl:
+        include: carousel.html
 */
 /* line 20, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
 .carousel {
@@ -6737,23 +6737,23 @@ examples:
 name: Collapse
 type: ui
 modifiers:
-    --closed: Sets default hidden state for collapse content
+  --closed: Sets default hidden state for collapse content
 examples:
-    - name: Simple collapsible content
-      tmpl:
-          include: simple.html
-    - name: Simple collapsible content with additional close button
-      tmpl:
-          include: simple-with-closer.html
-    - name: Collapsible content with labels
-      tmpl:
-          include: with-labels.html
-    - name: Grpips of collapsible contents
-      tmpl:
-          include: groups.html
-    - name: Collapsible content with radio triggers
-      tmpl:
-          include: with-radio-triggers.html
+  - name: Simple collapsible content
+    tmpl:
+      include: simple.html
+  - name: Simple collapsible content with additional close button
+    tmpl:
+      include: simple-with-closer.html
+  - name: Collapsible content with labels
+    tmpl:
+      include: with-labels.html
+  - name: Grpips of collapsible contents
+    tmpl:
+      include: groups.html
+  - name: Collapsible content with radio triggers
+    tmpl:
+      include: with-radio-triggers.html
 */
 /* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/collapse/_scss/_index.scss */
 .collapse__target {
@@ -8252,28 +8252,28 @@ examples:
 name: Dropdown
 type: ui
 modifiers:
-    --small: Small dropdown
-    --subscriptions: Dropdown for the subscriptions pages
-    --subscriptions--small: Small subscriptions dropdown (timeline/dashboard page)
-    --select: Select with custom dropdown
-    --download: Dropdown with files list of download
+  --small: Small dropdown
+  --subscriptions: Dropdown for the subscriptions pages
+  --subscriptions--small: Small subscriptions dropdown (timeline/dashboard page)
+  --select: Select with custom dropdown
+  --download: Dropdown with files list of download
 examples:
 -
-    name: Dropdown example
-    tmpl:
-        include: dropdown.html
+  name: Dropdown example
+  tmpl:
+    include: dropdown.html
 -
-    name: Subscriptions dropdown
-    tmpl:
-        include: dropdown-subscriptions.html
+  name: Subscriptions dropdown
+  tmpl:
+    include: dropdown-subscriptions.html
 -
-    name: Select with custom dropdown
-    tmpl:
-        include: dropdown-select.html
+  name: Select with custom dropdown
+  tmpl:
+    include: dropdown-select.html
 -
-    name: Download dropdown
-    tmpl:
-        include: dropdown-download.html
+  name: Download dropdown
+  tmpl:
+    include: dropdown-download.html
 */
 /* line 30, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/dropdown/_scss/_index.scss */
 .dropdown {
@@ -9734,39 +9734,39 @@ modifiers:
   --large : Large checkbox
   --disable: Disabled checkbox
 examples:
-    - name: Checkboxes list small
-      tmpl:
-          include: list-small.html
-    - name: Checkboxes list
-      tmpl:
-          include: list.html
-    - name: Checkboxes list large
-      tmpl:
-          include: list-large.html
-    - name: Disabled checkboxes
-      tmpl:
-          include: disabled.html
-    - name: Checkboxes list horizontal small
-      tmpl:
-          include: list-horizontal-small.html
-    - name: Checkboxes list horizontal
-      tmpl:
-          include: list-horizontal.html
-    - name: Checkboxes list horizontal large
-      tmpl:
-          include: list-horizontal-large.html
-    - name: Small checkboxes list in negative box
-      tmpl:
-          include: list-small-negative.html
-    - name: Checkboxes list in negative box
-      tmpl:
-          include: list-negative.html
-    - name: Large checkboxes list in negative box
-      tmpl:
-          include: list-large-negative.html
-    - name: Disabled checkboxes list in negative box
-      tmpl:
-          include: disabled-negative.html
+  - name: Checkboxes list small
+    tmpl:
+        include: list-small.html
+  - name: Checkboxes list
+    tmpl:
+      include: list.html
+  - name: Checkboxes list large
+    tmpl:
+      include: list-large.html
+  - name: Disabled checkboxes
+    tmpl:
+      include: disabled.html
+  - name: Checkboxes list horizontal small
+    tmpl:
+      include: list-horizontal-small.html
+  - name: Checkboxes list horizontal
+    tmpl:
+      include: list-horizontal.html
+  - name: Checkboxes list horizontal large
+    tmpl:
+      include: list-horizontal-large.html
+  - name: Small checkboxes list in negative box
+    tmpl:
+      include: list-small-negative.html
+  - name: Checkboxes list in negative box
+    tmpl:
+      include: list-negative.html
+  - name: Large checkboxes list in negative box
+    tmpl:
+      include: list-large-negative.html
+  - name: Disabled checkboxes list in negative box
+    tmpl:
+      include: disabled-negative.html
 */
 /* line 48, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/checkbox/_scss/_index.scss */
 .form-checkbox label {
@@ -9918,39 +9918,39 @@ modifiers:
   --large : Large radio
   --disable: Disabled radio
 examples:
-    - name: Radio list small
-      tmpl:
-          include: list-small.html
-    - name: Radio list
-      tmpl:
-          include: list.html
-    - name: Radio list large
-      tmpl:
-          include: list-large.html
-    - name: Disabled radio
-      tmpl:
-          include: disabled.html
-    - name: Radio list horizontal small
-      tmpl:
-          include: list-horizontal-small.html
-    - name: Radio list horizontal
-      tmpl:
-          include: list-horizontal.html
-    - name: Radio list horizontal large
-      tmpl:
-          include: list-horizontal-large.html
-    - name: Small radis list in negative box
-      tmpl:
-          include: list-small-negative.html
-    - name: Radio list in negative box
-      tmpl:
-          include: list-negative.html
-    - name: Large radio list in negative box
-      tmpl:
-          include: list-large-negative.html
-    - name: Disabled radio list in negative box
-      tmpl:
-          include: disabled-negative.html
+  - name: Radio list small
+    tmpl:
+        include: list-small.html
+  - name: Radio list
+    tmpl:
+      include: list.html
+  - name: Radio list large
+    tmpl:
+      include: list-large.html
+  - name: Disabled radio
+    tmpl:
+      include: disabled.html
+  - name: Radio list horizontal small
+    tmpl:
+      include: list-horizontal-small.html
+  - name: Radio list horizontal
+    tmpl:
+      include: list-horizontal.html
+  - name: Radio list horizontal large
+    tmpl:
+      include: list-horizontal-large.html
+  - name: Small radis list in negative box
+    tmpl:
+      include: list-small-negative.html
+  - name: Radio list in negative box
+    tmpl:
+      include: list-negative.html
+  - name: Large radio list in negative box
+    tmpl:
+      include: list-large-negative.html
+  - name: Disabled radio list in negative box
+    tmpl:
+      include: disabled-negative.html
 */
 /* line 49, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/radio/_scss/_index.scss */
 .form-radio label {
@@ -10071,44 +10071,44 @@ examples:
 name: Form search
 type: ui
 desc: >
-    # Disabling
+  # Disabling
 
-    1. You can disable search element by adding 'disabled' attribute to 'input:search' and to 'button.form-search__submit'
+  1. You can disable search element by adding 'disabled' attribute to 'input:search' and to 'button.form-search__submit'
 
-    # Modifiers
+  # Modifiers
 
-    1. --small: Small search
+  1. --small: Small search
 
-    2. --large: Large search
+  2. --large: Large search
 
 examples:
-    - name: Default search
-      tmpl:
-          include: search.html
-    - name: Small search
-      tmpl:
-          include: search-small.html
-    - name: Large search
-      tmpl:
-          include: search-large.html
-    - name: Disabled search
-      tmpl:
-          include: search-disabled.html
-    - name: Inline search
-      tmpl:
-          include: search-inline.html
-    - name: Inline small search
-      tmpl:
-          include: search-inline-small.html
-    - name: Inline large search
-      tmpl:
-          include: search-inline-large.html
-    - name: Negative search
-      tmpl:
-          include: search-negative.html
-    - name: Negative inline search
-      tmpl:
-          include: search-inline-negative.html
+  - name: Default search
+    tmpl:
+        include: search.html
+  - name: Small search
+    tmpl:
+        include: search-small.html
+  - name: Large search
+    tmpl:
+        include: search-large.html
+  - name: Disabled search
+    tmpl:
+        include: search-disabled.html
+  - name: Inline search
+    tmpl:
+        include: search-inline.html
+  - name: Inline small search
+    tmpl:
+        include: search-inline-small.html
+  - name: Inline large search
+    tmpl:
+        include: search-inline-large.html
+  - name: Negative search
+    tmpl:
+        include: search-negative.html
+  - name: Negative inline search
+    tmpl:
+        include: search-inline-negative.html
 */
 /* line 45, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
 .form-search {
@@ -10558,17 +10558,17 @@ name: Masked input
 type: ui
 examples:
 -
-    name: Phone number
-    tmpl:
-        include: phone.html
+  name: Phone number
+  tmpl:
+    include: phone.html
 -
-    name: Document id with form validation
-    tmpl:
-        include: validation.html
+  name: Document id with form validation
+  tmpl:
+    include: validation.html
 -
-    name: Custom mask definitions
-    tmpl:
-        include: mask-definitions.html
+  name: Custom mask definitions
+  tmpl:
+    include: mask-definitions.html
 */
 /* line 18, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/masked-input/_scss/_index.scss */
 .masked-input {
@@ -10579,11 +10579,11 @@ examples:
 name: Message
 type: ui
 desc: >
-    # Structure
+  # Structure
 
-    1. Message needs required structure, inner holder should have attribute data-element="messageContent" for calculations of height.
+  1. Message needs required structure, inner holder should have attribute data-element="messageContent" for calculations of height.
 
-    2. __Don't use top/bottom indents for '.message' holder, use it for '.message__inner' holder__
+  2. __Don't use top/bottom indents for '.message' holder, use it for '.message__inner' holder__
 
 examples:
   - name: Informational
@@ -10709,34 +10709,34 @@ examples:
 name: Modal Box
 type: ui
 desc: >
-    Shows content in a Lightbox. Adds overlay around the content.
-    There are some additional options(classes) for Prequalification page and Agent View.
+  Shows content in a Lightbox. Adds overlay around the content.
+  There are some additional options(classes) for Prequalification page and Agent View.
 modifiers:
-    .pre-lightbox: Additional class for Prequalification Lightbox
-    .modal-box--size-small: Additional class for popup size small.
-    .modal-box--size-large: Additional classes for popup size large.
-    .modal-box--with-action-buttons: New style action buttons.
+  .pre-lightbox: Additional class for Prequalification Lightbox
+  .modal-box--size-small: Additional class for popup size small.
+  .modal-box--size-large: Additional classes for popup size large.
+  .modal-box--with-action-buttons: New style action buttons.
 examples:
-    -
-        name: Simple Lightbox
-        tmpl:
-            include: popup.html
-    - 
-        name: Prequalification Lightbox
-        tmpl:
-            include: pre-lightbox.html
-    - 
-        name: Large popup (3 buttons)
-        tmpl:
-            include: popup-large.html
-    - 
-        name: Small popup
-        tmpl:
-            include: popup-small.html
-    - 
-        name: Extra Small popup
-        tmpl:
-            include: popup-xsmall.html
+  -
+    name: Simple Lightbox
+    tmpl:
+      include: popup.html
+  - 
+    name: Prequalification Lightbox
+    tmpl:
+      include: pre-lightbox.html
+  - 
+    name: Large popup (3 buttons)
+    tmpl:
+      include: popup-large.html
+  - 
+    name: Small popup
+    tmpl:
+      include: popup-small.html
+  - 
+    name: Extra Small popup
+    tmpl:
+      include: popup-xsmall.html
 */
 /* prevent showing popup content before JS is working */
 /* line 36, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
@@ -11003,16 +11003,16 @@ html.modal-box--is-open {
     overflow: hidden; }
 
 /**
-    name: Number
-    type: ui
-    desc: No modifiers and mixins need it for this component
-    examples:
-        Number selector:
-            include: number.html
-        Number selector small:
-            include: number-small.html
-        Number selector in negative box:
-            include: number-negative.html
+  name: Number
+  type: ui
+  desc: No modifiers and mixins need it for this component
+  examples:
+    Number selector:
+      include: number.html
+    Number selector small:
+      include: number-small.html
+    Number selector in negative box:
+      include: number-negative.html
 */
 /* line 17, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/number/_scss/_index.scss */
 .number__wrapper {
@@ -11259,31 +11259,31 @@ examples:
     tmpl: >
         <p class="trailer">Static loader</p>
         <div class="text-center trailer">
-            <div class="loader loader--large">
-                <div class="loader__spinner"><i></i></div>
-            </div>
+          <div class="loader loader--large">
+            <div class="loader__spinner"><i></i></div>
+          </div>
         </div>
 
         <div class="loader-test border box--white">
-            <div class="loader loader--centered">
-                <div class="loader__spinner"><i></i></div>
-            </div>
+          <div class="loader loader--centered">
+            <div class="loader__spinner"><i></i></div>
+          </div>
         </div>
 
         <div class="loader-test border box--yellow">
-            <div class="loader loader--centered">
-                <div class="loader__spinner"><i></i></div>
-            </div>
+          <div class="loader loader--centered">
+            <div class="loader__spinner"><i></i></div>
+          </div>
         </div>
 
         <div class="loader-test border box--blue">
-            <div class="loader loader--light loader--centered">
-                <div class="loader__spinner"><i></i></div>
-            </div>
+          <div class="loader loader--light loader--centered">
+            <div class="loader__spinner"><i></i></div>
+          </div>
         </div>
 
         <div class="lightbox-spinner-test">
-            <div class="lightbox-spinner"></div>
+          <div class="lightbox-spinner"></div>
         </div>
 
   - name: Loader overlay
@@ -11465,12 +11465,12 @@ type: ui
 modifiers:
   --single: Singe slider
 examples:
-    - name: Range slider
-      tmpl:
-          include: range-slider.html
-    - name: Single slider
-      tmpl:
-          include: single-slider.html
+  - name: Range slider
+    tmpl:
+        include: range-slider.html
+  - name: Single slider
+    tmpl:
+        include: single-slider.html
 */
 /* line 15, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/range-slider/_scss/_index.scss */
 .range-slider {
@@ -11657,27 +11657,27 @@ modifiers:
   --small: Small select
   --dropdown: Dropdown select
 examples:
-    - name: Select
-      tmpl:
-          include: select.html
-    - name: Select with grouping
-      tmpl:
-          include: grouping.html
-    - name: Select small
-      tmpl:
-          include: small.html
-    - name: Disabled select
-      tmpl:
-          include: disabled.html
-    - name: Select with error
-      tmpl:
-          include: error.html
-    - name: Select in a negative box
-      tmpl:
-          include: negative.html
-    - name: Select small in a negative box
-      tmpl:
-          include: negative-small.html
+  - name: Select
+    tmpl:
+        include: select.html
+  - name: Select with grouping
+    tmpl:
+        include: grouping.html
+  - name: Select small
+    tmpl:
+        include: small.html
+  - name: Disabled select
+    tmpl:
+        include: disabled.html
+  - name: Select with error
+    tmpl:
+        include: error.html
+  - name: Select in a negative box
+    tmpl:
+        include: negative.html
+  - name: Select small in a negative box
+    tmpl:
+        include: negative-small.html
 */
 /* line 33, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select/_scss/_index.scss */
 .form-select {
@@ -12601,7 +12601,7 @@ examples:
   - name: Preloader
     tmpl: >
         <div class="load-tester border box--blue">
-            <span class="spinner"></span>
+          <span class="spinner"></span>
         </div>
 */
 /* line 20, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
@@ -16027,12 +16027,12 @@ examples:
   z-index: 800; }
 
 /**
-    name: Status indicator
-    type: ui
-    desc: Status inducators and badges
-    examples:
-        Status badge:
-            include: status-badge.html
+  name: Status indicator
+  type: ui
+  desc: Status inducators and badges
+  examples:
+    Status badge:
+      include: status-badge.html
 */
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/status-indicators/_scss/_index.scss */
 .status-indicator {
@@ -16157,44 +16157,44 @@ examples:
   - name: Box Greyed
     tmpl: >
         <div class="box--greyed padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
   - name: Box White
     tmpl: >
         <div class="box--green padding-whole">
-            <div class="box--white padding-whole">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
-            </div>
+          <div class="box--white padding-whole">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          </div>
         </div>
   - name: Box Yellow
     tmpl: >
         <div class="box--yellow padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
   - name: Box Yellow-light
     tmpl: >
         <div class="box--yellow-light padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
   - name: Box Purple
     tmpl: >
         <div class="box--purple padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
   - name: Box Green
     tmpl: >
         <div class="box--green padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
   - name: Box Blue
     tmpl: >
         <div class="box--blue padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
   - name: Box Default
     tmpl: >
         <div class="box--default padding-whole">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in quam a velit blandit efficitur. Nunc et diam in neque faucibus eleifend sit amet in nisi. Nunc efficitur felis a porttitor commodo. Vestibulum scelerisque magna vulputate, volutpat lectus nec, fermentum ligula. Ut urna est, cursus sed vestibulum nec, elementum sit amet velit. Suspendisse orci velit, auctor vitae maximus nec, malesuada nec sem. Cras tristique risus in eros iaculis, in gravida velit euismod. Cras egestas quis urna in scelerisque. Suspendisse ante quam, volutpat ut mi a, iaculis dignissim enim.</p>
         </div>
 */
 /* line 61, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/box/_scss/_index.scss */
@@ -16814,15 +16814,15 @@ examples:
 name: Sticky
 type: ui
 desc: >
-    # Structure
+  # Structure
 
-    1. "sticky__wrap" should have some height. "sticky__box" will move within this height.
+  1. "sticky__wrap" should have some height. "sticky__box" will move within this height.
 
 examples:
 -
-    name: Sticky box
-    tmpl:
-        include: sticky.html
+  name: Sticky box
+  tmpl:
+    include: sticky.html
 */
 /* line 16, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/sticky/_scss/_index.scss */
 .sticky__wrap {
@@ -22979,8 +22979,8 @@ input:checked ~ .tickets-list__label,
   border: none; }
 
 /*
-    Primary option. Height is 300px by default, but can depend on resolution.
-    Note that this has been somewhat gutted and the 450px height has been removed due to design issues.
+  Primary option. Height is 300px by default, but can depend on resolution.
+  Note that this has been somewhat gutted and the 450px height has been removed due to design issues.
 */
 /* Secondary option. Height always 400px. */
 /* line 28, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/block/_scss/_block--jumbotron-two.scss */
@@ -28546,30 +28546,50 @@ input:checked ~ .tickets-list__label,
       /* line 19, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block .image-area {
         height: 170px; } }
+  /* line 37, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block .colors-list {
+    margin-bottom: 15px;
+    line-height: 0; }
+    /* line 41, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block .colors-list li {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin: 0 2px;
+      border-radius: 50%; }
+    /* line 49, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block .colors-list .gray {
+      background: #636363; }
+    /* line 53, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block .colors-list .red {
+      background: #d84b4b; }
+    /* line 57, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block .colors-list .green {
+      background: #4bd84b; }
   @media only screen and (max-width: 1219px) {
-    /* line 38, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 63, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .mobile-order--first {
       -webkit-box-ordinal-group: 0;
       -webkit-order: -1;
           -ms-flex-order: -1;
               order: -1; } }
-  /* line 43, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 68, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .bundle-image-area {
     position: absolute;
     bottom: 35px;
     right: 25px;
     text-align: right; }
-  /* line 50, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .image-holder {
     display: inline-block;
     height: 100%;
     position: relative;
     -webkit-transition: opacity .5s;
     transition: opacity .5s; }
-    /* line 57, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 82, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .image-holder img {
       max-height: calc(100% - 30px); }
-    /* line 61, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 86, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .image-holder:after {
       content: "";
       height: 30px;
@@ -28578,13 +28598,13 @@ input:checked ~ .tickets-list__label,
       display: inline-block;
       width: 100%; }
     @media only screen and (max-width: 1219px) {
-      /* line 50, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block .image-holder {
         background: none; }
-        /* line 73, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 98, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block .image-holder img {
           margin-bottom: 0; } }
-  /* line 79, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 104, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .splash {
     position: absolute;
     top: 39px;
@@ -28594,33 +28614,36 @@ input:checked ~ .tickets-list__label,
     transition: opacity .5s;
     width: 100px;
     height: 100px; }
-    /* line 88, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 113, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .splash--image {
       width: auto;
       height: auto; }
+      /* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block .splash--image img {
+        display: block; }
     @media only screen and (max-width: 767px) {
-      /* line 79, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 104, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block .splash {
         top: 23px;
         width: 73px;
         height: 73px;
         margin-left: -90px; } }
-  /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 130, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .description {
     min-height: 255px; }
     @media only screen and (max-width: 1219px) {
-      /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 130, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block .description {
         min-height: 0; } }
-  /* line 109, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 138, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .price-box {
     position: relative;
     padding-top: 16px; }
     @media only screen and (max-width: 1219px) {
-      /* line 109, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 138, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block .price-box {
         padding-top: 0; } }
-    /* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 146, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .price-box .price-currency {
       font-size: .44em;
       font-weight: 400;
@@ -28628,14 +28651,14 @@ input:checked ~ .tickets-list__label,
       margin-right: -.4em;
       font-family: roboto; }
       @media only screen and (max-width: 1219px) {
-        /* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 146, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block .price-box .price-currency {
           font-size: .58em; } }
-  /* line 130, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 159, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .price-before {
     position: absolute;
     top: 0; }
-  /* line 135, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 164, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .text-legal {
     color: #b8b8b8;
     position: absolute;
@@ -28644,88 +28667,88 @@ input:checked ~ .tickets-list__label,
     right: 0;
     padding: 0 25px;
     text-align: center; }
-  /* line 145, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 174, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block .banner-legal {
     position: absolute;
     bottom: 30px;
     left: 0;
     width: 100%; }
-  /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 181, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--small {
     text-align: center;
     padding: 30px 20px 55px; }
-    /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 185, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--small .image-area {
       height: 235px; }
       @media only screen and (max-width: 767px) {
-        /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 185, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--small .image-area {
           height: 170px; } }
-    /* line 164, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 193, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--small .image-holder {
       background: none; }
-      /* line 167, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 196, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--small .image-holder img {
         margin: 0;
         max-height: 100%; }
-      /* line 172, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--small .image-holder:after {
         display: none; }
-    /* line 177, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 206, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--small .price-box {
       padding: 0; }
-      /* line 180, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 209, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--small .price-box .price-currency {
         font-size: .58em;
         margin-right: 0; }
-  /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 216, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--medium {
     padding: 35px 20px 25px; }
-    /* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 219, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--medium .image-area {
       margin-top: 5px;
       margin-bottom: 30px; }
       @media only screen and (max-width: 1219px) {
-        /* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 219, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--medium .image-area {
           margin-top: 0;
           margin-bottom: 15px; }
-          /* line 198, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          /* line 227, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
           .terminal-block--medium .image-area img {
             max-height: 100%; } }
     @media only screen and (max-width: 1219px) {
-      /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 216, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--medium {
         padding: 30px 20px 55px; }
-        /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 236, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--medium .image-holder:after {
           display: none; } }
-    /* line 212, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 241, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--medium .text-legal {
       left: auto;
       padding-left: 0;
       text-align: left; }
       @media only screen and (max-width: 1219px) {
-        /* line 212, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 241, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--medium .text-legal {
           text-align: center;
           left: 0;
           padding-left: 25px; } }
-    /* line 224, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 253, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--medium .splash {
       margin-left: -140px; }
       @media only screen and (max-width: 1219px) {
-        /* line 224, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 253, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--medium .splash {
           margin-left: -125px; } }
       @media only screen and (max-width: 767px) {
-        /* line 224, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 253, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--medium .splash {
           margin-left: -90px; } }
-  /* line 237, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 266, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--large {
     padding: 35px 24px 25px 40px; }
-    /* line 240, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--large .bundle-image-area {
       position: absolute;
       bottom: 35px;
@@ -28734,76 +28757,241 @@ input:checked ~ .tickets-list__label,
       height: 365px;
       -webkit-transition: opacity .5s;
       transition: opacity .5s; }
-    /* line 249, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 278, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--large .bundle-content {
       z-index: 2; }
-    /* line 253, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--large .image-holder {
       background: none; }
-      /* line 256, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 285, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--large .image-holder img {
         margin-bottom: 0;
         max-height: 100%; }
-      /* line 261, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 290, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--large .image-holder:after {
         display: none; }
     @media only screen and (max-width: 1219px) {
-      /* line 237, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 266, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--large {
         padding: 20px 20px 55px; }
-        /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 298, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--large .bundle-image-area {
           position: static;
           height: 261px;
           margin-bottom: 20px;
           text-align: center; } }
     @media only screen and (max-width: 767px) {
-      /* line 278, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 307, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--large .bundle-image-area {
         height: 205px; } }
-    /* line 283, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--large .text-legal {
       right: auto;
       left: 20px;
       text-align: left; }
       @media only screen and (max-width: 1219px) {
-        /* line 283, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--large .text-legal {
           text-align: center;
           left: 0;
           right: 0; } }
-  /* line 296, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 325, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories {
     padding: 25px 20px 25px 50px; }
-    /* line 299, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 328, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories .image-area {
       height: auto; }
-    /* line 304, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-    .terminal-block--accessories .image-holder:after {
-      display: none; }
-    /* line 308, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-    .terminal-block--accessories .image-holder img {
-      max-height: none; }
-    /* line 313, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories .image-holder {
+      height: auto;
+      margin-bottom: -8px; }
+      /* line 336, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories .image-holder:after {
+        display: none; }
+      /* line 340, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories .image-holder img {
+        max-height: none;
+        display: block;
+        width: 100%; }
+    /* line 347, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories .splash {
-      top: 0;
-      left: 0;
+      top: 70px;
+      left: -25px;
       margin: 0; }
-  /* line 320, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 353, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories .description {
+      padding: 15px 30px 0 0; }
+    /* line 357, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories .bundle-content {
+      position: relative;
+      padding-bottom: 120px; }
+    /* line 362, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories .price-box {
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+      /* line 367, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories .price-box .text-legal {
+        position: static;
+        padding: 0;
+        text-align: left; }
+    @media only screen and (max-width: 1219px) {
+      /* line 325, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories {
+        padding: 30px 20px; }
+        /* line 377, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        .terminal-block--accessories .image-area {
+          margin-bottom: 25px; }
+        /* line 381, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        .terminal-block--accessories .image-holder {
+          width: 260px; }
+        /* line 385, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        .terminal-block--accessories .splash {
+          top: 0;
+          left: -20px; }
+        /* line 390, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        .terminal-block--accessories .description,
+        .terminal-block--accessories .bundle-content {
+          padding: 0; }
+        /* line 395, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        .terminal-block--accessories .price-box {
+          position: static; }
+          /* line 398, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          .terminal-block--accessories .price-box .text-legal {
+            text-align: center; } }
+    @media only screen and (max-width: 767px) {
+      /* line 405, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories .image-holder {
+        width: 200px; } }
+  /* line 412, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-large .image-holder {
+    height: auto;
+    margin-bottom: -8px; }
+    /* line 416, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-large .image-holder:after {
+      display: block; }
+    /* line 420, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-large .image-holder img {
+      max-height: none;
+      display: block; }
+  /* line 426, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-large .splash {
+    top: 55px;
+    left: -25px; }
+  @media only screen and (max-width: 1219px) {
+    /* line 411, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-large {
+      padding: 30px 20px; }
+      /* line 434, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-tablet-large .image-holder {
+        width: 170px; }
+      /* line 438, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-tablet-large .splash {
+        top: 30px;
+        left: -40px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 445, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-large .image-holder {
+      width: 120px; }
+    /* line 449, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-large .splash {
+      top: 20px;
+      left: -30px; } }
+  /* line 457, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-small .description {
+    padding: 0; }
+  /* line 461, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-small .bundle-content {
+    padding: 0 0 120px 50px; }
+  /* line 465, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-small .price-box {
+    left: 50px; }
+  /* line 469, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-small .image-area {
+    padding: 30px 0 0; }
+  /* line 474, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-small .image-holder:after {
+    display: block; }
+  /* line 479, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-tablet-small .splash {
+    top: 25px;
+    left: -30px; }
+  @media only screen and (max-width: 1219px) {
+    /* line 456, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-small {
+      padding: 30px 20px; }
+      /* line 487, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-tablet-small .image-area,
+      .terminal-block--accessories-tablet-small .bundle-content {
+        padding: 0; }
+      /* line 492, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-tablet-small .image-holder {
+        width: 170px; }
+      /* line 496, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-tablet-small .splash {
+        top: 30px;
+        left: -40px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 503, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-small .image-holder {
+      width: 120px; }
+    /* line 507, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-tablet-small .splash {
+      top: 20px;
+      left: -30px; } }
+  /* line 515, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-mobile-small .description {
+    padding: 0; }
+  /* line 519, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-mobile-small .bundle-content {
+    padding: 0 0 120px 50px; }
+  /* line 523, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-mobile-small .price-box {
+    left: 50px; }
+  /* line 528, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-mobile-small .image-holder:after {
+    display: block; }
+  /* line 533, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-block--accessories-mobile-small .splash {
+    top: 50px;
+    left: -50px; }
+  @media only screen and (max-width: 1219px) {
+    /* line 514, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-mobile-small {
+      padding: 30px 20px; }
+      /* line 541, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-mobile-small .bundle-content {
+        padding: 0; }
+      /* line 545, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-mobile-small .image-holder {
+        width: 110px; }
+      /* line 549, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-mobile-small .splash {
+        top: 30px;
+        left: -60px; } }
+  @media only screen and (max-width: 767px) {
+    /* line 556, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-mobile-small .image-holder {
+      width: 80px; }
+    /* line 560, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-block--accessories-mobile-small .splash {
+      top: 20px;
+      left: -50px; } }
+  /* line 567, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block__banner {
     min-height: 430px;
     color: #fff;
     background-size: cover;
     background-position: 50% 50%; }
     @media only screen and (max-width: 1023px) {
-      /* line 320, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 567, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner {
         min-height: 430px; } }
     @media only screen and (max-width: 767px) {
-      /* line 320, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 567, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner {
         min-height: 400px; } }
-    /* line 334, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 581, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner:before {
       content: "";
       position: absolute;
@@ -28815,10 +29003,10 @@ input:checked ~ .tickets-list__label,
       -webkit-transition: opacity .5s;
       transition: opacity .5s;
       opacity: 0; }
-    /* line 347, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 594, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner:hover:before {
       opacity: .3; }
-  /* line 353, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 600, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block__banner--large {
     min-height: 500px;
     padding: 50px;
@@ -28827,14 +29015,14 @@ input:checked ~ .tickets-list__label,
     background-size: cover;
     background-position: 50% 50%; }
     @media only screen and (max-width: 1023px) {
-      /* line 353, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 600, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner--large {
         min-height: 450px; } }
     @media only screen and (max-width: 767px) {
-      /* line 353, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 600, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner--large {
         min-height: 400px; } }
-    /* line 369, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 616, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner--large:before {
       content: "";
       position: absolute;
@@ -28847,13 +29035,13 @@ input:checked ~ .tickets-list__label,
       transition: opacity .5s;
       opacity: 0;
       z-index: 1; }
-    /* line 383, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 630, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner--large:hover:before {
       opacity: .3; }
-  /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 636, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block__video-banner {
     overflow: hidden; }
-    /* line 392, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__video-banner .video-background {
       position: absolute;
       top: 50%;
@@ -28861,13 +29049,13 @@ input:checked ~ .tickets-list__label,
       -webkit-transform: translateX(-50%) translateY(-50%);
               transform: translateX(-50%) translateY(-50%);
       width: 100%; }
-      /* line 399, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 646, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__video-banner .video-background video {
         width: 100%;
         height: auto;
         max-width: none;
         z-index: 0; }
-      /* line 406, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__video-banner .video-background:after {
         content: "";
         position: absolute;
@@ -28878,18 +29066,18 @@ input:checked ~ .tickets-list__label,
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
       @media only screen and (max-width: 1024px) {
-        /* line 392, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block__video-banner .video-background {
           display: none; } }
-    /* line 422, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__video-banner .banner-content {
       z-index: 1; }
 
-/* line 428, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .grid-row--gutter-small > .content-block--wide {
   padding: 5px; }
   @media only screen and (max-width: 767px) {
-    /* line 428, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .grid-row--gutter-small > .content-block--wide {
       padding: 5px 0;
       margin: 0 -15px;
@@ -28901,36 +29089,36 @@ input:checked ~ .tickets-list__label,
           -ms-flex: none;
               flex: none; } }
 
-/* line 441, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 688, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .hero-banner {
   background: -webkit-linear-gradient(top, #cde8f7 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #cde8f7 0%, #ffffff 100%); }
   @media only screen and (max-width: 767px) {
-    /* line 445, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 692, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .hero-banner .image-block {
       height: 200px; }
-      /* line 448, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 695, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .hero-banner .image-block img {
         height: 100%; } }
-  /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 701, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .hero-banner .description {
     min-height: 334px; }
     @media only screen and (max-width: 1219px) {
-      /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 701, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .hero-banner .description {
         min-height: 290px; } }
     @media only screen and (max-width: 1023px) {
-      /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 701, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .hero-banner .description {
         min-height: 130px; } }
 
-/* line 467, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 714, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .separator {
   border: 1px solid #dbdbdb;
   width: 35px;
   margin: 0 auto; }
 
-/* line 473, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 720, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .content-block--animated {
   -webkit-transform: translateY(60px);
           transform: translateY(60px);
@@ -28938,17 +29126,17 @@ input:checked ~ .tickets-list__label,
   -webkit-transition: all 1s;
   transition: all 1s; }
 
-/* line 479, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 726, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .content-block--visible {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1; }
 
 /* remove later start (done for demo) */
-/* line 486, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 733, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .list--check-with-border li {
   padding-left: 30px; }
-  /* line 489, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 736, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .list--check-with-border li:before {
     vertical-align: middle;
     color: #038CD6;
@@ -28957,7 +29145,7 @@ input:checked ~ .tickets-list__label,
     text-align: center;
     margin-right: 5px;
     font-size: 11px; }
-  /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 746, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .list--check-with-border li:after {
     content: "";
     position: absolute;
@@ -28968,19 +29156,19 @@ input:checked ~ .tickets-list__label,
     border-radius: 50%;
     border: 1px solid #cecece; }
 
-/* line 511, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 758, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .border-width-2:after {
   border-width: 2px; }
 
-/* line 515, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 762, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .section--wrap {
   background: #f5f5f5; }
 
-/* line 519, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 766, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .footer > * {
   overflow: hidden; }
 
-/* line 523, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 770, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .content-block .color-selector {
   height: 23px; }
 
