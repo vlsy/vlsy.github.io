@@ -51,10 +51,19 @@
 	.carousel--loop .carousel__item {
 		float: none;
 		width: 100%;
+		visibility: hidden;
+	}
+
+	.carousel--loop .carousel__item:first-child {
+		visibility: visible;
 	}
 	
 	.carousel--loop .carousel__item:nth-child(even) img {
 		transform: rotate(180deg);
+	}
+
+	.carousel--init .carousel__item {
+		visibility: visible;
 	}
 
 </style>
