@@ -6536,15 +6536,14 @@ examples:
 .carousel {
   overflow: hidden;
   position: relative;
-  width: 100%; }
+  width: auto; }
   /* line 26, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
   .carousel__holder {
-    position: relative;
-    width: 99999px; }
-  /* line 31, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
+    position: relative; }
+  /* line 30, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
   .carousel__item {
     float: left; }
-  /* line 35, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
+  /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
   .carousel__prev, .carousel__next {
     background-color: #0278b8;
     border-radius: 50%;
@@ -6559,7 +6558,8 @@ examples:
     font-size: 30px;
     padding: 5px 7px 5px 3px;
     -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%); }
+            transform: translate(0, -50%);
+    z-index: 999; }
     /* line 50, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
     .carousel__prev.disabled, .carousel__next.disabled {
       cursor: default;
@@ -6581,6 +6581,16 @@ examples:
     .carousel:hover .carousel__prev:hover,
     .carousel:hover .carousel__next:hover {
       opacity: 1; }
+  /* line 78, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
+  .carousel--init .carousel__item {
+    height: 100%; }
+  /* line 84, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
+  .carousel--loop .carousel__item {
+    position: absolute;
+    z-index: 2; }
+    /* line 88, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
+    .carousel--loop .carousel__item--clone {
+      z-index: 1; }
 
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
 .doughnut {
