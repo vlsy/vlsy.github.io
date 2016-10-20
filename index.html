@@ -37,25 +37,131 @@
 	</style>
 </head>
 <body>
+
+<style>
+	
+	.carousel--loop .carousel__holder {
+		height: 402px;
+	}
+
+	.carousel__prev, .carousel__next {
+		outline: none;
+		border:none;
+	}
+
+	.carousel--loop .carousel__item {
+		float: none;
+		width: 100%;
+		visibility: hidden;
+	}
+
+	.carousel--loop .carousel__item:first-child {
+		visibility: visible;
+	}
+	
+	.carousel--loop .carousel__item:nth-child(even) img {
+		transform: rotate(180deg);
+	}
+
+	.carousel--init .carousel__item {
+		visibility: visible;
+	}
+
+</style>
+
 <div id="main" class="container--main">
 	<div class="hero-banner container--wide trailer--large">
-		<div class="container mobile-padding-toleft--small mobile-padding-toright--small">
-			<div class="grid-row--gutter-none">
-				<div class="col-lg-5 text--center image-block">
-					<img src="headphones.png" alt="">
-				</div>
-				<div class="col-lg-7 tabletp-text--center padding-leader padding-trailer tabletp-padding-leader--none">
-					<div class="description">
-						<strong class="text-size--13">DISCOVER THE NEW</strong>
-						<h2 class="text-size--44 tabletp-text-size--34  mobile-text-size--19 text-light trailer--small mobile-trailer--none">Beats Solo2 Wireless <br/>On-Ear Headphones</h2>
-						<p class="trailer text-size--16 mobile-hidden">Unplug your Beats Solo2 Wireless headphones, pair with your iPhone, <br/>iPad, and move freely for up to 30 feet of wireless listening.</p>
-						<p class="text-size--13 mobile-hidden">BEFORE 2.800 KR.</p>
-						<p class="text-size--48 tabletp-text-size--38 mobile-text-size--24 text-light color-blue">2.499,-</p>
+		
+		<div class="container carousel carousel--loop" data-component="carousel" data-loop="true" data-auto-play="5000" data-duration="1000">
+			<button class="carousel__prev" href="#" data-alias="btnPrev" data-component="button"><i class="icon-arrow-prev"></i></button>
+			
+			<div class="carousel__holder" data-element="carouselHolder">
+				
+				<div class="carousel__item" data-element="carouselSlide">
+					<div class="container mobile-padding-toleft--small mobile-padding-toright--small">
+						<div class="grid-row--gutter-none">
+							<div class="col-lg-5 text--center image-block">
+								<img src="headphones.png" alt="">
+							</div>
+							<div class="col-lg-7 tabletp-text--center padding-leader padding-trailer tabletp-padding-leader--none">
+								<div class="description">
+									<strong class="text-size--13">DISCOVER THE NEW</strong>
+									<h2 class="text-size--44 tabletp-text-size--34  mobile-text-size--19 text-light trailer--small mobile-trailer--none">Beats Solo2 Wireless <br/>On-Ear Headphones</h2>
+									<p class="trailer text-size--16 mobile-hidden">Unplug your Beats Solo2 Wireless headphones, pair with your iPhone, <br/>iPad, and move freely for up to 30 feet of wireless listening.</p>
+									<p class="text-size--13 mobile-hidden">BEFORE 2.800 KR.</p>
+									<p class="text-size--48 tabletp-text-size--38 mobile-text-size--24 text-light color-blue">2.499,-</p>
+								</div>
+								<p class="text-size--11 color-steel-grey">Free delivery <br/>Order before 16 o’clock and get tomorrow</p>
+							</div>
+						</div>
 					</div>
-					<p class="text-size--11 color-steel-grey">Free delivery <br/>Order before 16 o’clock and get tomorrow</p>
 				</div>
+
+				<div class="carousel__item" data-element="carouselSlide">
+					<div class="container mobile-padding-toleft--small mobile-padding-toright--small">
+						<div class="grid-row--gutter-none">
+							<div class="col-lg-5 text--center image-block">
+								<img src="headphones.png" alt="">
+							</div>
+							<div class="col-lg-7 tabletp-text--center padding-leader padding-trailer tabletp-padding-leader--none">
+								<div class="description">
+									<strong class="text-size--13">DISCOVER THE NEW</strong>
+									<h2 class="text-size--44 tabletp-text-size--34  mobile-text-size--19 text-light trailer--small mobile-trailer--none">Beats Solo2 Wireless <br/>On-Ear Headphones</h2>
+									<p class="trailer text-size--16 mobile-hidden">Unplug your Beats Solo2 Wireless headphones, pair with your iPhone, <br/>iPad, and move freely for up to 30 feet of wireless listening.</p>
+									<p class="text-size--13 mobile-hidden">BEFORE 3.800 KR.</p>
+									<p class="text-size--48 tabletp-text-size--38 mobile-text-size--24 text-light color-blue">3.499,-</p>
+								</div>
+								<p class="text-size--11 color-steel-grey">Free delivery <br/>Order before 16 o’clock and get tomorrow</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel__item" data-element="carouselSlide">
+					<div class="container mobile-padding-toleft--small mobile-padding-toright--small">
+						<div class="grid-row--gutter-none">
+							<div class="col-lg-5 text--center image-block">
+								<img src="headphones.png" alt="">
+							</div>
+							<div class="col-lg-7 tabletp-text--center padding-leader padding-trailer tabletp-padding-leader--none">
+								<div class="description">
+									<strong class="text-size--13">DISCOVER THE NEW</strong>
+									<h2 class="text-size--44 tabletp-text-size--34  mobile-text-size--19 text-light trailer--small mobile-trailer--none">Beats Solo2 Wireless <br/>On-Ear Headphones</h2>
+									<p class="trailer text-size--16 mobile-hidden">Unplug your Beats Solo2 Wireless headphones, pair with your iPhone, <br/>iPad, and move freely for up to 30 feet of wireless listening.</p>
+									<p class="text-size--13 mobile-hidden">BEFORE 4.800 KR.</p>
+									<p class="text-size--48 tabletp-text-size--38 mobile-text-size--24 text-light color-blue">4.499,-</p>
+								</div>
+								<p class="text-size--11 color-steel-grey">Free delivery <br/>Order before 16 o’clock and get tomorrow</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel__item" data-element="carouselSlide">
+					<div class="container mobile-padding-toleft--small mobile-padding-toright--small">
+						<div class="grid-row--gutter-none">
+							<div class="col-lg-5 text--center image-block">
+								<img src="headphones.png" alt="">
+							</div>
+							<div class="col-lg-7 tabletp-text--center padding-leader padding-trailer tabletp-padding-leader--none">
+								<div class="description">
+									<strong class="text-size--13">DISCOVER THE NEW</strong>
+									<h2 class="text-size--44 tabletp-text-size--34  mobile-text-size--19 text-light trailer--small mobile-trailer--none">Beats Solo2 Wireless <br/>On-Ear Headphones</h2>
+									<p class="trailer text-size--16 mobile-hidden">Unplug your Beats Solo2 Wireless headphones, pair with your iPhone, <br/>iPad, and move freely for up to 30 feet of wireless listening.</p>
+									<p class="text-size--13 mobile-hidden">BEFORE 5.800 KR.</p>
+									<p class="text-size--48 tabletp-text-size--38 mobile-text-size--24 text-light color-blue">5.499,-</p>
+								</div>
+								<p class="text-size--11 color-steel-grey">Free delivery <br/>Order before 16 o’clock and get tomorrow</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
+
+			<button class="carousel__next" href="#" data-alias="btnNext" data-component="button"><i class="icon-arrow-next"></i></button>
 		</div>
+
 	</div>
 	<div class="container padding-leader padding-trailer">
 		<h1 class="text-size--38 tabletl-text-size--34 text-light">Our own favorits</h1>
@@ -484,5 +590,8 @@
 		</div>
 	</div>
 </div>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>
