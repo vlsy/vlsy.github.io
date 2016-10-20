@@ -28547,7 +28547,7 @@ input:checked ~ .tickets-list__label,
   @media only screen and (max-width: 767px) {
     /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block {
-      height: 335px; } }
+      min-height: 335px; } }
   /* line 11, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block:hover {
     text-decoration: none; }
