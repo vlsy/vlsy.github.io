@@ -2797,7 +2797,6 @@ webpackJsonp([9],{
 				this.slides[slideIndex].setPosition(this.vars.slideWidth * index);
 			}
 
-
 			FlatGallery.prototype._rearrange.call(this);
 		},
 
