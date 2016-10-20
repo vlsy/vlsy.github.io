@@ -2451,7 +2451,6 @@ webpackJsonp([9],{
 	function FlatGallery(options) {
 		this.$container = options.container;
 		this.$holder = options.holder;
-		this.$clones = [];
 
 		this.const = {
 			duration: options.duration,
@@ -2462,14 +2461,14 @@ webpackJsonp([9],{
 			currentIndex: 0,
 			direction: 0,
 			stepOffset: 0,
-			slideWidth: this.$holder.width() / this.const.visibleSlides
+			slideWidth: 0
 		};
 
 		this.slides = options.slides.get().map(function(elem, index){
-			return new GallerySlide(options.slides.eq(index), this.vars.slideWidth);
+			return new GallerySlide(options.slides.eq(index));
 		}.bind(this));
 
-		this._setProportions();
+		this.resize();
 		
 		this.$container.addClass(MODIFIERS.init);
 		this.$holder.get(0).addEventListener('transitionend', this._onAnimationEnd.bind(this));
@@ -2549,13 +2548,25 @@ webpackJsonp([9],{
 			return this.vars.currentIndex - 1 >= 0;
 		},
 
-		_setProportions: function() {
+		/**
+			desc: recalcucates gallery width, height and slide width and rearranges gallery
+		*/
+		resize: function() {
+			this.$holder.css({width: '', transform: '', transitionDuration: '', height: ''});
+			this.vars.slideWidth = this.$holder.width() / this.const.visibleSlides;
+			
 			var maxSlideHeight = Math.max.apply(Math, this.slides.map(function(slide) {
-				return slide.getHeight();
-			}));
+				return slide.setWidth(this.vars.slideWidth).getHeight();
+			}.bind(this)));
 
 			this.$holder.width(this.vars.slideWidth * this.slides.length);
 			this.$holder.height(maxSlideHeight);
+
+			this._rearrange();
+		},
+
+		_rearrange: function() {
+			this._animateOverTime(-this.vars.currentIndex * this.vars.slideWidth, 0);
 		},
 
 		_onAnimationEnd: function() {
@@ -2619,12 +2630,9 @@ webpackJsonp([9],{
 		desc: gallery slide constructor
 		params: >
 			$slide. AuraElement. gallery slide element
-			width. Number. slide`s element width
 	*/
 	function GallerySlide($slide, width) {
 		this.$slide = $slide;
-
-		this.$slide.width(width);
 	}
 
 	GallerySlide.prototype = {
@@ -2636,10 +2644,27 @@ webpackJsonp([9],{
 		},
 
 		/**
+			desc: sets slides`s width
+			args:
+				width: slide width (pixels)
+		*/
+		setWidth: function(width) {
+			this.$slide.width(width);
+
+			return this;
+		},
+
+		/**
 			desc: returns slides`s height
 		*/
 		getHeight: function() {
-			return this.$slide.height();
+			this.$slide.css({height: 'auto'});
+
+			var ownHeight = this.$slide.height();
+
+			this.$slide.css({height: ''});
+
+			return ownHeight;
 		},
 
 		/**
@@ -2718,12 +2743,12 @@ webpackJsonp([9],{
 	};
 
 	function LoopGallery(options) {
+		this.$clones = [];
+
 		FlatGallery.call(this, options);
 
-		this._rearrange();
-		this.$container.addClass(MODIFIERS.loop);
-
 		this.const.autoPlayDelay = options.autoPlay;
+		this.$container.addClass(MODIFIERS.loop);
 		this._toggleAutoPlay(true);
 	}
 
@@ -2746,11 +2771,9 @@ webpackJsonp([9],{
 			if (index === this.vars.currentIndex) {
 				return;
 			}
-
-			do {
-				this.vars.currentIndex += this.vars.direction;
-				this._substituteSlide();
-			} while (this.vars.currentIndex != index);
+			
+			this.vars.currentIndex = index;
+			this._substituteSlide();
 		},
 
 		hasNext: function() {
@@ -2766,6 +2789,7 @@ webpackJsonp([9],{
 			var limit = index + this.slides.length;
 
 			this.vars.currentIndex = index;
+			this._removeClones();
 
 			for (index; index < limit; index++) {
 				var slideIndex = this._getSlideIndex(index);
@@ -2773,7 +2797,8 @@ webpackJsonp([9],{
 				this.slides[slideIndex].setPosition(this.vars.slideWidth * index);
 			}
 
-			this._animateOverTime(-this.vars.currentIndex * this.vars.slideWidth, 0);
+
+			FlatGallery.prototype._rearrange.call(this);
 		},
 
 		_getSlideIndex: function(index) {
@@ -2803,12 +2828,14 @@ webpackJsonp([9],{
 		_onAnimationEnd: function() {
 			FlatGallery.prototype._onAnimationEnd.call(this);
 
+			this._rearrange();
+			this._toggleAutoPlay(true);
+		},
+
+		_removeClones: function() {
 			this.$clones.forEach(function(elem) {
 				elem.remove();
 			}.bind(this));
-
-			this._rearrange();
-			this._toggleAutoPlay(true);
 		},
 
 		_limitIndex: function(index) {
@@ -2837,10 +2864,11 @@ webpackJsonp([9],{
 	var FlatGallery = __webpack_require__(492);
 	var LoopGallery = __webpack_require__(495);
 
-	var TOUCH_EVENTS = {
+	var MOBILE_EVENTS = {
 		start: document.ontouchstart !== undefined ? 'touchstart' : 'pointerdown',
 		move: document.ontouchmove !== undefined ? 'touchmove' : 'pointermove',
-		end: document.ontouchend !== undefined ? 'touchend' : 'pointerup'
+		end: document.ontouchend !== undefined ? 'touchend' : 'pointerup',
+		resize: 'resize'
 	};
 
 	var OPTIONS = {
@@ -2878,7 +2906,7 @@ webpackJsonp([9],{
 			this.$events.on('click $btnPrev', this._prev.bind(this));
 
 			this._initGallery();
-			this._addTouchHandling();
+			this._addMobileEvents();
 		},
 
 		_initGallery: function() {
@@ -2899,11 +2927,13 @@ webpackJsonp([9],{
 			}
 		},
 
-		_addTouchHandling: function() {
+		_addMobileEvents: function() {
 			if (this.$tools.browser.isMobile) {
 				this._moveHandler = this._onTouchMove.bind(this);
 				this._upHandler = this._onTouchEnd.bind(this);
-				this.$events.on(TOUCH_EVENTS.start + ' carouselHolder', this._onTouchStart.bind(this));
+				
+				this.$events.on(MOBILE_EVENTS.start + ' carouselHolder', this._onTouchStart.bind(this));
+				window.addEventListener(MOBILE_EVENTS.resize, this.gallery.resize.bind(this.gallery));
 			}
 		},
 
@@ -2923,16 +2953,14 @@ webpackJsonp([9],{
 
 		_onTouchStart: function(event) {
 			this.position = this._getPosition(event);
-			this.hooked = false;
-
-			if (this.position.X === undefined) {
-				return;
-			}
-
-			this._appendTouchEvents();
+			
+			if (this.position.X !== undefined) {
+				this._appendTouchEvents();
+			}			
 		},
 
 		_onTouchEnd: function() {
+			this.hooked = false;
 			this.gallery.moveToNearest();
 			this._toggleButtons();
 			this._removeTouchEvents();
@@ -2940,21 +2968,21 @@ webpackJsonp([9],{
 
 		_onTouchMove: function(event) {
 			var position = this._getPosition(event);
-			var deltaX = Math.abs(position.X - this.position.X);
-			var deltaY = Math.abs(position.Y - this.position.Y);
+			var deltaX = this.position.X - position.X;
+			var deltaY = this.position.Y - position.Y;
 			
-			if(!this.hooked && deltaY > deltaX) {
+			if (!this.hooked && Math.abs(deltaY) > Math.abs(deltaX)) {
 				this._removeTouchEvents();
 				return;
 			}
 
-			if(!this.hooked) {
-				this.position.X = position.X - 1;
+			if (!this.hooked) {
+				deltaX = 1;
 			}
 
 			event.preventDefault();
 			
-			this.gallery.moveFromCurrentPoint(this.position.X - position.X);
+			this.gallery.moveFromCurrentPoint(deltaX);
 			this.position = position;
 			this.hooked = true;
 		},
@@ -2972,13 +3000,13 @@ webpackJsonp([9],{
 		},
 
 		_appendTouchEvents: function() {
-			document.addEventListener(TOUCH_EVENTS.move, this._moveHandler);
-			document.addEventListener(TOUCH_EVENTS.end, this._upHandler);
+			document.addEventListener(MOBILE_EVENTS.move, this._moveHandler);
+			document.addEventListener(MOBILE_EVENTS.end, this._upHandler);
 		},
 
 		_removeTouchEvents: function() {
-			document.removeEventListener(TOUCH_EVENTS.move, this._moveHandler);
-			document.removeEventListener(TOUCH_EVENTS.end, this._upHandler);
+			document.removeEventListener(MOBILE_EVENTS.move, this._moveHandler);
+			document.removeEventListener(MOBILE_EVENTS.end, this._upHandler);
 		}
 	};
 
