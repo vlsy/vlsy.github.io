@@ -6583,10 +6583,6 @@ examples:
     .carousel:hover .carousel__prev:hover,
     .carousel:hover .carousel__next:hover {
       opacity: 1; }
-  /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
-  .carousel--init .carousel__item {
-    height: 100%;
-    visibility: visible; }
   /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
   .carousel--loop .carousel__holder {
     height: 402px; }
@@ -6603,10 +6599,10 @@ examples:
     /* line 102, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
     .carousel--loop .carousel__item:first-child {
       visibility: visible; }
-    /* line 106, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
-    .carousel--loop .carousel__item:nth-child(even) img {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+    /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/carousel/_scss/_index.scss */
+    .carousel--init .carousel__item {
+      height: 100%;
+      visibility: visible; }
 
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
 .doughnut {
