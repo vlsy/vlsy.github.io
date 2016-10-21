@@ -79524,7 +79524,8 @@
 
 		function guid() {
 			return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-				var r = Math.random() * 16 | 0, v = c == 'x' ? r : ((r & 0x3) | 0x8);
+				var r = Math.random() * 16 | 0,
+					v = c == 'x' ? r : ((r & 0x3) | 0x8);
 				return v.toString(16);
 			}).toUpperCase();
 		}
@@ -79539,16 +79540,18 @@
 
 
 		function closest(selector, context){
-			var node = this[0], collection = false;
+			var node = this[0],
+				collection = false;
 			if (typeof selector == 'object') collection = angular.element(selector);
 			while (node && !(collection ? _indexOf(collection, node) >= 0 : _matches(node, selector)))
-				node = node !== context && !_isDocument(node) && node.parentNode;
+				{ node = node !== context && !_isDocument(node) && node.parentNode; }
 			return angular.element(node);
 		}
 
 
 		function offset() {
-			var node = this[0], elemBCR = node.getBoundingClientRect();
+			var node = this[0],
+				elemBCR = node.getBoundingClientRect();
 			return {
 				top: Math.round(elemBCR.top + (window.pageYOffset || document.documentElement.scrollTop)),
 				left: Math.round(elemBCR.left + (window.pageXOffset || document.documentElement.scrollLeft))
@@ -80102,7 +80105,8 @@
 						var customEventName = events[key];
 						var method = emit(customEventName);
 						var match = key.match(eventSplitter);
-						var eventName = match[1], selector = match[2];
+						var eventName = match[1],
+							selector = match[2];
 
 						if (selector) {
 							element.on(eventName, function(e) {
@@ -80604,7 +80608,9 @@
 			/////////////////
 
 			function linkFunc($scope, $element, attrs, ctrl, $transclude) {
-				var block, childScope, previousElements;
+				var block,
+					childScope,
+					previousElements;
 
 				var hasAccess = permissionService.access(
 					attrs.avAccess.replace(/\s/g, '').split(','),
@@ -82189,7 +82195,8 @@
 			function debounce(fn, delay) {
 				var timer = null;
 				return function() {
-					var context = this, args = arguments;
+					var context = this,
+						args = arguments;
 					$timeout.cancel(timer);
 					timer = $timeout(function() {
 						fn.apply(context, args);
@@ -82255,7 +82262,8 @@
 					return -1;
 				},
 				find: function(fn) {
-					var i = this.top - 1, el;
+					var i = this.top - 1,
+						el;
 
 					while (i >= 0) {
 						el = this.dataStore[i];
@@ -82788,7 +82796,8 @@
 		function searchFieldFilter($parse) {
 			return function(collection) {
 
-				var get, field;
+				var get,
+					field;
 
 				var args = Array.prototype.slice.call(arguments, 1);
 
@@ -83487,9 +83496,20 @@
 					if (datetimeFormats[format]) {
 						format = datetimeFormats[format];
 					}
-					var now = new Date(), i_val = 0, i_format = 0, format_token = '', year = now.getFullYear(),
-						month = now.getMonth() + 1, date = now.getDate(), hh = 0, mm = 0, ss = 0,
-						sss = 0, ampm = 'am', z = 0, parsedZ = false;
+					var now = new Date(),
+						i_val = 0,
+						i_format = 0,
+						format_token = '',
+						year = now.getFullYear(),
+						month = now.getMonth() + 1,
+						date = now.getDate(),
+						hh = 0,
+						mm = 0,
+						ss = 0,
+						sss = 0,
+						ampm = 'am',
+						z = 0,
+						parsedZ = false;
 					while (i_format < format.length) {
 						format_token = format.charAt(i_format);
 						var token = '';
@@ -83509,7 +83529,8 @@
 							token += format.charAt(i_format++);
 						}
 						if (token == 'yyyy' || token == 'yy' || token == 'y') {
-							var minLength, maxLength;
+							var minLength,
+								maxLength;
 							if (token == 'yyyy') {
 								minLength = 4;
 								maxLength = 4;
@@ -83735,7 +83756,8 @@
 			function debounce(fn, delay) {
 				var timer = null;
 				return function() {
-					var context = this, args = arguments;
+					var context = this,
+						args = arguments;
 					$timeout.cancel(timer);
 					timer = $timeout(function() {
 						fn.apply(context, args);
@@ -88360,7 +88382,11 @@
 		externalContentService.$inject = ['avSessionStorage', '$rootScope', '$timeout', 'ExternalContentModelFactory', 'externalContentConfig'];
 
 		function externalContentService(avSessionStorage, $rootScope, $timeout, ExternalContentModel, externalContentConfig) {
-			var service, activeContentModel, defaultContentModel, contentModels, timeoutID;
+			var service,
+				activeContentModel,
+				defaultContentModel,
+				contentModels,
+				timeoutID;
 
 			contentModels = {};
 			activeContentModel = null;
@@ -88974,7 +89000,9 @@
 				}
 
 				function show(id, options) {
-					var prevState, nextState, config;
+					var prevState,
+						nextState,
+						config;
 
 					options = angular.extend({}, defaults, options);
 
@@ -89055,7 +89083,9 @@
 				}
 
 				function showState() {
-					var state, popupModel, asyncData;
+					var state,
+						popupModel,
+						asyncData;
 
 					state = states.peek();
 					state.beforShow()
@@ -89072,7 +89102,8 @@
 				}
 
 				function hideState() {
-					var state, popupModel;
+					var state,
+						popupModel;
 
 					state = states.peek();
 
@@ -93628,7 +93659,8 @@
 				}
 
 				function shift(tabs) {
-					var i, el;
+					var i,
+						el;
 					for (i = tabs.length - 1; i >= 0; i--) {
 						el = tabs[i];
 						if (el.order >= limitIndex) {
@@ -93638,7 +93670,8 @@
 				}
 
 				function unshift(tabs, removedEl) {
-					var i, el;
+					var i,
+						el;
 
 					for (i = tabs.length - 1; i >= 0; i--) {
 						el = tabs[i];
@@ -94503,7 +94536,8 @@
 			function _debounce(fn, delay) {
 				var timer = null;
 				return function() {
-					var context = this, args = arguments;
+					var context = this,
+						args = arguments;
 					$timeout.cancel(timer);
 					timer = $timeout(function() {
 						fn.apply(context, args);
@@ -96305,7 +96339,8 @@
 			function debounce(fn, delay) {
 				var timer = null;
 				return function() {
-					var context = this, args = arguments;
+					var context = this,
+						args = arguments;
 					$timeout.cancel(timer);
 					timer = $timeout(function() {
 						fn.apply(context, args);

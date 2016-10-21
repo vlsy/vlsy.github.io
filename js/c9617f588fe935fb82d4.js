@@ -470,7 +470,7 @@ webpackJsonp([3],{
 
 	'use strict';
 
-	module.exports = {user: "", email: "", branch: "technical/int/DK-13-blocks-prototyping"};
+	module.exports = {user: "sevo", email: "sevo@telenor.dk", branch: "technical/int/DK-13-blocks-prototyping"};
 
 /***/ },
 

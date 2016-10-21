@@ -2466,7 +2466,7 @@ webpackJsonp([9],{
 
 		this.slides = options.slides.get().map(function(elem, index){
 			return new GallerySlide(options.slides.eq(index));
-		}.bind(this));
+		});
 
 		this.resize();
 		
@@ -2549,7 +2549,7 @@ webpackJsonp([9],{
 		},
 
 		/**
-			desc: recalcucates gallery width, height and slide width and rearranges gallery
+			desc: recalcucates gallery width, height, slide width and rearranges gallery
 		*/
 		resize: function() {
 			this.$holder.css({width: '', transform: '', transitionDuration: '', height: ''});
@@ -2621,11 +2621,12 @@ webpackJsonp([9],{
 
 	'use strict';
 
+	var styleHelper = __webpack_require__(494);
+
 	var MODIFIERS = {
 		clone: 'carousel__item--clone'
 	};
 
-	var styleHelper = __webpack_require__(494);
 	/**
 		desc: gallery slide constructor
 		params: >
@@ -2701,8 +2702,6 @@ webpackJsonp([9],{
 				transitionDuration: Number. Value for the transition duration (milliseconds)
 		*/
 		setTransform: function(elem, translateX, transitionDuration) {
-			var styles = {};
-
 			if (translateX !== undefined) {
 				elem.style.transform = 'translate3d(' + translateX + 'px,0,0)';
 			}
@@ -2784,6 +2783,10 @@ webpackJsonp([9],{
 			return true;
 		},
 
+		_limitIndex: function(index) {
+			return index;
+		},
+
 		_rearrange: function() {
 			var index = this._getSlideIndex(this.vars.currentIndex);
 			var limit = index + this.slides.length;
@@ -2834,11 +2837,7 @@ webpackJsonp([9],{
 		_removeClones: function() {
 			this.$clones.forEach(function(elem) {
 				elem.remove();
-			}.bind(this));
-		},
-
-		_limitIndex: function(index) {
-			return index;
+			});
 		},
 
 		_toggleAutoPlay: function(enable) {
@@ -2863,7 +2862,7 @@ webpackJsonp([9],{
 	var FlatGallery = __webpack_require__(492);
 	var LoopGallery = __webpack_require__(495);
 
-	var MOBILE_EVENTS = {
+	var EVENTS = {
 		start: document.ontouchstart !== undefined ? 'touchstart' : 'pointerdown',
 		move: document.ontouchmove !== undefined ? 'touchmove' : 'pointermove',
 		end: document.ontouchend !== undefined ? 'touchend' : 'pointerup',
@@ -2872,7 +2871,8 @@ webpackJsonp([9],{
 
 	var OPTIONS = {
 		duration: 700,
-		visibleSlides: 1
+		visibleSlides: 1,
+		debounceTimeout: 200
 	};
 
 	/**
@@ -2905,7 +2905,7 @@ webpackJsonp([9],{
 			this.$events.on('click $btnPrev', this._prev.bind(this));
 
 			this._initGallery();
-			this._addMobileEvents();
+			this._addEvents();
 		},
 
 		_initGallery: function() {
@@ -2926,14 +2926,19 @@ webpackJsonp([9],{
 			}
 		},
 
-		_addMobileEvents: function() {
+		_addEvents: function() {
+			var resizeHandler = this.gallery.resize.bind(this.gallery);
+
 			if (this.$tools.browser.isMobile) {
 				this._moveHandler = this._onTouchMove.bind(this);
 				this._upHandler = this._onTouchEnd.bind(this);
 				
-				this.$events.on(MOBILE_EVENTS.start + ' carouselHolder', this._onTouchStart.bind(this));
-				window.addEventListener(MOBILE_EVENTS.resize, this.gallery.resize.bind(this.gallery));
+				this.$events.on(EVENTS.start + ' carouselHolder', this._onTouchStart.bind(this));
+			} else {
+				resizeHandler = this.$tools.helper.debounce(resizeHandler, OPTIONS.debounceTimeout);
 			}
+
+			window.addEventListener(EVENTS.resize, resizeHandler);
 		},
 
 		_next: function(event) {
@@ -2955,7 +2960,7 @@ webpackJsonp([9],{
 			
 			if (this.position.X !== undefined) {
 				this._appendTouchEvents();
-			}			
+			}
 		},
 
 		_onTouchEnd: function() {
@@ -2999,13 +3004,13 @@ webpackJsonp([9],{
 		},
 
 		_appendTouchEvents: function() {
-			document.addEventListener(MOBILE_EVENTS.move, this._moveHandler);
-			document.addEventListener(MOBILE_EVENTS.end, this._upHandler);
+			document.addEventListener(EVENTS.move, this._moveHandler);
+			document.addEventListener(EVENTS.end, this._upHandler);
 		},
 
 		_removeTouchEvents: function() {
-			document.removeEventListener(MOBILE_EVENTS.move, this._moveHandler);
-			document.removeEventListener(MOBILE_EVENTS.end, this._upHandler);
+			document.removeEventListener(EVENTS.move, this._moveHandler);
+			document.removeEventListener(EVENTS.end, this._upHandler);
 		}
 	};
 

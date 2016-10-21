@@ -277,7 +277,7 @@ webpackJsonp([4],{
 			}.bind(this),
 			function() {
 				dfd.reject();
-			}.bind(this)
+			}
 		);
 		this.send(PosService.Type.Request, PosService.Method.isConnected);
 		return dfd.promise();
