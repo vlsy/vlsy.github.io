@@ -1,42 +1,3 @@
-/* line 1, stdin */
-.view-tracer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 300px;
-  z-index: 9999999999;
-  background-color: #404040;
-  color: #fff;
-  box-shadow: 0 -2px 10px #404040; }
-
-/* line 12, stdin */
-.view-tracer__items {
-  position: relative;
-  height: 235px;
-  overflow-y: scroll; }
-
-/* line 18, stdin */
-.view-tracer__item-target--selected {
-  box-shadow: 0 0 10px #ff0000 !important; }
-
-/* line 22, stdin */
-.view-tracer__item-description dd,
-.view-tracer__item-description dt {
-  display: inline-block; }
-
-/* line 27, stdin */
-.view-tracer__item-description dd {
-  width: 10%;
-  margin: 0 1% 0 0;
-  text-align: right; }
-
-/* line 33, stdin */
-.view-tracer__item-description dt {
-  width: 85%; }
-
-/* line 37, stdin */
-.view-tracer__item--selected {
-  background-color: #808080; }
 @charset "UTF-8";
 /* Z-index
 --------------------------------------------------------------------------------*/
@@ -495,14 +456,14 @@ small {
   font-family: Roboto; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.amchart-small .amchart-doughnut-text, .amchart-small-text, .amchart-bars-legend, .doughnut__legend, .table, .datepick, .dropdown--download .dropdown__content, .form-item label, .form-search label, .form-item label.text--small, .form-search label.text--small, .accordion-filter, .form-search.form-item--small, .list--check--small, .list--small, .rating__stars--small + .rating__text, .form-select--small, .tabgroup--small, .form-item--toggle label, .steps, .block--steps address, .login__warning, .table--plan__price, .table--plan__qty, .section--dsl--plan .purchase__item .options-list, .section--menu__service, .header-fixed .breadcrumbs li, .sidemenu > li ul li a, .subscription-plans .options-list li, .cookie-popup, .infografic__list ul li, .pay-invoices__input, .form-radio .date-slide, .code-holder, .profile__edit, .attachments__item, .attachments__add-item, .top-up-buttons__label .validity, .terms-list dt, .timeline__filter .filter-list, .timeline__container .period, .usage__box-empty, .text--content code, .product-grid__item .category-link,
+.amchart-small .amchart-doughnut-text, .amchart-small-text, .amchart-bars-legend, .table, .datepick, .dropdown--download .dropdown__content, .form-item label, .form-search label, .form-item label.text--small, .form-search label.text--small, .accordion-filter, .form-search.form-item--small, .list--check--small, .list--small, .rating__stars--small + .rating__text, .form-select--small, .tabgroup--small, .datatable__table, .form-item--toggle label, .steps, .block--steps address, .login__warning, .table--plan__price, .table--plan__qty, .section--dsl--plan .purchase__item .options-list, .section--menu__service, .header-fixed .breadcrumbs li, .sidemenu > li ul li a, .subscription-plans .options-list li, .cookie-popup, .infografic__list ul li, .pay-invoices__input, .form-radio .date-slide, .code-holder, .profile__edit, .attachments__item, .attachments__add-item, .top-up-buttons__label .validity, .terms-list dt, .timeline__filter .filter-list, .timeline__container .period, .usage__box-empty, .text--content code, .product-grid__item .category-link,
 .text-size--13 {
   font-size: 13px;
   line-height: 18px;
   font-family: Roboto; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.chart-info-panel, .family-plan .plan-box .plan-content .member label, .bar-load, .product-grid__item .product-grid__note, .product-grid__item__status,
+.family-plan .plan-box .plan-content .member label, .bar-load, .product-grid__item .product-grid__note, .product-grid__item__status,
 .text-size--11 {
   font-size: 11px;
   line-height: 14px;
@@ -1164,7 +1125,7 @@ small {
     display: inline-block !important; } }
 
 /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.float--left, .doughnut--big .doughnut__main, .doughnut--big {
+.float--left {
   float: left; }
 
 /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
@@ -4546,9 +4507,7 @@ small {
 
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Denmark/Framework/core/_scss/osef-base/_framework-icons.scss */
 [class^="icon-"]:before,
-[class*=" icon-"]:before, .col--expander:before, .sorting:after,
-.sorting_asc:after,
-.sorting_desc:after, .datepicker:after, .datepicker--range .col:after, .datepick-cmd-close:before, .datepick-cmd-prev:before,
+[class*=" icon-"]:before, .col--expander:before, .datepicker:after, .datepicker--range .col:after, .datepick-cmd-close:before, .datepick-cmd-prev:before,
 .datepick-cmd-next:before, .dropdown__label:after, .dropdown__filter:before, .dropdown--subscriptions .dropdown__label:before, .footer__breadcrumbs li:nth-child(1n+2) a:before, .form-checkbox label:before, .form-radio label:before, .form-search.form-search--inline:before, .link--bullet:before, .list li:before, .number__control--decrease:before, .number__control--increase:before, .pager__button.previous:before, .pager > span > span.previous:before, .previous.pager__elipsis:before, .pager__button.next:before, .pager > span > span.next:before, .next.pager__elipsis:before, .fill--half:after, .form-select__field:after, .flexnav__toggler:after, .nav-mobile__accordion li span, .status-dot--check:before, .section--login-block .card-number .icon-login, .flipper__button:before, .product-options-list__holder:after, .subscription-details__select-indicator:after, .family-plan .plan-box .plan-content .member label:after, .attachments__add-item:before, .attachments__delete-item:before, .attachments__icon:before, .subscription-expander:before {
   font-family: "framework-icons";
   display: inline-block;
@@ -5499,7 +5458,7 @@ examples:
         include: icons-circle-background.html
 */
 /* line 39, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/icons/_scss/_index.scss */
-.circle-outline:before, .circle-background:before, .form-item--error [class^="icon-"], .list--breadcrumbs li:before, .list--footer li:before, .form-item--toggle input:disabled ~ .form-item--toggle__switch [class^="icon-"]:before, .toggle__check:disabled ~ .form-item--toggle__switch [class^="icon-"]:before {
+.circle-outline:before, .circle-background:before, .form-item--error [class^="icon-"], .list--breadcrumbs li:before, .list--footer li:before, .form-item--toggle input:disabled ~ .form-item--toggle__switch [class^="icon-"]:before {
   top: 50%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%); }
@@ -5876,7 +5835,7 @@ desc: No modifiers and mixins need it for this component
 examples:
   Remote loading:
     <div class="form-item form-item--required" >
-      <input type="text" data-component="autocomplete" data-autocomplete-url="/data/autocomplete.json" data-extensions="type-watch" />
+      <input type="text" data-component="autocomplete" data-autocomplete-url="data/autocomplete.json" data-extensions="type-watch" />
     </div>
   Static loading:
     include: static-autocomplete.html
@@ -6604,157 +6563,6 @@ examples:
     height: 100%;
     visibility: visible; }
 
-/* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-.doughnut {
-  display: inline-block;
-  position: relative; }
-  /* line 6, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut .button--plain {
-    cursor: default; }
-  /* line 13, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut--checkable .button--plain {
-    cursor: pointer; }
-  /* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut--big .doughnut__main {
-    height: 100%;
-    position: relative;
-    text-align: center; }
-  /* line 36, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut--big {
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding: 40px 0 0 10px; }
-  /* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut__chart {
-    max-width: 100%;
-    height: auto !important; }
-    /* line 53, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut--big .doughnut__chart {
-      display: inline-block; }
-  /* line 61, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut__legend {
-    font-weight: normal;
-    color: #666;
-    padding: 45px 0 0 15px; }
-    /* line 67, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut__legend__color {
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      margin-bottom: 1px; }
-    /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut__legend__label {
-      margin-bottom: 10px;
-      font-weight: normal; }
-  /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut__data {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    width: 100%; }
-    /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut__data div {
-      margin: 0; }
-    /* line 94, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut__data .flag {
-      height: 100%; }
-    /* line 98, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut__data__title {
-      font-weight: bold;
-      color: #474747; }
-      /* line 107, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-      .doughnut--big .doughnut__data__title {
-        font-size: 25px; }
-    /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .doughnut__data__block {
-      display: none; }
-      /* line 118, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-      .doughnut__data__block:first-child {
-        display: block; }
-  /* line 124, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .doughnut__label {
-    position: absolute;
-    bottom: -15px;
-    width: 100%; }
-
-/* line 133, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-.line-chart {
-  clear: both;
-  width: 100%;
-  height: 300px;
-  margin-top: 20px; }
-  /* line 140, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart #flotTip {
-    border: 1px solid #0278b8;
-    border-radius: 3px;
-    background-clip: padding-box;
-    background-color: #038cd6;
-    background-image: -webkit-linear-gradient(top, #0278b8 0%, #038cd6 100%);
-    background-image: linear-gradient(to bottom, #0278b8 0%, #038cd6 100%);
-    color: #fff;
-    font-family: Arial;
-    font-size: 13px;
-    font-weight: normal;
-    padding: 10px 15px;
-    text-align: center;
-    z-index: 999; }
-  /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart .tooltip__date {
-    font-size: 11px;
-    margin-bottom: 5px; }
-  /* line 162, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart .flot-tick-label {
-    color: #c0e2f5;
-    font-family: Arial;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 1; }
-  /* line 170, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart .axisLabels {
-    color: #fff !important;
-    font-family: Arial;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 1; }
-  /* line 178, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart .xaxisLabel {
-    margin-top: -15px; }
-  /* line 182, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart .yaxisLabel {
-    background-color: #038cd6;
-    left: auto !important;
-    padding: 0 0 5px 5px;
-    right: 0;
-    -webkit-transform: translate(0, 0) rotate(0) !important;
-            transform: translate(0, 0) rotate(0) !important; }
-  /* line 191, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-  .line-chart .flot-x-axis .flot-tick-label {
-    display: none;
-    margin-top: 10px; }
-    /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart.scss */
-    .line-chart .flot-x-axis .flot-tick-label:first-child, .line-chart .flot-x-axis .flot-tick-label:last-child {
-      display: block; }
-
-/* line 5, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart-info-panel.scss */
-.chart-info-panel--white {
-  background-color: #fff; }
-
-/* line 13, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart-info-panel.scss */
-.chart-info-panel ul li {
-  display: inline-block;
-  margin-left: 10px; }
-  /* line 17, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart-info-panel.scss */
-  .chart-info-panel ul li li:first-child {
-    margin-left: 0; }
-  /* line 21, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/chart/_scss/_chart-info-panel.scss */
-  .chart-info-panel ul li .status-dot {
-    margin: 0 5px; }
-
 /**
 name: Collapse
 type: ui
@@ -6920,7 +6728,7 @@ examples:
   /* line 94, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--default th,
   .table--default td {
-    padding: 10px 20px;
+    padding: 10px 10px;
     vertical-align: top; }
   /* line 100, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--default tr {
@@ -6952,7 +6760,7 @@ examples:
     /* line 138, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--adv thead th {
       border-bottom: 1px solid #d1d1d1;
-      padding: 30px 20px 5px;
+      padding: 30px 10px 5px;
       line-height: 1; }
     /* line 148, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--adv tbody .row--pending {
@@ -6972,26 +6780,30 @@ examples:
     .table--adv td {
       background-color: #fff;
       vertical-align: middle;
-      padding: 10px 20px; }
+      padding: 10px; }
       /* line 175, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      .table--adv th:last-child,
+      .table--adv td:last-child {
+        padding-right: 20px; }
+      /* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv th.form-checkbox,
       .table--adv td.form-checkbox {
         overflow: hidden;
         line-height: 8px; }
-        /* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 183, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--adv th.form-checkbox label,
         .table--adv td.form-checkbox label {
           padding: 9999px;
           margin: -9999px;
           display: block; }
       @media only screen and (max-width: 767px) {
-        /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 191, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--adv th + td:last-child,
         .table--adv th + th:last-child,
         .table--adv td + td:last-child,
         .table--adv td + th:last-child {
           text-align: right; }
-        /* line 192, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 196, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--adv th.control + td:last-child,
         .table--adv th.control + th:last-child,
         .table--adv th.table__expand-cell + td:last-child,
@@ -7001,23 +6813,23 @@ examples:
         .table--adv td.table__expand-cell + td:last-child,
         .table--adv td.table__expand-cell + th:last-child {
           text-align: left; } }
-    /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 205, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--adv td {
       border-bottom: 1px solid #e8e8e8; }
-    /* line 206, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 210, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--adv tbody tr:hover, .table--adv tbody tr.hover, .table--adv tbody tr.row-selected {
       cursor: pointer; }
-      /* line 211, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover td, .table--adv tbody tr.hover td, .table--adv tbody tr.row-selected td {
         background-color: #f5f5f5; }
         @media only screen and (max-width: 767px) {
-          /* line 211, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+          /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
           .table--adv tbody tr:hover td, .table--adv tbody tr.hover td, .table--adv tbody tr.row-selected td {
             background: none; } }
-        /* line 218, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 222, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--adv tbody tr:hover td:first-child, .table--adv tbody tr.hover td:first-child, .table--adv tbody tr.row-selected td:first-child {
           position: relative; }
-          /* line 221, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+          /* line 225, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
           .table--adv tbody tr:hover td:first-child:before, .table--adv tbody tr.hover td:first-child:before, .table--adv tbody tr.row-selected td:first-child:before {
             content: " ";
             position: absolute;
@@ -7028,64 +6840,64 @@ examples:
             width: 3px;
             background-color: #038cd6; }
             @media only screen and (max-width: 767px) {
-              /* line 221, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+              /* line 225, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
               .table--adv tbody tr:hover td:first-child:before, .table--adv tbody tr.hover td:first-child:before, .table--adv tbody tr.row-selected td:first-child:before {
                 display: none; } }
-      /* line 242, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 246, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover.row--disable td:after, .table--adv tbody tr.hover.row--disable td:after, .table--adv tbody tr.row-selected.row--disable td:after {
         content: ""; }
-      /* line 247, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 251, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover.row--disable td:first-child:before, .table--adv tbody tr.hover.row--disable td:first-child:before, .table--adv tbody tr.row-selected.row--disable td:first-child:before {
         background-color: #f5f5f5; }
-      /* line 256, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 260, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover.row--warning td, .table--adv tbody tr:hover.row--error td, .table--adv tbody tr.hover.row--warning td, .table--adv tbody tr.hover.row--error td, .table--adv tbody tr.row-selected.row--warning td, .table--adv tbody tr.row-selected.row--error td {
         background-color: #faf3f2; }
-        /* line 260, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 264, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--adv tbody tr:hover.row--warning td:first-child:before, .table--adv tbody tr:hover.row--error td:first-child:before, .table--adv tbody tr.hover.row--warning td:first-child:before, .table--adv tbody tr.hover.row--error td:first-child:before, .table--adv tbody tr.row-selected.row--warning td:first-child:before, .table--adv tbody tr.row-selected.row--error td:first-child:before {
           background-color: #db5451; }
-      /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 273, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover a:hover, .table--adv tbody tr.hover a:hover, .table--adv tbody tr.row-selected a:hover {
         text-decoration: underline; }
-      /* line 273, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 277, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover a.button:hover, .table--adv tbody tr.hover a.button:hover, .table--adv tbody tr.row-selected a.button:hover {
         text-decoration: none; }
-      /* line 279, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 283, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--adv tbody tr:hover.drop-row td, .table--adv tbody tr.hover.drop-row td, .table--adv tbody tr.row-selected.drop-row td {
         background: none; }
-        /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 286, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--adv tbody tr:hover.drop-row td:first-child:before, .table--adv tbody tr.hover.drop-row td:first-child:before, .table--adv tbody tr.row-selected.drop-row td:first-child:before {
           display: none; }
-  /* line 293, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 297, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--without-sorting thead tr:hover, .table--without-sorting thead tr.hover, .table--without-sorting thead tr.row-selected {
     cursor: default; }
-  /* line 303, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 307, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--without-hover tr td {
     cursor: default; }
-  /* line 308, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--without-hover tr:hover td {
     background-color: #fff; }
-    /* line 311, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 315, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--without-hover tr:hover td:first-child {
       position: relative; }
-      /* line 314, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 318, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--without-hover tr:hover td:first-child:before {
         display: none; }
-  /* line 328, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--zebra > tbody > tr:nth-child(even) > td {
     background: #f5f5f5; }
-  /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 336, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--zebra > tbody > tr:nth-child(even) + .drop-row {
     background: #f5f5f5; }
-    /* line 335, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 339, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--zebra > tbody > tr:nth-child(even) + .drop-row > td {
       background: #f5f5f5; }
-      /* line 339, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 343, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--zebra > tbody > tr:nth-child(even) + .drop-row > td table thead th {
         background: #f5f5f5; }
-    /* line 345, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 349, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--zebra > tbody > tr:nth-child(even) + .drop-row .drop-item-holder {
       background: #fff; }
-      /* line 348, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 352, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--zebra > tbody > tr:nth-child(even) + .drop-row .drop-item-holder:after {
         content: "";
         position: absolute;
@@ -7099,29 +6911,29 @@ examples:
         border-right: 8px solid transparent;
         border-bottom: 8px solid #fff;
         left: 43px; }
-  /* line 358, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 362, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--zebra > tbody > tr.child > td, .table--zebra > tbody > tr.drop-row > td {
     background: #fff; }
-  /* line 368, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 372, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--small th {
     padding: 10px 20px;
     line-height: 1; }
-  /* line 373, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 377, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--small td {
     padding: 10px 20px; }
-    /* line 376, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 380, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--small td.form-checkbox {
       line-height: 8px; }
-  /* line 382, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 386, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--order {
     font-weight: 300;
     margin-top: 20px;
     border-collapse: collapse; }
-    /* line 387, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 391, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order img {
       max-height: 130px;
       width: auto; }
-    /* line 392, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 396, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order th {
       font-weight: bold;
       font-size: 14px;
@@ -7129,10 +6941,10 @@ examples:
       padding: 0 0 0 20px;
       border: 1px solid #d1d1d1;
       border-width: 1px 0 1px 1px; }
-      /* line 400, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 404, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order th:first-child {
         border-width: 1px 0; }
-    /* line 405, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 409, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order td {
       padding: 20px 20px 10px;
       border: 1px solid #d1d1d1;
@@ -7140,128 +6952,128 @@ examples:
       float: none !important;
       display: table-cell !important;
       margin-right: 0 !important; }
-      /* line 414, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 418, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order td:first-child {
         text-align: center; }
-      /* line 418, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 422, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order td.dark {
         background: #f5f5f5; }
-      /* line 422, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 426, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order td.right-align {
         padding: 20px;
         text-align: right;
         padding-right: 30px; }
-        /* line 427, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 431, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--order td.right-align--large {
           padding-right: 178px; }
-      /* line 432, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 436, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order td.price {
         text-align: right; }
-      /* line 437, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 441, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order td.price, .table--order td.units {
         vertical-align: bottom; }
-      /* line 442, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 446, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order td.mobile-one-half {
         width: 30%; }
-    /* line 449, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 453, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .sikring .title--xsmall {
       margin-bottom: 15px; }
-    /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 458, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .sikring p {
       margin: 0; }
-    /* line 458, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 462, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .sikring .price {
       text-align: right; }
-      /* line 461, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 465, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order .sikring .price.not-added {
         color: #e8e8e8; }
-    /* line 466, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 470, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .sikring img {
       display: block;
       margin: 0 auto; }
-    /* line 473, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 477, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .total td {
       padding-top: 30px;
       padding-right: 0;
       padding-bottom: 0;
       border-width: 0 0 1px;
       text-align: right; }
-    /* line 481, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 485, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .total p {
       display: inline-block;
       vertical-align: bottom; }
-    /* line 493, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 497, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .minimumprice td {
       padding-top: 10px;
       border-width: 0;
       padding-right: 0;
       text-align: right; }
-      /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 503, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--order .minimumprice td p {
         display: inline-block;
         vertical-align: bottom; }
-        /* line 503, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 507, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table--order .minimumprice td p:first-child {
           padding-right: 74px; }
-    /* line 511, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 515, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order .spacing td {
       border-width: 0; }
-    /* line 516, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order p {
       margin-bottom: 20px; }
-    /* line 521, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 525, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--order button {
       font-family: inherit; }
-  /* line 526, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 530, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--key-value {
     border-collapse: separate;
     table-layout: fixed; }
-    /* line 530, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 534, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value th {
       vertical-align: middle;
       font-weight: normal; }
-    /* line 536, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 540, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value tbody th,
     .table--key-value tbody td {
       padding: 5px 0;
       vertical-align: middle; }
-      /* line 541, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 545, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--key-value tbody th.specify,
       .table--key-value tbody td.specify {
         color: #db5451; }
-    /* line 547, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 551, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value tbody tr:first-child th,
     .table--key-value tbody tr:first-child td {
       padding-top: 15px;
       border-top: 1px solid #d1d1d1; }
-    /* line 555, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 559, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value tbody tr:last-child th,
     .table--key-value tbody tr:last-child td {
       padding-bottom: 15px; }
-    /* line 565, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 569, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value--border-none tbody tr:first-child th,
     .table--key-value--border-none tbody tr:first-child td {
       border-top: 0 !important; }
     @media only screen and (max-width: 767px) {
-      /* line 573, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 577, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--key-value tfoot {
         font-size: 16px;
         line-height: 23px; } }
-    /* line 580, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 584, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value tfoot th,
     .table--key-value tfoot td {
       line-height: 1;
       padding: 20px 0;
       border-top: 1px solid #d1d1d1; }
-    /* line 589, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 593, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table--key-value.recurring-table tfoot {
       font-size: 16px;
       line-height: 23px; }
-      /* line 592, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 596, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table--key-value.recurring-table tfoot th,
       .table--key-value.recurring-table tfoot td {
         border-top: none; }
-  /* line 606, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 610, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .dataTables_scrollBody .table--adv .sorting:after,
   .dataTables_scrollBody .table--adv .sorting_asc:after,
   .dataTables_scrollBody .table--adv .sorting_desc:after,
@@ -7269,14 +7081,14 @@ examples:
   .DTFC_LeftBodyWrapper .table--adv .sorting_asc:after,
   .DTFC_LeftBodyWrapper .table--adv .sorting_desc:after {
     content: ""; }
-  /* line 615, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 619, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table .drop-row .drop-item {
     padding: 0 20px 20px; }
     @media only screen and (max-width: 767px) {
-      /* line 615, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 619, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table .drop-row .drop-item {
         padding: 0; } }
-  /* line 623, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 627, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table .drop-row .drop-item-holder {
     text-align: left;
     position: relative;
@@ -7284,7 +7096,7 @@ examples:
     z-index: 1;
     border: 1px solid #e8e8e8;
     background: #f5f5f5; }
-    /* line 631, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 635, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table .drop-row .drop-item-holder:before {
       content: "";
       position: absolute;
@@ -7299,7 +7111,7 @@ examples:
       border-bottom: 9px solid #e8e8e8;
       left: 43px;
       z-index: -2; }
-    /* line 637, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 641, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table .drop-row .drop-item-holder:after {
       content: "";
       position: absolute;
@@ -7315,75 +7127,75 @@ examples:
       left: 43px;
       z-index: -2; }
     @media only screen and (max-width: 767px) {
-      /* line 623, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 627, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table .drop-row .drop-item-holder {
         border-width: 1px 0; }
-        /* line 646, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 650, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table .drop-row .drop-item-holder:before, .table .drop-row .drop-item-holder:after {
           left: 63px; } }
-    /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 657, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table .drop-row .drop-item-holder table thead th {
       border-top: 1px solid #d1d1d1;
       padding: 10px 20px 8px;
       white-space: nowrap; }
-      /* line 658, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 662, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table .drop-row .drop-item-holder table thead th:first-child {
         border-left: 1px solid #d1d1d1; }
-      /* line 662, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 666, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       .table .drop-row .drop-item-holder table thead th:last-child {
         border-right: 1px solid #d1d1d1; }
       @media only screen and (max-width: 767px) {
-        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 657, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         .table .drop-row .drop-item-holder table thead th {
           white-space: normal; } }
-    /* line 671, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table .drop-row .drop-item-holder table td {
       background: none !important; }
-    /* line 676, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 680, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table .drop-row .drop-item-holder .header-grey {
       border: 0;
       padding: 0 0 20px;
       background: none; }
-    /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 686, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     .table .drop-row .drop-item-holder .select-items,
     .table .drop-row .drop-item-holder .pager--wrap {
       padding: 20px 0 0 !important; }
-  /* line 690, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 694, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .table--expandable td.child,
   .table--expandable tr.child {
     border-bottom: 0; }
 
-/* line 699, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 703, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .col--compact {
   width: 1%; }
 
-/* line 703, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 707, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .col--compact-5 {
   width: 5%; }
 
-/* line 707, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 711, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .col--expand {
   padding: 0 !important; }
-  /* line 712, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 716, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .col--expand .form-item--toggle + .icon-questionmark {
     color: #b8b8b8;
     display: inline-block;
     line-height: 33px;
     vertical-align: top; }
-  /* line 721, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 725, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .col--expand fieldset {
     line-height: 29px; }
 
-/* line 726, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 730, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .col--squeeze {
   padding: 0 20px 20px 20px !important; }
 
-/* line 730, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 734, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .col--expander {
   cursor: pointer;
   padding-left: 25px;
   position: relative; }
-  /* line 735, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 739, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .col--expander:before {
     content: "\E066";
     margin-right: 10px;
@@ -7391,97 +7203,97 @@ examples:
     position: absolute;
     top: 3px;
     left: 0; }
-  /* line 746, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 750, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .col--expander.is-expanded:before {
     content: "\E065"; }
 
-/* line 755, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 759, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .row--selected th,
 .row--selected td,
 .row--selected .td,
 .row--selected .cell {
   background-color: #f5f5f5; }
 
-/* line 764, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 768, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .row--disable td,
 .row--disable .td,
 .row--disable .cell {
   color: #b8b8b8; }
 
-/* line 770, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 774, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .row--disable .form-checkbox label:before {
   visibility: hidden; }
 
-/* line 776, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 780, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .row--error td,
 .row--error .td,
 .row--error .cell {
   background-color: #faf3f2; }
 
-/* line 785, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 789, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .row--suspended .cell--suspended {
   color: #db5451;
   font-weight: bold; }
 
-/* line 794, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 798, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .cell--error {
   color: #db5451;
   font-weight: bold; }
 
-/* line 803, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 807, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .checkout-step .leader--small button:first-child {
   margin-right: 50px; }
 
-/* line 809, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 813, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .checkout-step.payment {
   margin-top: 100px; }
 
-/* line 819, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 823, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .dataTables_scroll .table--adv thead th,
 .DTFC_ScrollWrapper .table--adv thead th {
   width: 150px !important; }
-  /* line 822, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 826, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .dataTables_scroll .table--adv thead th.small-column,
   .DTFC_ScrollWrapper .table--adv thead th.small-column {
     width: 100px !important; }
-  /* line 826, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 830, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   .dataTables_scroll .table--adv thead th.form-checkbox,
   .DTFC_ScrollWrapper .table--adv thead th.form-checkbox {
     width: 40px !important; }
 
-/* line 837, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 841, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .data-table--without-pagination.bill--table {
   border-bottom: none;
   overflow: hidden; }
 
-/* line 842, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 846, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .data-table--without-pagination > .dataTables_wrapper > .table {
   margin-bottom: -1px; }
 
-/* line 846, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+/* line 850, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
 .data-table--without-pagination > .dataTables_wrapper > .pager--wrap {
   display: none; }
 
 @media only screen and (max-width: 767px) {
-  /* line 854, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+  /* line 858, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
   td.child {
     padding-top: 0;
     padding-left: 62px; }
-    /* line 858, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+    /* line 862, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
     td.child ul {
       border-top: 1px solid #e8e8e8;
       padding-top: 10px; }
-      /* line 862, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+      /* line 866, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
       td.child ul li {
         overflow: hidden; }
-        /* line 865, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 869, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         td.child ul li .dtr-title {
           float: left; }
-        /* line 869, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 873, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         td.child ul li .dtr-data {
           float: right;
           text-align: right; }
-        /* line 874, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
+        /* line 878, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_tables.scss */
         td.child ul li p {
           display: inline-block; } }
 
@@ -7642,72 +7454,6 @@ examples:
     float: right;
     margin-right: 0; }
 
-/* line 2, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-.sorting,
-.sorting_asc,
-.sorting_desc {
-  outline: none;
-  cursor: pointer; }
-  /* line 8, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-  .sorting:after,
-  .sorting_asc:after,
-  .sorting_desc:after {
-    font-size: 10px;
-    left: 5px;
-    opacity: 0;
-    position: relative;
-    top: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    content: ''; }
-
-/* line 21, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-.sorting_asc {
-  white-space: nowrap; }
-  /* line 24, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-  .sorting_asc:after {
-    border: solid;
-    border-width: 5px 3px;
-    border-color: transparent transparent #038cd6;
-    opacity: 1;
-    top: -2px; }
-
-/* line 33, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-.sorting_desc {
-  white-space: nowrap; }
-  /* line 36, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-  .sorting_desc:after {
-    border: solid;
-    border-width: 5px 3px;
-    border-color: #038cd6 transparent transparent;
-    opacity: 1; }
-
-/* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-.sorting:hover,
-.sorting:focus,
-.sorting_asc,
-.sorting_desc,
-.bill--table .sorting_desc,
-.bill--table .sorting_asc,
-.table--adv .sorting_asc,
-.table--adv .sorting_desc {
-  border-bottom: 2px solid #038cd6;
-  color: #038cd6;
-  padding-bottom: 3px; }
-
-@-moz-document url-prefix() {
-  /* line 59, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datatables/_scss/_sorting.scss */
-  .sorting:hover,
-  .sorting:focus,
-  .sorting_asc,
-  .sorting_desc,
-  .bill--table .sorting_desc,
-  .bill--table .sorting_asc,
-  .table--adv .sorting_asc,
-  .table--adv .sorting_desc {
-    box-shadow: inset 0 -1px 0 #038cd6;
-    border-bottom-width: 1px; } }
-
 /**
 name: Datepicker
 type: ui
@@ -7736,13 +7482,12 @@ examples:
   vertical-align: top;
   height: 32px;
   position: relative;
-  min-width: 220px;
   margin-bottom: 0; }
   @media only screen and (max-width: 767px) {
     /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker {
       display: block; } }
-  /* line 18, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 17, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker:before {
     background: #f0f0f0;
     border-right: 1px solid #e8e8e8;
@@ -7752,7 +7497,7 @@ examples:
     left: 0;
     top: 0;
     bottom: 0; }
-  /* line 29, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 28, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker:after {
     content: "\E020";
     width: 32px;
@@ -7765,13 +7510,13 @@ examples:
     line-height: 32px;
     font-size: 17px;
     color: #666; }
-  /* line 43, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 42, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker:hover {
     border: 1px solid #b8b8b8; }
-  /* line 47, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 46, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker.is-active {
     border: 1px solid #038cd6; }
-  /* line 51, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 50, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker input[type="text"],
   .datepicker input[type="date"] {
     background: transparent;
@@ -7789,25 +7534,25 @@ examples:
     position: relative;
     -webkit-appearance: none;
     border-radius: 3px; }
-    /* line 69, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 68, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker input[type="text"]:focus, .datepicker input[type="text"]:hover,
     .datepicker input[type="date"]:focus,
     .datepicker input[type="date"]:hover {
       outline: none;
       border: none; }
-  /* line 76, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker--disabled {
     background: #f5f5f5;
     border-color: #e8e8e8; }
-    /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 79, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker--disabled:hover {
       border-color: #e8e8e8; }
-    /* line 84, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 83, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker--disabled input[type="text"],
     .datepicker--disabled input[type="date"] {
       cursor: default;
       background: none !important; }
-  /* line 91, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker .icon-clear {
     background-color: transparent;
     border: none;
@@ -7820,35 +7565,35 @@ examples:
     top: 0;
     bottom: 0;
     z-index: 6; }
-    /* line 104, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 103, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker .icon-clear:before {
       font-size: 20px;
       height: 32px;
       line-height: 28px; }
     @media only screen and (max-width: 767px) {
-      /* line 91, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker .icon-clear {
         display: none; } }
-  /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 114, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker--large {
     height: 40px; }
-    /* line 118, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker--large input[type="text"],
     .datepicker--large input[type="date"] {
       font-size: 16px;
       padding-top: 10px;
       padding-bottom: 10px; }
-    /* line 125, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 124, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker--large .icon-clear {
       right: 7px;
       line-height: 38px; }
-      /* line 129, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 128, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker--large .icon-clear:before {
         line-height: 38px; }
-  /* line 135, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 134, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker.form-item--error {
     border-color: #db5451; }
-    /* line 138, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 137, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker.form-item--error [type="text"],
     .datepicker.form-item--error [type="text"]:focus,
     .datepicker.form-item--error [type="number"],
@@ -7858,38 +7603,38 @@ examples:
       border-color: transparent !important;
       box-shadow: 1px 0 0 0 #fe635f inset, 0 1px 0 0 #fe635f inset, -1px 0 0 0 #fe635f inset, 0 -1px 0 0 #fe635f inset;
       padding-right: 42px; }
-    /* line 149, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 148, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker.form-item--error [class^="icon-"] {
       right: 4px;
       bottom: -2px;
       z-index: 6; }
-    /* line 155, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 154, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker.form-item--error .icon-clear {
       top: 50%;
       margin-bottom: -13px;
       right: 20px !important;
       color: #474747; }
   @media only screen and (max-width: 767px) {
-    /* line 163, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 162, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker--range {
       background-color: none;
       border: 0;
       padding-left: 0;
       margin: 0 -5px; }
-      /* line 174, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 173, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker--range:before, .datepicker--range:after {
         display: none; }
-      /* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 178, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker--range:hover, .datepicker--range.is-active {
         border: 0;
         box-shadow: none; }
-      /* line 185, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 184, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker--range .col {
         position: relative;
         float: left;
         width: 50%;
         padding: 0 5px; }
-        /* line 191, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+        /* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
         .datepicker--range .col:before {
           background: #f0f0f0;
           border-right: 1px solid #e8e8e8;
@@ -7899,7 +7644,7 @@ examples:
           left: 6px;
           top: 1px;
           bottom: 1px; }
-        /* line 202, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+        /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
         .datepicker--range .col:after {
           content: "\E020";
           width: 32px;
@@ -7912,7 +7657,7 @@ examples:
           line-height: 32px;
           font-size: 17px;
           color: #666; }
-      /* line 216, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker--range input[type="text"],
       .datepicker--range input[type="date"] {
         color: #474747;
@@ -7925,15 +7670,15 @@ examples:
         width: 100%;
         border: 1px solid #d1d1d1;
         border-radius: 3px; }
-        /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+        /* line 228, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
         .datepicker--range input[type="text"]:focus, .datepicker--range input[type="text"]:hover,
         .datepicker--range input[type="date"]:focus,
         .datepicker--range input[type="date"]:hover {
           border: 1px solid #d1d1d1; }
-      /* line 235, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+      /* line 234, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
       .datepicker--range.form-item--error {
         box-shadow: none; }
-        /* line 238, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+        /* line 237, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
         .datepicker--range.form-item--error [type="text"],
         .datepicker--range.form-item--error [type="text"]:focus,
         .datepicker--range.form-item--error [type="number"],
@@ -7942,23 +7687,23 @@ examples:
         .datepicker--range.form-item--error [type="date"]:focus {
           border-color: transparent !important;
           box-shadow: 0 0 0 2px #db5451; }
-        /* line 248, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+        /* line 247, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
         .datepicker--range.form-item--error [class^="icon-"] {
           right: 9px; } }
-  /* line 256, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 255, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker.disabled:before, .datepicker.disabled:after {
     z-index: 6; }
 
-/* line 266, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+/* line 265, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
 .datepicker__start, .datepicker__end {
   display: none !important; }
   @media only screen and (max-width: 767px) {
-    /* line 271, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+    /* line 270, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
     .datepicker--range .datepicker__start, .datepicker--range .datepicker__end {
       display: block !important; } }
 
 @media only screen and (max-width: 767px) {
-  /* line 277, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
+  /* line 276, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/datepicker/_scss/_inputs.scss */
   .datepicker__range {
     display: none !important; } }
 
@@ -11806,262 +11551,6 @@ examples:
   .form-select .tooltip-trigger-marker {
     display: none; }
 
-/* line 2, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.jslider {
-  display: block;
-  width: 100%;
-  height: 1em;
-  position: relative;
-  top: .4em; }
-  /* line 9, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 0; }
-  /* line 15, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider th,
-  .jslider td {
-    padding: 0;
-    vertical-align: top;
-    text-align: left;
-    border: 0; }
-  /* line 23, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider table,
-  .jslider table tr,
-  .jslider table tr td {
-    width: 100%;
-    vertical-align: top; }
-  /* line 30, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-pointer {
-    width: 13px;
-    height: 15px;
-    position: absolute;
-    left: 20%;
-    top: -4px;
-    margin-left: -6px;
-    cursor: pointer; }
-  /* line 41, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .touch .jslider .jslider-pointer:after {
-    content: "";
-    position: absolute;
-    top: -100%;
-    bottom: -100%;
-    left: -100%;
-    right: -100%; }
-  /* line 50, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-pointer-to {
-    left: 80%; }
-  /* line 54, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-label {
-    font-size: 9px;
-    line-height: 12px;
-    color: #000;
-    opacity: .4;
-    white-space: nowrap;
-    padding: 0 2px;
-    position: absolute;
-    top: -18px;
-    left: 0; }
-  /* line 66, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-label-to {
-    left: auto;
-    right: 0; }
-  /* line 71, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-value {
-    display: none; }
-  /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-scale {
-    position: relative;
-    top: 9px; }
-    /* line 79, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-scale span {
-      position: absolute;
-      height: 5px;
-      border-left: 1px solid #b8b8b8;
-      font-size: 0; }
-    /* line 86, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-scale ins {
-      font-size: 9px;
-      text-decoration: none;
-      position: absolute;
-      left: 0;
-      top: 5px;
-      color: #b8b8b8; }
-  /* line 96, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-value small,
-  .jslider .jslider-label small {
-    position: relative;
-    top: -.4em; }
-  /* line 102, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider .jslider-bg {
-    position: relative;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px; }
-    /* line 109, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-bg .l,
-    .jslider .jslider-bg .f,
-    .jslider .jslider-bg .r {
-      background-color: #d1d1d1; }
-    /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-bg i {
-      height: 5px;
-      position: absolute;
-      font-size: 0;
-      top: 0; }
-    /* line 123, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-bg .l {
-      width: 10%;
-      background-position: 0 0;
-      left: 0;
-      background: -webkit-linear-gradient(top, #aaa, #d1d1d1);
-      background: linear-gradient(180deg, #aaa, #d1d1d1);
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px; }
-    /* line 132, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-bg .f {
-      width: 80%;
-      left: 10%;
-      background: -webkit-linear-gradient(top, #aaa, #d1d1d1) 50% top repeat-x;
-      background: linear-gradient(180deg, #aaa, #d1d1d1) 50% top repeat-x; }
-    /* line 138, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-bg .r {
-      width: 10%;
-      left: 90%;
-      background: -webkit-linear-gradient(top, #aaa, #d1d1d1);
-      background: linear-gradient(180deg, #aaa, #d1d1d1);
-      background-position: right 0;
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px; }
-    /* line 147, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .jslider .jslider-bg .v {
-      background-color: #02a962;
-      position: absolute;
-      width: 60%;
-      left: 20%;
-      top: 0;
-      height: 5px;
-      background: -webkit-linear-gradient(top, #02a962, #008e52);
-      background: linear-gradient(180deg, #02a962, #008e52);
-      color: #474747; }
-
-/* line 160, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.jslider-single .jslider-pointer-to,
-.jslider-single .jslider-value-to,
-.jslider-single .jslider-bg .v,
-.jslider-limitless .jslider-label {
-  display: none; }
-
-/* line 167, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.jslider-pointer.jslider-pointer-to,
-.jslider-pointer {
-  top: -5px;
-  border-radius: 16px;
-  color: #b8ec79;
-  background: #fff;
-  border: 0.4em solid linear-gradient(180deg, #aaa, #d1d1d1);
-  box-shadow: 0 0 0 1px #d1d1d1, 0 1px 5px 0 rgba(0, 0, 0, 0.25);
-  outline: none; }
-  /* line 177, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .jslider-pointer.jslider-pointer-to:hover, .jslider-pointer.jslider-pointer-to:focus,
-  .jslider-pointer:hover,
-  .jslider-pointer:focus {
-    background-color: #f5f5f5; }
-
-/* line 184, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.jslider_round_plastic .jslider-pointer {
-  width: 18px;
-  height: 18px;
-  top: -7px;
-  margin-left: -8px; }
-
-/* line 192, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-label {
-  margin-top: 5px; }
-
-/* line 196, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.slider-label-from {
-  float: left; }
-
-/* line 200, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.slider-label-to {
-  float: right; }
-
-/* line 204, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.slide-selecters {
-  margin: 0 10px;
-  clear: left; }
-  /* line 209, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .slide-selecters__collapse-wrap {
-    width: 100%; }
-  @media only screen and (max-width: 767px) {
-    /* line 204, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .slide-selecters {
-      margin: 0; }
-      /* line 220, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-      .slide-selecters .slide-selecter-col {
-        padding-right: 0;
-        margin: 20px 0; }
-        /* line 24, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-        .slide-selecters .slide-selecter-col:after {
-          content: "";
-          display: table;
-          clear: both; } }
-  /* line 227, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .slide-selecters .slide-selecter-col {
-    padding: 0 10px 0 0; }
-    /* line 230, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-    .slide-selecters .slide-selecter-col .layout-slider {
-      margin-left: 5px; }
-  /* line 235, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .slide-selecters .slide-selecter-col:last-child {
-    margin-right: 0; }
-
-/* line 244, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-block--single .jslider-pointer {
-  display: none; }
-
-/* line 248, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-block--single .jslider-pointer.jslider-pointer-to {
-  display: block; }
-
-/* line 252, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-block--single .jslider-scale span {
-  cursor: pointer; }
-
-/* line 258, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-block--tooltips .jslider-pointer {
-  position: relative; }
-  /* line 261, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .layout-slider-block--tooltips .jslider-pointer .tooltip {
-    left: 50%;
-    bottom: 100%;
-    opacity: 0;
-    visibility: visible;
-    margin-bottom: 5px;
-    max-width: none;
-    text-align: center; }
-  /* line 272, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .layout-slider-block--tooltips .jslider-pointer:hover .tooltip {
-    opacity: 1; }
-
-/* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-block--blue .jslider .jslider-bg .v {
-  background-color: #038cd6;
-  background: #038cd6; }
-
-/* line 287, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-.layout-slider-block--blue .tooltip {
-  background-color: #038cd6;
-  color: #fff; }
-  /* line 291, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .layout-slider-block--blue .tooltip:before {
-    border-top-color: #038cd6; }
-  /* line 295, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/select-slider/_scss/_index.scss */
-  .layout-slider-block--blue .tooltip:after {
-    border-top-color: #038cd6; }
-
 /**
   name: Speech Bubble
   type: ui
@@ -12596,6 +12085,330 @@ examples:
   .tooltip[data-loading="true"] .tooltip__content {
     display: none; }
 
+/**
+name: Tables
+type: ui
+desc: >
+
+  # __Structure__
+
+  1. 'tables' requires thead structure for generation tbodies
+
+  2. 'tables' generates __tbody__ for __every__ data row
+
+  3. Each row is a component with group 'rows'. It stores row's data set in $options.value
+
+  4. thead cell includes settings for column generation
+
+    1. data-key - key in json row's data, to get value for cell
+    2. data-sortable - sets sorting ability of columns. Configures in EpiServer for each column
+    __If sets manually, requires class 'sorting' for th cell__
+    3. data-label - label for column's header. If missed, uses data-key value
+    4. data-responsive - sets ability of columns to be hidden in tablet/mobile view. Configures in EpiServer for each column
+    __If sets manually, can accept values: 'tablet-hidden' and 'mobile-hidden'. Also requires classes for 'th' cell - 'datatable\_\_tablet-hidden' and 'datatable\_\_mobile-hidden'__
+
+  # __Responsive row__
+
+  1. Always with main data row generates hidden 'responsive' row __only__ with cells, which were marked as 'tablet-hidden' or 'mobile-hidden'
+
+
+  # __Nestable row__
+
+  1. Always with main data row generates hidden 'nestable' row for loading nesting content in it
+
+  2. Nesting content can be loaded __only__ if row has appropriate url or html in row data set
+    1. cachedExpand - table option to set key for loading from html string
+    2. key - options of component 'expander' - the first th cell in thead. Sets the key for getting url from row data set
+
+  # __Extensions__
+
+  1. Linkable. Handles clicks on rows and allows to redirect page to another url. Requires:
+    1. data attribute 'rowSelectionAction' with key in json row's data, to get action url
+    2. data attribute 'preventLinkable', which prevent page of redirecting to action url. Accepts __only__ boolean values
+
+  2. Selectable. Adds functionality to get a selection of some rows. Requires:
+    1. cell in thead section with attribute data-key="Checkbox"
+    2. checkbox component with alias 'selectAll' in this cell in thead section
+
+  # __Filters__
+
+  1. Each filter should be placed in component 'tables/filters'
+
+  2. Each filter requires attribute __data-group='filters'__ and attribute _data-column_ with filter's name
+
+  3. There are five types of filters:
+    1. search
+    2. date-range
+    3. select
+    4. multi select
+    5. checkbox
+
+  4. All filters can be collapsed in any responsive view. For collapsing, component 'filters' requires:
+    1. collapsing trigger marked as data-element="mobileFilterToggler"
+    2. collapsing content marked as data-element="mobileFiltersContainer"
+    3. data attribute data-mobile-class with class name to hide/show collapsing content, ex. data-mobile-class="mobile-hidden"
+    4. corresponding classes to hide/show for trigger and content holders
+
+examples:
+  - name: Table
+    tmpl:
+      include: table.html
+*/
+/* line 4, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__table {
+  border: none;
+  width: 100%; }
+
+/* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__bottom-filters {
+  border-top: 1px solid #e8e8e8; }
+
+/* line 14, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable th {
+  border-bottom: 1px solid #d1d1d1;
+  padding: 30px 10px 5px;
+  line-height: 1; }
+
+/* line 20, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable td {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px; }
+
+/* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable tbody:last-child td {
+  border: 0; }
+
+/* line 29, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable th,
+.datatable td {
+  background-color: #fff;
+  vertical-align: middle; }
+  /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable th:last-child,
+  .datatable td:last-child {
+    padding-right: 20px; }
+  /* line 38, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable th.datatable__expand,
+  .datatable td.datatable__expand {
+    width: 10px;
+    padding: 0; }
+
+/* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable--zebra > tbody:nth-child(even) .datatable__row td {
+  background: #f5f5f5; }
+
+/* line 48, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__expanded > .datatable__row > td {
+  border-bottom: 0; }
+  @media only screen and (min-width: 767px) {
+    /* line 51, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable__expanded > .datatable__row > td.datatable__border-tablet-visible {
+      border-bottom: 1px solid #e8e8e8; } }
+  @media only screen and (min-width: 480px) {
+    /* line 57, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable__expanded > .datatable__row > td.datatable__border-mobile-visible {
+      border-bottom: 1px solid #e8e8e8; } }
+  /* line 63, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__expanded > .datatable__row > td.datatable__border-hidden {
+    border-bottom: 0; }
+
+/* line 68, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__responsive-row > td {
+  padding: 0;
+  border: 0; }
+
+/* line 73, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__nestable-row > td {
+  padding: 0 20px 20px; }
+
+/* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable:not(.datatable--without-hover) .datatable__row:hover {
+  cursor: pointer; }
+  /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable:not(.datatable--without-hover) .datatable__row:hover td {
+    background-color: #f5f5f5; }
+    @media only screen and (max-width: 767px) {
+      /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+      .datatable:not(.datatable--without-hover) .datatable__row:hover td {
+        background: none; } }
+    /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable:not(.datatable--without-hover) .datatable__row:hover td:first-child {
+      position: relative; }
+      /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+      .datatable:not(.datatable--without-hover) .datatable__row:hover td:first-child:before {
+        content: " ";
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        background-color: #038cd6; }
+        @media only screen and (max-width: 767px) {
+          /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+          .datatable:not(.datatable--without-hover) .datatable__row:hover td:first-child:before {
+            display: none; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 108, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__mobile-filters {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #d1d1d1; }
+    /* line 134, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
+    .datatable__mobile-filters:before, .datatable__mobile-filters:after {
+      width: 0;
+      height: 0;
+      content: "";
+      position: absolute; }
+    /* line 142, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
+    .datatable__mobile-filters:before {
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #d1d1d1;
+      left: 17px;
+      top: -8px;
+      margin-left: -8px; }
+    /* line 151, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
+    .datatable__mobile-filters:after {
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid #fff;
+      left: 17px;
+      top: -7px;
+      margin-left: -7px; }
+    /* line 116, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable__mobile-filters:after {
+      border-bottom-color: #fff;
+      left: auto;
+      right: 17px; }
+    /* line 122, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable__mobile-filters:before {
+      left: auto;
+      right: 16px; } }
+
+@media only screen and (max-width: 480px) {
+  /* line 129, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__mobile-hidden {
+    display: none !important; } }
+
+@media only screen and (min-width: 480px) {
+  /* line 134, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__mobile-visible {
+    display: none !important; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 139, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__tablet-hidden {
+    display: none !important; } }
+
+@media only screen and (min-width: 767px) {
+  /* line 144, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__tablet-visible {
+    display: none !important; } }
+
+/* line 149, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__hidden {
+  display: none !important; }
+
+/* line 153, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__visible {
+  display: block !important; }
+
+/* line 157, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+.datatable__nestable-holder {
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  z-index: 1;
+  border: 1px solid #e8e8e8;
+  background: #f5f5f5; }
+  /* line 165, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__nestable-holder:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 4;
+    top: -9px;
+    left: 50%;
+    margin-left: -9px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #e8e8e8;
+    left: 43px;
+    z-index: -2; }
+  /* line 171, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__nestable-holder:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 4;
+    top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #f5f5f5;
+    left: 43px;
+    z-index: -2; }
+  /* line 178, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__nestable-holder table th {
+    border-top: 1px solid #d1d1d1;
+    padding: 10px 10px 8px;
+    white-space: nowrap; }
+    /* line 183, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable__nestable-holder table th:first-child {
+      border-left: 1px solid #d1d1d1; }
+    /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+    .datatable__nestable-holder table th:last-child {
+      border-right: 1px solid #d1d1d1;
+      padding-right: 20px; }
+    @media only screen and (max-width: 767px) {
+      /* line 178, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+      .datatable__nestable-holder table th {
+        white-space: normal; } }
+  /* line 197, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_tables.scss */
+  .datatable__nestable-holder table td {
+    background: none; }
+
+/* line 3, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_sorting.scss */
+.datatable .sorting {
+  cursor: pointer;
+  white-space: nowrap; }
+  /* line 8, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_sorting.scss */
+  .datatable .sorting:hover, .datatable .sorting__asc, .datatable .sorting__desc {
+    border-bottom: 2px solid #038cd6;
+    color: #038cd6;
+    padding-bottom: 4px; }
+  /* line 16, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_sorting.scss */
+  .datatable .sorting:after {
+    left: 5px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    border: solid transparent;
+    border-width: 5px 3px; }
+  /* line 27, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_sorting.scss */
+  .datatable .sorting__asc:after {
+    border-color: transparent transparent #038cd6;
+    top: -2px; }
+  /* line 32, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_sorting.scss */
+  .datatable .sorting__desc:after {
+    border-color: #038cd6 transparent transparent; }
+
+@media only screen and (min-width: 767px) {
+  /* line 2, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_multi-filter.scss */
+  .multi-filter .dropdown__content {
+    min-width: 0; } }
+
+/* line 8, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tables/_scss/_multi-filter.scss */
+.multi-filter__item {
+  min-height: 40px; }
+
 /* line 4, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/section/_scss/_index.scss */
 .section--wrap {
   background: #fff;
@@ -12864,14 +12677,11 @@ examples:
   - name: Default switcher
     tmpl:
         include: default.html
-  - name: Wide switcher
-    tmpl:
-        include: wide.html
   - name: Switcher with loading state
     tmpl:
         include: with-loading.html
 */
-/* line 68, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 52, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 .form-item--toggle {
   display: inline-block;
   width: 80px;
@@ -12881,13 +12691,10 @@ examples:
   overflow: hidden;
   position: relative;
   vertical-align: middle; }
-  /* line 69, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 53, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle label {
     cursor: pointer; }
-  /* line 83, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-  .form-item--toggle.form-item--toggle--wide {
-    width: 160px; }
-  /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 67, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle label {
     position: absolute;
     line-height: 32px;
@@ -12896,7 +12703,7 @@ examples:
     height: 100%;
     text-align: center;
     z-index: 3; }
-  /* line 97, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle input {
     position: absolute;
     cursor: pointer;
@@ -12906,21 +12713,21 @@ examples:
     height: 100%;
     opacity: 0;
     z-index: 6; }
-    /* line 107, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+    /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
     .form-item--toggle input:disabled {
       cursor: default; }
-      /* line 110, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+      /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
       .form-item--toggle input:disabled + label {
         color: #d1d1d1;
         cursor: default; }
-      /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+      /* line 95, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
       .form-item--toggle input:disabled ~ .form-item--toggle__switch {
         border-color: #b8b8b8 !important;
         background-color: #d1d1d1 !important;
         background: -webkit-linear-gradient(bottom, #d1d1d1, #b8b8b8);
         background: linear-gradient(to top, #d1d1d1, #b8b8b8);
         color: #fff !important; }
-        /* line 48, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+        /* line 32, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
         .form-item--toggle input:disabled ~ .form-item--toggle__switch [class^="icon-"] {
           border: none;
           font-size: 12px;
@@ -12929,35 +12736,28 @@ examples:
           height: 100%;
           top: 0;
           left: 0; }
-        /* line 58, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+        /* line 42, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
         .form-item--toggle input:disabled ~ .form-item--toggle__switch [class^="icon-"]:before {
           background: transparent;
           width: 100%;
           height: auto;
           left: 0;
           content: "\E069"; }
-    /* line 120, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+    /* line 100, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
     .form-item--toggle input:focus ~ .form-item--toggle__track {
       outline: none; }
-    /* line 128, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+    /* line 108, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
     .form-item--toggle input + .tooltip__trigger {
       line-height: 33px;
       vertical-align: top; }
-  /* line 140, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 120, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle--error.form-item--toggle input:focus ~ .form-item--toggle__track,
   .form-item--toggle--error.form-item--toggle input:hover:focus ~ .form-item--toggle__track,
   .form-item--toggle--error.form-item--toggle input:hover ~ .form-item--toggle__track,
   .form-item--toggle--error.form-item--toggle .form-item--toggle__track {
     border-color: #fe635f; }
-  /* line 148, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-  .form-item--toggle--error .toggle__check:checked ~ .form-item--toggle__switch,
-  .form-item--toggle--error .toggle__check ~ .form-item--toggle__switch {
-    border-color: #db5451;
-    background-color: #fe635f;
-    background-image: none;
-    color: #fff; }
 
-/* line 155, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 129, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 .form-item--toggle__switch {
   border-color: #038cd6;
   background-color: #038cd6;
@@ -12979,7 +12779,7 @@ examples:
   -webkit-transition-timing-function: cubic-bezier(0.2, 0.1, 0, 1);
           transition-timing-function: cubic-bezier(0.2, 0.1, 0, 1);
   text-align: center; }
-  /* line 171, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 145, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle__switch [class^="icon-"] {
     height: 9px;
     width: 7px;
@@ -12989,7 +12789,7 @@ examples:
     margin: -5px 0 0 -3px;
     border: solid #fff;
     border-width: 0 1px; }
-    /* line 181, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+    /* line 155, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
     .form-item--toggle__switch [class^="icon-"]:before {
       content: "";
       background: #fff;
@@ -12998,27 +12798,27 @@ examples:
       left: 2px;
       top: 0;
       height: 100%; }
-  /* line 192, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 166, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .toggle__radio ~ .form-item--toggle__switch {
     z-index: 4; }
-  /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 175, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   [data-loading] .form-item--toggle__switch {
     background-color: #038cd6;
     background-image: -webkit-linear-gradient(top, #038cd6, #0296e5);
     background-image: linear-gradient(180deg, #038cd6, #0296e5);
     left: 4px !important;
     right: 4px !important; }
-    /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+    /* line 181, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
     [data-loading] .form-item--toggle__switch [class^="icon-"] {
       border-color: transparent; }
-      /* line 211, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+      /* line 185, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
       [data-loading] .form-item--toggle__switch [class^="icon-"]:after {
         left: 6px !important; }
-  /* line 217, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 191, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   [data-loading] [data-toggle-value="off"]:checked ~ .form-item--toggle__switch {
     background: #fff; }
 
-/* line 225, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 199, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 .form-item--toggle__track {
   background-color: #fff;
   border: 1px solid #d1d1d1;
@@ -13030,93 +12830,36 @@ examples:
   -webkit-transition: all 0.125s;
   transition: all 0.125s;
   border-radius: inherit; }
-  /* line 236, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 210, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle:hover .form-item--toggle__track {
     background-color: #f5f5f5;
     border: 1px solid #b8b8b8; }
-  /* line 241, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle input:hover:focus ~ .form-item--toggle__track,
   .form-item--toggle input:focus ~ .form-item--toggle__track {
     background-color: #f5f5f5;
     border: 1px solid #b8b8b8; }
-  /* line 248, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 222, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .form-item--toggle input:disabled ~ .form-item--toggle__track {
     background-color: #fff !important;
     border-color: #d1d1d1 !important; }
-  /* line 257, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 231, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .section--negative .form-item--toggle input:hover:focus ~ .form-item--toggle__track,
   .section--negative .form-item--toggle input:focus ~ .form-item--toggle__track {
     background-color: #f5f5f5;
     border-color: 1px solid #00619e; }
-  /* line 264, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 238, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .section--negative .form-item--toggle:hover .form-item--toggle__track {
     background-color: #f5f5f5;
     border-color: 1px solid #666; }
-  /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 243, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   .section--negative .form-item--toggle__track {
     border-color: transparent; }
 
-/* line 276, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.toggle__check ~ .form-item--toggle__switch {
-  border-color: #038cd6;
-  background-color: #038cd6;
-  background: -webkit-linear-gradient(top, #038cd6, #0296e5);
-  background: linear-gradient(180deg, #038cd6, #0296e5);
-  color: #fff; }
-
-/* line 280, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.toggle__check:checked ~ .form-item--toggle__switch {
-  border-color: #038cd6;
-  background-color: #038cd6;
-  background: -webkit-linear-gradient(top, #038cd6, #0296e5);
-  background: linear-gradient(180deg, #038cd6, #0296e5);
-  color: #fff;
-  right: 3px;
-  left: 42px;
-  -webkit-transition-duration: .6s, .2s, .6s, .6s;
-          transition-duration: .6s, .2s, .6s, .6s; }
-
-/* line 288, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.toggle__check:disabled ~ .form-item--toggle__switch {
-  border-color: #b8b8b8 !important;
-  background-color: #d1d1d1 !important;
-  background: -webkit-linear-gradient(bottom, #d1d1d1, #b8b8b8);
-  background: linear-gradient(to top, #d1d1d1, #b8b8b8);
-  color: #fff !important;
-  left: 3px;
-  right: 42px; }
-  /* line 48, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-  .toggle__check:disabled ~ .form-item--toggle__switch [class^="icon-"] {
-    border: none;
-    font-size: 12px;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0; }
-  /* line 58, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-  .toggle__check:disabled ~ .form-item--toggle__switch [class^="icon-"]:before {
-    background: transparent;
-    width: 100%;
-    height: auto;
-    left: 0;
-    content: "\E069"; }
-  /* line 294, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-  .form-item--toggle--wide .toggle__check:disabled ~ .form-item--toggle__switch {
-    right: 84px; }
-
-/* line 300, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.toggle__check:checked:disabled ~ .form-item--toggle__switch {
-  left: 42px;
-  right: 3px; }
-  /* line 305, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-  .form-item--toggle--wide .toggle__check:checked:disabled ~ .form-item--toggle__switch {
-    left: 84px; }
-
-/* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 249, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 [data-toggle-value="on"]:checked {
   z-index: -1; }
-  /* line 315, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 252, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   [data-toggle-value="on"]:checked ~ .form-item--toggle__switch {
     border-color: #038cd6;
     background-color: #038cd6;
@@ -13128,41 +12871,25 @@ examples:
     -webkit-transition-duration: .6s, .2s, .6s, .6s;
             transition-duration: .6s, .2s, .6s, .6s; }
 
-/* line 323, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 260, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 [data-toggle-value="on"] + label {
   color: #038cd6;
   left: 3px; }
 
-/* line 330, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 267, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 [data-toggle-value="off"]:checked {
   z-index: -1; }
-  /* line 333, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+  /* line 270, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
   [data-toggle-value="off"]:checked ~ .form-item--toggle__switch {
     left: 3px;
     right: 42px;
     -webkit-transition-duration: .2s, .6s, .6s, .6s;
             transition-duration: .2s, .6s, .6s, .6s; }
 
-/* line 340, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
+/* line 277, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
 [data-toggle-value="off"] + label {
   color: #038cd6;
   right: 3px; }
-
-/* line 347, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.form-item--toggle--wide .form-item--toggle__switch {
-  right: 84px; }
-
-/* line 351, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.form-item--toggle--wide .toggle__check {
-  left: 84px; }
-
-/* line 355, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.form-item--toggle--wide [data-toggle-value="on"]:checked ~ .form-item--toggle__switch {
-  left: 84px; }
-
-/* line 360, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/switcher/_scss/_index.scss */
-.form-item--toggle--wide [data-toggle-value="off"]:checked ~ .form-item--toggle__switch {
-  right: 84px; }
 
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/video/_scss/_index.scss */
 .ytplayer-holder {
@@ -20997,25 +20724,10 @@ examples:
     border-color: #038cd6; } }
 
 /* line 102, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
-.payment-inst .layout-slider-block .tooltip {
-  width: 110px; }
-
-/* line 107, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
-.payment-inst .jslider-scale {
-  top: -4px; }
-  /* line 110, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
-  .payment-inst .jslider-scale span:first-child {
-    margin-left: 1px;
-    border-left: 0 none; }
-  /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
-  .payment-inst .jslider-scale span:last-child {
-    margin-left: -3px; }
-
-/* line 121, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
 .btns-holder {
   float: right; }
   @media only screen and (max-width: 767px) {
-    /* line 121, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+    /* line 102, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
     .btns-holder {
       margin: 0 -5px;
       float: none;
@@ -21028,12 +20740,12 @@ examples:
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row; } }
-  /* line 131, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+  /* line 112, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
   .btns-holder li {
     float: left;
     padding: 0 0 0 10px; }
     @media only screen and (max-width: 767px) {
-      /* line 131, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+      /* line 112, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
       .btns-holder li {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
@@ -21041,33 +20753,33 @@ examples:
                 flex: 1;
         float: none;
         padding: 0 5px; } }
-    /* line 141, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+    /* line 122, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
     .btns-holder li > a,
     .btns-holder li button {
       width: 100%; }
 
-/* line 148, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+/* line 129, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
 .usage-overview-title {
   padding: 20px;
   border-bottom: 1px solid #d1d1d1; }
-  /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+  /* line 133, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
   .usage-overview-title__holder {
     display: table; }
-  /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+  /* line 137, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
   .usage-overview-title [class*="col-"] {
     display: table-cell;
     padding: 0 20px;
     vertical-align: middle !important; }
     @media only screen and (max-width: 767px) {
-      /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+      /* line 137, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
       .usage-overview-title [class*="col-"] {
         padding: 0;
         display: block; } }
-    /* line 166, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+    /* line 147, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
     .usage-overview-title [class*="col-"]:first-child {
       padding-left: 0; }
 
-/* line 175, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
+/* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/installment/_scss/_index.scss */
 .list-vertical-divided > li:last-child {
   border: 0 !important; }
 
@@ -22237,10 +21949,17 @@ input:checked ~ .tickets-list__label,
             .timeline__filter .add-options .list-grid li label[for="view-grid"] span:after {
               left: auto;
               right: 0; }
-  /* line 303, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 302, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    .timeline__filter--static {
+      margin-bottom: 0;
+      padding: 0; }
+      /* line 306, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      .timeline__filter--static .add-options {
+        position: static; }
+  /* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__container {
     text-align: center; }
-    /* line 306, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 315, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__container .period {
       display: inline-block;
       vertical-align: top;
@@ -22250,19 +21969,19 @@ input:checked ~ .tickets-list__label,
       border: 1px solid #d1d1d1;
       border-radius: 3px;
       position: relative; }
-    /* line 318, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 327, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__container {
       text-align: left; }
-      /* line 321, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 330, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline--list .timeline__container .period-case {
         text-align: center;
         min-width: 136px;
         display: inline-block; }
     @media only screen and (max-width: 767px) {
-      /* line 303, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__container {
         text-align: left; } }
-  /* line 333, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 342, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__frame {
     text-align: left;
     padding: 100px 0 40px;
@@ -22273,7 +21992,7 @@ input:checked ~ .tickets-list__label,
       content: "";
       display: table;
       clear: both; }
-    /* line 340, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 349, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__frame:before {
       position: absolute;
       left: 50%;
@@ -22286,15 +22005,15 @@ input:checked ~ .tickets-list__label,
       background: -webkit-linear-gradient(top, #8cc63f, #00b9de, #038cd6);
       background: linear-gradient(180deg, #8cc63f, #00b9de, #038cd6); }
     @media only screen and (max-width: 767px) {
-      /* line 333, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 342, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__frame {
         padding: 20px 0 20px 38px; }
-        /* line 355, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 364, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__frame:before {
           left: 13px;
           width: 2px;
           margin-left: 0; } }
-  /* line 363, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 372, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__item {
     position: relative;
     float: left;
@@ -22306,32 +22025,32 @@ input:checked ~ .tickets-list__label,
     border-width: 0 1px 1px;
     margin-top: 40px; }
     @media only screen and (max-width: 767px) {
-      /* line 363, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 372, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item {
         float: none;
         width: auto;
         margin-top: 18px; } }
-    /* line 380, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item:first-child {
       margin-top: -60px; }
       @media only screen and (max-width: 767px) {
-        /* line 380, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item:first-child {
           margin-top: 0; } }
-    /* line 388, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 397, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item:before {
       margin: -1px -1px 0; }
-    /* line 393, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 402, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item .title {
       position: relative;
       background-color: #f5f5f5;
       padding: 15px 20px 10px;
       border-bottom: 1px solid #e8e8e8; }
       @media only screen and (max-width: 767px) {
-        /* line 393, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 402, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title {
           border-width: 0; } }
-      /* line 403, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 412, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .title:after, .timeline__item .title:before {
         position: absolute;
         right: -16px;
@@ -22339,43 +22058,43 @@ input:checked ~ .tickets-list__label,
         content: '';
         margin-top: -8px; }
         @media only screen and (max-width: 767px) {
-          /* line 403, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 412, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item .title:after, .timeline__item .title:before {
             right: auto;
             left: -16px; } }
-      /* line 417, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 426, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .title:before {
         border: 8px solid transparent;
         border-left-color: #d1d1d1; }
         @media only screen and (max-width: 767px) {
-          /* line 417, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 426, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item .title:before {
             border-left-color: transparent;
             border-right-color: #d1d1d1; } }
-      /* line 427, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 436, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .title:after {
         border: 7px solid transparent;
         border-left-color: #f5f5f5;
         right: -14px;
         margin-top: -7px; }
         @media only screen and (max-width: 767px) {
-          /* line 427, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 436, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item .title:after {
             right: auto;
             left: -14px;
             border-left-color: transparent;
             border-right-color: #f5f5f5; } }
-      /* line 441, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 450, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .title__table {
         line-height: 1em; }
-        /* line 445, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title__table [class*="col-"] > * {
           line-height: 1.1em; }
-        /* line 449, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 458, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title__table [class*="col-"] a {
           position: relative;
           z-index: 3; }
-      /* line 456, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 465, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .title .icon-holder {
         position: absolute;
         right: -61px;
@@ -22391,7 +22110,7 @@ input:checked ~ .tickets-list__label,
         border-radius: 50%;
         border: 5px solid #fff; }
         @media only screen and (max-width: 767px) {
-          /* line 456, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 465, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item .title .icon-holder {
             width: 35px;
             height: 35px;
@@ -22400,86 +22119,86 @@ input:checked ~ .tickets-list__label,
             font-size: 14px;
             line-height: 25px;
             margin-top: -18px; } }
-        /* line 481, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 490, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title .icon-holder:before {
           vertical-align: middle; }
-        /* line 485, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 494, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title .icon-holder.red {
           background: #db5451; }
-        /* line 489, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 498, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title .icon-holder.yellow {
           background: #ffb900; }
-        /* line 493, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 502, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title .icon-holder.green {
           background: #43c682; }
-        /* line 497, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 506, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .title .icon-holder.blue {
           background: #038cd6; }
-    /* line 503, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 512, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item.right-side {
       float: right; }
-      /* line 507, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 516, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item.right-side .title:after, .timeline__item.right-side .title:before {
         right: auto;
         left: -16px; }
-      /* line 513, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 522, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item.right-side .title:before {
         border-left-color: transparent;
         border-right-color: #d1d1d1; }
-      /* line 518, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 527, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item.right-side .title:after {
         border-left-color: transparent;
         border-right-color: #f5f5f5;
         right: auto;
         left: -14px; }
-      /* line 525, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 534, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item.right-side .title .icon-holder {
         right: auto;
         left: -61px; }
         @media only screen and (max-width: 767px) {
-          /* line 525, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 534, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item.right-side .title .icon-holder {
             left: -43px; } }
       @media only screen and (max-width: 767px) {
-        /* line 503, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 512, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item.right-side {
           float: none; } }
-    /* line 540, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 549, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item .holder {
       padding: 15px 20px; }
-      /* line 543, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 552, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .holder .table {
         margin: 0 0 20px; }
-        /* line 546, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 555, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline__item .holder .table .row {
           padding: 14px 0;
           margin: 0; }
-          /* line 550, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 559, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item .holder .table .row [class*="col-"] {
             padding-left: 0;
             padding-right: 0; }
-            /* line 554, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+            /* line 563, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
             .timeline__item .holder .table .row [class*="col-"] + [class*="col-"] {
               padding-left: 10px; }
             @media only screen and (max-width: 767px) {
-              /* line 560, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+              /* line 569, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
               .timeline__item .holder .table .row [class*="col-"] + [class*="col-"] {
                 padding-left: 0; } }
-          /* line 566, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+          /* line 575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
           .timeline__item .holder .table .row.total {
             border: 1px solid #d1d1d1;
             border-width: 1px 0; }
-    /* line 575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 584, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item .align-left {
       float: left;
       margin: 0 13px 0 0; }
-    /* line 580, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 589, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item .txt {
       overflow: hidden; }
-    /* line 585, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 594, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item .list--check:before {
       font-size: 12px; }
-    /* line 590, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 599, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item .label-mobile {
       top: 0;
       left: 0;
@@ -22487,100 +22206,100 @@ input:checked ~ .tickets-list__label,
       bottom: 0 !important;
       font-size: 13px;
       color: #666; }
-      /* line 598, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 607, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item .label-mobile [class*="icon-"] {
         position: absolute;
         right: 12px;
         bottom: 12px;
         line-height: 1; }
     @media only screen and (max-width: 767px) {
-      /* line 609, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 618, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__item input[type="checkbox"]:checked + .title {
         border-width: 0 0 1px; } }
-    /* line 615, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 624, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__item input[type="checkbox"]:checked + .title .label-mobile [class*="icon-"] {
       bottom: 50%;
       margin-bottom: -6px; }
-  /* line 628, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 637, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline--list .timeline__frame {
     padding: 30px 0 0 105px; }
-    /* line 631, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 640, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__frame:before {
       left: 62px;
       margin-left: 0; }
     @media only screen and (max-width: 767px) {
-      /* line 628, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 637, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline--list .timeline__frame {
         padding: 20px 0 20px 38px; }
-        /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 648, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline--list .timeline__frame:before {
           left: 13px;
           width: 2px; } }
-  /* line 646, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 655, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline--list .timeline__item {
     float: none;
     width: 100%;
     opacity: 1;
     margin: 0 0 30px !important; }
     @media only screen and (max-width: 767px) {
-      /* line 646, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 655, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline--list .timeline__item {
         margin: 0 0 18px !important; } }
-    /* line 656, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 665, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__item:first-child {
       margin-top: 0; }
-    /* line 662, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 671, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__item .title:after, .timeline--list .timeline__item .title:before {
       right: auto;
       left: -16px; }
-    /* line 668, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 677, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__item .title:before {
       border-left-color: transparent;
       border-right-color: #d1d1d1; }
-    /* line 673, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__item .title:after {
       border-left-color: transparent;
       border-right-color: #f5f5f5;
       right: auto;
       left: -14px; }
-    /* line 680, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 689, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__item .title .icon-holder {
       right: auto;
       left: -64px; }
       @media only screen and (max-width: 767px) {
-        /* line 680, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+        /* line 689, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
         .timeline--list .timeline__item .title .icon-holder {
           left: -43px; } }
-    /* line 690, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 699, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--list .timeline__item.right-side {
       float: none; }
-  /* line 698, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 707, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline--onecase .timeline__frame {
     padding: 0; }
-    /* line 701, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 710, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline--onecase .timeline__frame:before {
       display: none; }
     @media only screen and (max-width: 767px) {
-      /* line 698, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 707, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline--onecase .timeline__frame {
         padding: 0; } }
-  /* line 714, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 723, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline--onecase .timeline__item .title:after, .timeline--onecase .timeline__item .title:before,
   .timeline--onecase .timeline__item .title .icon-holder {
     display: none; }
-  /* line 724, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 733, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__comment + .timeline__comment {
     margin-top: 20px; }
-  /* line 727, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 736, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__comment textarea {
     height: 125px; }
-  /* line 732, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 741, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__comment-header {
     position: relative;
     padding: 10px 10px 10px 45px;
     border: 1px solid #e8e8e8;
     background: #f0f0f0; }
-    /* line 738, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 747, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__comment-header .icon {
       width: 45px;
       left: 0;
@@ -22588,58 +22307,58 @@ input:checked ~ .tickets-list__label,
       position: absolute;
       height: 100%;
       font-size: 23px; }
-      /* line 746, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 755, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__comment-header .icon:before {
         margin: -2px 0 0; }
-  /* line 753, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 762, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__comment-content {
     white-space: pre-line;
     word-wrap: break-word; }
-  /* line 759, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 768, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .timeline__av-footer {
     position: relative;
     min-height: 52px;
     padding-right: 90px; }
-    /* line 764, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 773, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__av-footer .form-item--toggle {
       position: absolute;
       right: 0;
       top: 50%;
       margin-top: -5px; }
-    /* line 771, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 780, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .timeline__av-footer .frame {
       margin-right: -90px; }
-      /* line 773, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 782, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .timeline__av-footer .frame > div {
         padding-right: 90px; }
 
-/* line 782, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+/* line 791, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
 .push-communication .title {
   position: relative; }
-  /* line 785, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 794, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .push-communication .title .date {
     position: absolute;
     right: 0;
     top: 0; }
     @media only screen and (max-width: 767px) {
-      /* line 785, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+      /* line 794, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
       .push-communication .title .date {
         position: relative;
         display: block;
         margin-bottom: 10px; } }
 
-/* line 799, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+/* line 808, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
 .push-communication .content a {
   color: #038cd6; }
-  /* line 802, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+  /* line 811, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
   .push-communication .content a:hover {
     text-decoration: underline; }
 
-/* line 807, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+/* line 816, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
 .push-communication .content .email-iframe--hidden {
   opacity: 0; }
   @media only screen and (max-width: 767px) {
-    /* line 807, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
+    /* line 816, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/timeline/_scss/_index.scss */
     .push-communication .content .email-iframe--hidden {
       display: none; } }
 
@@ -22803,73 +22522,6 @@ input:checked ~ .tickets-list__label,
   /* line 193, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
   .usage__box-empty + h3 {
     margin-top: 20px; }
-
-/* line 199, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-#multi-filter-speach-bubble {
-  left: auto;
-  right: 0; }
-  @media only screen and (min-width: 480px) {
-    /* line 199, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-    #multi-filter-speach-bubble {
-      top: 29px; } }
-  /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-  #multi-filter-speach-bubble:before {
-    left: auto;
-    right: 8px; }
-  /* line 212, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-  #multi-filter-speach-bubble:after {
-    left: auto;
-    right: 9px; }
-  /* line 217, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-  #multi-filter-speach-bubble .accordion-filter {
-    min-width: 178px; }
-  /* line 223, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-  #multi-filter-speach-bubble .accordion-filter__parent-item-toggle:hover,
-  #multi-filter-speach-bubble .accordion-filter__parent-item-toggle label:hover {
-    cursor: pointer; }
-
-/* line 232, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/_scss/_index.scss */
-.multi-filter #multi-filter-openner:hover {
-  cursor: pointer;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.07); }
-
-@media only screen and (max-width: 767px) {
-  /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/details/_scss/_index.scss */
-  .usage-details-filters {
-    position: relative;
-    background-color: #fff;
-    border: 1px solid #d1d1d1; }
-    /* line 134, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-    .usage-details-filters:before, .usage-details-filters:after {
-      width: 0;
-      height: 0;
-      content: "";
-      position: absolute; }
-    /* line 142, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-    .usage-details-filters:before {
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-bottom: 8px solid #d1d1d1;
-      left: 17px;
-      top: -8px;
-      margin-left: -8px; }
-    /* line 151, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-    .usage-details-filters:after {
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-bottom: 7px solid #fff;
-      left: 17px;
-      top: -7px;
-      margin-left: -7px; }
-    /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/details/_scss/_index.scss */
-    .usage-details-filters:after {
-      border-bottom-color: #fff;
-      left: auto;
-      right: 17px; }
-    /* line 16, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/usage/details/_scss/_index.scss */
-    .usage-details-filters:before {
-      left: auto;
-      right: 16px; } }
 
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/SAP/helpers/_scss/_index.scss */
 .cms-link {
@@ -24886,10 +24538,10 @@ input:checked ~ .tickets-list__label,
     top: 50%;
     margin: -36px 0 0; }
   /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/product-page/_scss/_index.scss */
-  .product-page--list.float--left li, .doughnut--big .product-page--list.doughnut__main li, .product-page--list.doughnut--big li {
+  .product-page--list.float--left li {
     padding-right: 92px; }
   /* line 104, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/product-page/_scss/_index.scss */
-  .product-page--list.float--left .icon, .doughnut--big .product-page--list.doughnut__main .icon, .product-page--list.doughnut--big .icon {
+  .product-page--list.float--left .icon {
     right: 0; }
   /* line 110, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/product-page/_scss/_index.scss */
   .product-page--list.float--right li, .product-page--list.pager--wrap li {
@@ -28906,272 +28558,291 @@ input:checked ~ .tickets-list__label,
           position: static; }
           /* line 427, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
           .terminal-block--accessories .price-box .text-legal {
-            text-align: center; } }
+            text-align: center;
+            position: absolute;
+            bottom: 0; } }
     @media only screen and (max-width: 767px) {
       /* line 344, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories {
         padding: 25px 20px 15px; }
-        /* line 436, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 438, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories .image-holder {
           width: 205px; }
-        /* line 440, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 442, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories .image-area {
           margin-bottom: 12px; }
-        /* line 444, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 446, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories .splash {
           top: 0;
           left: -20px; }
-        /* line 450, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 452, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories .price-box .text-legal {
           margin-top: -6px; } }
-  /* line 459, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 461, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-large .image-holder {
     height: auto;
     margin-bottom: -8px;
     width: 232px; }
-    /* line 464, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 466, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-large .image-holder:after {
       display: block; }
-    /* line 468, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 470, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-large .image-holder img {
       max-height: none;
       display: block;
       margin: 0 auto;
       height: 324px;
       width: auto; }
-  /* line 477, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 479, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-large .image-area {
     padding: 15px 0 0; }
-  /* line 481, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 483, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-large .splash {
     top: 55px;
     left: -25px; }
-    /* line 485, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 487, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-large .splash img {
       height: auto !important;
       margin: 0;
       width: 100% !important; }
   @media only screen and (max-width: 1219px) {
-    /* line 458, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 460, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-large {
       padding: 30px 20px; }
-      /* line 495, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 497, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .image-holder {
         width: 167px; }
-        /* line 498, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 500, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-large .image-holder:after {
           display: none; }
-        /* line 502, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 504, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-large .image-holder img {
           height: 234px; }
-      /* line 507, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 509, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .image-area {
         padding: 0;
         margin-bottom: 15px; }
-      /* line 512, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 514, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .splash {
         top: 30px;
         left: -40px; } }
   @media only screen and (max-width: 767px) {
-    /* line 458, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 460, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-large {
       padding: 30px 20px 15px; }
-      /* line 521, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 523, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .image-holder {
         width: 122px; }
-        /* line 524, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 526, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-large .image-holder img {
           height: 170px; }
-      /* line 529, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 531, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .splash {
         top: 20px;
         left: -30px; } }
-  /* line 536, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 538, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-medium {
     padding: 32px 0 30px 30px; }
-    /* line 539, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 541, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .description {
       padding: 0; }
-    /* line 543, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 545, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .bundle-content {
-      padding: 0 0 120px 30px; }
-    /* line 547, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      padding: 0 30px 120px; }
+    /* line 549, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .price-box {
       left: 30px; }
-    /* line 551, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 553, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .image-area {
       padding: 35px 0 0; }
-    /* line 555, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 557, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .image-holder {
       width: 200px; }
-      /* line 558, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 560, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-medium .image-holder:after {
         display: block; }
-    /* line 563, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 565, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .splash {
       top: 25px;
       left: -30px; }
     @media only screen and (max-width: 1219px) {
-      /* line 536, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 538, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-medium {
         padding: 30px 20px; }
-        /* line 571, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 573, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-medium .image-area {
           margin-bottom: 15px; }
-        /* line 575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 577, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-medium .image-area,
         .terminal-block--accessories-tablet-medium .bundle-content {
           padding: 0; }
-        /* line 580, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-medium .image-holder {
           width: 167px; }
-          /* line 583, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          /* line 585, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
           .terminal-block--accessories-tablet-medium .image-holder:after {
             display: none; }
-        /* line 588, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 590, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-medium .splash {
           top: 30px;
           left: -40px; } }
     @media only screen and (max-width: 767px) {
-      /* line 536, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 538, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-medium {
         padding: 30px 20px 15px; }
-        /* line 597, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 599, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-medium .image-holder {
           width: 120px; }
-        /* line 601, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 603, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-tablet-medium .splash {
           top: 20px;
           left: -30px; } }
-  /* line 608, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 610, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-mobile-medium {
     padding: 33px 0 30px 28px; }
-    /* line 611, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 613, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .description {
       padding: 0; }
-    /* line 615, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 617, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .bundle-content {
-      padding: 0 0 120px 30px; }
-    /* line 619, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      padding: 0 30px 120px; }
+    /* line 621, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .price-box {
       left: 30px; }
-    /* line 623, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 625, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .image-area {
       padding: 5px 0 0; }
-    /* line 627, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 629, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .image-holder {
       width: 160px; }
-      /* line 630, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 632, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-mobile-medium .image-holder:after {
         display: block; }
-    /* line 635, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 637, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .splash {
       top: 50px;
       left: -50px; }
     @media only screen and (max-width: 1219px) {
-      /* line 608, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 610, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-mobile-medium {
         padding: 30px 20px; }
-        /* line 643, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 645, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-mobile-medium .bundle-content {
           padding: 0; }
-        /* line 647, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 649, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-mobile-medium .image-area {
           padding: 0;
           margin-bottom: 16px; }
-        /* line 652, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 654, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-mobile-medium .image-holder {
           width: 115px; }
-          /* line 655, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          /* line 657, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
           .terminal-block--accessories-mobile-medium .image-holder:after {
             display: none; }
-        /* line 660, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 662, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-mobile-medium .splash {
           top: 30px;
           left: -60px; } }
     @media only screen and (max-width: 767px) {
-      /* line 608, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 610, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-mobile-medium {
         padding: 30px 20px 15px; }
-        /* line 669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 671, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-mobile-medium .image-holder {
           width: 85px; }
-        /* line 673, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-mobile-medium .splash {
           top: 20px;
           left: -50px; } }
-  /* line 680, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-small, .terminal-block--accessories-product-small {
     padding: 35px 15px 30px; }
-    /* line 684, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 686, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .image-holder, .terminal-block--accessories-product-small .image-holder {
       width: 260px; }
-    /* line 688, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 690, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .description, .terminal-block--accessories-product-small .description {
       min-height: 0;
       padding: 0; }
-    /* line 693, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 695, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .image-area, .terminal-block--accessories-product-small .image-area {
       margin-bottom: 25px; }
-    /* line 697, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 699, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .bundle-content, .terminal-block--accessories-product-small .bundle-content {
       padding: 0; }
-    /* line 701, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 703, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .price-box, .terminal-block--accessories-product-small .price-box {
       position: static; }
-      /* line 704, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 706, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-small .price-box .text-legal, .terminal-block--accessories-product-small .price-box .text-legal {
-        text-align: center; }
-    /* line 709, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        text-align: center;
+        position: absolute;
+        bottom: 0; }
+    /* line 713, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .splash, .terminal-block--accessories-product-small .splash {
       top: 0;
       left: 0; }
     @media only screen and (max-width: 767px) {
-      /* line 680, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-small, .terminal-block--accessories-product-small {
         padding: 25px 35px 15px; }
-        /* line 717, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 721, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-small .image-holder, .terminal-block--accessories-product-small .image-holder {
           width: 205px; }
-        /* line 721, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 725, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-small .image-area, .terminal-block--accessories-product-small .image-area {
           margin-bottom: 15px; } }
-  /* line 727, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 731, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block--accessories-product-small {
     padding: 30px 15px; }
-    /* line 730, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 734, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-product-small .image-holder {
       width: 167px; }
-    /* line 734, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 737, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-product-small .image-holder img {
+        max-height: none;
+        display: block;
+        margin: 0 auto;
+        height: 220px;
+        width: auto; }
+    /* line 746, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block--accessories-product-small .splash {
       top: 32px;
       left: -40px; }
+      /* line 750, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-block--accessories-product-small .splash img {
+        height: auto !important;
+        margin: 0;
+        width: 100% !important; }
     @media only screen and (max-width: 767px) {
-      /* line 727, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 731, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--accessories-product-small {
         padding: 30px 35px 15px; }
-        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 760, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-product-small .image-holder {
           width: 122px; }
-        /* line 746, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          /* line 763, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          .terminal-block--accessories-product-small .image-holder img {
+            height: 172px; }
+        /* line 768, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--accessories-product-small .splash {
           top: 22px;
           left: -30px; } }
-  /* line 753, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 775, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block__banner {
     min-height: 430px;
     color: #fff;
     background-size: cover;
     background-position: 50% 50%; }
     @media only screen and (max-width: 1023px) {
-      /* line 753, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 775, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner {
         min-height: 430px; } }
     @media only screen and (max-width: 767px) {
-      /* line 753, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 775, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner {
         min-height: 400px; } }
-    /* line 767, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 789, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner:before {
       content: "";
       position: absolute;
@@ -29183,10 +28854,10 @@ input:checked ~ .tickets-list__label,
       -webkit-transition: opacity .5s;
       transition: opacity .5s;
       opacity: 0; }
-    /* line 780, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 802, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner:hover:before {
       opacity: .3; }
-  /* line 786, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 808, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block__banner--large {
     min-height: 500px;
     padding: 50px;
@@ -29195,14 +28866,14 @@ input:checked ~ .tickets-list__label,
     background-size: cover;
     background-position: 50% 50%; }
     @media only screen and (max-width: 1023px) {
-      /* line 786, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 808, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner--large {
         min-height: 450px; } }
     @media only screen and (max-width: 767px) {
-      /* line 786, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 808, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__banner--large {
         min-height: 400px; } }
-    /* line 802, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 824, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner--large:before {
       content: "";
       position: absolute;
@@ -29215,13 +28886,13 @@ input:checked ~ .tickets-list__label,
       transition: opacity .5s;
       opacity: 0;
       z-index: 1; }
-    /* line 816, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 838, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__banner--large:hover:before {
       opacity: .3; }
-  /* line 822, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 844, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-block__video-banner {
     overflow: hidden; }
-    /* line 825, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 847, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__video-banner .video-background {
       position: absolute;
       top: 50%;
@@ -29229,13 +28900,13 @@ input:checked ~ .tickets-list__label,
       -webkit-transform: translateX(-50%) translateY(-50%);
               transform: translateX(-50%) translateY(-50%);
       width: 100%; }
-      /* line 832, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 854, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__video-banner .video-background video {
         width: 100%;
         height: auto;
         max-width: none;
         z-index: 0; }
-      /* line 839, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 861, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block__video-banner .video-background:after {
         content: "";
         position: absolute;
@@ -29246,18 +28917,18 @@ input:checked ~ .tickets-list__label,
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
       @media only screen and (max-width: 1024px) {
-        /* line 825, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 847, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block__video-banner .video-background {
           display: none; } }
-    /* line 855, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 877, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block__video-banner .banner-content {
       z-index: 1; }
 
-/* line 861, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 883, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .grid-row--gutter-small > .content-block--wide {
   padding: 5px; }
   @media only screen and (max-width: 767px) {
-    /* line 861, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 883, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .grid-row--gutter-small > .content-block--wide {
       padding: 5px 0;
       margin: 0 -15px;
@@ -29269,36 +28940,36 @@ input:checked ~ .tickets-list__label,
           -ms-flex: none;
               flex: none; } }
 
-/* line 874, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 896, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .hero-banner {
   background: -webkit-linear-gradient(top, #cde8f7 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #cde8f7 0%, #ffffff 100%); }
   @media only screen and (max-width: 767px) {
-    /* line 878, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 900, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .hero-banner .image-block {
       height: 200px; }
-      /* line 881, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 903, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .hero-banner .image-block img {
         height: 100%; } }
-  /* line 887, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 909, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .hero-banner .description {
     min-height: 334px; }
     @media only screen and (max-width: 1219px) {
-      /* line 887, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 909, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .hero-banner .description {
         min-height: 290px; } }
     @media only screen and (max-width: 1023px) {
-      /* line 887, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 909, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .hero-banner .description {
         min-height: 130px; } }
 
-/* line 900, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 922, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .separator {
   border: 1px solid #dbdbdb;
   width: 35px;
   margin: 0 auto; }
 
-/* line 906, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 928, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .content-block--animated {
   -webkit-transform: translateY(60px);
           transform: translateY(60px);
@@ -29306,17 +28977,17 @@ input:checked ~ .tickets-list__label,
   -webkit-transition: all 1s;
   transition: all 1s; }
 
-/* line 912, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 934, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .content-block--visible {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1; }
 
 /* remove later start (done for demo) */
-/* line 919, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 941, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .list--check-with-border li {
   padding-left: 30px; }
-  /* line 922, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 944, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .list--check-with-border li:before {
     vertical-align: middle;
     color: #038CD6;
@@ -29325,7 +28996,7 @@ input:checked ~ .tickets-list__label,
     text-align: center;
     margin-right: 5px;
     font-size: 11px; }
-  /* line 932, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 954, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .list--check-with-border li:after {
     content: "";
     position: absolute;
@@ -29336,20 +29007,59 @@ input:checked ~ .tickets-list__label,
     border-radius: 50%;
     border: 1px solid #cecece; }
 
-/* line 944, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 966, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .border-width-2:after {
   border-width: 2px; }
 
-/* line 948, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 970, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .section--wrap {
   background: #f5f5f5; }
 
-/* line 952, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 974, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .footer > * {
   overflow: hidden; }
 
-/* line 956, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 978, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .content-block .color-selector {
   height: 23px; }
 
 /* remove later end */
+/* line 1, stdin */
+.view-tracer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 9999999999;
+  background-color: #404040;
+  color: #fff;
+  box-shadow: 0 -2px 10px #404040; }
+
+/* line 12, stdin */
+.view-tracer__items {
+  position: relative;
+  height: 235px;
+  overflow-y: scroll; }
+
+/* line 18, stdin */
+.view-tracer__item-target--selected {
+  box-shadow: 0 0 10px #ff0000 !important; }
+
+/* line 22, stdin */
+.view-tracer__item-description dd,
+.view-tracer__item-description dt {
+  display: inline-block; }
+
+/* line 27, stdin */
+.view-tracer__item-description dd {
+  width: 10%;
+  margin: 0 1% 0 0;
+  text-align: right; }
+
+/* line 33, stdin */
+.view-tracer__item-description dt {
+  width: 85%; }
+
+/* line 37, stdin */
+.view-tracer__item--selected {
+  background-color: #808080; }
