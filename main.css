@@ -442,21 +442,21 @@ small {
   font-family: Roboto; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.table--key-value tfoot, .form-item label.text--large, .form-search label.text--large, .infografic__list .without_price, .traffic-box .price span, .timeline__item .holder .table .row.total, .usage__table tfoot td,
+.table--key-value tfoot, .form-item label.text--large, .infografic__list .without_price, .traffic-box .price span, .timeline__item .holder .table .row.total, .usage__table tfoot td,
 .text-size--19 {
   font-size: 19px;
   line-height: 25px;
   font-family: Roboto; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.amchart-small .amchart-doughnut-caption, .amchart-small-caption, .form-item label.text--med, .form-search label.text--med, .form-search__clear, .rating__stars + .rating__text, .tabpanel__group, .tabgroup, .table--plan__qty .number__wrapper input, .menu--subnav a, .menu--pagenav a, .sidemenu li a, .cookie-popup__close, .below-line-section .below-the-line-content .list--check--dark li, .subscription-banner .options li span, .mbb-promo-box .text-holder,
+.amchart-small .amchart-doughnut-caption, .amchart-small-caption, .form-item label.text--med, .rating__stars + .rating__text, .tabpanel__group, .tabgroup, .table--plan__qty .number__wrapper input, .menu--subnav a, .menu--pagenav a, .sidemenu li a, .cookie-popup__close, .below-line-section .below-the-line-content .list--check--dark li, .subscription-banner .options li span, .mbb-promo-box .text-holder,
 .text-size--16 {
   font-size: 16px;
   line-height: 23px;
   font-family: Roboto; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.amchart-small .amchart-doughnut-text, .amchart-small-text, .amchart-bars-legend, .table, .datepick, .dropdown--download .dropdown__content, .form-item label, .form-search label, .form-item label.text--small, .form-search label.text--small, .accordion-filter, .form-search.form-item--small, .list--check--small, .list--small, .rating__stars--small + .rating__text, .form-select--small, .tabgroup--small, .datatable__table, .form-item--toggle label, .steps, .block--steps address, .login__warning, .table--plan__price, .table--plan__qty, .section--dsl--plan .purchase__item .options-list, .section--menu__service, .header-fixed .breadcrumbs li, .sidemenu > li ul li a, .subscription-plans .options-list li, .cookie-popup, .infografic__list ul li, .pay-invoices__input, .form-radio .date-slide, .code-holder, .profile__edit, .attachments__item, .attachments__add-item, .top-up-buttons__label .validity, .terms-list dt, .timeline__filter .filter-list, .timeline__container .period, .usage__box-empty, .text--content code, .product-grid__item .category-link,
+.amchart-small .amchart-doughnut-text, .amchart-small-text, .amchart-bars-legend, .table, .datepick, .dropdown--download .dropdown__content, .form-item label, .form-item label.text--small, .accordion-filter, .list--check--small, .list--small, .rating__stars--small + .rating__text, .form-select--small, .tabgroup--small, .datatable__table, .form-item--toggle label, .steps, .block--steps address, .login__warning, .table--plan__price, .table--plan__qty, .section--dsl--plan .purchase__item .options-list, .section--menu__service, .header-fixed .breadcrumbs li, .sidemenu > li ul li a, .subscription-plans .options-list li, .cookie-popup, .infografic__list ul li, .pay-invoices__input, .form-radio .date-slide, .code-holder, .profile__edit, .attachments__item, .attachments__add-item, .top-up-buttons__label .validity, .terms-list dt, .timeline__filter .filter-list, .timeline__container .period, .usage__box-empty, .text--content code, .product-grid__item .category-link,
 .text-size--13 {
   font-size: 13px;
   line-height: 18px;
@@ -531,7 +531,7 @@ small {
   font-family: Roboto; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.form-search.form-item--large, .confirm-table, .top-up-buttons__label .amount, .usage__sum-value, .text--content h2,
+.confirm-table, .top-up-buttons__label .amount, .usage__sum-value, .text--content h2,
 .text-size--30 {
   font-size: 30px;
   line-height: 38px;
@@ -1011,15 +1011,15 @@ small {
 
 /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
 .align--top {
-  vertical-align: top; }
+  vertical-align: top !important; }
 
 /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
 .align--middle {
-  vertical-align: middle; }
+  vertical-align: middle !important; }
 
 /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
 .align--bottom {
-  vertical-align: bottom; }
+  vertical-align: bottom !important; }
 
 /* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
 .text--left {
@@ -2734,7 +2734,7 @@ small {
       border: none !important; } }
 
 /* line 24, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_mixins.scss */
-.constrain-inner:after, .container:after, .table--order p:after, .form-item--inline:after, .radiobutton-row:after, .list--breadcrumbs:after, .pager:after, .tabpanel__list:after, .section:after, .login--block:after, .table--plan__row:after, [class*="menu--"]:after, .global-search__list-item--search a:after, .media:after, .router__item:after, .terms-list dd:after, .bar-load:after, .block--jumbotron2:after, .block--picture:after, .block--picture2:after, .product-grid__item__inner-wrapper:after, .product-page .details-list li:after, .product-page--list li:after, .minprice-popup dl:after,
+.constrain-inner:after, .container:after, .table--order p:after, .form-item--inline:after, .radiobutton-row:after, .list--breadcrumbs:after, .pager:after, .tabpanel__list:after, .section:after, .login--block:after, .table--plan__row:after, [class*="menu--"]:after, .media:after, .router__item:after, .terms-list dd:after, .bar-load:after, .block--jumbotron2:after, .block--picture:after, .block--picture2:after, .product-grid__item__inner-wrapper:after, .product-page .details-list li:after, .product-page--list li:after, .minprice-popup dl:after,
 .clear:after {
   content: "";
   display: table;
@@ -4508,7 +4508,7 @@ small {
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Denmark/Framework/core/_scss/osef-base/_framework-icons.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before, .col--expander:before, .datepicker:after, .datepicker--range .col:after, .datepick-cmd-close:before, .datepick-cmd-prev:before,
-.datepick-cmd-next:before, .dropdown__label:after, .dropdown__filter:before, .dropdown--subscriptions .dropdown__label:before, .footer__breadcrumbs li:nth-child(1n+2) a:before, .form-checkbox label:before, .form-radio label:before, .form-search.form-search--inline:before, .link--bullet:before, .list li:before, .number__control--decrease:before, .number__control--increase:before, .pager__button.previous:before, .pager > span > span.previous:before, .previous.pager__elipsis:before, .pager__button.next:before, .pager > span > span.next:before, .next.pager__elipsis:before, .fill--half:after, .form-select__field:after, .flexnav__toggler:after, .nav-mobile__accordion li span, .status-dot--check:before, .section--login-block .card-number .icon-login, .flipper__button:before, .product-options-list__holder:after, .subscription-details__select-indicator:after, .family-plan .plan-box .plan-content .member label:after, .attachments__add-item:before, .attachments__delete-item:before, .attachments__icon:before, .subscription-expander:before {
+.datepick-cmd-next:before, .dropdown__label:after, .dropdown__filter:before, .dropdown--subscriptions .dropdown__label:before, .footer__breadcrumbs li:nth-child(1n+2) a:before, .form-checkbox label:before, .form-radio label:before, .link--bullet:before, .list li:before, .number__control--decrease:before, .number__control--increase:before, .pager__button.previous:before, .pager > span > span.previous:before, .previous.pager__elipsis:before, .pager__button.next:before, .pager > span > span.next:before, .next.pager__elipsis:before, .fill--half:after, .form-select__field:after, .flexnav__toggler:after, .nav-mobile__accordion li span, .status-dot--check:before, .section--login-block .card-number .icon-login, .flipper__button:before, .product-options-list__holder:after, .subscription-details__select-indicator:after, .family-plan .plan-box .plan-content .member label:after, .attachments__add-item:before, .attachments__delete-item:before, .attachments__icon:before, .subscription-expander:before {
   font-family: "framework-icons";
   display: inline-block;
   font-weight: normal;
@@ -5589,10 +5589,6 @@ examples:
     position: relative; }
 
 /* line 176, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/icons/_scss/_index.scss */
-.icon-size {
-  line-height: 1; }
-
-/* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/icons/_scss/_index.scss */
 .icon-height {
   line-height: 1; }
 
@@ -8969,26 +8965,22 @@ examples:
         </div>
 */
 /* line 12, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-.form-item, .form-search {
+.form-item {
   position: relative; }
   /* line 16, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-  .form-item label, .form-search label {
+  .form-item label {
     padding: 0 0 6px;
     display: inline-block;
     vertical-align: top;
     color: #666;
     position: relative; }
     /* line 24, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .section--negative .form-item label, .section--negative .form-search label {
+    .section--negative .form-item label {
       color: #fff; }
     /* line 28, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .form-item--disabled .form-item label, .form-item--disabled .form-search label {
-      cursor: default;
-      pointer-events: none; }
-    /* line 33, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .form-item label[for], .form-search label[for] {
+    .form-item label[for] {
       cursor: pointer; }
-  /* line 51, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 46, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--required label:after {
     content: "*";
     color: #db5451;
@@ -8997,9 +8989,9 @@ examples:
     margin-left: -5px;
     -webkit-transform: translate(5px, 0);
             transform: translate(5px, 0); }
-  /* line 61, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-  .form-item [type="text"], .form-search [type="text"], .form-item [type="number"], .form-search [type="number"], .form-item [type="email"], .form-search [type="email"], .form-item [type="month"], .form-search [type="month"], .form-item [type="password"], .form-search [type="password"], .form-item [type="tel"], .form-search [type="tel"], .form-item [type="url"], .form-search [type="url"], .form-item [type="search"], .form-search [type="search"],
-  .form-item textarea, .form-search textarea {
+  /* line 56, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item [type="text"], .form-item [type="number"], .form-item [type="email"], .form-item [type="month"], .form-item [type="password"], .form-item [type="tel"], .form-item [type="url"], .form-item [type="search"],
+  .form-item textarea {
     padding: 10px;
     background: #fff;
     border: 1px solid #d1d1d1;
@@ -9014,61 +9006,113 @@ examples:
     transition: all 0.125s;
     -webkit-appearance: none;
     -moz-appearance: textfield; }
-    /* line 76, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .form-item [type="text"]::-webkit-inner-spin-button, .form-search [type="text"]::-webkit-inner-spin-button, .form-item [type="text"]::-webkit-outer-spin-button, .form-search [type="text"]::-webkit-outer-spin-button, .form-item [type="number"]::-webkit-inner-spin-button, .form-search [type="number"]::-webkit-inner-spin-button, .form-item [type="number"]::-webkit-outer-spin-button, .form-search [type="number"]::-webkit-outer-spin-button, .form-item [type="email"]::-webkit-inner-spin-button, .form-search [type="email"]::-webkit-inner-spin-button, .form-item [type="email"]::-webkit-outer-spin-button, .form-search [type="email"]::-webkit-outer-spin-button, .form-item [type="month"]::-webkit-inner-spin-button, .form-search [type="month"]::-webkit-inner-spin-button, .form-item [type="month"]::-webkit-outer-spin-button, .form-search [type="month"]::-webkit-outer-spin-button, .form-item [type="password"]::-webkit-inner-spin-button, .form-search [type="password"]::-webkit-inner-spin-button, .form-item [type="password"]::-webkit-outer-spin-button, .form-search [type="password"]::-webkit-outer-spin-button, .form-item [type="tel"]::-webkit-inner-spin-button, .form-search [type="tel"]::-webkit-inner-spin-button, .form-item [type="tel"]::-webkit-outer-spin-button, .form-search [type="tel"]::-webkit-outer-spin-button, .form-item [type="url"]::-webkit-inner-spin-button, .form-search [type="url"]::-webkit-inner-spin-button, .form-item [type="url"]::-webkit-outer-spin-button, .form-search [type="url"]::-webkit-outer-spin-button, .form-item [type="search"]::-webkit-inner-spin-button, .form-search [type="search"]::-webkit-inner-spin-button, .form-item [type="search"]::-webkit-outer-spin-button, .form-search [type="search"]::-webkit-outer-spin-button,
-    .form-item textarea::-webkit-inner-spin-button, .form-search textarea::-webkit-inner-spin-button,
-    .form-item textarea::-webkit-outer-spin-button, .form-search textarea::-webkit-outer-spin-button {
+    /* line 71, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item [type="text"]::-webkit-inner-spin-button, .form-item [type="text"]::-webkit-outer-spin-button, .form-item [type="number"]::-webkit-inner-spin-button, .form-item [type="number"]::-webkit-outer-spin-button, .form-item [type="email"]::-webkit-inner-spin-button, .form-item [type="email"]::-webkit-outer-spin-button, .form-item [type="month"]::-webkit-inner-spin-button, .form-item [type="month"]::-webkit-outer-spin-button, .form-item [type="password"]::-webkit-inner-spin-button, .form-item [type="password"]::-webkit-outer-spin-button, .form-item [type="tel"]::-webkit-inner-spin-button, .form-item [type="tel"]::-webkit-outer-spin-button, .form-item [type="url"]::-webkit-inner-spin-button, .form-item [type="url"]::-webkit-outer-spin-button, .form-item [type="search"]::-webkit-inner-spin-button, .form-item [type="search"]::-webkit-outer-spin-button,
+    .form-item textarea::-webkit-inner-spin-button,
+    .form-item textarea::-webkit-outer-spin-button {
       margin: 0;
       -webkit-appearance: none; }
-    /* line 82, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .form-item [type="text"]:hover, .form-search [type="text"]:hover, .form-item [type="number"]:hover, .form-search [type="number"]:hover, .form-item [type="email"]:hover, .form-search [type="email"]:hover, .form-item [type="month"]:hover, .form-search [type="month"]:hover, .form-item [type="password"]:hover, .form-search [type="password"]:hover, .form-item [type="tel"]:hover, .form-search [type="tel"]:hover, .form-item [type="url"]:hover, .form-search [type="url"]:hover, .form-item [type="search"]:hover, .form-search [type="search"]:hover,
-    .form-item textarea:hover, .form-search textarea:hover {
+    /* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item [type="text"]:hover, .form-item [type="number"]:hover, .form-item [type="email"]:hover, .form-item [type="month"]:hover, .form-item [type="password"]:hover, .form-item [type="tel"]:hover, .form-item [type="url"]:hover, .form-item [type="search"]:hover,
+    .form-item textarea:hover {
       border: 1px solid #b8b8b8; }
-      /* line 85, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-      .section--negative .form-item [type="text"]:hover, .section--negative .form-search [type="text"]:hover, .section--negative .form-item [type="number"]:hover, .section--negative .form-search [type="number"]:hover, .section--negative .form-item [type="email"]:hover, .section--negative .form-search [type="email"]:hover, .section--negative .form-item [type="month"]:hover, .section--negative .form-search [type="month"]:hover, .section--negative .form-item [type="password"]:hover, .section--negative .form-search [type="password"]:hover, .section--negative .form-item [type="tel"]:hover, .section--negative .form-search [type="tel"]:hover, .section--negative .form-item [type="url"]:hover, .section--negative .form-search [type="url"]:hover, .section--negative .form-item [type="search"]:hover, .section--negative .form-search [type="search"]:hover, .section--negative
-      .form-item textarea:hover, .section--negative .form-search textarea:hover {
+      /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      .section--negative .form-item [type="text"]:hover, .section--negative .form-item [type="number"]:hover, .section--negative .form-item [type="email"]:hover, .section--negative .form-item [type="month"]:hover, .section--negative .form-item [type="password"]:hover, .section--negative .form-item [type="tel"]:hover, .section--negative .form-item [type="url"]:hover, .section--negative .form-item [type="search"]:hover, .section--negative
+      .form-item textarea:hover {
         border-color: #d1d1d1; }
-    /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .form-item [type="text"]:focus, .form-search [type="text"]:focus, .form-item [type="number"]:focus, .form-search [type="number"]:focus, .form-item [type="email"]:focus, .form-search [type="email"]:focus, .form-item [type="month"]:focus, .form-search [type="month"]:focus, .form-item [type="password"]:focus, .form-search [type="password"]:focus, .form-item [type="tel"]:focus, .form-search [type="tel"]:focus, .form-item [type="url"]:focus, .form-search [type="url"]:focus, .form-item [type="search"]:focus, .form-search [type="search"]:focus,
-    .form-item textarea:focus, .form-search textarea:focus {
+      /* line 84, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      .form-item [type="text"]:hover ~ .form-item__search-submit, .form-item [type="number"]:hover ~ .form-item__search-submit, .form-item [type="email"]:hover ~ .form-item__search-submit, .form-item [type="month"]:hover ~ .form-item__search-submit, .form-item [type="password"]:hover ~ .form-item__search-submit, .form-item [type="tel"]:hover ~ .form-item__search-submit, .form-item [type="url"]:hover ~ .form-item__search-submit, .form-item [type="search"]:hover ~ .form-item__search-submit,
+      .form-item textarea:hover ~ .form-item__search-submit {
+        border: 1px solid #b8b8b8; }
+    /* line 89, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item [type="text"]:focus, .form-item [type="number"]:focus, .form-item [type="email"]:focus, .form-item [type="month"]:focus, .form-item [type="password"]:focus, .form-item [type="tel"]:focus, .form-item [type="url"]:focus, .form-item [type="search"]:focus,
+    .form-item textarea:focus {
       border: 1px solid #038cd6; }
-      /* line 93, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-      .section--negative .form-item [type="text"]:focus, .section--negative .form-search [type="text"]:focus, .section--negative .form-item [type="number"]:focus, .section--negative .form-search [type="number"]:focus, .section--negative .form-item [type="email"]:focus, .section--negative .form-search [type="email"]:focus, .section--negative .form-item [type="month"]:focus, .section--negative .form-search [type="month"]:focus, .section--negative .form-item [type="password"]:focus, .section--negative .form-search [type="password"]:focus, .section--negative .form-item [type="tel"]:focus, .section--negative .form-search [type="tel"]:focus, .section--negative .form-item [type="url"]:focus, .section--negative .form-search [type="url"]:focus, .section--negative .form-item [type="search"]:focus, .section--negative .form-search [type="search"]:focus, .section--negative
-      .form-item textarea:focus, .section--negative .form-search textarea:focus {
+      /* line 92, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      .form-item [type="text"]:focus ~ .form-item__search-submit, .form-item [type="number"]:focus ~ .form-item__search-submit, .form-item [type="email"]:focus ~ .form-item__search-submit, .form-item [type="month"]:focus ~ .form-item__search-submit, .form-item [type="password"]:focus ~ .form-item__search-submit, .form-item [type="tel"]:focus ~ .form-item__search-submit, .form-item [type="url"]:focus ~ .form-item__search-submit, .form-item [type="search"]:focus ~ .form-item__search-submit,
+      .form-item textarea:focus ~ .form-item__search-submit {
+        background-color: #038cd6;
+        border: 1px solid #038cd6;
+        color: #fff; }
+      /* line 98, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      .section--negative .form-item [type="text"]:focus, .section--negative .form-item [type="number"]:focus, .section--negative .form-item [type="email"]:focus, .section--negative .form-item [type="month"]:focus, .section--negative .form-item [type="password"]:focus, .section--negative .form-item [type="tel"]:focus, .section--negative .form-item [type="url"]:focus, .section--negative .form-item [type="search"]:focus, .section--negative
+      .form-item textarea:focus {
         border: 1px solid #00619e; }
-    /* line 98, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .form-item [type="text"][disabled], .form-search [type="text"][disabled], .form-item [type="number"][disabled], .form-search [type="number"][disabled], .form-item [type="email"][disabled], .form-search [type="email"][disabled], .form-item [type="month"][disabled], .form-search [type="month"][disabled], .form-item [type="password"][disabled], .form-search [type="password"][disabled], .form-item [type="tel"][disabled], .form-search [type="tel"][disabled], .form-item [type="url"][disabled], .form-search [type="url"][disabled], .form-item [type="search"][disabled], .form-search [type="search"][disabled],
-    .form-item textarea[disabled], .form-search textarea[disabled] {
+        /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+        .section--negative .form-item [type="text"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="number"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="email"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="month"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="password"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="tel"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="url"]:focus ~ .form-item__search-submit, .section--negative .form-item [type="search"]:focus ~ .form-item__search-submit, .section--negative
+        .form-item textarea:focus ~ .form-item__search-submit {
+          background-color: #f5f5f5;
+          border: 1px solid #00619e;
+          color: #666; }
+    /* line 109, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item [type="text"][disabled], .form-item [type="number"][disabled], .form-item [type="email"][disabled], .form-item [type="month"][disabled], .form-item [type="password"][disabled], .form-item [type="tel"][disabled], .form-item [type="url"][disabled], .form-item [type="search"][disabled],
+    .form-item textarea[disabled] {
       background: #f5f5f5;
       border-color: #e8e8e8; }
-    /* line 103, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-    .section--negative .form-item [type="text"], .section--negative .form-search [type="text"], .section--negative .form-item [type="number"], .section--negative .form-search [type="number"], .section--negative .form-item [type="email"], .section--negative .form-search [type="email"], .section--negative .form-item [type="month"], .section--negative .form-search [type="month"], .section--negative .form-item [type="password"], .section--negative .form-search [type="password"], .section--negative .form-item [type="tel"], .section--negative .form-search [type="tel"], .section--negative .form-item [type="url"], .section--negative .form-search [type="url"], .section--negative .form-item [type="search"], .section--negative .form-search [type="search"], .section--negative
-    .form-item textarea, .section--negative .form-search textarea {
+      /* line 113, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      .form-item [type="text"][disabled] ~ .form-item__search-submit, .form-item [type="number"][disabled] ~ .form-item__search-submit, .form-item [type="email"][disabled] ~ .form-item__search-submit, .form-item [type="month"][disabled] ~ .form-item__search-submit, .form-item [type="password"][disabled] ~ .form-item__search-submit, .form-item [type="tel"][disabled] ~ .form-item__search-submit, .form-item [type="url"][disabled] ~ .form-item__search-submit, .form-item [type="search"][disabled] ~ .form-item__search-submit,
+      .form-item textarea[disabled] ~ .form-item__search-submit {
+        color: #e8e8e8;
+        border-color: #e8e8e8;
+        cursor: default;
+        pointer-events: none; }
+    /* line 121, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .section--negative .form-item [type="text"], .section--negative .form-item [type="number"], .section--negative .form-item [type="email"], .section--negative .form-item [type="month"], .section--negative .form-item [type="password"], .section--negative .form-item [type="tel"], .section--negative .form-item [type="url"], .section--negative .form-item [type="search"], .section--negative
+    .form-item textarea {
       border-color: transparent; }
-  /* line 108, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-  .form-item textarea, .form-search textarea {
+  /* line 126, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item textarea {
     line-height: 1.5625em;
     min-height: 100px;
     padding: 8px 10px; }
-  /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 132, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item__row {
+    display: inline-block; }
+    /* line 135, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item__row input:first-child {
+      padding-right: 40px;
+      width: auto; }
+  /* line 142, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--large [type="text"], .form-item--large [type="number"], .form-item--large [type="email"], .form-item--large [type="month"], .form-item--large [type="password"], .form-item--large [type="tel"], .form-item--large [type="url"], .form-item--large [type="search"] {
+    font-size: 30px;
+    height: 64px; }
+  /* line 147, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--large .form-item__search-submit {
+    font-size: 30px;
+    width: 64px; }
+  /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--large .form-item__search-clear {
+    right: 64px;
+    width: 64px;
+    font-size: 24px; }
+  /* line 160, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--small [type="text"], .form-item--small [type="number"], .form-item--small [type="email"], .form-item--small [type="month"], .form-item--small [type="password"], .form-item--small [type="tel"], .form-item--small [type="url"], .form-item--small [type="search"] {
     font-size: 13px;
     padding-top: 7px;
     padding-bottom: 7px;
     height: 32px; }
-  /* line 123, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 167, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--small .form-item__search-submit {
+    font-size: 16px;
+    width: 32px; }
+  /* line 172, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--small .form-item__search-clear {
+    right: 32px;
+    width: 32px;
+    font-size: 16px; }
+  /* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--short {
     max-width: 64px; }
-  /* line 127, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 183, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--error {
     position: relative; }
-    /* line 131, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--error [type="text"], .form-item--error [type="text"]:focus, .form-item--error [type="number"], .form-item--error [type="number"]:focus, .form-item--error [type="email"], .form-item--error [type="email"]:focus, .form-item--error [type="month"], .form-item--error [type="month"]:focus, .form-item--error [type="password"], .form-item--error [type="password"]:focus, .form-item--error [type="tel"], .form-item--error [type="tel"]:focus, .form-item--error [type="url"], .form-item--error [type="url"]:focus, .form-item--error [type="search"], .form-item--error [type="search"]:focus,
     .form-item--error textarea,
     .form-item--error textarea:focus {
       border-color: #db5451 !important;
       box-shadow: 1px 0 0 0 #fe635f inset, 0 1px 0 0 #fe635f inset, -1px 0 0 0 #fe635f inset, 0 -1px 0 0 #fe635f inset; }
-    /* line 139, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--error [class^="icon-"] {
       color: #fe635f;
       position: absolute;
@@ -9077,74 +9121,198 @@ examples:
       font-size: 17px;
       line-height: 20px;
       z-index: 500; }
-  /* line 151, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--inline {
     display: inline-block;
     vertical-align: top;
     margin-left: 10px;
     margin-right: 6px; }
     @media only screen and (max-width: 767px) {
-      /* line 151, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
       .form-item--inline {
         display: block;
         margin: 0 0 20px; } }
-    /* line 165, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 221, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--inline.form-item--first, .form-item--inline:first-child {
       margin-left: 0; }
-    /* line 169, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 225, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     label + .form-item--inline {
       margin-left: 7px; }
-    /* line 173, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--inline select {
       padding-right: 40px;
       margin-right: 40px; }
-  /* line 182, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-  .form-item--multi-fields [class*="col-"] .form-item, .form-item--multi-fields [class*="col-"] .form-search {
+  /* line 238, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--multi-fields [class*="col-"] .form-item {
     margin-left: -1px; }
-  /* line 186, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 242, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--multi-fields [class*="col-"] input {
     border-radius: 0; }
-    /* line 189, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 245, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--multi-fields [class*="col-"] input:hover, .form-item--multi-fields [class*="col-"] input:focus {
       position: relative;
       z-index: 300; }
-    /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 251, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--multi-fields [class*="col-"] input:focus {
       z-index: 301; }
-  /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 257, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--multi-fields [class*="col-"]:first-child input {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px; }
-  /* line 208, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-  .form-item--multi-fields [class*="col-"]:last-child .form-item, .form-item--multi-fields [class*="col-"]:last-child .form-search {
+  /* line 264, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--multi-fields [class*="col-"]:last-child .form-item {
     margin-right: 0; }
-  /* line 212, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 268, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--multi-fields [class*="col-"]:last-child input {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px; }
-  /* line 221, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 277, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-item--multi-paddings [class*="col-"] {
     padding-left: 1px; }
-    /* line 224, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    /* line 280, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
     .form-item--multi-paddings [class*="col-"]:first-child {
       padding: 0; }
+  /* line 287, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item__search-submit, .form-item__search-clear {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    width: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 0 3px 3px 0;
+    background-color: #f5f5f5;
+    color: #666;
+    text-align: center;
+    -webkit-transition: all 0.125s;
+    transition: all 0.125s;
+    outline: none;
+    line-height: 1;
+    font-size: 20px; }
+  /* line 308, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item__search-submit .icon-search:before {
+    vertical-align: middle; }
+  /* line 314, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item__search-clear {
+    right: 40px;
+    border: none;
+    background-color: transparent;
+    color: #b8b8b8; }
+  /* line 322, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-right [type="text"], .form-item--search-right [type="number"], .form-item--search-right [type="email"], .form-item--search-right [type="month"], .form-item--search-right [type="password"], .form-item--search-right [type="tel"], .form-item--search-right [type="url"], .form-item--search-right [type="search"] {
+    padding-right: 80px; }
+  /* line 327, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-right.form-item--large [type="text"], .form-item--search-right.form-item--large [type="number"], .form-item--search-right.form-item--large [type="email"], .form-item--search-right.form-item--large [type="month"], .form-item--search-right.form-item--large [type="password"], .form-item--search-right.form-item--large [type="tel"], .form-item--search-right.form-item--large [type="url"], .form-item--search-right.form-item--large [type="search"] {
+    padding-right: 128px; }
+  /* line 333, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-right.form-item--small [type="text"], .form-item--search-right.form-item--small [type="number"], .form-item--search-right.form-item--small [type="email"], .form-item--search-right.form-item--small [type="month"], .form-item--search-right.form-item--small [type="password"], .form-item--search-right.form-item--small [type="tel"], .form-item--search-right.form-item--small [type="url"], .form-item--search-right.form-item--small [type="search"] {
+    padding-right: 64px; }
+  /* line 340, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-left [type="text"], .form-item--search-left [type="number"], .form-item--search-left [type="email"], .form-item--search-left [type="month"], .form-item--search-left [type="password"], .form-item--search-left [type="tel"], .form-item--search-left [type="url"], .form-item--search-left [type="search"] {
+    padding-left: 40px;
+    padding-right: 40px; }
+    /* line 346, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-left [type="text"]:hover ~ .form-item__search-submit, .form-item--search-left [type="text"]:focus ~ .form-item__search-submit, .form-item--search-left [type="number"]:hover ~ .form-item__search-submit, .form-item--search-left [type="number"]:focus ~ .form-item__search-submit, .form-item--search-left [type="email"]:hover ~ .form-item__search-submit, .form-item--search-left [type="email"]:focus ~ .form-item__search-submit, .form-item--search-left [type="month"]:hover ~ .form-item__search-submit, .form-item--search-left [type="month"]:focus ~ .form-item__search-submit, .form-item--search-left [type="password"]:hover ~ .form-item__search-submit, .form-item--search-left [type="password"]:focus ~ .form-item__search-submit, .form-item--search-left [type="tel"]:hover ~ .form-item__search-submit, .form-item--search-left [type="tel"]:focus ~ .form-item__search-submit, .form-item--search-left [type="url"]:hover ~ .form-item__search-submit, .form-item--search-left [type="url"]:focus ~ .form-item__search-submit, .form-item--search-left [type="search"]:hover ~ .form-item__search-submit, .form-item--search-left [type="search"]:focus ~ .form-item__search-submit {
+      background: none;
+      border: none;
+      color: #666; }
+    /* line 354, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-left [type="text"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="number"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="email"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="month"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="password"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="tel"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="url"][disabled] ~ .form-item__search-submit, .form-item--search-left [type="search"][disabled] ~ .form-item__search-submit {
+      color: #e8e8e8; }
+    /* line 360, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .section--negative .form-item--search-left [type="text"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="number"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="email"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="month"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="password"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="tel"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="url"]:focus ~ .form-item__search-submit, .section--negative .form-item--search-left [type="search"]:focus ~ .form-item__search-submit {
+      background: none;
+      border: none;
+      color: #666; }
+  /* line 369, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-left.form-item--large [type="text"], .form-item--search-left.form-item--large [type="number"], .form-item--search-left.form-item--large [type="email"], .form-item--search-left.form-item--large [type="month"], .form-item--search-left.form-item--large [type="password"], .form-item--search-left.form-item--large [type="tel"], .form-item--search-left.form-item--large [type="url"], .form-item--search-left.form-item--large [type="search"] {
+    padding-left: 64px;
+    padding-right: 64px; }
+  /* line 376, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-left.form-item--small [type="text"], .form-item--search-left.form-item--small [type="number"], .form-item--search-left.form-item--small [type="email"], .form-item--search-left.form-item--small [type="month"], .form-item--search-left.form-item--small [type="password"], .form-item--search-left.form-item--small [type="tel"], .form-item--search-left.form-item--small [type="url"], .form-item--search-left.form-item--small [type="search"] {
+    padding-left: 32px;
+    padding-right: 32px; }
+  /* line 382, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-left .form-item__search-submit {
+    left: 0;
+    background: none;
+    border: none;
+    pointer-events: none; }
+  /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-left .form-item__search-clear {
+    right: 0; }
+  /* line 394, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-top {
+    opacity: 0;
+    z-index: -1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: width 500ms ease, opacity 500ms ease;
+    transition: width 500ms ease, opacity 500ms ease;
+    position: absolute;
+    top: -15px;
+    right: 1px;
+    width: 35px; }
+    /* line 404, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-top:after {
+      content: '';
+      display: none;
+      width: 1px;
+      position: absolute;
+      right: 45px;
+      top: 10px;
+      bottom: 10px;
+      background: #d1d1d1; }
+    /* line 415, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-top [type="text"], .form-item--search-top [type="number"], .form-item--search-top [type="email"], .form-item--search-top [type="month"], .form-item--search-top [type="password"], .form-item--search-top [type="tel"], .form-item--search-top [type="url"], .form-item--search-top [type="search"] {
+      text-indent: -9999px;
+      height: 50px;
+      padding-right: 10px; }
+    /* line 423, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-top .form-item__search-submit {
+      background: none;
+      border: none;
+      width: 30px;
+      height: 30px;
+      top: 11px;
+      right: 8px;
+      color: #038cd6; }
+  /* line 434, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  .form-item--search-active {
+    opacity: 1;
+    width: 834px;
+    z-index: 1; }
+    /* line 439, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-active:after {
+      display: block; }
+    /* line 443, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-active [type="text"], .form-item--search-active [type="number"], .form-item--search-active [type="email"], .form-item--search-active [type="month"], .form-item--search-active [type="password"], .form-item--search-active [type="tel"], .form-item--search-active [type="url"], .form-item--search-active [type="search"] {
+      -webkit-transition: padding-right 500ms ease;
+      transition: padding-right 500ms ease;
+      text-indent: 0;
+      padding-right: 80px; }
+      /* line 448, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+      .form-item--search-active [type="text"]:hover, .form-item--search-active [type="text"]:focus, .form-item--search-active [type="number"]:hover, .form-item--search-active [type="number"]:focus, .form-item--search-active [type="email"]:hover, .form-item--search-active [type="email"]:focus, .form-item--search-active [type="month"]:hover, .form-item--search-active [type="month"]:focus, .form-item--search-active [type="password"]:hover, .form-item--search-active [type="password"]:focus, .form-item--search-active [type="tel"]:hover, .form-item--search-active [type="tel"]:focus, .form-item--search-active [type="url"]:hover, .form-item--search-active [type="url"]:focus, .form-item--search-active [type="search"]:hover, .form-item--search-active [type="search"]:focus {
+        border: 1px solid #d1d1d1; }
+        /* line 452, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+        .form-item--search-active [type="text"]:hover ~ .form-item__search-submit, .form-item--search-active [type="text"]:focus ~ .form-item__search-submit, .form-item--search-active [type="number"]:hover ~ .form-item__search-submit, .form-item--search-active [type="number"]:focus ~ .form-item__search-submit, .form-item--search-active [type="email"]:hover ~ .form-item__search-submit, .form-item--search-active [type="email"]:focus ~ .form-item__search-submit, .form-item--search-active [type="month"]:hover ~ .form-item__search-submit, .form-item--search-active [type="month"]:focus ~ .form-item__search-submit, .form-item--search-active [type="password"]:hover ~ .form-item__search-submit, .form-item--search-active [type="password"]:focus ~ .form-item__search-submit, .form-item--search-active [type="tel"]:hover ~ .form-item__search-submit, .form-item--search-active [type="tel"]:focus ~ .form-item__search-submit, .form-item--search-active [type="url"]:hover ~ .form-item__search-submit, .form-item--search-active [type="url"]:focus ~ .form-item__search-submit, .form-item--search-active [type="search"]:hover ~ .form-item__search-submit, .form-item--search-active [type="search"]:focus ~ .form-item__search-submit {
+          border: none;
+          background-color: transparent;
+          color: #038cd6; }
+    /* line 460, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+    .form-item--search-active .form-item__search-clear {
+      right: 45px;
+      color: #d1d1d1; }
 
-/* line 232, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+/* line 468, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
 .form-row {
   margin-top: 20px; }
 
-/* line 236, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-.form-item__row {
-  display: inline-block; }
-  /* line 239, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
-  .form-item__row input:first-child {
-    padding-right: 40px;
-    width: auto; }
-
-/* line 246, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+/* line 472, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
 .form-inline {
   line-height: 0; }
-  /* line 249, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
+  /* line 475, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/_scss/_forms.scss */
   .form-inline [class^="form-radio"],
   .form-inline [class^="form-checkbox"] {
     display: inline-block;
@@ -9840,172 +10008,130 @@ type: ui
 desc: >
   # Disabling
 
-  1. You can disable search element by adding 'disabled' attribute to 'input:search' and to 'button.form-search__submit'
+  1. You can disable search element by adding 'disabled' attribute to 'input:search'
 
   # Modifiers
 
-  1. --small: Small search
+  1. --search-right: You should add this modifier to 'form-item' class to make searh and clear button visible on the right of 'form-item'
 
-  2. --large: Large search
+  2. --search-left: You should add this modifier to 'form-item' class to make searh and clear button visible, search icon will appear on the left side
+
+  3. --small: You can add this modifier to 'form-item' class to make it small
+
+  4. --large: You can add this modifier to 'form-item' class to make it large
 
 examples:
-  - name: Default search
-    tmpl:
-        include: search.html
-  - name: Small search
-    tmpl:
-        include: search-small.html
-  - name: Large search
-    tmpl:
-        include: search-large.html
-  - name: Disabled search
-    tmpl:
-        include: search-disabled.html
-  - name: Inline search
-    tmpl:
-        include: search-inline.html
-  - name: Inline small search
-    tmpl:
-        include: search-inline-small.html
-  - name: Inline large search
-    tmpl:
-        include: search-inline-large.html
-  - name: Negative search
-    tmpl:
-        include: search-negative.html
-  - name: Negative inline search
-    tmpl:
-        include: search-inline-negative.html
+  - name: Form field with search
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--search-right" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Small Form field with search
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--small form-item--search-right" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Large Form field with search
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--large form-item--search-right" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Disabled Form field with search
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--search-right" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" disabled />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Form field with search in a negative box
+    tmpl: >
+        <div class="section--negative box--blue padding-whole">
+            <div class="form-item form-item--search-right" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Form field with search icon on the left
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--search-left" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Small Form field with search icon on the left
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--small form-item--search-left" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Large Form field with search icon on the left
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--large form-item--search-left" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Disabled Form field with search icon on the left
+    tmpl: >
+        <div class="border box--greyed padding-whole">
+            <div class="form-item form-item--search-left" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" disabled/>
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
+  - name: Form field with search icon on the left in a negative box
+    tmpl: >
+        <div class="section--negative box--blue padding-whole">
+            <div class="form-item form-item--search-left" data-component="form/search">
+                <div class="rel">
+                    <input type="search" placeholder="Search..." data-component="type-watch" data-element="formSearchInput" data-capture-length="1" />
+                    <button type="button" tabindex="-1" class="form-item__search-clear icon-clear" data-element="clearButton" data-list-clear=""></button>
+                    <button type="button" class="form-item__search-submit icon-search" data-element="submitButton" tabindex="-1"></button>
+                </div>
+            </div>
+        </div>
 */
-/* line 45, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-.form-search {
-  position: relative; }
-  /* line 51, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search input {
-    outline: none;
-    -webkit-appearance: none; }
-  /* line 56, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search input[type="text"],
-  .form-search input[type="search"] {
-    padding-right: 56px; }
-  /* line 61, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search__submit {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    outline: none;
-    -webkit-transition: all 0.125s;
-    transition: all 0.125s;
-    width: 40px;
-    padding: 0;
-    text-align: center;
-    background-color: #f5f5f5;
-    border-radius: 0 3px 3px 0;
-    border: 1px solid #d1d1d1;
-    color: #666;
-    line-height: 40px; }
-    /* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-    .form-search__submit .icon-search {
-      display: inline-block; }
-      /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-      .form-search__submit .icon-search:before {
-        vertical-align: middle; }
-    /* line 85, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-    .form-search__submit:disabled {
-      border-color: #e8e8e8;
-      color: #e8e8e8; }
-  /* line 91, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search__clear {
-    border: none;
-    background: transparent;
-    outline: none;
-    padding: 0 5px;
-    position: absolute;
-    right: 40px;
-    top: 0;
-    bottom: 0;
-    color: #b8b8b8; }
-    /* line 103, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-    .form-search__clear:before {
-      font-size: 20px;
-      height: 32px;
-      line-height: 32px; }
-  /* line 110, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search input:not([disabled]):hover,
-  .form-search input:not([disabled]):hover ~ .form-search__submit {
-    border: 1px solid #b8b8b8;
-    border-left: 1px solid #d1d1d1; }
-  /* line 116, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search input:disabled ~ .form-search__clear {
-    display: none; }
-  /* line 120, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search input:focus ~ .form-search__submit {
-    background-color: #038cd6;
-    border: 1px solid #038cd6;
-    color: #fff; }
-  /* line 132, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline .form-search__clear {
-    right: 8px; }
-  /* line 136, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline input {
-    padding-left: 35px; }
-  /* line 140, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline:before {
-    content: "\E0AB";
-    font-size: 20px;
-    position: absolute;
-    top: 11px;
-    left: 10px;
-    color: #666; }
-  /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline.form-item--small input {
-    padding-left: 30px; }
-  /* line 155, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline.form-item--small:before {
-    top: 9px;
-    font-size: 14px; }
-  /* line 162, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline.form-item--large input {
-    padding-left: 50px;
-    padding-right: 10px; }
-  /* line 166, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-search--inline.form-item--large:before {
-    top: 17px;
-    font-size: 30px; }
-  /* line 178, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .section--negative .form-search .form-search__submit {
-    border-color: transparent;
-    border-left: 1px solid #d1d1d1;
-    border-radius: 0 3px 3px 0; }
-  /* line 184, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .section--negative .form-search input:focus ~ .form-search__submit {
-    background-color: #f5f5f5;
-    border: 1px solid #00619e;
-    color: #000; }
-  /* line 197, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-item--small input {
-    padding-bottom: 7px;
-    height: 32px; }
-  /* line 203, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-item--small .form-search__submit {
-    width: 32px;
-    line-height: 30px; }
-  /* line 209, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-item--small .form-search__clear {
-    right: 32px; }
-  /* line 221, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-item--large input {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 80px;
-    height: 64px;
-    font-style: italic; }
-  /* line 230, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/form/search/_scss/_index.scss */
-  .form-search.form-item--large .form-search__submit {
-    width: 64px;
-    line-height: 62px; }
-
 /**
 name: Links
 type: ui
@@ -12067,7 +12193,7 @@ examples:
       color: #fe635f;
       position: relative; }
     /* line 70, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tooltip/_scss/_index.scss */
-    .tooltip__trigger.form-item, .tooltip__trigger.form-search {
+    .tooltip__trigger.form-item {
       display: block; }
     /* line 74, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/tooltip/_scss/_index.scss */
     .tooltip__trigger--validation {
@@ -12440,21 +12566,21 @@ examples:
         </div>
 */
 /* line 20, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-.load-tester .spinner, .spinner--large, .global-search__loading-next-spinner, .global-search__loading-window-spinner {
+.load-tester .spinner, .spinner--large {
   margin-top: -7px; }
   /* line 23, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-  .load-tester .spinner, .spinner--large, .global-search__loading-next-spinner, .global-search__loading-window-spinner, .load-tester .spinner:before, .spinner--large:before, .global-search__loading-next-spinner:before, .global-search__loading-window-spinner:before, .load-tester .spinner:after, .spinner--large:after, .global-search__loading-next-spinner:after, .global-search__loading-window-spinner:after {
+  .load-tester .spinner, .spinner--large, .load-tester .spinner:before, .spinner--large:before, .load-tester .spinner:after, .spinner--large:after {
     height: 10px;
     width: 10px; }
   /* line 30, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-  .load-tester .spinner:before, .spinner--large:before, .global-search__loading-next-spinner:before, .global-search__loading-window-spinner:before {
+  .load-tester .spinner:before, .spinner--large:before {
     left: -15px; }
   /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-  .load-tester .spinner:after, .spinner--large:after, .global-search__loading-next-spinner:after, .global-search__loading-window-spinner:after {
+  .load-tester .spinner:after, .spinner--large:after {
     left: 15px; }
 
 /* line 39, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-.load-tester .spinner, .spinner--large, .load-large .spinner, [data-loading] .form-item--toggle__switch [class^="icon-"], .global-search__loading-next-spinner, .global-search__loading-window-spinner, .load-tester .spinner:before, .spinner--large:before, .load-large .spinner:before, [data-loading] .form-item--toggle__switch [class^="icon-"]:before, .global-search__loading-next-spinner:before, .global-search__loading-window-spinner:before, .load-tester .spinner:after, .spinner--large:after, .load-large .spinner:after, [data-loading] .form-item--toggle__switch [class^="icon-"]:after, .global-search__loading-next-spinner:after, .global-search__loading-window-spinner:after {
+.load-tester .spinner, .spinner--large, .load-large .spinner, [data-loading] .form-item--toggle__switch [class^="icon-"], .load-tester .spinner:before, .spinner--large:before, .load-large .spinner:before, [data-loading] .form-item--toggle__switch [class^="icon-"]:before, .load-tester .spinner:after, .spinner--large:after, .load-large .spinner:after, [data-loading] .form-item--toggle__switch [class^="icon-"]:after {
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation: loader-white 1.3s infinite ease-in-out;
@@ -12464,7 +12590,7 @@ examples:
   width: 5px; }
 
 /* line 49, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-.load-tester .spinner, .spinner--large, .load-large .spinner, [data-loading] .form-item--toggle__switch [class^="icon-"], .global-search__loading-next-spinner, .global-search__loading-window-spinner {
+.load-tester .spinner, .spinner--large, .load-large .spinner, [data-loading] .form-item--toggle__switch [class^="icon-"] {
   -webkit-animation-delay: .16s;
           animation-delay: .16s;
   display: block;
@@ -12478,17 +12604,17 @@ examples:
           animation-name: loader-grey; }
 
 /* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-.load-tester .spinner:before, .spinner--large:before, .load-large .spinner:before, [data-loading] .form-item--toggle__switch [class^="icon-"]:before, .global-search__loading-next-spinner:before, .global-search__loading-window-spinner:before, .load-tester .spinner:after, .spinner--large:after, .load-large .spinner:after, [data-loading] .form-item--toggle__switch [class^="icon-"]:after, .global-search__loading-next-spinner:after, .global-search__loading-window-spinner:after {
+.load-tester .spinner:before, .spinner--large:before, .load-large .spinner:before, [data-loading] .form-item--toggle__switch [class^="icon-"]:before, .load-tester .spinner:after, .spinner--large:after, .load-large .spinner:after, [data-loading] .form-item--toggle__switch [class^="icon-"]:after {
   content: "";
   position: absolute;
   top: 0; }
 
 /* line 84, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-.load-tester .spinner:before, .spinner--large:before, .load-large .spinner:before, [data-loading] .form-item--toggle__switch [class^="icon-"]:before, .global-search__loading-next-spinner:before, .global-search__loading-window-spinner:before {
+.load-tester .spinner:before, .spinner--large:before, .load-large .spinner:before, [data-loading] .form-item--toggle__switch [class^="icon-"]:before {
   left: -8px; }
 
 /* line 88, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/preloader/_scss/_index.scss */
-.load-tester .spinner:after, .spinner--large:after, .load-large .spinner:after, [data-loading] .form-item--toggle__switch [class^="icon-"]:after, .global-search__loading-next-spinner:after, .global-search__loading-window-spinner:after {
+.load-tester .spinner:after, .spinner--large:after, .load-large .spinner:after, [data-loading] .form-item--toggle__switch [class^="icon-"]:after {
   left: 8px;
   -webkit-animation-delay: .32s;
           animation-delay: .32s; }
@@ -13213,7 +13339,7 @@ examples:
     left: 0;
     width: 100%; }
   /* line 39, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/login/_scss/_login.scss */
-  .login--block .form-item label, .login--block .form-search label {
+  .login--block .form-item label {
     color: #fff; }
   /* line 43, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/login/_scss/_login.scss */
   .login--block h4,
@@ -13387,10 +13513,10 @@ examples:
   .section--login .form-checkbox {
     margin: 0; }
   /* line 68, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/login/_scss/_section--login.scss */
-  .section--login .form-item label, .section--login .form-search label {
+  .section--login .form-item label {
     color: #c0e2f5; }
   /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/login/_scss/_section--login.scss */
-  .section--login .form-item--multi .form-item + .form-item input, .section--login .form-item--multi .form-search + .form-item input, .section--login .form-item--multi .form-item + .form-search input, .section--login .form-item--multi .form-search + .form-search input {
+  .section--login .form-item--multi .form-item + .form-item input {
     border-left: 1px solid #c0e2f5; }
   /* line 82, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/login/_scss/_section--login.scss */
   .section--login a, .section--login .link--bullet, .section--login .link--bullet--reverse {
@@ -14474,18 +14600,18 @@ examples:
 .section--subnav {
   min-height: 50px;
   background-color: rgba(0, 0, 0, 0.12); }
-  /* line 122, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+  /* line 121, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
   .section--subnav .container {
     position: relative; }
-  /* line 126, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+  /* line 125, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
   .section--sticky .section--subnav {
     z-index: 5000;
     width: 100%;
     background-color: #0278b8; }
-    /* line 132, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+    /* line 131, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
     .section--sticky .section--subnav [class*="menu--right"] {
       display: block; }
-  /* line 137, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+  /* line 136, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
   .section--subnav [class*="menu--right"] {
     color: #fff;
     font-size: 24px;
@@ -14493,9 +14619,8 @@ examples:
     -webkit-animation: menu_slidedown 0.6s ease-out 0s;
             animation: menu_slidedown 0.6s ease-out 0s;
     display: none; }
-  /* line 145, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+  /* line 144, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
   .section--subnav .link--logo {
-    height: 75px;
     line-height: 75px;
     position: absolute;
     top: 0;
@@ -14508,30 +14633,23 @@ examples:
     background-repeat: no-repeat;
     -webkit-animation: logo_slidedown 0.3s ease-out 0s;
             animation: logo_slidedown 0.3s ease-out 0s; }
-  /* line 161, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+  /* line 159, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
   .section--subnav .basket-icon {
     line-height: 46px;
     padding-bottom: 4px;
     vertical-align: bottom; }
-    /* line 167, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+    /* line 165, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
     .section--subnav .basket-icon .product-amount {
       color: #00619e; }
-  /* line 172, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
-  .section--subnav .icon-search {
-    color: #fff; }
 
-/* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+/* line 173, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
 .section--pagenav {
   background: #f5f5f5;
   box-shadow: inset 0 -1px 0 #e8e8e8; }
-  /* line 183, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
+  /* line 177, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
   .section--sticky .section--pagenav {
     z-index: 5000;
     width: 100%; }
-
-/* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_header.scss */
-.section--search {
-  background: #fff; }
 
 /* line 3, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/header/_scss/_logo.scss */
 .logo--negative--small {
@@ -14777,114 +14895,97 @@ examples:
   .menu--main > li:first-child a {
     padding-left: 0; }
 
-/* line 79, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
-.menu--right > * {
-  margin-left: 16px;
-  float: right; }
-
-/* line 84, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
-.menu--right > * > a {
-  font-size: 20px;
-  color: #fff; }
-
-/* line 91, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
-.menu--right .menu--right__basket .icon-basket-empty {
-  margin-top: -5px;
-  font-size: 24px;
-  line-height: 1;
-  vertical-align: top; }
-
-/* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+/* line 78, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
 .menu--subnav {
   height: 50px;
   overflow: hidden; }
-  /* line 105, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 82, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--subnav li {
     margin-right: 20px; }
-  /* line 109, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 86, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--subnav a {
     line-height: 50px;
     padding-right: 10px;
     color: #b8d5e5; }
-    /* line 116, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 93, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--subnav a:hover, .menu--subnav a:focus, .menu--subnav a.active-trail {
       text-decoration: none;
       color: #fff; }
-  /* line 124, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--subnav .flexnav {
     background: inherit;
     background-image: -webkit-linear-gradient(top, #005c96, #005285);
     background-image: linear-gradient(180deg, #005c96, #005285);
     border: 1px solid #005285;
     border-width: 0 1px; }
-    /* line 134, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 111, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--subnav .flexnav--inited {
       overflow: visible; }
-    /* line 139, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 116, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--subnav .flexnav .flexnav__toggler:after {
       color: inherit; }
-    /* line 144, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 121, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--subnav .flexnav .flexnav__subnav {
       background: #005c96;
       border: 1px solid #004773; }
-    /* line 149, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 126, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--subnav .flexnav li {
       border-top: 1px solid #004773; }
-      /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+      /* line 129, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
       .menu--subnav .flexnav li:first-child {
         border-top: none; }
 
-/* line 160, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+/* line 137, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
 .menu--pagenav {
   height: 50px; }
-  /* line 163, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 140, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--pagenav li {
     margin-right: 20px; }
-  /* line 167, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 144, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--pagenav a {
     line-height: 50px;
     padding-right: 0 10px;
     color: #666;
     -webkit-transition: border-width .15s ease-in-out, padding .15s ease-in-out;
     transition: border-width .15s ease-in-out, padding .15s ease-in-out; }
-    /* line 174, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 151, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--pagenav a:hover, .menu--pagenav a:focus, .menu--pagenav a.active-trail, .menu--pagenav a.is-active {
       text-decoration: none;
       box-shadow: inset 0 -3px 0 #038cd6;
       color: #038cd6; }
-  /* line 184, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 161, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--pagenav .flexnav {
     padding: 0 20px;
     background: #e8e8e8;
     border: 1px solid #d1d1d1;
     border-width: 0 1px; }
-    /* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 167, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--pagenav .flexnav > a:hover,
     .menu--pagenav .flexnav > a:focus {
       box-shadow: none; }
-    /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 172, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--pagenav .flexnav .flexnav__subnav {
       background: #f5f5f5;
       border: 1px solid #d1d1d1;
       border-bottom-width: 0; }
-    /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 178, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--pagenav .flexnav li {
       border-top-width: 0;
       box-shadow: inset 0 -1px 0 #d1d1d1; }
 
-/* line 209, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+/* line 186, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
 .menu--user {
   margin-left: 18px !important; }
-  /* line 212, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 189, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--user > a,
   .menu--user > * > a {
     color: #c0e2f5; }
-    /* line 216, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    /* line 193, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
     .menu--user > a:hover,
     .menu--user > * > a:hover {
       color: #fff;
       text-decoration: none; }
-  /* line 222, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 199, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--user:before {
     content: '';
     height: 15px;
@@ -14894,9 +14995,31 @@ examples:
     top: 0.55rem;
     position: relative;
     background: #4da6d8; }
-  /* line 235, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  /* line 212, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
   .menu--user--empty:before {
     display: none; }
+
+/* line 219, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+.menu-icons {
+  position: relative;
+  z-index: 200;
+  margin-top: 24px; }
+  /* line 224, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  .menu-icons > li {
+    display: inline-block;
+    position: relative;
+    margin-left: 14px; }
+    /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+    .menu-icons > li:first-child {
+      margin-left: 0; }
+  /* line 235, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  .menu-icons > li > a:hover {
+    text-decoration: none; }
+  /* line 240, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_menus.scss */
+  .menu-icons .container {
+    position: absolute;
+    top: -19px;
+    right: -10px; }
 
 /* line 9, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/nav/_scss/_navigation-mobile.scss */
 .nav-mobile {
@@ -15299,405 +15422,6 @@ examples:
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
-
-/*need to remove this*/
-/* line 2, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-.search-dropdown {
-  position: absolute;
-  right: -7px;
-  top: 10px;
-  width: 54.375rem;
-  display: none;
-  /*need to remove this*/
-  /*need to remove this*/ }
-  /* line 9, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .holder {
-    margin: .3125rem 0 0;
-    background: #fff;
-    border-radius: 3px;
-    border: 1px solid #d1d1d1; }
-  /* line 17, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown a {
-    color: #038cd6; }
-  /* line 23, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .block .block {
-    border-top: 1px solid #d1d1d1; }
-    /* line 26, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-    .search-dropdown .block .block:first-child {
-      border: none; }
-  /* line 32, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .menu--filtering__filters {
-    padding: .625rem .9375rem 0;
-    background: #f5f5f5; }
-  /* line 37, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .panel-accordion--filter {
-    margin-bottom: 0.625rem; }
-  /* line 41, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .list--breadcrumbs {
-    color: #038cd6; }
-    /* line 45, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-    .search-dropdown .list--breadcrumbs li:before {
-      color: #038cd6;
-      top: auto;
-      font-size: .375rem; }
-    /* line 51, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-    .search-dropdown .list--breadcrumbs li:first-child {
-      padding-left: 0; }
-  /* line 57, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .block__header {
-    margin-bottom: 1rem; }
-  /* line 62, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_search.scss */
-  .search-dropdown .list--default a {
-    color: #038cd6; }
-
-/* line 12, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-.menu--right {
-  z-index: 200;
-  position: relative;
-  top: 25px; }
-
-/* line 21, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-.global-search-field-desktop {
-  position: relative;
-  z-index: 1; }
-  @media only screen and (max-width: 767px) {
-    /* line 21, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-    .global-search-field-desktop {
-      display: none; } }
-  /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop__button.icon-search:before {
-    position: relative;
-    z-index: -1;
-    top: -8px;
-    color: #fff;
-    font-size: 33px; }
-  /* line 46, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop__field-wrapper {
-    position: absolute;
-    top: 17px;
-    right: -11px;
-    opacity: 0; }
-    /* line 53, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-    .is-closed .global-search-field-desktop__field-wrapper {
-      display: none; }
-    /* line 60, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-    .touch .is-closed .global-search-field-desktop__field-wrapper {
-      display: block;
-      width: 40px; }
-      /* line 66, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-      .touch .is-closed .global-search-field-desktop__field-wrapper .form-search {
-        width: 40px;
-        position: relative;
-        right: -10px; }
-        /* line 73, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-        .touch .is-closed .global-search-field-desktop__field-wrapper .form-search__submit {
-          display: none; }
-      /* line 79, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-      .touch .is-closed .global-search-field-desktop__field-wrapper input {
-        opacity: 0; }
-  /* line 86, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop .form-search {
-    font-family: Arial, Helvetica, sans-serif; }
-    @media only screen and (min-width: 480px) {
-      /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-      .global-search-field-desktop .form-search input {
-        padding-left: 19px; } }
-    /* line 99, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-    .global-search-field-desktop .form-search__submit .icon-search:before {
-      display: none; }
-  /* line 106, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  [class^="menu--"] .global-search-field-desktop {
-    float: right; }
-  /* line 114, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop.is-active .form-search .form-search__submit {
-    background: transparent;
-    background-color: #038cd6;
-    border: 1px solid #038cd6;
-    color: #fff; }
-  /* line 122, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop.is-active .form-search input {
-    border: 1px solid #038cd6; }
-  /* line 128, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop.is-open .icon-search,
-  .global-search-field-desktop.is-open .icon-search:hover, .global-search-field-desktop.is-active .icon-search,
-  .global-search-field-desktop.is-active .icon-search:hover {
-    color: #fff; }
-  /* line 133, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop.is-open .icon-search:before, .global-search-field-desktop.is-active .icon-search:before {
-    position: relative;
-    z-index: 1; }
-  /* line 143, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop .speech-bubble__content {
-    overflow: hidden;
-    max-height: none; }
-  /* line 149, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop .speech-bubble:after {
-    right: 13px;
-    left: auto; }
-  /* line 154, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search-field-desktop.scss */
-  .global-search-field-desktop .speech-bubble:before {
-    right: 12px;
-    left: auto; }
-
-/* line 4, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-.global-search {
-  position: relative; }
-  @media only screen and (min-width: 480px) {
-    /* line 4, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search {
-      max-height: 555px;
-      min-height: 27px; } }
-  /* line 22, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__loading-next-spinner {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative; }
-    /* line 32, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__loading-next-spinner, .global-search__loading-next-spinner:before, .global-search__loading-next-spinner:after {
-      -webkit-animation-name: loader-grey;
-              animation-name: loader-grey; }
-  /* line 40, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__loading-next {
-    text-align: center;
-    padding: 30px 10px;
-    height: 50px;
-    position: relative;
-    opacity: 0;
-    -webkit-transition: opacity .15s ease-in-out;
-    transition: opacity .15s ease-in-out; }
-    /* line 49, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__loading-next:before {
-      content: "";
-      position: absolute;
-      top: -1px;
-      height: 1px;
-      left: 20px;
-      right: 20px;
-      background-color: #e8e8e8; }
-    /* line 61, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .is-loading-next-page .global-search__loading-next {
-      opacity: 1; }
-  /* line 70, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__loading-window-spinner {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative; }
-    /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__loading-window-spinner, .global-search__loading-window-spinner:before, .global-search__loading-window-spinner:after {
-      -webkit-animation-name: loader-grey;
-              animation-name: loader-grey; }
-  /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__loading-window {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    width: 100%;
-    height: 100%;
-    text-align: center; }
-    /* line 94, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .is-searching .global-search__loading-window {
-      display: block; }
-    /* line 103, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__loading-window .wrapper {
-      top: 48%;
-      position: relative;
-      vertical-align: middle; }
-      @media only screen and (max-width: 767px) {
-        /* line 103, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-        .global-search__loading-window .wrapper {
-          top: 30px; } }
-  /* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__result-window {
-    overflow: auto;
-    -webkit-transition: opacity .150s ease-in-out;
-    transition: opacity .150s ease-in-out; }
-    @media only screen and (min-width: 480px) {
-      /* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__result-window {
-        max-height: 555px; }
-        /* line 124, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-        td .global-search__result-window {
-          border-left: 1px solid #e8e8e8; }
-        /* line 128, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-        td:first-child .global-search__result-window {
-          border-left: 0; } }
-    /* line 133, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .touch .global-search__result-window {
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch; }
-    /* line 142, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .is-searching .global-search__result-window ul {
-      opacity: 0; }
-    /* line 148, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__result-window ul {
-      position: relative; }
-  /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-header {
-    font-size: 11px;
-    display: none;
-    color: #474747;
-    padding: 6px 20px;
-    padding-top: 10px;
-    font-weight: 700;
-    border-bottom: 1px solid #e8e8e8; }
-    @media only screen and (max-width: 767px) {
-      /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-header {
-        display: block;
-        background-color: #f5f5f5;
-        padding: 10px; } }
-    /* line 176, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .has-searches .global-search__list-header {
-      display: block; }
-    /* line 180, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .is-searching .global-search__list-header {
-      opacity: 0; }
-    /* line 184, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .is-empty .global-search__list-header {
-      display: block;
-      border-bottom: 0;
-      padding-bottom: 10px; }
-  /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__left-panel {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    width: 220px; }
-  /* line 205, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__filter-list-item {
-    height: 40px;
-    line-height: 40px;
-    border-bottom: 1px solid #e8e8e8; }
-    /* line 211, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__filter-list-item a {
-      display: block;
-      position: relative;
-      padding: 0 19px; }
-      /* line 216, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__filter-list-item a:before {
-        content: " ";
-        position: absolute;
-        display: block;
-        left: 0;
-        top: 0;
-        width: 0;
-        height: 100%;
-        background-color: #038cd6;
-        -webkit-transition: width .15s ease-in-out;
-        transition: width .15s ease-in-out; }
-    /* line 233, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__filter-list-item.is-active a:before,
-    .no-touch .global-search__filter-list-item a:hover:before,
-    .global-search__filter-list-item a:focus:before {
-      width: 3px; }
-    /* line 239, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__filter-list-item.is-active {
-      color: #038cd6; }
-      /* line 243, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__filter-list-item.is-active .global-search__filter-count {
-        color: #80c4e8; }
-  /* line 250, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__filter-count {
-    font-size: 13px;
-    color: #666;
-    vertical-align: bottom;
-    margin-left: .25em; }
-  /* line 260, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__show-all-button {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px; }
-  /* line 270, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-item {
-    overflow: hidden;
-    position: relative; }
-    @media only screen and (min-width: 480px) {
-      /* line 278, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-item:before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        height: 1px;
-        left: 20px;
-        right: 20px;
-        background-color: #e8e8e8; }
-      /* line 288, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-item:last-child:before {
-        content: none; } }
-    @media only screen and (max-width: 767px) {
-      /* line 270, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-item {
-        border-bottom: 1px solid #e8e8e8;
-        background-color: #fff; }
-        /* line 298, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-        .global-search__list-item:last-child {
-          border-bottom: 0; } }
-    /* line 308, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item.is-active a .title--xxsmall,
-    .no-touch .global-search__list-item a:hover .title--xxsmall,
-    .global-search__list-item a:focus .title--xxsmall {
-      color: #038cd6; }
-    /* line 314, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item a {
-      display: block; }
-  /* line 322, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-item--prev-search {
-    padding: 10px 20px; }
-    @media only screen and (max-width: 767px) {
-      /* line 322, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-item--prev-search {
-        height: 50px;
-        line-height: 50px;
-        padding: 0 10px; } }
-    /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item--prev-search a:first-letter {
-      text-transform: uppercase; }
-    /* line 336, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item--prev-search:hover, .global-search__list-item--prev-search.is-active {
-      color: #038cd6; }
-  @media only screen and (max-width: 767px) {
-    /* line 350, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item--search .flag {
-      display: table; }
-      /* line 354, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-item--search .flag .flag__image, .global-search__list-item--search .flag .flag__body {
-        display: table-cell; }
-      /* line 359, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-      .global-search__list-item--search .flag .flag__image {
-        padding-right: 10px; } }
-  @media only screen and (min-width: 480px) {
-    /* line 366, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item--search a {
-      padding: 17px 20px;
-      height: 111px; } }
-  @media only screen and (max-width: 767px) {
-    /* line 366, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-    .global-search__list-item--search a {
-      padding: 15px 10px; } }
-  /* line 381, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-item--search p {
-    color: #666; }
-  /* line 386, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-item--search .global-search__pretty-url {
-    font-size: 11px;
-    margin-top: 4px;
-    margin-bottom: 7px; }
-  /* line 393, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-item--search img {
-    float: left;
-    margin-top: -7px; }
-  /* line 402, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__list-item-body {
-    float: left; }
-  /* line 409, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search__filter-list {
-    margin-bottom: 72px; }
-  /* line 413, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/search/_scss/_global-search.scss */
-  .global-search td {
-    padding: 0;
-    position: relative; }
 
 /* line 2, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/side-panel/_scss/_index.scss */
 .side-panel {
@@ -16628,215 +16352,85 @@ examples:
     -webkit-transform: translateY(0);
             transform: translateY(0); }
 
-/* line 3, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-.search-block {
-  padding-top: 45px;
-  padding-bottom: 45px; }
-  /* line 8, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__clear {
-    right: 85px;
-    color: #d1d1d1;
-    font-size: 20px;
-    opacity: 1;
-    pointer-events: auto;
-    -webkit-transition: opacity 300ms ease;
-    transition: opacity 300ms ease; }
-    @media only screen and (max-width: 767px) {
-      /* line 8, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block__clear {
-        right: 56px; } }
-    /* line 20, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block__clear:before {
-      margin-top: 0;
-      font-size: inherit;
-      top: 0; }
-  /* line 27, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__submit {
-    font-size: 38px;
-    line-height: .5;
-    width: 70px;
-    height: 70px; }
-    @media only screen and (max-width: 767px) {
-      /* line 27, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block__submit {
-        font-size: 19px;
-        height: 48px;
-        width: 50px; } }
-  /* line 40, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__result-title {
+/* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+.search-results {
+  margin-bottom: 50px; }
+  @media only screen and (max-width: 767px) {
+    /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results {
+      padding-top: 20px; } }
+  /* line 9, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results--drop {
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    border-radius: 3px;
+    width: 834px;
+    position: absolute;
+    right: 1px;
+    top: 40px; }
+  /* line 19, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results__subtitle {
     font-size: 18px;
     color: #666; }
-    /* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block__result-title strong {
+    /* line 23, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results__subtitle strong {
       color: #000; }
-    /* line 48, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block__result-title a {
+    /* line 27, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results__subtitle a {
       color: inherit; }
-      /* line 51, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block__result-title a:hover {
+      /* line 30, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+      .search-results__subtitle a:hover {
         color: #038cd6;
         text-decoration: none; }
-        /* line 55, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-        .search-block__result-title a:hover strong {
+        /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+        .search-results__subtitle a:hover strong {
           color: inherit; }
-  /* line 62, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__view-all {
+  /* line 41, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results__view-all {
     display: none; }
-  /* line 66, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__results {
-    padding-top: 50px; }
-    @media only screen and (max-width: 767px) {
-      /* line 66, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block__results {
-        padding-top: 20px; } }
-  /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__suggestion a {
+    /* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results--drop .search-results__view-all {
+      display: block; }
+  /* line 50, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results__suggestion a {
     border-bottom: 1px solid #038cd6;
     margin-bottom: -1px;
     display: inline-block; }
-    /* line 80, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block__suggestion a:hover {
-      border-bottom: none;
-      margin-bottom: 0;
+    /* line 55, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results__suggestion a:hover {
+      border-color: transparent;
       text-decoration: none; }
-  /* line 88, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__message {
+  /* line 62, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results__message {
     border: 1px solid #d1d1d1; }
-  /* line 92, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__input {
-    font-weight: 300;
-    font-size: 36px; }
-    @media only screen and (max-width: 767px) {
-      /* line 92, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block__input {
-        font-size: 19px;
-        height: 48px; } }
-  /* line 102, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block__item {
-    border-bottom: 1px solid #d1d1d1; }
-    /* line 105, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block__item:last-child {
-      border-bottom: none; }
-  /* line 111, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block .form-search .search-block__input {
-    padding-right: 115px;
-    height: 70px; }
-    /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block .form-search .search-block__input:focus {
-      border: 1px solid #d1d1d1; }
-    @media only screen and (max-width: 767px) {
-      /* line 111, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block .form-search .search-block__input {
-        height: 48px;
-        padding-right: 80px; } }
-  /* line 125, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block--top {
-    position: relative;
-    height: 35px;
-    width: 35px;
-    margin: -15px -10px 0 0; }
-    /* line 131, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block {
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 35px;
-      padding-bottom: 0;
-      padding-top: 0;
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      -webkit-transition: width 500ms ease;
-      transition: width 500ms ease; }
-    /* line 142, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .icon-search {
-      color: #fff;
-      font-size: 20px;
-      -webkit-transition: color 500ms ease;
-      transition: color 500ms ease; }
-    /* line 148, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__view-all {
-      display: block; }
-    /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__load-more {
-      display: none; }
-    /* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__type-area {
-      opacity: 0;
-      -webkit-transition: opacity 500ms ease;
-      transition: opacity 500ms ease; }
-      /* line 160, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block--top .search-block__type-area:after {
-        content: '';
-        display: none;
-        width: 1px;
-        position: absolute;
-        right: 45px;
-        top: 10px;
-        height: 30px;
-        background: #d1d1d1; }
-    /* line 172, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__clear {
-      right: 55px; }
-    /* line 176, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__submit {
-      background: none;
-      border: none;
-      width: 30px;
-      height: 30px;
-      top: 11px;
-      right: 8px;
-      z-index: 2;
-      font-size: 100%;
-      line-height: normal; }
-    /* line 188, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__input {
-      height: 40px;
-      font-size: 100%;
-      text-indent: -9999px;
-      padding-right: 10px; }
-    /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__results {
-      margin-top: 5px;
-      border: 1px solid #d1d1d1;
-      background: #fff;
-      border-radius: 3px;
-      padding-top: 0; }
-    /* line 203, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__indent {
-      padding: 0 30px; }
-    /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__message {
+    /* line 65, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results--drop .search-results__message {
       border: none;
       padding-left: 30px;
       padding-right: 30px; }
-    /* line 213, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .search-block__title {
-      display: none; }
-    /* line 217, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--top .form-search .search-block__input {
-      padding-right: 5px;
-      height: 50px; }
-      /* line 221, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-      .search-block--top .form-search .search-block__input:hover {
-        border: 1px solid #d1d1d1; }
-  /* line 228, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block--active .search-block__type-area {
-    opacity: 1;
-    width: auto; }
-    /* line 232, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-    .search-block--active .search-block__type-area:after {
-      display: block; }
-  /* line 237, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block--active .search-block__input {
-    -webkit-transition: text-indent 0ms ease 500ms, padding-right 0ms linear 1s;
-    transition: text-indent 0ms ease 500ms, padding-right 0ms linear 1s;
-    text-indent: 0; }
-  /* line 242, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block--active .form-search .search-block__input {
-    padding-right: 80px; }
-  /* line 246, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
-  .search-block--active .icon-search {
-    color: #038cd6; }
+  /* line 72, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results__item {
+    border-bottom: 1px solid #d1d1d1; }
+    /* line 75, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results__item:last-child {
+      border-bottom: none; }
+  /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results--drop .search-results__load-more {
+    display: none; }
+  /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results--drop .search-results__indent {
+    padding: 0 30px; }
+  /* line 93, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results--drop .search-results__title {
+    display: none; }
+  /* line 98, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+  .search-results__buttons {
+    padding-top: 40px; }
+    /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Common/site-search/_scss/_index.scss */
+    .search-results--drop .search-results__buttons {
+      padding: 20px 30px;
+      background: #f0f0f0;
+      border-top: 1px solid #d1d1d1; }
 
 /* line 1, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Shop/seamless-basket/_scss/_index.scss */
 .table-basket {
@@ -20814,7 +20408,7 @@ examples:
     width: 100%; }
 
 /* line 43, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/invoices/_scss/_index.scss */
-.form-item .pay-invoices__amount-label, .form-search .pay-invoices__amount-label {
+.form-item .pay-invoices__amount-label {
   position: absolute;
   right: -26px;
   top: 50%;
@@ -21687,7 +21281,7 @@ input:checked ~ .tickets-list__label,
     margin: 0;
     padding-top: 5px; }
     /* line 74, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/terms-list/_scss/_index.scss */
-    .block--acount-details .terms-list dd .form-item, .block--acount-details .terms-list dd .form-search {
+    .block--acount-details .terms-list dd .form-item {
       margin: 5px 0 0; }
     /* line 78, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Selfcare/terms-list/_scss/_index.scss */
     .block--acount-details .terms-list dd input[type="text"],
@@ -27501,23 +27095,19 @@ input:checked ~ .tickets-list__label,
   margin: 0 0 10px 0; }
 
 /* line 10, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
-.container-booktime .form-search.form-search--inline:before {
-  color: #b8b8b8; }
-
-/* line 14, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
-.container-booktime .form-item label, .container-booktime .form-search label {
+.container-booktime .form-item label {
   color: #474747; }
 
-/* line 18, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
+/* line 14, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
 .container-booktime .form-radio label {
   padding-left: 26px; }
 
-/* line 22, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
+/* line 18, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
 .container-booktime .booktime-comment {
   margin-top: 26px; }
 
 @media (min-width: 768px) {
-  /* line 27, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
+  /* line 23, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/booktime/_scss/_index.scss */
   .container-booktime .privateOptionsHeader {
     margin-bottom: 36px; } }
 
@@ -28354,8 +27944,8 @@ input:checked ~ .tickets-list__label,
       color: #474747; }
     /* line 176, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .splash--green-blue {
-      background: -webkit-linear-gradient(left, #43c682, #1db7bb, #038cd6);
-      background: linear-gradient(90deg, #43c682, #1db7bb, #038cd6); }
+      background: -webkit-linear-gradient(top, #43c682 0%, #029df0 100%);
+      background: linear-gradient(to bottom, #43c682 0%, #029df0 100%); }
     /* line 182, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-block .splash--small {
       width: 90px;
