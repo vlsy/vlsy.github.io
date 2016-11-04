@@ -2634,6 +2634,7 @@ webpackJsonp([9],{
 	*/
 	function GallerySlide($slide, width) {
 		this.$slide = $slide;
+		this.$slide.get(0).addEventListener('transitionend', this._stopTransitionPropagation.bind(this));
 	}
 
 	GallerySlide.prototype = {
@@ -2680,6 +2681,10 @@ webpackJsonp([9],{
 		*/
 		getPosition: function() {
 			return styleHelper.getTranslateX(this.$slide.get(0));
+		},
+
+		_stopTransitionPropagation: function(e) {
+			e.stopPropagation();
 		}
 	};
 
@@ -2827,7 +2832,7 @@ webpackJsonp([9],{
 			this.$clones.push($clone);
 		},
 
-		_onAnimationEnd: function() {
+		_onAnimationEnd: function(e) {
 			FlatGallery.prototype._onAnimationEnd.call(this);
 
 			this._rearrange();
