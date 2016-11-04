@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'telenor';
-  src: url("fonts/telenorlight.woff") format("woff");
+  src: url("../fonts/telenorlight.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
@@ -28788,7 +28788,7 @@ input:checked ~ .tickets-list__label,
         color: #666;
         font-size: 19px;
         line-height: 25px;
-        margin-right: -4px;
+        margin-right: -8px;
         font-weight: normal; }
         @media only screen and (max-width: 1023px) {
           /* line 1130, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
