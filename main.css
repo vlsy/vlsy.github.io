@@ -28769,7 +28769,7 @@ input:checked ~ .tickets-list__label,
         bottom: 0;
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
-      @media only screen and (max-width: 1023px) {
+      @media only screen and (max-width: 1024px) {
         /* line 1090, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block__video-banner .video-background {
           display: none; } }
@@ -29035,7 +29035,7 @@ input:checked ~ .tickets-list__label,
         bottom: 0;
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
-      @media only screen and (max-width: 1023px) {
+      @media only screen and (max-width: 1024px) {
         /* line 1392, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch .video-background {
           display: none; } }
