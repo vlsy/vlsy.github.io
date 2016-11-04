@@ -28769,7 +28769,7 @@ input:checked ~ .tickets-list__label,
         bottom: 0;
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1090, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block__video-banner .video-background {
           display: none; } }
@@ -28924,7 +28924,7 @@ input:checked ~ .tickets-list__label,
         /* line 1286, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-full .cover-holder {
           min-height: 413px; } }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1286, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-full .cover-holder {
           min-height: 665px; } }
@@ -28951,7 +28951,7 @@ input:checked ~ .tickets-list__label,
         .terminal-block--cover-full .splash {
           top: -13px;
           left: -74px; } }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1313, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-full .splash {
           top: -115px;
@@ -28973,7 +28973,7 @@ input:checked ~ .tickets-list__label,
       background-size: cover;
       background-position: 50% 50%;
       display: none; }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1346, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-full .background__tablet {
           display: block; } }
@@ -29035,7 +29035,7 @@ input:checked ~ .tickets-list__label,
         bottom: 0;
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1392, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch .video-background {
           display: none; } }
@@ -29049,7 +29049,7 @@ input:checked ~ .tickets-list__label,
         .terminal-block--cover-stretch .splash {
           top: 0;
           right: -110px; } }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1422, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch .splash {
           top: -100px;
@@ -29080,7 +29080,7 @@ input:checked ~ .tickets-list__label,
         .terminal-block--cover-stretch.cover-left .splash {
           top: 0;
           right: -110px; } }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1023px) {
         /* line 1461, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch.cover-left .splash {
           top: -100px;
@@ -29090,7 +29090,7 @@ input:checked ~ .tickets-list__label,
         .terminal-block--cover-stretch.cover-left .splash {
           top: -95px;
           right: 0; } }
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1023px) {
       /* line 1481, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-block--cover-stretch.cover-left .banner-content,
       .terminal-block--cover-stretch.cover-left .text-legal {
