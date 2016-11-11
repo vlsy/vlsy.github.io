@@ -28921,6 +28921,43 @@ input:checked ~ .tickets-list__label,
 /* line 1591, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block--right .image-holder img {
   margin-left: 0; }
+
+/* line 1597, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.devider-block {
+  background: #fff;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  @media only screen and (max-width: 767px) {
+    /* line 1597, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .devider-block {
+      margin: 0 -15px;
+      width: calc(100% + 25px);
+      max-width: none; } }
+  /* line 1612, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block__holder {
+    height: 1px;
+    background: #fff; }
+  /* line 1620, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--stroke .devider-block__holder {
+    background: #d9d9d9; }
+  /* line 1627, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--small {
+    padding: 5px 0 4px; }
+  /* line 1633, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--medium {
+    padding: 10px 0 9px; }
+  /* line 1639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--large {
+    padding: 15px 0 14px; }
+  /* line 1645, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--xlarge {
+    padding: 25px 0 24px; }
+  /* line 1651, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--huge {
+    padding: 40px 0 39px; }
+  /* line 1657, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .devider-block--xhuge {
+    padding: 50px 0 49px; }
 /* line 1, stdin */
 .view-tracer {
   position: fixed;
