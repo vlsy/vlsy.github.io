@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'telenor';
-  src: url("fonts/telenorlight.woff") format("woff");
+  src: url("../fonts/telenorlight.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
@@ -28937,51 +28937,62 @@ input:checked ~ .tickets-list__label,
 .terminal-text-block--right .image-holder img {
   margin-left: 0; }
 
-/* line 1609, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-.divider-block {
-  background: #fff;
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
-  @media only screen and (max-width: 767px) {
-    /* line 1609, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-    .divider-block {
-      margin: 0 -15px;
-      width: calc(100% + 25px);
-      max-width: none;
-      -webkit-box-flex: 0;
-          -ms-flex: none;
-              flex: none; } }
-  /* line 1625, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--gray {
-    background: #f0f0f0; }
-  /* line 1631, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block__holder {
-    height: 1px; }
-  /* line 1638, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--stroke .divider-block__holder {
-    background: #d9d9d9; }
-  /* line 1645, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--small {
-    padding: 5px 0 4px; }
-  /* line 1651, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--medium {
-    padding: 10px 0 9px; }
-  /* line 1657, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--large {
-    padding: 15px 0 14px; }
-  /* line 1663, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--xlarge {
-    padding: 25px 0 24px; }
-  /* line 1669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--huge {
-    padding: 40px 0 39px; }
-  /* line 1675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-  .divider-block--xhuge {
-    padding: 50px 0 49px; }
-    @media only screen and (max-width: 767px) {
-      /* line 1675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-      .divider-block--xhuge {
-        padding: 40px 0 39px; } }
+@media only screen and (max-width: 767px) {
+  /* line 1609, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .divider-block {
+    margin: 0 -15px;
+    width: calc(100% + 25px);
+    max-width: none;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
+
+/* line 1621, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block__row {
+  background: #fff; }
+
+/* line 1628, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--gray .divider-block__row {
+  background: #f0f0f0; }
+
+/* line 1635, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block__holder {
+  height: 1px; }
+
+/* line 1642, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--stroke .divider-block__holder {
+  background: #d9d9d9; }
+
+/* line 1650, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--small .divider-block__row {
+  padding: 5px 0 4px; }
+
+/* line 1658, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--medium .divider-block__row {
+  padding: 10px 0 9px; }
+
+/* line 1666, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--large .divider-block__row {
+  padding: 15px 0 14px; }
+
+/* line 1674, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--xlarge .divider-block__row {
+  padding: 25px 0 24px; }
+
+/* line 1682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--huge .divider-block__row {
+  padding: 40px 0 39px; }
+
+/* line 1690, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.divider-block--xhuge .divider-block__row {
+  padding: 50px 0 49px; }
+
+@media only screen and (max-width: 767px) {
+  /* line 1695, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .divider-block--xhuge .divider-block__row {
+    padding: 40px 0 39px; } }
 /* line 1, stdin */
 .view-tracer {
   position: fixed;
