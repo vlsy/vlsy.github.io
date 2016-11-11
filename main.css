@@ -28868,6 +28868,59 @@ input:checked ~ .tickets-list__label,
         /* line 1517, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .usp-block--image__left .usp-block__content {
           margin-right: 0; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 1532, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-text-block {
+    padding: 0 !important;
+    margin: 0 -15px;
+    width: calc(100% + 25px);
+    max-width: none;
+    display: block;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none; } }
+
+/* line 1546, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block .icon-holder .icon:before {
+  color: #038cd6; }
+
+/* line 1552, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block__holder {
+  background: #fff; }
+
+/* line 1557, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block--without-bg .terminal-text-block__holder {
+  background: none; }
+
+/* line 1563, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block--image .text-legal {
+  position: absolute;
+  bottom: 30px; }
+  @media only screen and (max-width: 1023px) {
+    /* line 1563, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-text-block--image .text-legal {
+      position: static; } }
+
+/* line 1573, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block .image-holder {
+  overflow: hidden; }
+  /* line 1576, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-text-block .image-holder img {
+    display: block;
+    width: auto;
+    height: 100%;
+    max-width: none;
+    margin-left: auto; }
+    @media only screen and (max-width: 1023px) {
+      /* line 1576, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      .terminal-text-block .image-holder img {
+        width: 100%;
+        height: auto; } }
+
+/* line 1591, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block--right .image-holder img {
+  margin-left: 0; }
 /* line 1, stdin */
 .view-tracer {
   position: fixed;
