@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'telenor';
-  src: url("../fonts/telenorlight.woff") format("woff");
+  src: url("fonts/telenorlight.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
@@ -28911,16 +28911,17 @@ input:checked ~ .tickets-list__label,
 /* line 1575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block--image .text-legal {
   position: absolute;
-  bottom: 30px; }
+  bottom: 30px;
+  left: 0; }
   @media only screen and (max-width: 1023px) {
     /* line 1575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-text-block--image .text-legal {
       position: static; } }
 
-/* line 1585, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1586, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block .image-holder {
   overflow: hidden; }
-  /* line 1588, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 1589, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block .image-holder img {
     display: block;
     width: auto;
@@ -28928,17 +28929,17 @@ input:checked ~ .tickets-list__label,
     max-width: none;
     margin-left: auto; }
     @media only screen and (max-width: 1023px) {
-      /* line 1588, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 1589, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-text-block .image-holder img {
         width: 100%;
         height: auto; } }
 
-/* line 1603, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1604, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block--right .image-holder img {
   margin-left: 0; }
 
 @media only screen and (max-width: 767px) {
-  /* line 1609, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 1610, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block {
     margin: 0 -15px;
     width: calc(100% + 25px);
@@ -28949,48 +28950,48 @@ input:checked ~ .tickets-list__label,
     padding-left: 0 !important;
     padding-right: 0 !important; } }
 
-/* line 1621, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1622, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block__row {
   background: #fff; }
 
-/* line 1628, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1629, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--gray .divider-block__row {
   background: #f0f0f0; }
 
-/* line 1635, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1636, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block__holder {
   height: 1px; }
 
-/* line 1642, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1643, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--stroke .divider-block__holder {
   background: #d9d9d9; }
 
-/* line 1650, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1651, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--small .divider-block__row {
   padding: 5px 0 4px; }
 
-/* line 1658, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1659, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--medium .divider-block__row {
   padding: 10px 0 9px; }
 
-/* line 1666, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1667, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--large .divider-block__row {
   padding: 15px 0 14px; }
 
-/* line 1674, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--xlarge .divider-block__row {
   padding: 25px 0 24px; }
 
-/* line 1682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1683, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--huge .divider-block__row {
   padding: 40px 0 39px; }
 
-/* line 1690, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1691, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--xhuge .divider-block__row {
   padding: 50px 0 49px; }
 
 @media only screen and (max-width: 767px) {
-  /* line 1695, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 1696, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--xhuge .divider-block__row {
     padding: 40px 0 39px; } }
 /* line 1, stdin */
