@@ -10447,19 +10447,19 @@ examples:
     name: Simple Lightbox
     tmpl:
       include: popup.html
-  - 
+  -
     name: Prequalification Lightbox
     tmpl:
       include: pre-lightbox.html
-  - 
+  -
     name: Large popup (3 buttons)
     tmpl:
       include: popup-large.html
-  - 
+  -
     name: Small popup
     tmpl:
       include: popup-small.html
-  - 
+  -
     name: Extra Small popup
     tmpl:
       include: popup-xsmall.html
@@ -10500,7 +10500,6 @@ examples:
   margin-bottom: 20px;
   padding: 40px;
   background-color: #fff;
-  display: none;
   max-width: 1200px;
   position: relative;
   text-align: left;
@@ -10514,14 +10513,14 @@ examples:
       width: 100%;
       padding-right: 40px;
       min-height: 100%; } }
-  /* line 90, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 89, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box--error .modal-box__content {
     color: #fff;
     background: -webkit-linear-gradient(top, #00a7e4 0%, #3361ac 100%);
     background: linear-gradient(to bottom, #00a7e4 0%, #3361ac 100%);
     text-align: center;
     box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5); }
-  /* line 97, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 96, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__content.pre-lightbox {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -10536,27 +10535,27 @@ examples:
     max-height: none;
     box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5); }
     @media only screen and (max-width: 767px) {
-      /* line 97, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+      /* line 96, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
       .modal-box__content.pre-lightbox {
         padding: 20px !important; } }
-    /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 114, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__content.pre-lightbox .button-holder {
       vertical-align: bottom !important; }
-    /* line 119, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 118, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__content.pre-lightbox .modal-box__close-btn {
       color: #fff;
       font-size: 16px; }
-    /* line 124, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 123, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__content.pre-lightbox .tooltip__trigger.icon-questionmark {
       padding: 0 0 0 10px; }
-      /* line 127, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+      /* line 126, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
       .modal-box__content.pre-lightbox .tooltip__trigger.icon-questionmark:before {
         color: #fff; }
-    /* line 133, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 132, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__content.pre-lightbox .button {
       line-height: 40px; }
     @media only screen and (max-width: 767px) {
-      /* line 97, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+      /* line 96, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
       .modal-box__content.pre-lightbox {
         width: 100%;
         top: 0;
@@ -10564,11 +10563,11 @@ examples:
         -webkit-transform: translate(0, 0);
                 transform: translate(0, 0);
         min-height: 100vh; } }
-    /* line 146, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 145, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__content.pre-lightbox .form-item--required label:after {
       color: #fff; }
 
-/* line 153, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box__close-btn {
   height: 20px;
   width: 20px;
@@ -10584,19 +10583,19 @@ examples:
   cursor: pointer;
   z-index: 1; }
   @media only screen and (max-width: 767px) {
-    /* line 153, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 152, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__close-btn {
       right: 10px; } }
-  /* line 172, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 171, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__close-btn--white,
   .modal-box--error .modal-box__close-btn {
     color: #fff; }
-  /* line 176, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 175, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box--with-action-buttons .modal-box__close-btn,
   .modal-box--is-loading .modal-box__close-btn {
     display: none; }
 
-/* line 181, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 180, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box__icon-box {
   text-align: center;
   margin-left: auto;
@@ -10606,29 +10605,29 @@ examples:
   width: 110px;
   height: 110px;
   font-size: 60px; }
-  /* line 191, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box .icon {
     line-height: 1; }
-  /* line 196, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 195, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box .icon-reject {
     font-size: 40px; }
-  /* line 200, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 199, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box--blue {
     background: #038cd6;
     color: #fff; }
-  /* line 205, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 204, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box--yellow {
     background: #ffb900; }
-  /* line 209, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 208, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box--green {
     background: #43c682;
     color: #fff; }
-  /* line 214, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 213, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box--small {
     width: 80px;
     height: 80px;
     font-size: 45px; }
-  /* line 220, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 219, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__icon-box--info {
     position: absolute;
     top: 0;
@@ -10637,7 +10636,7 @@ examples:
     height: 30px;
     font-size: 18px; }
 
-/* line 230, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box__action-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10651,83 +10650,83 @@ examples:
   margin-left: -5px;
   margin-right: -5px; }
   @media only screen and (max-width: 767px) {
-    /* line 230, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box__action-buttons {
       display: block;
       margin-left: 0;
       margin-right: 0; } }
-  /* line 243, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 242, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__action-buttons li {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 0;
-            flex: 1 0 0;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
     padding: 0 5px; }
     @media only screen and (min-width: 767px) {
-      /* line 243, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+      /* line 242, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
       .modal-box__action-buttons li {
         max-width: 50%; } }
     @media only screen and (max-width: 767px) {
-      /* line 243, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+      /* line 242, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
       .modal-box__action-buttons li {
         padding: 0 0 5px; } }
-  /* line 256, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 255, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box__action-buttons .button {
     width: 100%; }
 
-/* line 261, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 260, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box__container {
   word-wrap: break-word;
   padding: 40px 20px 30px; }
 
-/* line 266, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 265, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--error {
   z-index: 9999; }
 
-/* line 270, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--print-contract {
   margin-top: 0;
   max-width: 620px;
   padding: 20px 40px; }
 
-/* line 276, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 275, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--with-action-buttons {
   padding: 0; }
-  /* line 279, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 278, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   .modal-box--with-action-buttons .gradient-line:before {
     margin: 0; }
 
-/* line 284, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 283, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--size-small {
   width: 420px; }
   @media only screen and (max-width: 767px) {
-    /* line 284, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 283, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box--size-small {
       width: 100%; } }
 
-/* line 292, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 291, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--size-xsmall {
   width: 340px; }
   @media only screen and (max-width: 767px) {
-    /* line 292, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 291, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box--size-xsmall {
       width: 100%; } }
 
-/* line 300, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 299, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--size-large {
   width: 640px; }
   @media only screen and (max-width: 767px) {
-    /* line 300, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+    /* line 299, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
     .modal-box--size-large {
       width: 100%; } }
 
-/* line 308, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 307, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 .modal-box--is-loading {
   padding: 40px 80px; }
 
-/* line 313, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+/* line 312, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
 html.modal-box--is-open {
   overflow: visible; }
-  /* line 316, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
+  /* line 315, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/modal-box/_scss/_index.scss */
   html.modal-box--is-open body {
     overflow: hidden; }
 
@@ -28918,28 +28917,40 @@ input:checked ~ .tickets-list__label,
     .terminal-text-block--image .text-legal {
       position: static; } }
 
-/* line 1586, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+@media only screen and (max-width: 1023px) {
+  /* line 1586, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  .terminal-text-block .desktop-image {
+    display: none; } }
+
+/* line 1591, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+.terminal-text-block .mobile-image {
+  display: none; }
+  @media only screen and (max-width: 1023px) {
+    /* line 1591, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    .terminal-text-block .mobile-image {
+      display: block; } }
+
+/* line 1598, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block .image-holder {
   overflow: hidden; }
-  /* line 1589, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 1601, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block .image-holder img {
-    display: block;
     width: auto;
     height: 100%;
     max-width: none;
     margin-left: auto; }
     @media only screen and (max-width: 1023px) {
-      /* line 1589, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 1601, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-text-block .image-holder img {
         width: 100%;
         height: auto; } }
 
-/* line 1604, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1615, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block--right .image-holder img {
   margin-left: 0; }
 
 @media only screen and (max-width: 767px) {
-  /* line 1610, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 1621, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block {
     margin: 0 -15px;
     width: calc(100% + 25px);
@@ -28950,48 +28961,48 @@ input:checked ~ .tickets-list__label,
     padding-left: 0 !important;
     padding-right: 0 !important; } }
 
-/* line 1622, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1633, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block__row {
   background: #fff; }
 
-/* line 1629, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1640, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--gray .divider-block__row {
   background: #f0f0f0; }
 
-/* line 1636, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1647, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block__holder {
   height: 1px; }
 
-/* line 1643, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1654, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--stroke .divider-block__holder {
   background: #d9d9d9; }
 
-/* line 1651, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1662, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--small .divider-block__row {
   padding: 5px 0 4px; }
 
-/* line 1659, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1670, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--medium .divider-block__row {
   padding: 10px 0 9px; }
 
-/* line 1667, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1678, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--large .divider-block__row {
   padding: 15px 0 14px; }
 
-/* line 1675, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1686, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--xlarge .divider-block__row {
   padding: 25px 0 24px; }
 
-/* line 1683, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1694, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--huge .divider-block__row {
   padding: 40px 0 39px; }
 
-/* line 1691, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 1702, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block--xhuge .divider-block__row {
   padding: 50px 0 49px; }
 
 @media only screen and (max-width: 767px) {
-  /* line 1696, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 1707, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--xhuge .divider-block__row {
     padding: 40px 0 39px; } }
 /* line 1, stdin */
