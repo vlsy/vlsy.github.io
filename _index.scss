@@ -1,0 +1,1213 @@
+// Background class for content pages
+
+.background-color-gray {
+	background-color: $color-ghost-white;
+}
+
+.terminal-block {
+	$root: &;
+	
+	width: 100%;
+	background-color: #fff;
+	color: inherit;
+	min-height: 430px;
+	
+	@include until($bp-medium) {
+		min-height: 335px;
+	}
+
+	&:hover {
+		text-decoration: none;
+
+		.image-area {
+			opacity: .4;
+		}
+	}
+
+	.list li {
+		margin-bottom: 3px;
+	}
+
+	.colors-holder {
+		min-height: 8px;
+		margin-bottom: 15px;
+		
+		@include until($bp-medium) {
+			margin-bottom: 5px;
+		}
+	}
+	
+	.colors-list {
+		line-height: 0;
+		
+		li {
+			display: inline-block;
+			margin: 0 0 0 3px;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			
+			&:first-child {
+				margin: 0;
+			}
+			
+			label {
+				display: block;
+				text-indent: -9999px;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+			}
+		}
+	}
+	
+	.image-area {
+		text-align: center;
+		transition: opacity .5s;
+
+		@include until($bp-xl) {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__image-holder {
+		display: inline-block;
+		height: 100%;
+		position: relative;
+
+		&:after {
+			content: "";
+			height: 30px;
+			background: url(../img/shadow.png) no-repeat 50% 100%;
+			background-size: 100% auto;
+			display: inline-block;
+			width: 100%;
+		}
+		
+		img {
+			display: block;
+			max-height: 100%;
+		}
+
+		@include until($bp-xl) {
+			background: none;
+		}
+		
+		// Modifiers
+		
+		#{$root}--accessories & {
+			&:after {
+				display: none;
+			}
+		}
+		
+		#{$root}--accessories-with-background & {
+			display: none;
+			
+			@include until($bp-xl) {
+				display: inline-block;
+			}
+		}
+		
+		#{$root}--accessories-tablet-large & {
+			&:after {
+				display: block;
+			}
+			
+			@include until($bp-xl) {
+				&:after {
+					display: none;
+				}
+			}
+		}
+		
+		#{$root}--accessories-tablet-medium & {
+			&:after {
+				display: block;
+			}
+			
+			@include until($bp-xl) {
+				&:after {
+					display: none;
+				}
+			}
+		}
+		
+		#{$root}--accessories-mobile-medium & {
+			&:after {
+				display: block;
+			}
+			
+			@include until($bp-xl) {
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.splash {
+		position: absolute;
+		top: 39px;
+		left: 50%;
+		transition: opacity .5s;
+		width: 100px;
+		height: 100px;
+		color: $color-white;
+		border-radius: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		
+		span {
+			display: block;
+		}
+		
+		.price-currency {
+			display: inline !important;
+		}
+		
+		&__heading {
+			@include text-sizes(13);
+			text-transform: uppercase;
+		}
+		
+		&__percent {
+			@include text-sizes(34);
+		}
+		
+		&__price {
+			@include text-sizes(19);
+		}
+		
+		// Colors setup
+		
+		&--blue {
+			background: $color-telenor-blue;
+		}
+		
+		&--green {
+			background: $color-telenor-green;
+		}
+		
+		&--red {
+			background: $color-telenor-red;
+		}
+		
+		&--orange {
+			background: $color-telenor-yellow;
+		}
+		
+		&--white {
+			background: $color-white;
+			box-shadow: 0 0 10px rgba(0, 0, 0, .18);
+			color: $color-graphite-black;
+		}
+		
+		&--green-blue {
+			background: $gradient-greenblue2;
+		}
+		
+		// Sizes setup
+		
+		&--small {
+			width: 90px;
+			height: 90px;
+			
+			.splash__heading {
+				@include text-sizes(11);
+			}
+			
+			.splash__percent {
+				@include text-sizes(28);
+			}
+			
+			.splash__price {
+				@include text-sizes(16);
+			}
+		}
+		
+		&--large {
+			width: 120px;
+			height: 120px;
+			
+			.splash__heading {
+				@include text-sizes(13);
+			}
+			
+			.splash__percent {
+				@include text-sizes(38);
+			}
+			
+			.splash__price {
+				@include text-sizes(24);
+			}
+		}
+		
+		// Splash image
+		
+		&--image {
+			width: 100px;
+			height: 100px;
+			
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+		
+		@include until($bp-medium) {
+			width: 90px;
+			height: 90px;
+			
+			.splash__heading {
+				@include text-sizes(11);
+			}
+			
+			.splash__percent {
+				@include text-sizes(28);
+			}
+			
+			.splash__price {
+				@include text-sizes(16);
+			}
+		}
+	}
+
+	&__description {
+		// Modifiers
+		
+		#{$root}--accessories & {
+			flex: 1;
+			
+			h2 {
+				margin-left: -2px;
+			}
+		}
+		
+		#{$root}--cover & {
+			padding-top: 55px;
+			
+			@include until($bp-xl) {
+				padding-top: 10px;
+			}
+		}
+		
+		#{$root}--cover-carousel &,
+		#{$root}--cover-full & {
+			padding-top: 0;
+		}
+	}
+	
+	&--accessories {
+		padding: 25px 20px 25px 50px;
+		position: relative;
+		
+		.splash {
+			top: 45px;
+			left: -50px;
+		}
+		
+		.bundle-content {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		// Styles for background option
+		
+		.background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 1;
+			width: 100%;
+			height: 100%;
+			transition: opacity .5s;
+		}
+		
+		&:hover .background {
+			opacity: .4;
+		}
+		
+		.image-area,
+		.bundle-content {
+			z-index: 2;
+		}
+		
+		@include until($bp-xl) {
+			padding: 30px;
+			flex-direction: column;
+			
+			.image-area {
+				margin-bottom: 10px;
+				height: 234px;
+			}
+			
+			.splash {
+				top: 20px;
+				left: -57px;
+			}
+			
+			.bundle-content {
+				padding: 0;
+			}
+			
+			// Styles for background option
+			
+			.background {
+				display: none;
+			}
+		}
+		
+		@include until($bp-large) {
+			.splash {
+				left: -30px;
+			}
+		}
+
+		@include until($bp-medium) {
+			padding: 30px 30px 15px;
+			flex-direction: row !important;
+			
+			.image-area {
+				margin-bottom: 12px;
+				height: 164px;
+			}
+			
+			.splash {
+				top: 0;
+				left: -17px;
+			}
+		}
+	}
+	
+	&--accessories-tablet-large {
+		.splash {
+			top: 30px;
+			left: -80px;
+			
+			@include until($bp-xl) {
+				left: -67px;
+			}
+			
+			@include until($bp-medium) {
+				left: -53px;
+			}
+		}
+	}
+	
+	&--accessories-tablet-medium {
+		.bundle-content {
+			padding-left: 30px;
+		}
+		
+		.splash {
+			top: 30px;
+			left: -30px;
+		}
+		
+		@include until($bp-xl) {
+			.image-area,
+			.bundle-content {
+				padding: 0;
+			}
+			
+			.splash {
+				left: -43px;
+			}
+		}
+		
+		@include until($bp-medium) {
+			.splash {
+				left: -37px;
+			}
+		}
+	}
+	
+	&--accessories-mobile-medium {
+		.bundle-content {
+			padding-left: 30px;
+		}
+		
+		.splash {
+			top: 30px;
+			left: -50px;
+		}
+		
+		@include until($bp-xl) {
+			.bundle-content {
+				padding: 0;
+			}
+			
+			.splash {
+				left: -67px;
+			}
+		}
+		
+		@include until($bp-medium) {
+			.splash {
+				left: -53px;
+			}
+		}
+	}
+	
+	&--accessories-small,
+	&--accessories-product-small {
+		padding: 25px 15px 25px;
+		flex-direction: column;
+		
+		.image-area {
+			margin-bottom: 10px;
+			height: 234px;
+		}
+		
+		.bundle-content {
+			padding: 0;
+		}
+		
+		.splash {
+			top: -14px;
+			left: 0;
+		}
+		
+		@include until($bp-xl) {
+			padding: 30px;
+			
+			.splash {
+				top: 20px;
+				left: -58px;
+			}
+		}
+		
+		@include until($bp-large) {
+			.splash {
+				left: -30px;
+			}
+		}
+		
+		@include until($bp-medium) {
+			padding: 30px 30px 15px;
+			
+			.splash {
+				top: 0;
+				left: -20px;
+			}
+		}
+	}
+	
+	&--accessories-product-small {
+		.splash {
+			top: 30px;
+			left: -57px;
+		}
+		
+		@include until($bp-medium) {
+			.splash {
+				top: 0;
+				left: -53px;
+			}
+		}
+	}
+
+	&--banner {
+		min-height: 430px;
+		color: #fff;
+		background-size: cover;
+		background-position: 50% 50%;
+
+		@include until($bp-large) {
+			min-height: 430px;
+		}
+
+		@include until($bp-medium) {
+			min-height: 400px;
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: #000;
+			transition:opacity .5s;
+			opacity: 0;
+		}
+
+		&:hover {
+			&:before {
+				opacity: .3;
+			}
+		}
+		
+		.icon-holder {
+			display: inline-block;
+			
+			&--image {
+				width: 80px;
+				height: 80px;
+				
+				img {
+					display: block;
+				}
+			}
+		}
+		
+		.banner-content {
+			z-index: 1;
+		}
+		
+		.banner-legal {
+			padding: 0 $xxlarge-spacing-unit;
+			position: absolute;
+			bottom: 24px;
+			left: 0;
+			width: 100%;
+			
+			@include until($bp-xl) {
+				bottom: 30px;
+			}
+			
+			@include until($bp-medium) {
+				bottom: 15px;
+			}
+			
+			@include until($bp-medium) {
+				padding: 0 $base-spacing-unit;
+			}
+		}
+	}
+	
+	&--banner-large {
+		min-height: 500px;
+		padding: 50px;
+		color: #fff;
+		text-align: center;
+		background-size: cover;
+		background-position: 50% 50%;
+
+		@include until($bp-large) {
+			min-height: 450px;
+		}
+		
+		@include until($bp-medium) {
+			min-height: 400px;
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: #000;
+			transition:opacity .5s;
+			opacity: 0;
+			z-index: 1;
+		}
+
+		&:hover {
+			&:before {
+				opacity: .3;
+			}
+		}
+	}
+
+	&--video-banner {
+		overflow: hidden;
+
+		.video-background {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			width: 100%;
+
+			video {
+				width: 100%;
+				height: auto;
+				max-width: none;
+				z-index: 0;
+			}
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(0,0,0,.3);
+				z-index: 1;
+			}
+
+			@include until(1024px) {
+				display: none;
+			}
+		}
+	}
+	
+	&--cover {
+		background: linear-gradient(to bottom,  #cde8f7 0%,#ffffff 100%);
+		width: auto;
+		min-height: 0;
+		
+		.image-block {
+			position: relative;
+			min-height: 500px;
+			
+			@include until($bp-xl) {
+				min-height: 412px;
+			}
+			
+			@include until($bp-large) {
+				min-height: 0;
+			}
+			
+			img {
+				display: block;
+				margin: 0 auto;
+				
+				@include until($bp-xl) {
+					height: 414px;
+				}
+				
+				@include until($bp-medium) {
+					height: 236px;
+				}
+			}
+		}
+		
+		.icon-holder {
+			width: 70px;
+			height: 70px;
+			
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+			
+			@include until($bp-large) {
+				width: 60px;
+				height: 60px;
+				margin: 0 auto;
+			}
+			
+			@include until($bp-medium) {
+				display: none;
+			}
+		}
+		
+		.text-legal {
+			position: absolute;
+			bottom: 17px;
+			left: 0;
+			
+			@include until($bp-large) {
+				position: static;
+				text-align: center;
+			}
+		}
+		
+		.cover-holder {
+			@include until($bp-large) {
+				min-height: 667px;
+			}
+		}
+	}
+	
+	&--cover-carousel {
+		.cover-holder {
+			@include until($bp-medium) {
+				min-height: 0;
+			}
+		}
+		
+		.carousel__item {
+			.container,
+			.cover-holder {
+				height: 100%;
+			}
+		}
+		
+		.carousel__holder {
+			min-height: 0;
+		}
+		
+		.image-block {
+			min-height: 400px;
+			
+			@include until($bp-xl) {
+				min-height: 331px;
+			}
+			
+			@include until($bp-large) {
+				min-height: 0;
+			}
+			
+			img {
+				@include until($bp-xl) {
+					height: 331px;
+				}
+				
+				@include until($bp-large) {
+					height: 398px;
+				}
+				
+				@include until($bp-medium) {
+					height: 227px;
+				}
+			}
+		}
+		
+		.text-legal {
+			bottom: 24px;
+			
+			@include until($bp-large) {
+				bottom: 17px;
+			}
+		}
+	}
+	
+	&--cover-full {
+		width: auto;
+		min-height: 0;
+		text-align: center;
+		background-size: cover;
+		background-position: 50% 50%;
+		position: relative;
+		
+		.banner-content {
+			z-index: 1;
+		}
+		
+		.cover-holder {
+			min-height: 500px;
+			
+			@include until($bp-xl) {
+				min-height: 413px;
+			}
+			
+			@include until($bp-large) {
+				min-height: 665px;
+			}
+			
+			@include until($bp-medium) {
+				min-height: 490px;
+			}
+		}
+		
+		.text-legal {
+			position: absolute;
+			left: 0;
+			bottom: 17px;
+			text-align: center;
+			z-index: 1;
+			width: 100%;
+			
+			@include until($bp-large) {
+				bottom: 20px;
+			}
+		}
+		
+		.splash {
+			top: -44px;
+			left: -87px;
+			
+			@include until($bp-xl) {
+				top: -13px;
+				left: -74px;
+			}
+			
+			@include until($bp-large) {
+				top: -115px;
+				left: 79px;
+			}
+			
+			@include until($bp-medium) {
+				top: -95px;
+				left: -6px;
+			}
+		}
+		
+		.background {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		
+		.icon-holder {
+			width: 70px;
+			height: 70px;
+			margin: 0 auto;
+			
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+			
+			@include until($bp-large) {
+				width: 60px;
+				height: 60px;
+			}
+			
+			@include until($bp-medium) {
+				display: none;
+			}
+		}
+	}
+	
+	&--cover-stretch {
+		color: $color-white;
+		overflow: hidden;
+		
+		.video-background {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			width: 100%;
+
+			video {
+				width: 100%;
+				height: auto;
+				max-width: none;
+				z-index: 0;
+			}
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(0,0,0,.3);
+				z-index: 1;
+			}
+
+			@include until(1024px) {
+				display: none;
+			}
+		}
+		
+		.splash {
+			top: -40px;
+			right: -190px;
+			left: auto;
+			
+			@include until($bp-xl) {
+				top: 0;
+				right: -110px;
+			}
+			
+			@include until($bp-large) {
+				top: -100px;
+				right: 0;
+			}
+			
+			@include until($bp-medium) {
+				top: -95px;
+				right: 0;
+			}
+		}
+		
+		.text-legal {
+			color: $color-white;
+		}
+		
+		&.cover-left {
+			.banner-content,
+			.text-legal {
+				text-align: left;
+			}
+			
+			.icon-holder {
+				margin: 0;
+			}
+			
+			.splash {
+				right: -474px;
+				text-align: center;
+				
+				@include until($bp-xl) {
+					top: 0;
+					right: -110px;
+				}
+				
+				@include until($bp-large) {
+					top: -100px;
+					right: 0;
+				}
+				
+				@include until($bp-medium) {
+					top: -95px;
+					right: 0;
+				}
+			}
+			
+			@include until($bp-large) {
+				.banner-content,
+				.text-legal {
+					text-align: center;
+				}
+				
+				.icon-holder {
+					margin: 0 auto;
+				}
+			}
+		}
+		
+		&.cover-mood {
+			.cover-holder {
+				min-height: 300px;
+				
+				@include until($bp-xl) {
+					min-height: 130px;
+				}
+			}
+		}
+	}
+}
+
+.grid-row--gutter-small > .terminal-block--wide {
+	padding: 5px;
+
+	@include until($bp-medium) {
+		padding: 5px 0;
+		margin: 0 -15px;
+		width: calc(100% + 25px);
+		max-width: none;
+		display: block;
+		flex: none;
+	}
+}
+
+.border-width-2:after {
+	border-width: 2px;
+}
+
+// Feature USP block
+
+.usp-holder {
+	@include until($bp-medium) {
+		padding: 0 !important;
+		margin: 0 -15px;
+		width: calc(100% + 25px);
+		max-width: none;
+		display: block;
+		flex: none;
+	}
+}
+
+.usp-block {
+	$root: &;
+	
+	background: $color-white;
+	
+	.icon-holder {
+		.icon {
+			&:before {
+				color: $color-telenor-blue;
+			}
+		}
+	}
+	
+	&--image {
+		background-size: cover;
+		background-position: 50% 50%;
+		
+		.box,
+		.text-holder {
+			overflow: hidden;
+		}
+		
+		.icon-holder {
+			float: left;
+		}
+		
+		.mobile-image {
+			display: none;
+			
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+		
+		.box {
+			margin-bottom: $large-spacing-unit;
+			
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		
+		@include until($bp-large) {
+			background-image: none !important;
+			padding: 0 !important;
+			
+			.mobile-image {
+				display: block;
+			}
+			
+			.icon-holder {
+				float: none;
+				margin-bottom: $base-spacing-unit;
+				margin-right: 0 !important;
+			}
+			
+			.box-holder {
+				flex-direction: column;
+			}
+			
+			.box {
+				margin: 0 auto $xlarge-spacing-unit;
+			}
+		}
+		
+		@include until($bp-medium) {
+			.box-holder {
+				flex-direction: row;
+			}
+		}
+		
+		// Image Left
+		
+		&__left {
+			#{$root}__content {
+				margin-right: $section-spacing-large;
+				
+				@include until($bp-xl) {
+					margin-right: $large-spacing-unit;
+				}
+				
+				@include until($bp-large) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+.terminal-text-block {
+	$root: &;
+	
+	@include until($bp-medium) {
+		padding: 0 !important;
+		margin: 0 -15px;
+		width: calc(100% + 25px);
+		max-width: none;
+		display: block;
+		flex: none;
+	}
+	
+	.icon-holder {
+		.icon {
+			&:before {
+				color: $color-telenor-blue;
+			}
+		}
+	}
+	
+	&__holder {
+		background: $color-white;
+	}
+	
+	&--without-bg {
+		#{$root}__holder {
+			background: none;
+		}
+	}
+	
+	&--image {
+		.text-legal {
+			position: absolute;
+			bottom: 30px;
+			left: 0;
+			
+			@include until($bp-large) {
+				position: static;
+			}
+		}
+	}
+	
+	.image-holder {
+		overflow: hidden;
+		
+		img {
+			width: auto;
+			max-width: none;
+			margin-left: auto;
+			
+			@include until($bp-large) {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	
+	&--right {
+		.image-holder img {
+			margin-left: 0;
+		}
+	}
+}
+
+.divider-block {
+	$root: &;
+	background: $color-white;
+
+	&__separator {
+		height: 1px;
+
+		#{$root}--stroke & {
+			background: #d9d9d9;
+		}
+	}
+	
+	// Gray background
+	
+	&--gray {
+		background: $color-ghost-white;
+	}
+	
+	&--small {
+		padding: 5px 0;
+	}
+
+	&--medium {
+		padding: 10px 0;
+	}
+
+	&--large {
+		padding: 15px 0;
+	}
+
+	&--xlarge {
+		padding: 25px 0;
+	}
+
+	&--huge {
+		padding: 40px 0;
+	}
+
+	&--xhuge {
+		padding: 50px 0;
+		
+		@include until($bp-medium) {
+			padding: 40px 0;
+		}
+	}
+}
