@@ -11,17 +11,10 @@
 	background-color: #fff;
 	color: inherit;
 	min-height: 430px;
+	position: relative;
 	
 	@include until($bp-medium) {
 		min-height: 335px;
-	}
-
-	&:hover {
-		text-decoration: none;
-
-		.image-area {
-			opacity: .4;
-		}
 	}
 
 	.list li {
@@ -43,9 +36,6 @@
 		li {
 			display: inline-block;
 			margin: 0 0 0 3px;
-			width: 8px;
-			height: 8px;
-			border-radius: 50%;
 			
 			&:first-child {
 				margin: 0;
@@ -61,6 +51,14 @@
 		}
 	}
 	
+	&:hover {
+		text-decoration: none;
+
+		.image-area {
+			opacity: .4;
+		}
+	}
+	
 	.image-area {
 		text-align: center;
 		transition: opacity .5s;
@@ -68,6 +66,22 @@
 		@include until($bp-xl) {
 			margin-bottom: 15px;
 		}
+	}
+	
+	// Styles for background option
+		
+	.background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+		transition: opacity .5s;
+	}
+	
+	&:hover .background {
+		opacity: .4;
 	}
 
 	&__image-holder {
@@ -82,67 +96,27 @@
 			background-size: 100% auto;
 			display: inline-block;
 			width: 100%;
+			
+			// Modifiers
+		
+			#{$root}--accessories & {
+				display: none;
+			}
+			
+			#{$root}--accessories-tablet-large &,
+			#{$root}--accessories-tablet-medium &,
+			#{$root}--accessories-mobile-medium & {
+				display: block;
+				
+				@include until($bp-xl) {
+					display: none;
+				}
+			}
 		}
 		
 		img {
 			display: block;
 			max-height: 100%;
-		}
-
-		@include until($bp-xl) {
-			background: none;
-		}
-		
-		// Modifiers
-		
-		#{$root}--accessories & {
-			&:after {
-				display: none;
-			}
-		}
-		
-		#{$root}--accessories-with-background & {
-			display: none;
-			
-			@include until($bp-xl) {
-				display: inline-block;
-			}
-		}
-		
-		#{$root}--accessories-tablet-large & {
-			&:after {
-				display: block;
-			}
-			
-			@include until($bp-xl) {
-				&:after {
-					display: none;
-				}
-			}
-		}
-		
-		#{$root}--accessories-tablet-medium & {
-			&:after {
-				display: block;
-			}
-			
-			@include until($bp-xl) {
-				&:after {
-					display: none;
-				}
-			}
-		}
-		
-		#{$root}--accessories-mobile-medium & {
-			&:after {
-				display: block;
-			}
-			
-			@include until($bp-xl) {
-				&:after {
-					display: none;
-				}
-			}
 		}
 	}
 
@@ -159,17 +133,10 @@
 		flex-direction: column;
 		justify-content: center;
 		
-		span {
-			display: block;
-		}
-		
-		.price-currency {
-			display: inline !important;
-		}
-		
 		&__heading {
 			@include text-sizes(13);
 			text-transform: uppercase;
+			display: block;
 		}
 		
 		&__percent {
@@ -303,6 +270,7 @@
 	&--accessories {
 		padding: 25px 20px 25px 50px;
 		position: relative;
+		height: 100%;
 		
 		.splash {
 			top: 45px;
@@ -314,22 +282,6 @@
 			flex-direction: column;
 		}
 		
-		// Styles for background option
-		
-		.background {
-			position: absolute;
-			top: 0;
-			left: 0;
-			opacity: 1;
-			width: 100%;
-			height: 100%;
-			transition: opacity .5s;
-		}
-		
-		&:hover .background {
-			opacity: .4;
-		}
-		
 		.image-area,
 		.bundle-content {
 			z-index: 2;
@@ -337,7 +289,6 @@
 		
 		@include until($bp-xl) {
 			padding: 30px;
-			flex-direction: column;
 			
 			.image-area {
 				margin-bottom: 10px;
@@ -352,12 +303,6 @@
 			.bundle-content {
 				padding: 0;
 			}
-			
-			// Styles for background option
-			
-			.background {
-				display: none;
-			}
 		}
 		
 		@include until($bp-large) {
@@ -368,7 +313,6 @@
 
 		@include until($bp-medium) {
 			padding: 30px 30px 15px;
-			flex-direction: row !important;
 			
 			.image-area {
 				margin-bottom: 12px;
@@ -455,7 +399,6 @@
 	&--accessories-small,
 	&--accessories-product-small {
 		padding: 25px 15px 25px;
-		flex-direction: column;
 		
 		.image-area {
 			margin-bottom: 10px;
@@ -511,14 +454,9 @@
 	}
 
 	&--banner {
-		min-height: 430px;
 		color: #fff;
 		background-size: cover;
 		background-position: 50% 50%;
-
-		@include until($bp-large) {
-			min-height: 430px;
-		}
 
 		@include until($bp-medium) {
 			min-height: 400px;
@@ -534,6 +472,7 @@
 			background: #000;
 			transition:opacity .5s;
 			opacity: 0;
+			z-index: 1;
 		}
 
 		&:hover {
@@ -585,8 +524,6 @@
 		padding: 50px;
 		color: #fff;
 		text-align: center;
-		background-size: cover;
-		background-position: 50% 50%;
 
 		@include until($bp-large) {
 			min-height: 450px;
@@ -595,25 +532,6 @@
 		@include until($bp-medium) {
 			min-height: 400px;
 		}
-
-		&:before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background: #000;
-			transition:opacity .5s;
-			opacity: 0;
-			z-index: 1;
-		}
-
-		&:hover {
-			&:before {
-				opacity: .3;
-			}
-		}
 	}
 
 	&--video-banner {
@@ -621,9 +539,8 @@
 
 		.video-background {
 			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translateX(-50%) translateY(-50%);
+			top: 0;
+			left: 0;
 			width: 100%;
 
 			video {
@@ -644,7 +561,7 @@
 				z-index: 1;
 			}
 
-			@include until(1024px) {
+			@include until($bp-large) {
 				display: none;
 			}
 		}
@@ -748,20 +665,6 @@
 			@include until($bp-large) {
 				min-height: 0;
 			}
-			
-			img {
-				@include until($bp-xl) {
-					height: 331px;
-				}
-				
-				@include until($bp-large) {
-					height: 398px;
-				}
-				
-				@include until($bp-medium) {
-					height: 227px;
-				}
-			}
 		}
 		
 		.text-legal {
@@ -834,15 +737,10 @@
 			}
 		}
 		
-		.background {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			width: 100%;
-			height: 100%;
-			background-size: cover;
-			background-position: 50% 50%;
+		&:hover {
+			.background {
+				opacity: 1;
+			}
 		}
 		
 		.icon-holder {
@@ -873,9 +771,8 @@
 		
 		.video-background {
 			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translateX(-50%) translateY(-50%);
+			top: 0;
+			left: 0;
 			width: 100%;
 
 			video {
@@ -925,90 +822,68 @@
 		.text-legal {
 			color: $color-white;
 		}
+	}
+	
+	&--cover-left {
+		.banner-content,
+		.text-legal {
+			text-align: left;
+		}
 		
-		&.cover-left {
-			.banner-content,
-			.text-legal {
-				text-align: left;
-			}
+		.icon-holder {
+			margin: 0;
+		}
+		
+		.splash {
+			right: -474px;
+			text-align: center;
 			
-			.icon-holder {
-				margin: 0;
-			}
-			
-			.splash {
-				right: -474px;
-				text-align: center;
-				
-				@include until($bp-xl) {
-					top: 0;
-					right: -110px;
-				}
-				
-				@include until($bp-large) {
-					top: -100px;
-					right: 0;
-				}
-				
-				@include until($bp-medium) {
-					top: -95px;
-					right: 0;
-				}
+			@include until($bp-xl) {
+				top: 0;
+				right: -110px;
 			}
 			
 			@include until($bp-large) {
-				.banner-content,
-				.text-legal {
-					text-align: center;
-				}
-				
-				.icon-holder {
-					margin: 0 auto;
-				}
+				top: -100px;
+				right: 0;
+			}
+			
+			@include until($bp-medium) {
+				top: -95px;
+				right: 0;
 			}
 		}
 		
-		&.cover-mood {
-			.cover-holder {
-				min-height: 300px;
-				
-				@include until($bp-xl) {
-					min-height: 130px;
-				}
+		@include until($bp-large) {
+			.banner-content,
+			.text-legal {
+				text-align: center;
+			}
+			
+			.icon-holder {
+				margin: 0 auto;
 			}
 		}
 	}
-}
-
-.grid-row--gutter-small > .terminal-block--wide {
-	padding: 5px;
-
-	@include until($bp-medium) {
-		padding: 5px 0;
-		margin: 0 -15px;
-		width: calc(100% + 25px);
-		max-width: none;
-		display: block;
-		flex: none;
+	
+	&--cover-mood {
+		.cover-holder {
+			min-height: 300px;
+			
+			@include until($bp-xl) {
+				min-height: 130px;
+			}
+		}
 	}
 }
 
 .border-width-2:after {
 	border-width: 2px;
+	
+	// добавить в серкл оутлайн
 }
 
 // Feature USP block
-
-.usp-holder {
-	@include until($bp-medium) {
-		padding: 0 !important;
-		margin: 0 -15px;
-		width: calc(100% + 25px);
-		max-width: none;
-		display: block;
-		flex: none;
-	}
-}
 
 .usp-block {
 	$root: &;
@@ -1103,15 +978,7 @@
 
 .terminal-text-block {
 	$root: &;
-	
-	@include until($bp-medium) {
-		padding: 0 !important;
-		margin: 0 -15px;
-		width: calc(100% + 25px);
-		max-width: none;
-		display: block;
-		flex: none;
-	}
+	background: $color-white;
 	
 	.icon-holder {
 		.icon {
@@ -1121,14 +988,8 @@
 		}
 	}
 	
-	&__holder {
-		background: $color-white;
-	}
-	
 	&--without-bg {
-		#{$root}__holder {
-			background: none;
-		}
+		background: none;
 	}
 	
 	&--image {
@@ -1150,6 +1011,7 @@
 			width: auto;
 			max-width: none;
 			margin-left: auto;
+			height: 100%;
 			
 			@include until($bp-large) {
 				width: 100%;
