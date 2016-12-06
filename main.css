@@ -5792,16 +5792,6 @@ examples:
         <button class="button button--accept">
           <span class="button__label">Button yellow</span>
         </button>
-  - name: Medium
-    tmpl: >
-        <button class="button button--action button--large">
-          <span class="button__label">Button medium</span>
-        </button>
-  - name: Large
-    tmpl: >
-        <button class="button button--action button--xlarge">
-          <span class="button__label">Button large</span>
-        </button>
   - name: Yellow with next arrow
     tmpl: >
         <button class="button button--accept">
@@ -5884,7 +5874,7 @@ examples:
     tmpl:
       include: converter.html
 */
-/* line 189, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+/* line 179, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
 .button {
   display: inline-block;
   vertical-align: top;
@@ -5904,212 +5894,201 @@ examples:
   -webkit-appearance: none;
   background: none;
   text-decoration: none; }
-  /* line 219, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 203, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button:hover {
     text-decoration: none; }
-  /* line 223, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--small {
     font-size: 13px;
     line-height: 32px;
     height: 32px; }
-  /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
-  .button--large {
-    line-height: 50px;
-    height: 50px; }
-  /* line 234, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
-  .button--xlarge {
-    font-size: 19px;
-    line-height: 60px;
-    height: 60px; }
-  /* line 240, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 213, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--stretch {
     width: 100%; }
-  /* line 244, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 217, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button[disabled]:hover, .button[disabled] {
     color: #b8b8b8;
     border-color: #e8e8e8;
-    background: #e8e8e8; }
-  /* line 252, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    background: #f5f5f5;
+    pointer-events: none; }
+  /* line 226, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--modal, .button--default, .section--plan-detail.section--broadband .table--plan__row.row-disabled .button--accept--border {
-    border-color: #b8b8b8;
-    background: #fff;
+    border-color: #d1d1d1;
+    background: -webkit-linear-gradient(top, #fff, #f5f5f5);
+    background: linear-gradient(180deg, #fff, #f5f5f5);
     color: #474747; }
-    /* line 258, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 232, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--modal:hover, .button--default:hover, .section--plan-detail.section--broadband .table--plan__row.row-disabled .button--accept--border:hover {
       border-color: #b8b8b8;
-      background: #f2f2f2; }
-    /* line 263, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      background: -webkit-linear-gradient(top, #fff, #e8e8e8);
+      background: linear-gradient(180deg, #fff, #e8e8e8); }
+    /* line 237, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--modal.is-active, .button--default.is-active, .section--plan-detail.section--broadband .table--plan__row.row-disabled .is-active.button--accept--border {
       border-color: #b8b8b8;
       background: #b8b8b8;
       color: #fff; }
-    /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 243, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--modal.is-selected, .button--default.is-selected, .section--plan-detail.section--broadband .table--plan__row.row-disabled .is-selected.button--accept--border {
       background: #fff;
       color: #666; }
-    /* line 274, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 248, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--modal:focus, .button--default:focus, .section--plan-detail.section--broadband .table--plan__row.row-disabled .button--accept--border:focus {
       border-color: #038cd6; }
-  /* line 281, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 255, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .section--negative .button--default, .section--negative .section--plan-detail.section--broadband .table--plan__row.row-disabled .button--accept--border, .section--plan-detail.section--broadband .table--plan__row.row-disabled .section--negative .button--accept--border {
     border-color: transparent; }
-    /* line 284, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 258, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .section--negative .button--default:focus, .section--negative .section--plan-detail.section--broadband .table--plan__row.row-disabled .button--accept--border:focus, .section--plan-detail.section--broadband .table--plan__row.row-disabled .section--negative .button--accept--border:focus {
       border-color: #0f3b52; }
-  /* line 291, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 265, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--naked {
     color: #474747; }
-    /* line 294, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 268, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--naked:hover {
       color: #038cd6; }
-    /* line 298, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 272, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .section--negative .button--naked {
       color: #c0e2f5; }
-      /* line 301, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      /* line 275, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
       .section--negative .button--naked:hover {
         color: #fff; }
-  /* line 309, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 283, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--underlined .button__label {
     text-decoration: underline; }
-  /* line 314, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 288, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--underlined:hover .button__label {
     text-decoration: none; }
-  /* line 321, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 295, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--action {
-    border-color: #0095e6;
+    border-color: #0278b8;
     background: -webkit-linear-gradient(top, #0296e5, #038cd6);
     background: linear-gradient(180deg, #0296e5, #038cd6);
     color: #fff; }
-    /* line 326, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 300, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--action:hover {
-      border-color: #0084cd;
-      background: -webkit-linear-gradient(top, #028cd6, #027bbd);
-      background: linear-gradient(180deg, #028cd6, #027bbd); }
-    /* line 331, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      border-color: #00619e;
+      background: -webkit-linear-gradient(top, #0296e5, #0282c7);
+      background: linear-gradient(180deg, #0296e5, #0282c7); }
+    /* line 305, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--action:focus {
       border-color: #0f3b52; }
-  /* line 337, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 311, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--action-dark {
     border-color: #00619e;
     background: -webkit-linear-gradient(top, #0068a8, #00619e);
     background: linear-gradient(180deg, #0068a8, #00619e);
     color: #fff; }
-    /* line 342, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 316, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--action-dark:hover {
       border-color: #003758;
       background: -webkit-linear-gradient(top, #0068a8, #005c96);
       background: linear-gradient(180deg, #0068a8, #005c96); }
-    /* line 347, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 321, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--action-dark:focus {
       border-color: #0f3b52; }
-    /* line 351, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 325, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .section--negative .button--action-dark {
       color: #fff;
       background-color: #0068a8; }
-    /* line 356, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 330, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .section--negative .button--action-dark[disabled] {
       color: #a7c1d1; }
-  /* line 362, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 336, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--success {
-    border-color: #43c682;
-    background: -webkit-linear-gradient(top, #4ce094, #43c682);
-    background: linear-gradient(180deg, #4ce094, #43c682);
+    border-color: #008e52;
+    background: -webkit-linear-gradient(top, #43c682, #02a962);
+    background: linear-gradient(180deg, #43c682, #02a962);
     color: #fff; }
-    /* line 367, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
-    .button--success:hover {
-      border-color: #38b875;
-      background: -webkit-linear-gradient(top, #4ce094, #43c682);
-      background: linear-gradient(180deg, #4ce094, #43c682); }
-  /* line 374, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 343, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--accept {
     border-color: #e0a500;
     background: -webkit-linear-gradient(top, #fce173, #ffb900);
     background: linear-gradient(180deg, #fce173, #ffb900);
     color: #474747; }
-    /* line 379, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 348, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--accept:hover {
       border-color: #e0a500;
       background: -webkit-linear-gradient(top, #fce173, #f5b202);
       background: linear-gradient(180deg, #fce173, #f5b202); }
-    /* line 384, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 353, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button--accept[disabled] {
       border-color: #e8e8e8;
       background: #f5f5f5;
       color: #b8b8b8; }
-    /* line 391, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 360, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .section--negative .button--accept {
       background: -webkit-linear-gradient(top, #fce173, #ffb900);
       background: linear-gradient(180deg, #fce173, #ffb900);
       border-color: transparent; }
-      /* line 395, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      /* line 364, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
       .section--negative .button--accept:focus {
         border-color: #0f3b52; }
-      /* line 399, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      /* line 368, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
       .section--negative .button--accept:hover {
         background: -webkit-linear-gradient(top, #fce173, #f5b202);
         background: linear-gradient(180deg, #fce173, #f5b202); }
-  /* line 406, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 375, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--link {
     border-color: transparent;
     color: #038cd6; }
-  /* line 412, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 381, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--inline {
     height: auto;
     line-height: inherit;
     padding: 0;
     border: 0; }
-  /* line 420, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button[data-loading="true"], .button[data-loaded="true"] {
     cursor: default; }
-  /* line 427, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 396, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button[data-loaded="true"], .button[data-loaded="true"]:hover, .button[data-loaded="true"]:focus {
-    border-color: #43c682;
-    background: -webkit-linear-gradient(top, #4ce094, #43c682);
-    background: linear-gradient(180deg, #4ce094, #43c682);
+    border-color: #008e52;
+    background: -webkit-linear-gradient(top, #43c682, #02a962);
+    background: linear-gradient(180deg, #43c682, #02a962);
     color: #43c682; }
-  /* line 436, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 405, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button__label, .button__label--success {
     vertical-align: top;
     height: 100%;
     -webkit-transition: top 0.2s ease;
     transition: top 0.2s ease;
     position: relative; }
-  /* line 444, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 413, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button__label {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
     white-space: nowrap; }
-    /* line 451, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 420, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button[data-loading="true"] .button__label,
     .button[data-loaded="true"] .button__label {
       opacity: 0;
       top: -100%; }
-    /* line 456, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 425, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button[data-loaded="true"] .button__label {
       display: block;
       width: 100%; }
-    /* line 461, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 430, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button__label--success {
       display: block;
       width: 0;
       color: #fff; }
-      /* line 466, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      /* line 435, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
       .button__label--success:before {
         -webkit-animation: buttonSuccess 0.3s cubic-bezier(0.535, 0.235, 0.22, 1.63);
                 animation: buttonSuccess 0.3s cubic-bezier(0.535, 0.235, 0.22, 1.63); }
-      /* line 470, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      /* line 439, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
       .button[data-loaded="true"] .button__label--success {
         display: inline-block;
         width: auto;
         -webkit-transform: translate(0, -100%);
                 transform: translate(0, -100%); }
-        /* line 475, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+        /* line 444, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
         .button[data-loaded="true"] .button__label--success:before {
           left: 0;
           opacity: 1; }
-  /* line 484, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 453, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button__spinner {
     position: absolute;
     top: 50%;
@@ -6120,51 +6099,51 @@ examples:
     transition: -webkit-transform 0.2s ease;
     transition: transform 0.2s ease;
     transition: transform 0.2s ease, -webkit-transform 0.2s ease; }
-    /* line 491, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 460, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button[data-loading="true"] .button__spinner {
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
-    /* line 495, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 464, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button[data-loaded="true"] .button__spinner {
       -webkit-transform: translate(-50%, -150%);
               transform: translate(-50%, -150%); }
-  /* line 510, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 479, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button [class*="icon-"]:before {
     line-height: 40px; }
-  /* line 516, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 485, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--small [class*="icon-"]:before {
     line-height: 32px; }
-  /* line 522, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 491, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button--inline [class*="icon-"]:before {
     line-height: inherit; }
-  /* line 529, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 498, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button .icon--left:before,
   .button .icon--right:before {
     position: absolute;
     top: 0; }
-  /* line 535, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 504, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button .icon--left {
     padding-left: 18px; }
-    /* line 538, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 507, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button .icon--left.icon-thumb-up, .button .section--login-block .card-number .icon--left.icon-login.icon-ok, .section--login-block .card-number .button .icon--left.icon-login.icon-ok {
       padding-left: 25px; }
-    /* line 542, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 511, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button .icon--left:before {
       left: 0; }
-  /* line 547, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 516, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button .icon--right {
     padding-right: 18px; }
-    /* line 550, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 519, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button .icon--right:before {
       right: 0; }
-  /* line 555, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 524, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button .icon-bullet:before {
     font-size: 7px;
     margin-top: -1px; }
-  /* line 560, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 529, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button .icon-arrow-down:before, .button .nav-mobile__accordion li span.is-expanded:before, .nav-mobile__accordion li .button span.is-expanded:before {
     font-size: 10px; }
-  /* line 566, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 535, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button .icon-arrow-next:before, .button .pager__button.next:before, .button .pager > span > span.next:before, .button .next.pager__elipsis:before,
   .button .icon-arrow-prev:before,
   .button .pager__button.previous:before,
@@ -6173,19 +6152,19 @@ examples:
     font-size: 10px;
     font-weight: bold; }
 
-/* line 575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+/* line 544, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
 .button-group .button {
   width: 40%;
   margin-right: 10px; }
-  /* line 579, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+  /* line 548, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
   .button-group .button:first-child {
     margin-right: 0; }
   @media only screen and (max-width: 479px) {
-    /* line 575, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+    /* line 544, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
     .button-group .button {
       width: 100%;
       margin-right: 0; }
-      /* line 587, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
+      /* line 556, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/button/_scss/_index.scss */
       .button-group .button:first-child {
         margin-bottom: 10px; } }
 
@@ -10159,130 +10138,128 @@ examples:
   width: 2em;
   height: 2em;
   border-radius: 50%;
-  border: 0.02em;
-  border-style: solid;
-  border-color: #e8e8e8;
+  border: 0.02em solid #e8e8e8;
   box-sizing: border-box;
   line-height: 1.9em;
   top: 2px;
   text-align: center; }
 
-/* line 108, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 106, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--check--bullet li:before {
   content: "\E01C";
   font-size: 20px;
   top: -1px; }
 
-/* line 119, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 117, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--check--small li {
   padding-left: 20px;
   margin-bottom: 5px; }
-  /* line 123, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 121, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--check--small li:before {
     font-size: 9px;
     top: 5px; }
 
-/* line 134, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 132, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--divided li + li,
 .list--divided li + li:last-child {
   border-left: 2px solid #474747;
   margin: 0 0 0 8px;
   padding-left: 10px; }
 
-/* line 144, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 142, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--divided--blue li + li,
 .list--divided--blue li + li:last-child {
   border-color: rgba(255, 255, 255, 0.3); }
 
-/* line 156, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 154, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--breadcrumbs li {
   float: left;
   margin: 0;
   padding-left: 15px; }
-  /* line 161, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 159, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--breadcrumbs li:before {
     content: "\E01F";
     font-size: 7px;
     left: 4px;
     top: 50%;
     margin-top: -2px; }
-  /* line 170, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 168, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--breadcrumbs li:first-child {
     padding-left: 0; }
-    /* line 173, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+    /* line 171, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
     .list--breadcrumbs li:first-child:before {
       display: none; }
 
-/* line 182, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 180, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--footer {
   font-size: 11px;
   line-height: 15px;
   color: #a7c1d1; }
-  /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 185, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--footer li {
     padding-left: 15px;
     margin-bottom: 6px;
     pointer-events: none; }
-    /* line 192, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+    /* line 190, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
     .list--footer li:before {
       content: "\E01F";
       top: 50%;
       margin-top: -1px;
       font-size: 8px;
       color: #a7c1d1; }
-    /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+    /* line 199, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
     .list--footer li:hover a, .list--footer li:hover:before {
       color: #fff; }
-  /* line 207, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 205, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--footer a {
     pointer-events: all; }
 
-/* line 215, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 213, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--inline li {
   display: inline; }
 
-/* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 227, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--no-vertical-spacing li {
   margin: 0; }
 
-/* line 238, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 236, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--blue li:before {
   color: #038cd6; }
 
-/* line 246, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 244, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--green li:before {
   color: #43c682; }
 
-/* line 254, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 252, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--white li:before {
   color: #fff; }
 
-/* line 262, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 260, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--grey li:before {
   color: #b8b8b8; }
 
-/* line 270, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 268, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--grey-dark li:before {
   color: #666; }
 
-/* line 278, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 276, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--green li:before {
   color: #43c682; }
 
-/* line 284, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+/* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
 .list--numeric {
   counter-reset: item; }
-  /* line 287, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 285, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--numeric ol {
     counter-reset: item;
     margin: 10px 0 0; }
-  /* line 292, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+  /* line 290, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
   .list--numeric li {
     position: relative;
     padding-left: 32px !important;
     min-height: 22px;
     list-style: none; }
-    /* line 300, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+    /* line 298, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
     .list--numeric li:before {
       content: counters(item, ".") " ";
       counter-increment: item;
@@ -10299,7 +10276,7 @@ examples:
       text-align: center;
       border-radius: 50%;
       background: #43c682; }
-    /* line 318, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
+    /* line 316, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/list/_scss/_lists.scss */
     .list--numeric li.text-size--13 {
       padding-top: 3px; }
 
@@ -25850,109 +25827,95 @@ input:checked ~ .tickets-list__label,
         background-image: none !important;
         padding: 0 !important; }
         /* line 869, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-        .usp-block--image .mobile-image {
-          display: block; }
-        /* line 873, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .usp-block--image .icon-holder {
           float: none;
           margin-bottom: 20px;
           margin-right: 0 !important; }
-        /* line 879, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 875, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .usp-block--image .box-holder {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
               -ms-flex-direction: column;
                   flex-direction: column; }
-        /* line 883, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 879, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .usp-block--image .box {
           margin: 0 auto 40px; } }
     @media only screen and (max-width: 767px) {
-      /* line 889, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 885, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .usp-block--image .box-holder {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
-    /* line 897, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-    .usp-block--image__left .usp-block__content {
-      margin-right: 100px; }
-      @media only screen and (max-width: 1219px) {
-        /* line 897, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-        .usp-block--image__left .usp-block__content {
-          margin-right: 30px; } }
-      @media only screen and (max-width: 1023px) {
-        /* line 897, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
-        .usp-block--image__left .usp-block__content {
-          margin-right: 0; } }
 
-/* line 912, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 892, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .terminal-text-block {
   background: #fff;
   font-family: Roboto; }
-  /* line 919, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 899, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block .icon-holder .icon:before {
     color: #038cd6; }
-  /* line 925, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 905, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block--without-bg {
     background: none; }
-  /* line 930, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 910, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block--image .text-legal {
     position: absolute;
     bottom: 30px;
     left: 0; }
     @media only screen and (max-width: 1023px) {
-      /* line 930, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 910, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .terminal-text-block--image .text-legal {
         position: static; } }
-  /* line 941, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 921, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block .image-holder {
     overflow: hidden; }
-    /* line 944, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 924, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .terminal-text-block .image-holder img {
       width: auto;
       max-width: none;
-      margin-left: auto;
+      min-width: 100%;
       vertical-align: top; }
       @media only screen and (max-width: 1023px) {
-        /* line 944, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 924, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
         .terminal-text-block .image-holder img {
           width: 100%; } }
-  /* line 957, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 937, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .terminal-text-block--right .image-holder img {
     margin-left: 0; }
 
-/* line 963, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 943, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
 .divider-block {
   background: #fff; }
-  /* line 967, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 947, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block__separator {
     height: 1px; }
-    /* line 970, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 950, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
     .divider-block--stroke .divider-block__separator {
       background: #d9d9d9; }
-  /* line 977, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 957, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--gray {
     background: #f0f0f0; }
-  /* line 981, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 961, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--small {
     padding: 5px 0; }
-  /* line 985, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 965, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--medium {
     padding: 10px 0; }
-  /* line 989, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 969, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--large {
     padding: 15px 0; }
-  /* line 993, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 973, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--xlarge {
     padding: 25px 0; }
-  /* line 997, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 977, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--huge {
     padding: 40px 0; }
-  /* line 1001, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 981, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
   .divider-block--xhuge {
     padding: 50px 0; }
     @media only screen and (max-width: 767px) {
-      /* line 1001, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 981, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
       .divider-block--xhuge {
         padding: 40px 0; } }
 /* line 1, stdin */
