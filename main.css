@@ -3065,15 +3065,15 @@ small {
     margin-left: -15px;
     margin-right: -15px; }
   /* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
-  .container--blocks {
+  .body--content-blocks .container {
     max-width: 1190px; }
     @media only screen and (max-width: 1219px) {
       /* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
-      .container--blocks {
+      .body--content-blocks .container {
         max-width: 1020px; } }
     @media only screen and (max-width: 767px) {
       /* line 44, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
-      .container--blocks {
+      .body--content-blocks .container {
         margin-left: -15px;
         margin-right: -15px; } }
 
