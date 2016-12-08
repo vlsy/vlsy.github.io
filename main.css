@@ -3053,32 +3053,22 @@ small {
 
 /* line 26, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
 .container {
-  max-width: 1020px;
-  margin-left: auto;
-  margin-right: auto; }
-  /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
+	max-width: 1020px;
+	margin-left: auto;
+	margin-right: auto; }
+/* line 34, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
 .container--main {
 	padding-left: 15px;
 	padding-right: 15px; }
-@media only screen and (max-width: 1219px) {
-	/* line 34, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
-	.container--main {
-		padding-left: 0;
-		padding-right: 0; } }
-/* line 44, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
+/* line 39, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
 .container--wide {
 	margin-left: -15px;
 	margin-right: -15px; }
-@media only screen and (max-width: 1219px) {
-	/* line 44, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
-	.container--wide {
-		margin-left: 0;
-		margin-right: 0; } }
-/* line 54, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
+/* line 44, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
 .body--content-blocks .container {
 	max-width: 1190px; }
 @media only screen and (max-width: 1219px) {
-	/* line 54, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
+	/* line 44, D:/projects/onescreen/OneScreen/Client/Core/Framework/core/_scss/osef-base/_layout.scss */
 	.body--content-blocks .container {
 		max-width: 1020px; } }
 
