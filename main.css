@@ -25318,7 +25318,7 @@ input:checked ~ .tickets-list__label,
     .terminal-block__image-holder:after {
       content: "";
       height: 30px;
-      background: url(../img/shadow.png) no-repeat 50% 100%;
+      background: url(shadow.png) no-repeat 50% 100%;
       background-size: 100% auto;
       display: inline-block;
       width: 100%; }
