@@ -25242,11 +25242,11 @@ input:checked ~ .tickets-list__label,
     .text-bubble.gradient-white:before {
       border-top-color: #fff; }
 
-/* line 3, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 3, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
 .background-color-gray {
   background-color: #f0f0f0; }
 
-/* line 7, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 7, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
 .terminal-block {
   width: 100%;
   background-color: #fff;
@@ -25255,44 +25255,44 @@ input:checked ~ .tickets-list__label,
   position: relative;
   font-family: Roboto; }
   @media only screen and (max-width: 767px) {
-    /* line 7, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 7, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block {
       min-height: 335px; } }
-  /* line 21, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 21, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block .list li {
     margin-bottom: 3px; }
-  /* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block .colors-holder {
     min-height: 8px;
     margin-bottom: 15px; }
     @media only screen and (max-width: 767px) {
-      /* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 25, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .colors-holder {
         margin-bottom: 5px; } }
-  /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 34, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block .colors-list {
     line-height: 0; }
-    /* line 37, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 37, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .colors-list li {
       display: inline-block;
       margin: 0 0 0 3px; }
-      /* line 41, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 41, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .colors-list li:first-child {
         margin: 0; }
-      /* line 45, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 45, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .colors-list li label {
         display: block;
         text-indent: -9999px;
         width: 8px;
         height: 8px;
         border-radius: 50%; }
-  /* line 55, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 55, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block:hover {
     text-decoration: none; }
-    /* line 58, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 58, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block:hover .terminal-block__image-holder {
       opacity: .4; }
-  /* line 65, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 65, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block .background {
     position: absolute;
     top: 0;
@@ -25304,17 +25304,17 @@ input:checked ~ .tickets-list__label,
     transition: opacity .5s;
     background-size: cover;
     background-position: 50% 50%; }
-  /* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 77, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block:hover .background {
     opacity: .4; }
-  /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block__image-holder {
     display: inline-block;
     height: 100%;
     position: relative;
     -webkit-transition: opacity .5s;
     transition: opacity .5s; }
-    /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 87, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block__image-holder:after {
       content: "";
       height: 30px;
@@ -25322,46 +25322,46 @@ input:checked ~ .tickets-list__label,
       background-size: 100% auto;
       display: inline-block;
       width: 100%; }
-      /* line 97, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 97, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories .terminal-block__image-holder:after {
         display: none; }
-      /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .terminal-block__image-holder:after,
       .terminal-block--accessories-tablet-medium .terminal-block__image-holder:after,
       .terminal-block--accessories-mobile-medium .terminal-block__image-holder:after {
         display: block; }
         @media only screen and (max-width: 1219px) {
-          /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+          /* line 101, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
           .terminal-block--accessories-tablet-large .terminal-block__image-holder:after,
           .terminal-block--accessories-tablet-medium .terminal-block__image-holder:after,
           .terminal-block--accessories-mobile-medium .terminal-block__image-holder:after {
             display: none; } }
-    /* line 110, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 110, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block__image-holder img {
       display: block;
       max-height: 100%; }
-    /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .terminal-block__image-holder,
     .terminal-block--accessories-product-small .terminal-block__image-holder {
       margin-bottom: 10px;
       height: 234px; }
       @media only screen and (max-width: 767px) {
-        /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 115, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--accessories-small .terminal-block__image-holder,
         .terminal-block--accessories-product-small .terminal-block__image-holder {
           margin-bottom: 12px;
-          height: 164px; } }
+          height: 170px; } }
     @media only screen and (max-width: 1219px) {
-      /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block__image-holder {
         margin-bottom: 10px;
         height: 234px; } }
     @media only screen and (max-width: 767px) {
-      /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 81, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block__image-holder {
         margin-bottom: 12px;
-        height: 164px; } }
-  /* line 136, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        height: 170px; } }
+  /* line 136, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block .splash {
     position: absolute;
     top: 39px;
@@ -25382,127 +25382,127 @@ input:checked ~ .tickets-list__label,
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    /* line 149, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 149, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash__heading {
       font-size: 13px;
       line-height: 18px;
       text-transform: uppercase;
       display: block; }
-    /* line 155, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 155, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash__percent {
       font-size: 34px;
       line-height: 38px; }
-    /* line 159, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 159, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash__price {
       font-size: 19px;
       line-height: 28px; }
-    /* line 165, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 165, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--blue {
       background: #038cd6; }
-    /* line 169, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 169, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--green {
       background: #43c682; }
-    /* line 173, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 173, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--red {
       background: #db5451; }
-    /* line 177, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 177, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--orange {
       background: #ffb900; }
-    /* line 181, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 181, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--white {
       background: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
       color: #474747; }
-    /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 187, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--green-blue {
       background: -webkit-linear-gradient(top, #43c682 0%, #029df0 100%);
       background: linear-gradient(to bottom, #43c682 0%, #029df0 100%); }
-    /* line 193, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 193, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--small {
       width: 90px;
       height: 90px; }
-      /* line 197, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 197, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--small .splash__heading {
         font-size: 11px;
         line-height: 15px; }
-      /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 201, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--small .splash__percent {
         font-size: 28px;
         line-height: 32px; }
-      /* line 205, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 205, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--small .splash__price {
         font-size: 16px;
         line-height: 25px; }
-    /* line 210, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 210, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--large {
       width: 120px;
       height: 120px; }
-      /* line 214, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 214, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--large .splash__heading {
         font-size: 13px;
         line-height: 18px; }
-      /* line 218, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 218, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--large .splash__percent {
         font-size: 38px;
         line-height: 42px; }
-      /* line 222, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 222, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--large .splash__price {
         font-size: 24px;
         line-height: 32px; }
-    /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 229, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block .splash--image {
       width: 100px;
       height: 100px; }
-      /* line 233, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 233, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash--image img {
         display: block;
         width: 100%;
         height: auto; }
     @media only screen and (max-width: 767px) {
-      /* line 136, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 136, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block .splash {
         width: 90px;
         height: 90px; }
-        /* line 244, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 244, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block .splash .splash__heading {
           font-size: 11px;
           line-height: 15px; }
-        /* line 248, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 248, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block .splash .splash__percent {
           font-size: 28px;
           line-height: 32px; }
-        /* line 252, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 252, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block .splash .splash__price {
           font-size: 16px;
           line-height: 25px; } }
-  /* line 261, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 261, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories .terminal-block__description {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1; }
-    /* line 264, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 264, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories .terminal-block__description h2 {
       margin-left: -2px; }
-  /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover .terminal-block__description {
     padding-top: 55px; }
     @media only screen and (max-width: 1219px) {
-      /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 269, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover .terminal-block__description {
         padding-top: 10px; } }
-  /* line 277, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 277, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-carousel .terminal-block__description,
   .terminal-block--cover-full .terminal-block__description {
     padding-top: 0; }
-  /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories {
     padding: 25px 20px 25px 50px;
     position: relative; }
-    /* line 286, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 286, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories .splash {
       top: 45px;
       left: -50px; }
-    /* line 291, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 291, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories .bundle-content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -25511,140 +25511,140 @@ input:checked ~ .tickets-list__label,
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
-    /* line 296, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 296, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories .image-area,
     .terminal-block--accessories .bundle-content {
       z-index: 2; }
     @media only screen and (max-width: 1219px) {
-      /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories {
         padding: 30px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column; }
-        /* line 305, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 305, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--accessories .splash {
           top: 20px;
           left: -57px; }
-        /* line 310, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 310, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--accessories .bundle-content {
           padding: 0; } }
     @media only screen and (max-width: 1023px) {
-      /* line 316, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 316, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories .splash {
         left: -30px; } }
     @media only screen and (max-width: 767px) {
-      /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 282, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories {
         padding: 30px 30px 15px; }
-        /* line 324, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 324, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--accessories .splash {
           top: 0;
           left: -17px; } }
-  /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-large .splash {
     top: 30px;
     left: -80px; }
     @media only screen and (max-width: 1219px) {
-      /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .splash {
         left: -67px; } }
     @media only screen and (max-width: 767px) {
-      /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 332, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories-tablet-large .splash {
         left: -53px; } }
-  /* line 347, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 347, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-medium .bundle-content {
     padding-left: 30px; }
-  /* line 351, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 351, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-tablet-medium .splash {
     top: 30px;
     left: -30px; }
   @media only screen and (max-width: 1219px) {
-    /* line 357, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 357, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .image-area,
     .terminal-block--accessories-tablet-medium .bundle-content {
       padding: 0; }
-    /* line 362, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 362, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .splash {
       left: -43px; } }
   @media only screen and (max-width: 767px) {
-    /* line 368, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 368, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-tablet-medium .splash {
       left: -37px; } }
-  /* line 375, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 375, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-mobile-medium .bundle-content {
     padding-left: 30px; }
-  /* line 379, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 379, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-mobile-medium .splash {
     top: 30px;
     left: -50px; }
   @media only screen and (max-width: 1219px) {
-    /* line 385, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 385, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .bundle-content {
       padding: 0; }
-    /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 389, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .splash {
       left: -67px; } }
   @media only screen and (max-width: 767px) {
-    /* line 395, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 395, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-mobile-medium .splash {
       left: -53px; } }
-  /* line 401, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 401, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-small, .terminal-block--accessories-product-small {
     padding: 25px 15px 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    /* line 406, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 406, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .bundle-content, .terminal-block--accessories-product-small .bundle-content {
       padding: 0; }
-    /* line 410, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 410, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-small .splash, .terminal-block--accessories-product-small .splash {
       top: -14px;
       left: 0; }
     @media only screen and (max-width: 1219px) {
-      /* line 401, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 401, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories-small, .terminal-block--accessories-product-small {
         padding: 30px; }
-        /* line 418, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 418, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--accessories-small .splash, .terminal-block--accessories-product-small .splash {
           top: 20px;
           left: -58px; } }
     @media only screen and (max-width: 1023px) {
-      /* line 425, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 425, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories-small .splash, .terminal-block--accessories-product-small .splash {
         left: -30px; } }
     @media only screen and (max-width: 767px) {
-      /* line 401, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 401, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--accessories-small, .terminal-block--accessories-product-small {
         padding: 30px 30px 15px; }
-        /* line 433, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 433, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--accessories-small .splash, .terminal-block--accessories-product-small .splash {
           top: 0;
           left: -20px; } }
-  /* line 441, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 441, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--accessories-product-small .splash {
     top: 30px;
     left: -57px; }
   @media only screen and (max-width: 767px) {
-    /* line 447, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 447, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--accessories-product-small .splash {
       top: 0;
       left: -53px; } }
-  /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--banner {
     color: #fff;
     height: 100%;
     background-size: cover;
     background-position: 50% 50%; }
     @media only screen and (max-width: 767px) {
-      /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 454, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--banner {
         min-height: 400px; } }
-    /* line 464, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 464, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--banner:before {
       content: "";
       position: absolute;
@@ -25656,23 +25656,23 @@ input:checked ~ .tickets-list__label,
       -webkit-transition: opacity .5s;
       transition: opacity .5s;
       opacity: 0; }
-    /* line 477, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 477, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--banner:hover:before {
       opacity: .3; }
-    /* line 482, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 482, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--banner .icon-holder {
       display: inline-block; }
-      /* line 485, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 485, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--banner .icon-holder--image {
         width: 80px;
         height: 80px; }
-        /* line 489, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 489, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--banner .icon-holder--image img {
           display: block; }
-    /* line 495, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 495, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--banner .banner-content {
       z-index: 1; }
-    /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--banner .banner-legal {
       padding: 0 45px;
       position: absolute;
@@ -25680,47 +25680,47 @@ input:checked ~ .tickets-list__label,
       left: 0;
       width: 100%; }
       @media only screen and (max-width: 1219px) {
-        /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--banner .banner-legal {
           bottom: 30px; } }
       @media only screen and (max-width: 767px) {
-        /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--banner .banner-legal {
           bottom: 15px; } }
       @media only screen and (max-width: 767px) {
-        /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 499, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--banner .banner-legal {
           padding: 0 20px; } }
-  /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--banner-large {
     min-height: 500px;
     padding: 50px;
     color: #fff;
     text-align: center; }
     @media only screen and (max-width: 1023px) {
-      /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--banner-large {
         min-height: 450px; } }
     @media only screen and (max-width: 767px) {
-      /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 520, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--banner-large {
         min-height: 400px; } }
-  /* line 535, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 535, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--video-banner {
     overflow: hidden; }
-    /* line 538, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 538, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--video-banner .video-background {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%; }
-      /* line 544, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 544, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--video-banner .video-background video {
         width: 100%;
         height: auto;
         max-width: none;
         z-index: 0; }
-      /* line 551, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 551, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--video-banner .video-background:after {
         content: "";
         position: absolute;
@@ -25730,94 +25730,94 @@ input:checked ~ .tickets-list__label,
         bottom: 0;
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
-  /* line 564, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 564, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover {
     background: -webkit-linear-gradient(top, #cde8f7 0%, #ffffff 100%);
     background: linear-gradient(to bottom, #cde8f7 0%, #ffffff 100%);
     width: auto;
     min-height: 0; }
-    /* line 569, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 569, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover .banner-content {
       z-index: 1; }
-    /* line 573, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 573, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover .image-block {
       position: relative; }
-      /* line 576, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 576, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover .image-block img {
         display: block;
         margin: 0 auto; }
-    /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover .icon-holder {
       width: 70px;
       height: 70px; }
-      /* line 586, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 586, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover .icon-holder img {
         width: 100%;
         height: auto;
         display: block; }
       @media only screen and (max-width: 1023px) {
-        /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover .icon-holder {
           width: 60px;
           height: 60px;
           margin: 0 auto; } }
       @media only screen and (max-width: 767px) {
-        /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 582, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover .icon-holder {
           display: none; } }
-    /* line 603, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 603, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover .text-legal {
       position: absolute;
       bottom: 17px;
       left: 0; }
       @media only screen and (max-width: 1023px) {
-        /* line 603, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 603, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover .text-legal {
           position: static;
           text-align: center; } }
     @media only screen and (max-width: 1023px) {
-      /* line 614, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 614, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover .cover-holder {
         min-height: 667px; } }
   @media only screen and (max-width: 767px) {
-    /* line 622, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 622, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-carousel .cover-holder {
       min-height: 0; } }
-  /* line 629, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 629, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-carousel .carousel__item .container,
   .terminal-block--cover-carousel .carousel__item .cover-holder {
     height: 100%; }
-  /* line 635, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 635, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-carousel .carousel__holder {
     min-height: 0; }
-  /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-carousel .text-legal {
     bottom: 24px; }
     @media only screen and (max-width: 1023px) {
-      /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 639, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-carousel .text-legal {
         bottom: 17px; } }
-  /* line 648, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 648, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-full {
     text-align: center;
     background-size: cover;
     background-position: 50% 50%; }
-    /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-full .cover-holder {
       min-height: 500px; }
       @media only screen and (max-width: 1219px) {
-        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .cover-holder {
           min-height: 413px; } }
       @media only screen and (max-width: 1023px) {
-        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .cover-holder {
           min-height: 665px; } }
       @media only screen and (max-width: 767px) {
-        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 653, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .cover-holder {
           min-height: 490px; } }
-    /* line 669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-full .text-legal {
       position: absolute;
       left: 0;
@@ -25826,47 +25826,47 @@ input:checked ~ .tickets-list__label,
       z-index: 1;
       width: 100%; }
       @media only screen and (max-width: 1023px) {
-        /* line 669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 669, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .text-legal {
           bottom: 20px; } }
-    /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-full .splash {
       top: -44px;
       left: -87px; }
       @media only screen and (max-width: 1219px) {
-        /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .splash {
           top: -13px;
           left: -74px; } }
       @media only screen and (max-width: 1023px) {
-        /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .splash {
           top: -115px;
           left: 79px; } }
       @media only screen and (max-width: 767px) {
-        /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 682, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-full .splash {
           top: -95px;
           left: -6px; } }
-    /* line 703, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 703, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-full:hover .background {
       opacity: 1; }
-    /* line 708, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 708, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-full .icon-holder {
       margin: 0 auto; }
-    /* line 712, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 712, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-full .video-background {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%; }
-      /* line 718, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 718, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-full .video-background video {
         width: 100%;
         height: auto;
         max-width: none;
         z-index: 0; }
-      /* line 725, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 725, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-full .video-background:after {
         content: "";
         position: absolute;
@@ -25876,202 +25876,202 @@ input:checked ~ .tickets-list__label,
         bottom: 0;
         background: rgba(0, 0, 0, 0.3);
         z-index: 1; }
-  /* line 738, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 738, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-stretch {
     color: #fff;
     overflow: hidden; }
-    /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-stretch .splash {
       top: -40px;
       right: -190px;
       left: auto; }
       @media only screen and (max-width: 1219px) {
-        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch .splash {
           top: 0;
           right: -110px; } }
       @media only screen and (max-width: 1023px) {
-        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch .splash {
           top: -100px;
           right: 0; } }
       @media only screen and (max-width: 767px) {
-        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 742, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-block--cover-stretch .splash {
           top: -95px;
           right: 0; } }
-    /* line 763, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 763, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-stretch .text-legal {
       color: #fff; }
-  /* line 769, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 769, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-left .banner-content,
   .terminal-block--cover-left .text-legal {
     text-align: left; }
-  /* line 774, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 774, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-left .icon-holder {
     margin: 0; }
-  /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-left .splash {
     right: -474px;
     text-align: center; }
     @media only screen and (max-width: 1219px) {
-      /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-left .splash {
         top: 0;
         right: -110px; } }
     @media only screen and (max-width: 1023px) {
-      /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-left .splash {
         top: -100px;
         right: 0; } }
     @media only screen and (max-width: 767px) {
-      /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 778, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-left .splash {
         top: -95px;
         right: 0; } }
   @media only screen and (max-width: 1023px) {
-    /* line 799, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 799, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-left .banner-content,
     .terminal-block--cover-left .text-legal {
       text-align: center; }
-    /* line 804, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 804, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-block--cover-left .icon-holder {
       margin: 0 auto; } }
-  /* line 811, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 811, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-block--cover-mood .cover-holder {
     min-height: 300px; }
     @media only screen and (max-width: 1219px) {
-      /* line 811, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 811, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-block--cover-mood .cover-holder {
         min-height: 130px; } }
 
-/* line 823, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 823, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
 .usp-block {
   background: #fff;
   font-family: Roboto; }
-  /* line 831, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 831, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .usp-block .icon-holder .icon:before {
     color: #038cd6; }
-  /* line 837, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 837, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .usp-block--image {
     background-size: cover;
     background-position: 50% 50%; }
-    /* line 841, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 841, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .usp-block--image .box,
     .usp-block--image .text-holder {
       overflow: hidden; }
-    /* line 846, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 846, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .usp-block--image .icon-holder {
       float: left; }
-    /* line 850, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 850, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .usp-block--image .mobile-image {
       display: none; }
-      /* line 853, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 853, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .usp-block--image .mobile-image img {
         display: block;
         width: 100%;
         height: auto; }
-    /* line 860, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 860, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .usp-block--image .box {
       margin-bottom: 30px; }
-      /* line 863, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 863, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .usp-block--image .box:last-child {
         margin-bottom: 0; }
     @media only screen and (max-width: 1023px) {
-      /* line 837, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 837, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .usp-block--image {
         background-image: none !important;
         padding: 0 !important; }
-        /* line 872, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 872, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .usp-block--image .icon-holder {
           float: none;
           margin-bottom: 20px;
           margin-right: 0 !important; }
-        /* line 878, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 878, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .usp-block--image .box-holder {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
               -ms-flex-direction: column;
                   flex-direction: column; }
-        /* line 882, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 882, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .usp-block--image .box {
           margin: 0 auto 40px; } }
     @media only screen and (max-width: 767px) {
-      /* line 888, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 888, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .usp-block--image .box-holder {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
 
-/* line 895, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 895, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
 .terminal-text-block {
   background: #fff;
   font-family: Roboto; }
-  /* line 902, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 902, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-text-block .icon-holder .icon:before {
     color: #038cd6; }
-  /* line 908, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 908, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-text-block--without-bg {
     background: none; }
-  /* line 913, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 913, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-text-block--image .text-legal {
     position: absolute;
     bottom: 30px;
     left: 0; }
     @media only screen and (max-width: 1023px) {
-      /* line 913, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 913, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .terminal-text-block--image .text-legal {
         position: static; } }
-  /* line 924, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 924, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-text-block .image-holder {
     overflow: hidden; }
-    /* line 927, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 927, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .terminal-text-block .image-holder img {
       width: auto;
       max-width: none;
       min-width: 100%;
       vertical-align: top; }
       @media only screen and (max-width: 1023px) {
-        /* line 927, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+        /* line 927, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
         .terminal-text-block .image-holder img {
           width: 100%; } }
-  /* line 940, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 940, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .terminal-text-block--right .image-holder img {
     margin-left: 0; }
 
-/* line 946, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+/* line 946, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
 .divider-block {
   background: #fff; }
-  /* line 950, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 950, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block__separator {
     height: 1px; }
-    /* line 953, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+    /* line 953, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
     .divider-block--stroke .divider-block__separator {
       background: #d9d9d9; }
-  /* line 960, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 960, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--gray {
     background: #f0f0f0; }
-  /* line 964, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 964, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--small {
     padding: 5px 0; }
-  /* line 968, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 968, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--medium {
     padding: 10px 0; }
-  /* line 972, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 972, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--large {
     padding: 15px 0; }
-  /* line 976, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 976, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--xlarge {
     padding: 25px 0; }
-  /* line 980, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 980, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--huge {
     padding: 40px 0; }
-  /* line 984, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+  /* line 984, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
   .divider-block--xhuge {
     padding: 50px 0; }
     @media only screen and (max-width: 767px) {
-      /* line 984, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/new-content-blocks/_scss/_index.scss */
+      /* line 984, /Users/goodpesik/Projects/onescreen/OneScreen/Client/Core/Content/terminal-blocks/_scss/_index.scss */
       .divider-block--xhuge {
         padding: 40px 0; } }
 /* line 1, stdin */
